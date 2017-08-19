@@ -3,7 +3,7 @@
 //  THIS FILE IS USED FOR DB OPERATION FOR "role" TABLE
 // Author :Dipanjan Bhattacharjee 
 // Created on : (1.07.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -16,7 +16,7 @@ class ManageUserManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (1.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
 	private function __construct() {
@@ -27,7 +27,7 @@ class ManageUserManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (1.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 	public static function getInstance() {
@@ -43,7 +43,7 @@ class ManageUserManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (1.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
 	public function addUser() {
@@ -87,7 +87,7 @@ class ManageUserManager {
 //$id:userId
 // Author :Dipanjan Bhattacharjee 
 // Created on : (1.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------        
     public function editUser($id) {
@@ -152,7 +152,7 @@ class ManageUserManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (1.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getUser($conditions='') {
@@ -184,7 +184,7 @@ class ManageUserManager {
 //$userId :userid of the City
 // Author :Dipanjan Bhattacharjee 
 // Created on : (1.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteUser($userId) {
@@ -213,7 +213,7 @@ class ManageUserManager {
 //orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (1.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -261,7 +261,7 @@ class ManageUserManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (1.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getUserList($conditions='', $limit = '', $orderBy='userName') {

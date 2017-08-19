@@ -4,7 +4,7 @@
 //
 // Author : Dipanjan Bhattacharjee
 // Created on : (28.05.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 //done changes
@@ -329,7 +329,7 @@ function printStudentReport() {
 //id=studentId
 //Author : Parveen Sharma
 //Created on : (29.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 function printStudentEnquiry(id) {
 
@@ -342,7 +342,7 @@ function printStudentEnquiry(id) {
 //
 //Author : Rajeev Aggarwal
 // Created on : (17.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------------------------------------------
 //id:id
@@ -448,7 +448,7 @@ new Ajax.Request(url,
 //id=studentId
 //Author : Dipanjan Bhattacharjee
 //Created on : (29.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 function deleteStudentEnquiry(id) {
          if(false===confirm("<?php echo DELETE_CONFIRM;?>")) {
@@ -484,7 +484,7 @@ function deleteStudentEnquiry(id) {
 //THIS FUNCTION IS USED TO POPULATE "AddStudentEnquiry" DIV
 //Author : Dipanjan Bhattacharjee
 // Created on : (29.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 function populateValues(id) {
          var url = '<?php echo HTTP_LIB_PATH;?>/StudentEnquiry/ajaxGetValues.php';

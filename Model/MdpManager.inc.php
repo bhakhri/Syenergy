@@ -3,7 +3,7 @@
 //  THIS FILE IS USED FOR DB OPERATION FOR "Document" table
 // Author :Jaineesh
 // Created on : (28.02.2009 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -16,7 +16,7 @@ class MdpManager {
 //
 // Author :Jaineesh
 // Created on : (28.02.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     private function __construct() {
@@ -27,7 +27,7 @@ class MdpManager {
 //
 // Author :Jaineesh
 // Created on : (28.02.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public static function getInstance() {
@@ -43,7 +43,7 @@ class MdpManager {
 //
 // Author :Jaineesh
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
      public function addMdp($employeeId)  {
@@ -71,7 +71,7 @@ class MdpManager {
 //
 // Author :Parveen Sharma
 // Created on : (28.02.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
    public function editMdp($id) {
@@ -96,7 +96,7 @@ class MdpManager {
 //
 // Author :Gagan Gill
 // Created on : (05.3.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     public function getMdp($conditions='') {
@@ -121,7 +121,7 @@ class MdpManager {
 //
 // Author :Gagan Gill
 // Created on : (05.03.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------
     public function deleteMdp($Id) {
@@ -136,7 +136,7 @@ class MdpManager {
 //
 // Author :Gagan Gill
 // Created on : (28.02.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------
    public function getTotalMdp($filter='') {
@@ -158,7 +158,7 @@ class MdpManager {
 //
 // Author :Parveen Sharma
 // Created on : (19.02.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -187,7 +187,7 @@ class MdpManager {
 //$conditions :db clauses
 // Author :Jaineesh
 // Created on : (28.02.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------
     public function getEmployee($code='') {
@@ -208,7 +208,7 @@ class MdpManager {
 // $conditions :db clauses
 // Author :Jaineesh
 // Created on : (04.03.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------
     public function getEmployeeDetail($conditions='') {

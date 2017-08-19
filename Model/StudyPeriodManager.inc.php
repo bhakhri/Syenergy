@@ -5,7 +5,7 @@
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (2.7.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -18,7 +18,7 @@ class StudyPeriodManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (2.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
 	private function __construct() {
@@ -29,7 +29,7 @@ class StudyPeriodManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (2.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 	public static function getInstance() {
@@ -45,7 +45,7 @@ class StudyPeriodManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (2.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
 	public function addStudyPeriod() {
@@ -61,7 +61,7 @@ class StudyPeriodManager {
 //$id:studyPeriodId
 // Author :Dipanjan Bhattacharjee 
 // Created on : (2.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------        
     public function editStudyPeriod($id) {
@@ -76,7 +76,7 @@ class StudyPeriodManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (2.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getStudyPeriod($conditions='') {
@@ -93,7 +93,7 @@ class StudyPeriodManager {
 //$studyPeriodId :studyPeriodId of the study_period
 // Author :Dipanjan Bhattacharjee 
 // Created on : (2.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------             
     public function checkInClass($studyPeriodId) {
@@ -110,7 +110,7 @@ class StudyPeriodManager {
 //$studyPeriodId :studyPeriodId of the study_period
 // Author :Dipanjan Bhattacharjee 
 // Created on : (2.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteStudyPeriod($studyPeriodId) {
@@ -129,7 +129,7 @@ class StudyPeriodManager {
 //orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (2.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -148,7 +148,7 @@ class StudyPeriodManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (2.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalStudyPeriod($conditions='') {

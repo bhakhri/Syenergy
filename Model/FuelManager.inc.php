@@ -5,7 +5,7 @@
 //
 // Author :Dipanjan Bhattacharjee
 // Created on : (26.06.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 ?>
@@ -21,7 +21,7 @@ class FuelManager {
 //
 // Author :Dipanjan Bhattacharjee
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     private function __construct() {
@@ -32,7 +32,7 @@ class FuelManager {
 //
 // Author :Dipanjan Bhattacharjee
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public static function getInstance() {
@@ -48,7 +48,7 @@ class FuelManager {
 //
 // Author :Dipanjan Bhattacharjee
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     public function addFuel() {
@@ -78,7 +78,7 @@ class FuelManager {
 //$id:busStopId
 // Author :Dipanjan Bhattacharjee
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     public function editFuel($id) {
@@ -108,7 +108,7 @@ class FuelManager {
 //$id:busStopId
 // Author :Dipanjan Bhattacharjee
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     public function updatedFuelLastMileageRecords($id,$lastMilege) {
@@ -131,7 +131,7 @@ class FuelManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     public function getFuel($conditions='') {
@@ -165,7 +165,7 @@ class FuelManager {
 //$cityId :busStopid of the Fuel
 // Author :Dipanjan Bhattacharjee
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------
     public function deleteFuel($id) {
@@ -187,7 +187,7 @@ class FuelManager {
 //orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -216,7 +216,7 @@ class FuelManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------
     public function getTotalFuel($conditions='') {
@@ -240,7 +240,7 @@ class FuelManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     public function getLastMilege($conditions='') {
@@ -259,7 +259,7 @@ class FuelManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-----------------------------------------------------------------------------
     public function getMaxFuelId($conditions='') {
 
@@ -277,7 +277,7 @@ class FuelManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------
     public function getLastFuelRecord($conditions='') {
@@ -297,7 +297,7 @@ class FuelManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getFuelUsesData($conditions='',$orderBy='') {
@@ -365,7 +365,7 @@ class FuelManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function countRefillingOnDate($busId, $fromDate) {
@@ -390,7 +390,7 @@ class FuelManager {
 //$conditions :db clauses
 // Author :Jaineesh
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getRefillingDate($busId,$fromDate) {
@@ -412,7 +412,7 @@ class FuelManager {
 //$conditions :db clauses
 // Author :Jaineesh
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 

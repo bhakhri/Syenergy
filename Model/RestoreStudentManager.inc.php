@@ -5,7 +5,7 @@
 //
 // Author :Dipanjan Bhattacharjee
 // Created on : (06.11.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -19,7 +19,7 @@ class RestoreStudentManager {
 //
 // Author :Dipanjan Bhattacharjee
 // Created on : (06.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	private function __construct() {
@@ -30,7 +30,7 @@ class RestoreStudentManager {
 //
 // Author :Dipanjan Bhattacharjee
 // Created on : (06.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public static function getInstance() {
@@ -50,7 +50,7 @@ class RestoreStudentManager {
 //orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee
 // Created on : (06.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------
 
@@ -92,7 +92,7 @@ class RestoreStudentManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (06.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------------------------------------
     public function getTotalStudent($conditions='') {
@@ -122,7 +122,7 @@ class RestoreStudentManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (06.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------------------------------------------------
     public function restoreStudents($studentId,$classId) {

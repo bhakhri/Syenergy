@@ -7,7 +7,7 @@
 // Modified By: Pushpender Kumar Chauhan
 // Created on : (14.06.2008 )
  //modified on: 20.06.2008
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;

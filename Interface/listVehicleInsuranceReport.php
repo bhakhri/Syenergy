@@ -4,7 +4,7 @@
 //
 // Author : Jaineesh
 // Created on : (09.06.2010)
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;
@@ -32,7 +32,7 @@ linksPerPage = <?php echo LINKS_PER_PAGE;?>;
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (12.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 var serverDate="<?php echo date('Y-m-d'); ?>";
@@ -79,7 +79,7 @@ function getData() {
 // 
 //Author : Jaineesh
 // Created on : (30.12.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 

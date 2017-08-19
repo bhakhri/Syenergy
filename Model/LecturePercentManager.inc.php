@@ -5,7 +5,7 @@
 //
 // Author : Jaineesh
 // Created on : 30-March-2009
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
  
@@ -19,7 +19,7 @@ class LecturePercentManager {
 //
 // Author :Jaineesh 
 // Created on : 30-March-2009
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------     
 
@@ -31,7 +31,7 @@ class LecturePercentManager {
 //
 // Author :Jaineesh 
 // Created on : 30-March-2009
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 
@@ -47,7 +47,7 @@ class LecturePercentManager {
 //
 // Author :Jaineesh 
 // Created on : 30-March-2009
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 
@@ -72,7 +72,7 @@ class LecturePercentManager {
 //
 // Author :Jaineesh 
 // Created on : 30-March-2009
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
  
@@ -88,7 +88,7 @@ class LecturePercentManager {
 //
 // Author :Jaineesh 
 // Created on : 30-March-2009
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
  
@@ -117,7 +117,7 @@ class LecturePercentManager {
 //
 // Author :Jaineesh
 // Created on : 30-March-2009
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 	
@@ -141,7 +141,7 @@ class LecturePercentManager {
 //
 // Author :Jaineesh 
 // Created on : 30-March-2009
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 	
@@ -163,7 +163,7 @@ class LecturePercentManager {
 //
 // Author :Jaineesh 
 // Created on : 30-March-2009
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
      public function deleteLecturePercent($condition='') {
@@ -177,7 +177,7 @@ class LecturePercentManager {
 //
 // Author :Jaineesh 
 // Created on : 30-March-2009
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
  

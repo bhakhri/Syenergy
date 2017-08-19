@@ -4,7 +4,7 @@
 //
 // Author : Parveen Sharma
 // Created on : (27.03.2011 )
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
 // SMS variables & max length detail
@@ -23,7 +23,7 @@ define('SMS_GATEWAY_SNDR_VARIABLE','sndr'); // Sender variable
 define('SMS_GATEWAY_SNDR_VALUE','db'); // Sender value
 // SMS account detail
 define('SMS_GATEWAY_USERNAME','13022');
-define('SMS_GATEWAY_PASSWORD','chalkpad');
+define('SMS_GATEWAY_PASSWORD','syenergy');
 define('SMS_GATEWAY_URL','http://70.36.96.162/send.php');  // Gateway URL that sends SMS
 */
 define('SMS_GATEWAY_USER_VARIABLE','usr');

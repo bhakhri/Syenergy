@@ -1,7 +1,7 @@
  <?php 
 //This file is used as printing CSV OF Fee Details  Report 
 // Created on : 7-May-12
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
  
 ?>

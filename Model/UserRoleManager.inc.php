@@ -3,7 +3,7 @@
 //  THIS FILE IS USED FOR DB OPERATION FOR "role" TABLE
 // Author :Dipanjan Bhattacharjee 
 // Created on : (1.07.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -16,7 +16,7 @@ class UserRoleManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (1.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
 	private function __construct() {
@@ -27,7 +27,7 @@ class UserRoleManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (1.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 	public static function getInstance() {

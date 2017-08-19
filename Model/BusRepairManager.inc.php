@@ -5,7 +5,7 @@
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (26.06.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 ?>
@@ -21,7 +21,7 @@ class BusRepairManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
     private function __construct() {
@@ -32,7 +32,7 @@ class BusRepairManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
     public static function getInstance() {
@@ -48,7 +48,7 @@ class BusRepairManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
     public function addBusRepair() {
@@ -74,7 +74,7 @@ class BusRepairManager {
 //$id:busStopId
 // Author :Dipanjan Bhattacharjee 
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------        
     public function editBusRepair($id) {
@@ -99,7 +99,7 @@ class BusRepairManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (09.04.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------     
 public function addActionRepaired($repairId,$str){
     
@@ -121,7 +121,7 @@ public function addActionRepaired($repairId,$str){
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getBusRepair($conditions='') {
@@ -140,7 +140,7 @@ public function addActionRepaired($repairId,$str){
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getBusRepairedAction($conditions='') {
@@ -161,7 +161,7 @@ public function addActionRepaired($repairId,$str){
 //$cityId :busStopid of the BusRepair
 // Author :Dipanjan Bhattacharjee 
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteBusRepair($id) {
@@ -187,7 +187,7 @@ public function addActionRepaired($repairId,$str){
 //orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -216,7 +216,7 @@ public function addActionRepaired($repairId,$str){
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalBusRepair($conditions='') {
@@ -243,7 +243,7 @@ public function addActionRepaired($repairId,$str){
 //orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     

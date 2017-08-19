@@ -14,7 +14,7 @@ class CollectStudentFineManager {
 //
 // Author :Rajeev Aggarwal
 // Created on : (03.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     private function __construct() {
@@ -25,7 +25,7 @@ class CollectStudentFineManager {
 //
 // Author :Rajeev Aggarwal
 // Created on : (03.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public static function getInstance() {
@@ -42,7 +42,7 @@ class CollectStudentFineManager {
 // THIS FUNCTION IS USED FOR ADDING A Fine Category
 // Author :Rajeev Aggarwal
 // Created on : (02.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
     public function addFineStudent() {
         global $REQUEST_DATA;
@@ -69,7 +69,7 @@ class CollectStudentFineManager {
 // THIS FUNCTION IS USED FOR ADDING Bulk Fine
 // Author :Rajeev Aggarwal
 // Created on : (02.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
      public function addBulkFineStudent($filter='',$value='',$condition=''){
 
@@ -81,7 +81,7 @@ class CollectStudentFineManager {
 // THIS FUNCTION IS USED TO FETCH STUDENT ROLLNUMBER
 // Author :Gurkeerat Sidhu
 // Created on : (28.10.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------
     public function getStudentRoll($groupText = '') {
         $query = "
@@ -98,7 +98,7 @@ class CollectStudentFineManager {
 // $id:fineCategoryId
 // Author :Rajeev Aggarwal
 // Created on : (02.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
     public function editFineStudent($id) {
         global $REQUEST_DATA;
@@ -114,7 +114,7 @@ class CollectStudentFineManager {
 // $conditions :db clauses
 // Author :Rajeev Aggarwal
 // Created on : (03.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
     public function getFineStudent($conditions='') {
 
@@ -143,7 +143,7 @@ class CollectStudentFineManager {
 // $fineCategoryId :fineCategoryId of the fine_category
 // Author :Rajeev Aggarwal
 // Created on : (02.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------------------------------------------------------
     public function deleteFineStudent($fineStudentId) {
 
@@ -164,7 +164,7 @@ class CollectStudentFineManager {
 // orderBy:sort on which column
 // Author :Rajeev Aggarwal
 // Created on : (02.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
     public function getFineStudentList($conditions='', $limit = '', $orderBy=' fineCategoryName') {
@@ -209,7 +209,7 @@ class CollectStudentFineManager {
 // orderBy:sort on which column
 // Author :Rajeev Aggarwal
 // Created on : (03.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
     public function insertStudentFine() {
@@ -279,7 +279,7 @@ class CollectStudentFineManager {
 //
 // Author :Rajeev Aggarwal
 // Created on : (05.08.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function getFineReceiptDetail($conditions='') {
@@ -325,7 +325,7 @@ class CollectStudentFineManager {
 // $conditions :db clauses
 // Author :Rajeev Aggarwal
 // Created on : (02.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //----------------------------------------------------------------------------------------
     public function getNoDueFineStudent($conditions='') {
 
@@ -348,7 +348,7 @@ class CollectStudentFineManager {
 // $conditions :db clauses
 // Author :Rajeev Aggarwal
 // Created on : (02.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //----------------------------------------------------------------------------------------
     public function updateNoDueFineStudent($totalAmount,$studentId,$classId) {
 		global $REQUEST_DATA;
@@ -364,7 +364,7 @@ class CollectStudentFineManager {
 // $conditions :db clauses
 // Author :Rajeev Aggarwal
 // Created on : (02.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //----------------------------------------------------------------------------------------
     public function insertNoDueFineStudent() {
 
@@ -382,7 +382,7 @@ class CollectStudentFineManager {
 // $conditions :db clauses
 // Author :Rajeev Aggarwal
 // Created on : (02.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //----------------------------------------------------------------------------------------
     public function getTotalFineStudent($conditions='') {
 
@@ -409,7 +409,7 @@ class CollectStudentFineManager {
 //$conditions :db clauses
 // Author :Rajeev Aggarwal
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------
     public function getStudentDetail($conditions='') {
@@ -432,7 +432,7 @@ class CollectStudentFineManager {
 //
 // Author :Rajeev Aggarwal
 // Created on : (03.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function getStudentFineSerial() {
@@ -450,7 +450,7 @@ class CollectStudentFineManager {
 // $conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (02.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
     public function getMappedFineList($conditions='',$limit='',$orderBy=' roleName') {
         global $sessionHandler;
@@ -489,7 +489,7 @@ class CollectStudentFineManager {
 // $conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (02.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
     public function getTotalMappedFine($conditions='') {
         global $sessionHandler;
@@ -520,7 +520,7 @@ class CollectStudentFineManager {
 // $conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (02.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
     public function getMappedFineCategories($conditions='') {
 
@@ -551,7 +551,7 @@ class CollectStudentFineManager {
 // $conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (02.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
     public function checkUserNames($conditions='') {
 
@@ -573,7 +573,7 @@ class CollectStudentFineManager {
 // $conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (02.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
     public function deletePreviouslyRoletoFineMapping($roleId) {
         global $sessionHandler;
@@ -651,7 +651,7 @@ class CollectStudentFineManager {
 // $conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (02.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
     public function addRoletoFineMapping($roleId) {        
 		   $query="INSERT INTO role_fine (roleId) VALUES ($roleId)";
@@ -665,7 +665,7 @@ class CollectStudentFineManager {
 // $conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (02.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
     public function addRoletoFineCategoryMapping($str) {
         $query="INSERT INTO  role_fine_category (roleFineId,fineCategoryId) VALUES $str ";
@@ -684,7 +684,7 @@ class CollectStudentFineManager {
 // $conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (02.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
     public function addRoletoApproveMapping($str) {
         $query="INSERT INTO  role_fine_approve (roleFineId,userId) VALUES $str ";
@@ -697,7 +697,7 @@ class CollectStudentFineManager {
 // $conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (02.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
     public function deleteRoletoFineMapping($roleFineId) {
         global $sessionHandler;
@@ -753,7 +753,7 @@ class CollectStudentFineManager {
 // THIS FUNCTION IS USED FOR ADDING A Fine Category
 // Author :Dipanjan Bhattacharjee
 // Created on : (02.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
     public function addFineCategory() {
         global $REQUEST_DATA;
@@ -770,7 +770,7 @@ class CollectStudentFineManager {
 // $id:fineCategoryId
 // Author :Dipanjan Bhattacharjee
 // Created on : (02.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
     public function editFineCategory($id) {
         global $REQUEST_DATA;
@@ -787,7 +787,7 @@ class CollectStudentFineManager {
 // $conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (02.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
     public function getFineCategory($conditions='') {
 
@@ -805,7 +805,7 @@ class CollectStudentFineManager {
 // $fineCategoryId :fineCategoryId of the fine_category
 // Author :Dipanjan Bhattacharjee
 // Created on : (02.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------------------------------------------------------
     public function deleteFineCategory($fineCategoryId) {
 
@@ -838,7 +838,7 @@ class CollectStudentFineManager {
 // orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee
 // Created on : (02.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
     public function getFineCategoriesList($conditions='', $limit = '', $orderBy=' fineCategoryName') {
@@ -859,7 +859,7 @@ class CollectStudentFineManager {
 // $conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (02.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //----------------------------------------------------------------------------------------
     public function getTotalFineCategories($conditions='') {
 
@@ -881,7 +881,7 @@ class CollectStudentFineManager {
 // orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (02.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
     public function getStudentFineList($conditions,$orderBy) {
@@ -953,7 +953,7 @@ class CollectStudentFineManager {
 // orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (02.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
     public function getReason($conditions) {
@@ -974,7 +974,7 @@ class CollectStudentFineManager {
 // orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (02.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
     public function updateFine($statusUpdate,$chb,$approveReason) {
@@ -1010,7 +1010,7 @@ class CollectStudentFineManager {
 // orderBy:sort on which column
 // Author :Saurabh Thukral
 // Created on : (30.07.2012)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
     public function updateFineAmount($id,$amt) {
@@ -1034,7 +1034,7 @@ class CollectStudentFineManager {
 // orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (02.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
     public function getTotalFineCollectionReportDetail($conditions) {
@@ -1061,7 +1061,7 @@ class CollectStudentFineManager {
 
 // Author :Jaineesh
 // Created on : (02.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
     public function getFineCollectionReportDetail($conditions,$limit,$orderBy) {
@@ -1095,7 +1095,7 @@ class CollectStudentFineManager {
 // orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (02.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
     public function getTotalStudentWiseFineCollectionReportDetail($conditions) {
@@ -1130,7 +1130,7 @@ class CollectStudentFineManager {
 // orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (02.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
     public function getStudentWiseFineCollectionReportDetail($conditions,$limit,$orderBy) {
@@ -1168,7 +1168,7 @@ class CollectStudentFineManager {
 // orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (02.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
     public function getTotalStudentDetailFineCollectionReportDetail($conditions) {
@@ -1206,7 +1206,7 @@ class CollectStudentFineManager {
 // orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (02.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
     public function getStudentDetailFineCollectionReportDetail($conditions,$limit,$orderBy) {
@@ -1247,7 +1247,7 @@ class CollectStudentFineManager {
 // orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (02.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
     public function getFineCollectionListPrint($conditions,$orderBy) {
@@ -1288,7 +1288,7 @@ class CollectStudentFineManager {
 //
 // Author :Rajeev Aggarwal
 // Created on : (05.08.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function getFineHistoryList($conditions='', $limit = '', $orderBy='') {

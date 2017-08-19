@@ -4,7 +4,7 @@
 //
 // Author : Nancy Puri
 // Created on : (04.10.2010 )
-// Copyright 2010-2011: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2010-2011: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 

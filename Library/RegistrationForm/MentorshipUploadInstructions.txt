@@ -1,7 +1,7 @@
 1. Please upload the format provided.
 2. [Sr.No] to be replaced with row counter e.g. 1,2 and so on. for every row.
-3. [Student Roll No.] to be replaced with student roll no. as it exists in chalkpad
-4. [Student Name] to be replaced with student name as it exists in chalkpad
+3. [Student Roll No.] to be replaced with student roll no. as it exists in syenergy
+4. [Student Name] to be replaced with student name as it exists in syenergy
 5. Once the names, rollno  are uploaded for a student, next upload will NOT overwrite previously entered names and rollno.
 6. If all values are filled properly but the file is not getting uploaded, then kindly delete the first empty column of sheet, and then try again.
 7. Please give the name of sheet exactly as user name of employee.

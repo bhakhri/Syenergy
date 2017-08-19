@@ -4,7 +4,7 @@
 //
 // Author : Dipanjan Bhattacharjee
 // Created on : (22.07.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------
 ?>
@@ -70,7 +70,7 @@ gtestIndex=0;
 //h:height of the div
 //Author : Dipanjan Bhattacharjee
 // Created on : (12.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function editWindow(id,dv,w,h) {
@@ -85,7 +85,7 @@ function editWindow(id,dv,w,h) {
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (21.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function hide_div(id,mode){
@@ -103,7 +103,7 @@ function hide_div(id,mode){
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (0508.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function resetForm(){
@@ -125,7 +125,7 @@ function resetForm(){
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (21.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------
 var sclass="";var ssubject="";var sgroup="";
@@ -164,7 +164,7 @@ function getData(){
 //Purpose:to make marks=0 and readonly when present is not checked
 //Author:Dipanjan Bhattacharjee
 //Date:23.07.2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------
 function disableMarks(id){
@@ -181,7 +181,7 @@ function disableMarks(id){
 //Purpose:to validate form inputs
 //Author:Dipanjan Bhattacharjee
 //Date:23.07.2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------
 function validateForm(){
@@ -278,7 +278,7 @@ function validateForm(){
 //Purpose:For entering marks
 //Author:Dipanjan Bhattachaarjee
 //Date : 23.07.2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------
 function enterMarks() {
@@ -404,7 +404,7 @@ function enterMarks() {
 //Purpose:to populate test_type dropdown upon selection of subject dropdown
 //Author:Dipanjan Bhattacharjee
 //Date:23.07.2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------
 function populateTestType(id) {
@@ -461,7 +461,7 @@ if(id==""){
 //Purpose:to populate test dropdown upon selection of test_type dropdown
 //Author:Dipanjan Bhattacharjee
 //Date:23.07.2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------
 function populateTest(id,mode) {
@@ -522,7 +522,7 @@ if(id==""){
 //Purpose:to populate test detail information upon selection of test dropdown
 //Author:Dipanjan Bhattacharjee
 //Date:23.07.2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------
 function populateTestDetails(id) {
@@ -587,7 +587,7 @@ if(id=="NT"){ //for new Test
 //Purpose:to get max test index upon selection of of test_type dropdown
 //Author:Dipanjan Bhattacharjee
 //Date:23.07.2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------
 function getMaxTestIndex(id) {
@@ -619,7 +619,7 @@ if(id==""){
 //Purpose:to delete the test details
 //Author:Dipanjan Bhattacharjee
 //Date:3.11.2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------
 function deleteData(id,index) {
@@ -668,7 +668,7 @@ if(document.getElementById('deleteTestIcon').style.display=='none'){
 //Purpose:To check for numeric entry in maxMarks textbox
 //Author:Dipanjan Bhattacharekee
 //Date:23.07.2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------
 function checkNumber(value,id){
@@ -695,7 +695,7 @@ function checkNumber(value,id){
 //Purpose:to make present and marks enable/disable upon memofclass selection
 //Author:Dipanjan Bhattacharekee
 //Date:05.08.2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------
 function mocAction(id){
@@ -712,7 +712,7 @@ function mocAction(id){
 //Purpose:to set tabindex of submit and cancel(lower) 
 //Author:Dipanjan Bhattacharekee
 //Date:05.08.2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------
 function marksAction(){

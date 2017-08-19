@@ -3,7 +3,7 @@
 // Purpose: To change theme upon selection by the user
 // Author : Dipanjan Bhattacharjee
 // Created on : (17.12.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;

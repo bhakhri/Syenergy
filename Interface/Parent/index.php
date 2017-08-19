@@ -6,7 +6,7 @@
 //
 // Author :Arvind Singh Rawat
 // Created on : 14-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -60,7 +60,7 @@ function trim_output2($str,$maxlength) {
 //h:height of the div
 //Author : Dipanjan Bhattacharjee
 // Created on : (16.08.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function showNoticeDetails(id,dv,w,h) {
@@ -74,7 +74,7 @@ function showNoticeDetails(id,dv,w,h) {
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (16.08.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function populateNoticeValues(id) {
@@ -122,7 +122,7 @@ function populateNoticeValues(id) {
 //
 //Author : Jaineesh
 // Created on : (04.03.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function populateEventValues(id) {
@@ -161,7 +161,7 @@ function showAdminDetails(id,dv,w,h) {
 //
 //Author : Jaineesh
 // Created on : (04.03.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -200,7 +200,7 @@ function showAdminDetails(id,dv,w,h) {
 //act : action value of the button (add/edit)
 //Author : Jaineesh
 // Created on : (05.03.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function validateAddForm(frm, act) {   
@@ -291,7 +291,7 @@ function showTaskDetails(tdid,id,dv,w,h) {
 //
 //Author : Jaineesh
 // Created on : (28.02.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function editTask() {
@@ -368,7 +368,7 @@ function editTask() {
 //
 //Author : Jaineesh
 // Created on : (04.03.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -425,7 +425,7 @@ function populateTaskValues(id) {
 //
 //Author : Jaineesh
 // Created on : (28.02.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 

@@ -3,7 +3,7 @@
 // This File outputs the TestType report to the Printer
 // Author :Dipanjan Bhattacharjee
 // Created on : 03.06.2010
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
 global $FE;

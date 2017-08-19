@@ -3,7 +3,7 @@
 //  THIS FILE IS USED FOR DB OPERATION FOR "student and teacher_comment" TABLE
 // Author :Dipanjan Bhattacharjee 
 // Created on : (8.7.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
 require_once($FE . "/Library/common.inc.php"); //for sessionId
@@ -16,7 +16,7 @@ class StudentConcessionManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
 	private function __construct() {
@@ -27,7 +27,7 @@ class StudentConcessionManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 	public static function getInstance() {
@@ -50,7 +50,7 @@ class StudentConcessionManager {
 //orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -116,7 +116,7 @@ class StudentConcessionManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalStudent($conditions='') {
@@ -144,7 +144,7 @@ class StudentConcessionManager {
     //
     // Author :Jaineesh
     // Created on : (01-10-2009)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------      
 	public function getRoleUser($userId) {
@@ -167,7 +167,7 @@ class StudentConcessionManager {
 // THIS FUNCTION IS used to delete student concession data
 // Author :Dipanjan Bhattacharjee
 // Created on : (07.05.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------
     public function deleteStudentConcession($deleteString) {
          
@@ -179,7 +179,7 @@ class StudentConcessionManager {
 // THIS FUNCTION IS used to insert student concession data
 // Author :Dipanjan Bhattacharjee
 // Created on : (07.05.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------
     public function insertStudentConcession($insertString) {
          
@@ -196,7 +196,7 @@ class StudentConcessionManager {
 // THIS FUNCTION IS used to total student concession data
 // Author :Dipanjan Bhattacharjee
 // Created on : (07.05.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------
     public function getTotalConcession($condition='') {
          

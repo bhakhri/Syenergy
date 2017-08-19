@@ -3,7 +3,7 @@
 //  This File contains all functions for SMSDetails for Student/Employee
 // Author :Parveen Sharma
 // Created on : 26-11-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -26,7 +26,7 @@ class SMSDetailManager {
     // Purpose: get message
     // Author :Parveen Sharma
     // Created on : (27.11.2008)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //-------------------------------------------------------------------------------           
     public function getMessageDetail($messageId){
@@ -48,7 +48,7 @@ class SMSDetailManager {
     // Purpose: get all message
     // Author :Parveen Sharma
     // Created on : (26.11.2008)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //-------------------------------------------------------------------------------           
      public function getTotalSMSDetailList($condition='') {
@@ -68,7 +68,7 @@ class SMSDetailManager {
     // Purpose: get all total message by sender
     // Author :Parveen Sharma
     // Created on : (26.11.2008)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //-------------------------------------------------------------------------------           
      public function getSMSDetailList($condition='',$orderBy,$limit) {
@@ -93,7 +93,7 @@ class SMSDetailManager {
     // Purpose: get all message sum by Sender
     // Author :Parveen Sharma
     // Created on : (27.11.2008)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //-------------------------------------------------------------------------------           
      public function getTotalSMSFullDetailList($condition='') {
@@ -117,7 +117,7 @@ class SMSDetailManager {
     // Purpose: get all total message by sender
     // Author :Parveen Sharma
     // Created on : (27.11.2008)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //-------------------------------------------------------------------------------           
     
@@ -139,7 +139,7 @@ class SMSDetailManager {
 	     //--------------------------------------------------------------------------------
     // Purpose: get all send messsages receverIds
     // Created on : (30.1.2011)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //-------------------------------------------------------------------------------  
 	 public function sendMessagesIds($messageId){
@@ -151,7 +151,7 @@ class SMSDetailManager {
 	  //--------------------------------------------------------------------------------
     // Purpose: get all undelivered messagesIds
     // Created on : (30.1.2011)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //-------------------------------------------------------------------------------  
 	 public function getUndeliveredMessagesIds($messageId){
@@ -163,7 +163,7 @@ class SMSDetailManager {
 	 	  //--------------------------------------------------------------------------------
     // Purpose: get all delivered  messages details
     // Created on : (30.1.2011)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //-------------------------------------------------------------------------------  
 	 public function getdeliveredMessages($messageId,$dlvrMessagesIdsList,$orderBy,$limit){
@@ -252,7 +252,7 @@ class SMSDetailManager {
 	 	  //--------------------------------------------------------------------------------
     // Purpose: get all undelivered messages details
     // Created on : (30.1.2011)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //-------------------------------------------------------------------------------  
 	 public function getUndeliveredMessages($messageId,$orderBy,$limit){
@@ -334,7 +334,7 @@ class SMSDetailManager {
 	 	  //--------------------------------------------------------------------------------
     // Purpose: get   message details
     // Created on : (30.1.2011)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //------------------------------------------------------------------------------- 
 	 public function getMessageDetails($messageId){
@@ -355,7 +355,7 @@ class SMSDetailManager {
 // Purpose: Change SMS delivery status
 // Author :Abhiraj
 // Created on : (24.03.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------            
     
      public function updateDeliveryStatus() {
@@ -419,7 +419,7 @@ class SMSDetailManager {
     // Purpose: get all message sms_messages table for delivery reports
     // Author :Abhiraj
     // Created on : (24.03.2011)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //-------------------------------------------------------------------------------           
      public function getTotalSMSStatusDetailList($condition='') {   
@@ -434,7 +434,7 @@ class SMSDetailManager {
 // Purpose: Show SMS delivery report
 // Author :Abhiraj
 // Created on : (24.03.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------            
     
      public function getSMSStatusDetailList($filter,$orderBy,$limit) {

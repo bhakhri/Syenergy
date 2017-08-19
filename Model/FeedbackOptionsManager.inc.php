@@ -3,7 +3,7 @@
 //  THIS FILE IS USED FOR DB OPERATION FOR "feedbackadv_answer_set" table
 // Author :Gurkeerat Sidhu 
 // Created on : (12.01.2010)
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -16,7 +16,7 @@ class FeedbackOptionsManager {
 //
 // Author :Gurkeerat Sidhu 
 // Created on : (12.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
     private function __construct() {
@@ -27,7 +27,7 @@ class FeedbackOptionsManager {
 //
 // Author :Gurkeerat Sidhu 
 // Created on : (12.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
     public static function getInstance() {
@@ -44,7 +44,7 @@ class FeedbackOptionsManager {
 //
 // Author :Gurkeerat Sidhu 
 // Created on : (12.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
    /* public function addFeedBackOptions() {
@@ -68,7 +68,7 @@ class FeedbackOptionsManager {
 //$id:busRouteId
 // Author :Gurkeerat Sidhu 
 // Created on : (12.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------        
     public function editFeedBackOptions($id) {
@@ -86,7 +86,7 @@ class FeedbackOptionsManager {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (12.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------         
     public function getFeedBackOptions($conditions='') {
@@ -105,7 +105,7 @@ class FeedbackOptionsManager {
 //$FeedBackOptionsId :FeedBackOptionsId of the FeedBack Options
 // Author :Gurkeerat Sidhu 
 // Created on : (12.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteFeedBackOptions($answerSetOptionId) {
@@ -126,7 +126,7 @@ class FeedbackOptionsManager {
 //orderBy:sort on which column
 // Author :Gurkeerat Sidhu 
 // Created on : (12.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -156,7 +156,7 @@ class FeedbackOptionsManager {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (12.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalFeedBackOptions($conditions='') {
@@ -180,7 +180,7 @@ class FeedbackOptionsManager {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (12.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------       
     
@@ -205,7 +205,7 @@ class FeedbackOptionsManager {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (12.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------       
     
@@ -229,7 +229,7 @@ class FeedbackOptionsManager {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (12.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------       
     
@@ -253,7 +253,7 @@ class FeedbackOptionsManager {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (6.02.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------       
     
@@ -270,7 +270,7 @@ class FeedbackOptionsManager {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (6.02.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------       
     
@@ -287,7 +287,7 @@ class FeedbackOptionsManager {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (6.02.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------       
     
@@ -304,7 +304,7 @@ class FeedbackOptionsManager {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (6.02.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------    
  public function checkOptionsDependency($id) {
@@ -323,7 +323,7 @@ class FeedbackOptionsManager {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (12.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------       
     

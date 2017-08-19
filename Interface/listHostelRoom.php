@@ -5,7 +5,7 @@
 //
 // Author : Jaineesh
 // Created on : (26.06.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;
@@ -61,7 +61,7 @@ sortOrderBy    = 'ASC';
 //h:height of the div
 //Author : Jaineesh
 // Created on : (26.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 var flag = false; // for whether the record has been added or not, if flag is true then refresh your page when user clicks on cancel button
@@ -77,7 +77,7 @@ function editWindow(id,dv,w,h) {
 //act : action value of the button (add/edit)
 //Author : Jaineesh
 // Created on : (26.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function validateAddForm(frm, act) {
@@ -163,7 +163,7 @@ function validateAddForm(frm, act) {
 //
 //Author : Jaineesh
 // Created on : (26.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function addHostelRoom() {
@@ -221,7 +221,7 @@ function addHostelRoom() {
 //
 //Author : Jaineesh
 // Created on : (26.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function deleteHostelRoom(id) {
@@ -259,7 +259,7 @@ function deleteHostelRoom(id) {
 //
 //Author : Jaineesh
 // Created on : (26.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -278,7 +278,7 @@ function blankValues() {
 // 
 //Author : Jaineesh
 // Created on : (26.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function editHostelRoom() {
@@ -329,7 +329,7 @@ function editHostelRoom() {
 // 
 //Author : Jaineesh
 // Created on : (26.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function populateValues(id) {
@@ -372,7 +372,7 @@ function populateValues(id) {
 // 
 //Author : Jaineesh
 // Created on : (26.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function getRoomDetail() {
@@ -411,7 +411,7 @@ function getRoomDetail() {
 // 
 //Author : Jaineesh
 // Created on : (26.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function getRoomEditDetail() {
@@ -450,7 +450,7 @@ function getRoomEditDetail() {
 // 
 //Author : Jaineesh
 // Created on : (26.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function changeRoomType() {
@@ -466,7 +466,7 @@ function changeRoomType() {
 //THIS FUNCTION IS USED TO Get Room Types
 //Author : Nishu Bindal
 // Created on : (29.Feb.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -520,7 +520,7 @@ function changeRoomType() {
 // 
 //Author : Jaineesh
 // Created on : (26.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function changeEditRoomType() {

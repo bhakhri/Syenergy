@@ -65,7 +65,7 @@ var flag = false; // for whether the record has been added or not, if flag is tr
 //  id=cityId
 //Author : Dipanjan Bhattacharjee
 // Created on : (25.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function deleteConsumableItems(id) {
@@ -102,7 +102,7 @@ function deleteConsumableItems(id) {
 //  id=cityId
 //Author : Dipanjan Bhattacharjee
 // Created on : (25.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function cancelConsumableItem(id) {
@@ -138,7 +138,7 @@ function cancelConsumableItem(id) {
 //THIS FUNCTION IS USED TO POPULATE "dutyLeaveDiv" DIV
 //Author : Dipanjan Bhattacharjee
 // Created on : (19.05.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 function populateValues(id) {
 		//cleanUpEditTable();
@@ -517,7 +517,7 @@ function getAddRowList() {
 // 
 //Author : Jaineesh
 // Created on : (30.12.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -587,7 +587,7 @@ function getItemName() {
 // 
 //Author : Jaineesh
 // Created on : (30.12.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -641,7 +641,7 @@ function getDepttName() {
 // 
 //Author : Jaineesh
 // Created on : (30.12.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -687,7 +687,7 @@ function getEditDepttName(value) {
 // 
 //Author : Jaineesh
 // Created on : (30.12.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -746,7 +746,7 @@ function getEditItemName(value,depttId) {
 // 
 //Author : Jaineesh
 // Created on : (30.12.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 

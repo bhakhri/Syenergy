@@ -5,7 +5,7 @@
 //
 // Author :Dipanjan Bhattacharjee
 // Created on : (12.06.2008 )
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -19,7 +19,7 @@ class FeedBackAssignSurveyAdvancedManager {
 //
 // Author :Dipanjan Bhattacharjee
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	private function __construct() {
@@ -30,7 +30,7 @@ class FeedBackAssignSurveyAdvancedManager {
 //
 // Author :Dipanjan Bhattacharjee
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public static function getInstance() {
@@ -71,7 +71,7 @@ class FeedBackAssignSurveyAdvancedManager {
 // THIS FUNCTION IS USED FOR inserting data into feedbackadv_survey_mapping table
 // Author :Dipanjan Bhattacharjee
 // Created on : (18.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //----------------------------------------------------------------------------------
     public function insertMappingData($labelId,$catId,$questionSetId,$classId,$roleId,$visibleFrom,$visibleTo) {
 
@@ -238,7 +238,7 @@ class FeedBackAssignSurveyAdvancedManager {
 // $conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (09.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
     public function getSurveyLabel($conditions='') {
         global $sessionHandler;
@@ -445,7 +445,7 @@ class FeedBackAssignSurveyAdvancedManager {
 // $conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (09.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------
     public function getFeedbackCategory($conditions='') {
 
@@ -488,7 +488,7 @@ public function getLabelApplicableTo($timeTableId,$labelId){
 // orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee
 // Created on : (18.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
     public function getEmployeeList($conditions='', $limit = '', $orderBy=' e.employeeName',$lableId=-1,$catId=-1,$questionSetId=-1) {
         global $sessionHandler;
@@ -666,7 +666,7 @@ public function getLabelApplicableTo($timeTableId,$labelId){
 // orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee
 // Created on : (09.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
     public function getFeedbackCategoryList($conditions='', $limit = '', $orderBy=' fc.feedbackCategoryName') {
         global $sessionHandler;
@@ -720,7 +720,7 @@ public function getLabelApplicableTo($timeTableId,$labelId){
 // $conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (09.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------
     public function getTotalFeedbackCategory($conditions='') {
         global $sessionHandler;

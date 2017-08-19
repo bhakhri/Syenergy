@@ -3,7 +3,7 @@
 // Purpose: to Show Contents Of Generate Student Fees
 // Author : Nishu bindal
 // Created on : 21-Mar-2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 ?>
 <form action="" method="post" name="allDetailsForm" id="allDetailsForm" onsubmit="return false;">

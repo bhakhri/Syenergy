@@ -5,7 +5,7 @@
 //
 // Author :Parveen Sharma
 // Created on : 12-June-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;
@@ -120,7 +120,7 @@ function validateAddForm() {
 //
 //Author : Parveen Sharma
 // Created on : (08.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function addReappearSubjects() {

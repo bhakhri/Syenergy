@@ -3,7 +3,7 @@
 //  This File contains Validation and ajax function used in Hostel Room Detail
 // Author :Harpreet
 // Created on : 16.07.09
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;

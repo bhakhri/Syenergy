@@ -5,7 +5,7 @@
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -18,7 +18,7 @@ class QuotaManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------
 	private function __construct() {
@@ -29,7 +29,7 @@ class QuotaManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------    
 	public static function getInstance() {
@@ -45,7 +45,7 @@ class QuotaManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------     
 	public function addQuota() {
@@ -60,7 +60,7 @@ class QuotaManager {
 //$id:quotaId
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------     
     public function editQuota($id) {
@@ -75,7 +75,7 @@ class QuotaManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------        
     public function getQuota($conditions='') {
@@ -121,7 +121,7 @@ public function checkInFeeHeadValues($quotaId) {
 //$cityId :quotaid of the City
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------         
     public function deleteQuota($quotaId) {
@@ -140,7 +140,7 @@ public function checkInFeeHeadValues($quotaId) {
 //orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     public function getQuotaList($conditions='', $limit = '', $orderBy=' qt.quotaName') {
@@ -162,7 +162,7 @@ public function checkInFeeHeadValues($quotaId) {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------         
     public function getTotalQuota($conditions='') {
@@ -183,7 +183,7 @@ public function checkInFeeHeadValues($quotaId) {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------         
     public function getSeatList($conditions='') {
@@ -212,7 +212,7 @@ public function checkInFeeHeadValues($quotaId) {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------         
     public function getSeatIntakeList($conditions='') {
@@ -268,7 +268,7 @@ public function checkInFeeHeadValues($quotaId) {
 //
 // Author :Parveen Sharma
 // Created on : (29-May-2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------      
     public function deleteSeatIntakes($condition='') {
@@ -287,7 +287,7 @@ public function checkInFeeHeadValues($quotaId) {
 //
 // Author :Parveen Sharma
 // Created on : (29-May-2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------      
     public function updateClassSeatIntakes($totalSeats,$classId) {
@@ -303,7 +303,7 @@ public function checkInFeeHeadValues($quotaId) {
 //
 // Author :Parveen Sharma
 // Created on : (29-May-2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------      
     public function addSeatIntakes($fieldValue) {
@@ -322,7 +322,7 @@ public function checkInFeeHeadValues($quotaId) {
 //
 // Author :Parveen Sharma
 // Created on : (29-May-2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------       
     
@@ -351,7 +351,7 @@ public function checkInFeeHeadValues($quotaId) {
 //$conditions :db clauses
 // Author :Parveen Sharma
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------         
     public function getClasswiseRoundList($conditions='', $orderBy=' cr.roundId') {
@@ -381,7 +381,7 @@ public function checkInFeeHeadValues($quotaId) {
 //$conditions :db clauses
 // Author :Parveen Sharma
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------         
     public function getClasswiseQuotaList($conditionsDate='',$conditions='', $classId='', $orderBy=' q.quotaId', $limit='') {
@@ -425,7 +425,7 @@ public function checkInFeeHeadValues($quotaId) {
     //
     // Author :Parveen Sharma
     // Created on : (29-May-2009)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------------      
     public function addClassQuotaAllocation($classId, $roundId, $allocationDate) {
@@ -452,7 +452,7 @@ public function checkInFeeHeadValues($quotaId) {
     //
     // Author :Parveen Sharma
     // Created on : (29-May-2009)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------------      
     public function addClassQuotaAllocationDetails($id, $quotaId, $seatsAllocated ) {
@@ -473,7 +473,7 @@ public function checkInFeeHeadValues($quotaId) {
 //
 // Author :Parveen Sharma
 // Created on : (29-May-2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------      
     public function deleteQuotaAllocation($tableName='', $condition='') {
@@ -493,7 +493,7 @@ public function checkInFeeHeadValues($quotaId) {
 //
 // Author :Parveen Sharma
 // Created on : (29-May-2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------      
     public function getClassQuotaAllocation($condition='',$condition1='') {
@@ -524,7 +524,7 @@ public function checkInFeeHeadValues($quotaId) {
 //
 // Author :Parveen Sharma
 // Created on : (29-May-2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------      
     public function getClassQuotaAllocationList($condition='',$conditionDate='',$allocatedDate='',$conditionMain='',$orderBy=' branchName',$limit='') {

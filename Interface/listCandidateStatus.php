@@ -4,7 +4,7 @@
 //
 // Author : Vimal Sharma
 // Created on : (11.02.2009 )
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;
@@ -76,7 +76,7 @@ var flag = false; // for whether the record has been added or not, if flag is tr
 //dv:name of the form
 //w:width of the div
 //h:height of the div
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function editWindow(id,dv,w,h) {
@@ -147,7 +147,7 @@ function populateValues(id) {
 }
 //-------------------------------------------------------
 //THIS FUNCTION IS USED TO REGENERATE Candidate Status List
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 function regenerate() {
 
@@ -192,7 +192,7 @@ function  showDivs() {
 //dv:name of the form
 //w:width of the div
 //h:height of the div
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 //function editWindow(id,dv,w,h) {
@@ -205,7 +205,7 @@ function  showDivs() {
 //
 //frm:form to be validated
 //act:type of operations(Add/Edit)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -263,7 +263,7 @@ function validateAddForm(frm, act) {
 
 //-------------------------------------------------------
 //THIS FUNCTION IS USED TO ADD A NEW Candidate
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 /*
 function addCandidate() {
@@ -329,7 +329,7 @@ function blankValues()
 
 //-------------------------------------------------------
 //THIS FUNCTION IS USED TO EDIT A CANDIDATE
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 function editCandidate() {
          url = '<?php echo HTTP_LIB_PATH;?>/Admission/ajaxCandidateStatusEdit.php';

@@ -3,7 +3,7 @@
 //Purpose: This file stores the list of vehicle whose 'insuranceDueDate' is less than 10 days.
 //Author: Kavish Manjkhola
 //Created On: 11/04/2011
-//Copyright 2010-2011: Chalkpad Technologies Pvt. Ltd.
+//Copyright 2010-2011: syenergy Technologies Pvt. Ltd.
 //----------------------------------------------------
 ?>
 <?php

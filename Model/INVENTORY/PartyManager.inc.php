@@ -3,7 +3,7 @@
 //  THIS FILE IS USED FOR DB OPERATION FOR "item_category" table
 // Author :Gurkeerat Sidhu 
 // Created on : (08.05.2009)
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -16,7 +16,7 @@ class PartyManager {
 //
 // Author :Gurkeerat Sidhu 
 // Created on : (08.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
     private function __construct() {
@@ -27,7 +27,7 @@ class PartyManager {
 //
 // Author :Gurkeerat Sidhu 
 // Created on : (08.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
     public static function getInstance() {
@@ -44,7 +44,7 @@ class PartyManager {
 //
 // Author :Gurkeerat Sidhu
 // Created on : (08.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
     public function addParty() {
@@ -63,7 +63,7 @@ class PartyManager {
 //$id:itemCategoryId
 // Author :Gurkeerat Sidhu
 // Created on : (08.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------        
     public function editParty($id) {
@@ -87,7 +87,7 @@ class PartyManager {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (08.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getParty($conditions='') {
@@ -105,7 +105,7 @@ class PartyManager {
 //orderBy:sort on which column
 // Author :Gurkeerat Sidhu
 // Created on : (08.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -130,7 +130,7 @@ class PartyManager {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (08.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalParty($conditions='') {
@@ -149,7 +149,7 @@ class PartyManager {
 //$Id :itemCategoryId
 // Author :Gurkeerat Sidhu 
 // Created on : (08.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteParty($id) {

@@ -3,7 +3,7 @@
 //  This File contains Validation and ajax function used in Group Assignment
 // Author :Kavish Manjkhola
 // Created on : 07-Feb-2011
-// Copyright 2008-2011: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2011: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
 global $FE;
@@ -108,7 +108,7 @@ function showStudentGroups() {
 				    //Purpose: To Check if there is any optional subject or not
 				    //Author: Kavish Manjkhola
 				    //Created on : 07-Feb-2011
-				    //Copyright 2008-2011: Chalkpad Technologies Pvt. Ltd.
+				    //Copyright 2008-2011: syenergy Technologies Pvt. Ltd.
 				    //---------------------------------------------------------
 				    ?>
 				    if (totalGroups == 0) {
@@ -128,7 +128,7 @@ function showStudentGroups() {
 					    //Purpose: To Populate Optional Subjects with Child Subjects
 					    //Author: Kavish Manjkhola
 					    //Created on : 07-Feb-2011
-					    //Copyright 2008-2011: Chalkpad Technologies Pvt. Ltd.
+					    //Copyright 2008-2011: syenergy Technologies Pvt. Ltd.
 					    //----------------------------------------------------------------
 					    ?>
 
@@ -166,7 +166,7 @@ tableData +='<td width="'+spacePerGroup+'" '+colspan+' '+talign+' class="searchh
 					    //Purpose: To Populate Optional Subjects without Child Subjects
 					    //Author: Kavish Manjkhola
 					    //Created on : 07-Feb-2011
-					    //Copyright 2008-2011: Chalkpad Technologies Pvt. Ltd.
+					    //Copyright 2008-2011: syenergy Technologies Pvt. Ltd.
 					    //----------------------------------------------------------------
 					    ?>
                         parentSubjectCtr = 0;
@@ -196,7 +196,7 @@ tableData +='<td width="'+spacePerGroup+'" '+colspan+' '+talign+' class="searchh
 					    //Purpose: To Populate Child Subjects of Major/Minor Subjects
 					    //Author: Kavish Manjkhola
 					    //Created on : 07-Feb-2011
-					    //Copyright 2008-2011: Chalkpad Technologies Pvt. Ltd.
+					    //Copyright 2008-2011: syenergy Technologies Pvt. Ltd.
 					    //----------------------------------------------------------------
 					    ?>
                         tableData += '<tr class="rowheading">';
@@ -238,7 +238,7 @@ tableData +='<td width="'+spacePerGroup+'" '+colspan+' '+talign+' class="searchh
 					    //Purpose: To Populate GROUPS of Child Subjects of Major/Minor Subjects
 					    //Author: Kavish Manjkhola
 					    //Created on : 07-Feb-2011
-					    //Copyright 2008-2011: Chalkpad Technologies Pvt. Ltd.
+					    //Copyright 2008-2011: syenergy Technologies Pvt. Ltd.
 					    //----------------------------------------------------------------------
 					    ?>
                         tableData = tableData + '<tr class="rowheading">';
@@ -267,7 +267,7 @@ tableData +='<td width="'+spacePerGroup+'" '+colspan+' '+talign+' class="searchh
 					    //Purpose: To Populate GROUPS of subjects without child subjects
 					    //Author: Kavish Manjkhola
 					    //Created on : 07-Feb-2011
-					    //Copyright 2008-2011: Chalkpad Technologies Pvt. Ltd.
+					    //Copyright 2008-2011: syenergy Technologies Pvt. Ltd.
 					    //--------------------------------------------------------------
 					    ?>
                         parentSubjectCtr = 0;
@@ -300,7 +300,7 @@ tableData +='<td width="'+spacePerGroup+'" '+colspan+' '+talign+' class="searchh
 					    //Purpose: To Populate Students of a particular class and check for the groups allotted to them
 					    //Author: Kavish Manjkhola
 					    //Created on : 07-Feb-2011
-					    //Copyright 2008-2011: Chalkpad Technologies Pvt. Ltd.
+					    //Copyright 2008-2011: syenergy Technologies Pvt. Ltd.
 					    //---------------------------------------------------------------------------------------------
 					    ?>
 					    totalStudentCount = j['studentDetails'].length;

@@ -5,7 +5,7 @@
 // HistogramLabelManager is used having all the Add, edit, delete function..
 // Author : Jaineesh
 // Created on : 14.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
   include_once(DA_PATH ."/SystemDatabaseManager.inc.php");
@@ -28,7 +28,7 @@
 //addHistogramLabel() is used to add new record in database.
 // Author : Jaineesh
 // Created on : 22.10.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function addHistogramLabel() {
@@ -43,7 +43,7 @@
 //editHistogramLabel() is used to edit the existing record through id.
 //Author : Jaineesh
 // Created on : 22.10.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function editHistogramLabel($id) {
@@ -56,7 +56,7 @@
 //deleteHistogramLabel() is used to delete the existing record through id.
 //Author : Jaineesh
 // Created on : 22.10.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------  
     public function deleteHistogramLabel($histogramId) {
@@ -72,7 +72,7 @@
 //getHistogramLabel() is used to get the list of data 
 //Author : Jaineesh
 // Created on : 22.10.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getHistogramLabel($conditions='') {
@@ -87,7 +87,7 @@
 //getHistogramLabelList() is used to get the list of data order by name.
 //Author : Jaineesh
 // Created on : 22.10.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getHistogramLabelList($conditions='', $limit = '', $orderBy='histogramLabel') {
@@ -103,7 +103,7 @@
 //getTotalHistogramLabel() is used to get total no. of records
 //Author : Jaineesh
 // Created on : 22.10.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     

@@ -4,7 +4,7 @@
 //
 // Author : Pushpender Kumar Chauhan
 // Created on : (09.06.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -379,7 +379,7 @@ if($instituteCountArray[0]['instituteCount']>CLIENT_INSTITUTES){
     $homePage=HTTP_PATH.'/Interface/index.php';
     require_once(BL_PATH . "/UtilityManager.inc.php");
     //send mail to admin
-    $msgBody="Client ".CLIENT_NAME." has created ".$instituteCountArray[0]['instituteCount']." no. of  institutes, whereas the product 'chalkpad' was bought for ".CLIENT_INSTITUTES." no. of institutes only";
+    $msgBody="Client ".CLIENT_NAME." has created ".$instituteCountArray[0]['instituteCount']." no. of  institutes, whereas the product 'syenergy' was bought for ".CLIENT_INSTITUTES." no. of institutes only";
     $msgSubject="LIVE DATABASE for ".CLIENT_NAME." TAMPERED";
     $headers = 'From: '.ADMIN_MSG_EMAIL.' '. "\r\n" ;
     $headers .= 'Content-type: text/html;'; 

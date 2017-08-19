@@ -5,7 +5,7 @@
     //
     // Author : Parveen Sharma
     // Created on : (21.7.2008 )
-    // Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------
 
@@ -135,7 +135,7 @@ $msgBody = "<html>
     //$conditions :db clauses
     // Author :Parveen Sharma 
     // Created on : (19.7.2008)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------  
      function sendSMS($mobileNo, $message) {
@@ -165,7 +165,7 @@ $msgBody = "<html>
     //$conditions :db clauses
     // Author :Parveen Sharma 
     // Created on : (8.7.2008)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------  
     function sendEmail($from,$to,$msgSubject,$msgBody,$img){           
@@ -235,7 +235,7 @@ $msgBody = "<html>
     //$conditions :db clauses
     // Author :Parveen Sharma 
     // Created on : (19.07.2008)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //---------------------------------------------------------------------------------------------------------------         
      function adminMessageEmailSMSRecord($conditions='') {
@@ -250,7 +250,7 @@ $msgBody = "<html>
     //$conditions :db clauses
     // Author :Parveen Sharma 
     // Created on : (21.7.2008)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //-------------------------------------------------------------------------------------  
     $smsArr=array();  //will contain smss(each of sms_max_length or less)

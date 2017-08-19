@@ -5,7 +5,7 @@
 //
 // Author :Arvind Singh Rawat
 // Created on : 12-June-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;
@@ -20,7 +20,7 @@ class BatchManager {
 //
 // Author :Arvind Singh Rawat
 // Created on : 12-June-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -34,7 +34,7 @@ class BatchManager {
 //
 // Author :Arvind Singh Rawat
 // Created on : 12-June-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public static function getInstance() {
@@ -49,7 +49,7 @@ class BatchManager {
 //
 // Author :Arvind Singh Rawat
 // Created on : 12-June-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -67,7 +67,7 @@ class BatchManager {
 //
 // Author :Arvind Singh Rawat
 // Created on : 12-June-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -83,7 +83,7 @@ class BatchManager {
 //
 // Author :Arvind Singh Rawat
 // Created on : 12-June-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -110,7 +110,7 @@ class BatchManager {
 //
 // Author :Arvind Singh Rawat
 // Created on : 12-June-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -126,7 +126,7 @@ class BatchManager {
 //
 // Author :Arvind Singh Rawat
 // Created on : 12-June-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -156,7 +156,7 @@ class BatchManager {
 //
 // Author :Arvind Singh Rawat
 // Created on : 12-June-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 

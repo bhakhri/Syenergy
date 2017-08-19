@@ -3,7 +3,7 @@
 //
 // Author :Jaineesh
 // Created on : 17-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 

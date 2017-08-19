@@ -3,7 +3,7 @@
 // THIS FILE is used for assigning survey to emps/student/parents
 // Author : Dipanjan Bhattacharjee
 // Created on : (13.01.2010)
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //----------------------------------------------------------------------------
 global $FE;
 require_once($FE . "/Library/common.inc.php");
@@ -46,7 +46,7 @@ var flag = false; // for whether the record has been added or not, if flag is tr
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------
 function  selectCheckBoxes(id){
@@ -102,7 +102,7 @@ function checkAtleastOneCheckBoxChecked(targetDiv,chkName){
 //
 //Author :Mridula
 // Created on : (21.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function showHelpDetails(title,msg) {
@@ -128,7 +128,7 @@ function showHelpDetails(title,msg) {
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (21.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function hide_div(id,mode){
@@ -812,7 +812,7 @@ function hideDetails() {
 //act:type of operations(Add/Edit)
 //Author : Dipanjan Bhattacharjee
 // Created on : (21.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -866,7 +866,7 @@ else{
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (30.12.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function assignSurveyStudent() {
@@ -954,7 +954,7 @@ function assignSurveyStudent() {
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (30.12.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function assignSurveyParent() {
@@ -1041,7 +1041,7 @@ function validateEmployeeForm() {
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (30.12.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function assignSurveyEmployee() {
@@ -1095,7 +1095,7 @@ function assignSurveyEmployee() {
 //Pupose:To reset form after data submission
 //Author: Dipanjan Bhattacharjee
 //Date : 5.08.2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------------------
 function resetForm1(){
@@ -1126,7 +1126,7 @@ var feedBackTypeFlag=0;
 //THIS FUNCTION IS USED TO POPULATE "editCity" DIV
 //Author : Dipanjan Bhattacharjee
 // Created on : (12.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 function fetchMappedSurveyLabels(val) {
          applicableToFlag=0;

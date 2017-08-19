@@ -6,7 +6,7 @@
 //
 // Author :Nishu Bindal
 // Created on : 16-April-2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -31,7 +31,7 @@ class CanceledReceiptsManager {
 //  This function is used to fetch all branches
 // Author :Nishu Bindal
 // Created on : 21-Mar-2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     
@@ -51,7 +51,7 @@ class CanceledReceiptsManager {
 //  This function is used to fetch all batches
 // Author :Nishu Bindal
 // Created on : 21-Mar-2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     public function fetchAllBatches($condition){
@@ -69,7 +69,7 @@ class CanceledReceiptsManager {
 //  This function is used to fetch all Classes
 // Author :Nishu Bindal
 // Created on : 21-Mar-2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     public function fetchClases($condition = ''){
@@ -84,7 +84,7 @@ class CanceledReceiptsManager {
 //  This function is used to fetch Payment Details Count Of Student Fee
 // Author :Nishu Bindal
 // Created on : 16-April-2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -119,7 +119,7 @@ class CanceledReceiptsManager {
 //  This function is used to fetch Payment Details Of Student Fee
 // Author :Nishu Bindal
 // Created on : 16-April-2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
  public function getPaymentHistoryDetails($filter='',$limit='',$sortOrderBy='',$sortField=''){
@@ -233,7 +233,7 @@ class CanceledReceiptsManager {
 //  This function is used to fetch Payment Details Of Student Fee Print
 // Author :Nishu Bindal
 // Created on : 16-April-2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 	public function getPaymentHistoryDetailsPrint($filter,$sortOrderBy,$sortField){
@@ -278,7 +278,7 @@ class CanceledReceiptsManager {
 //  This function is used to get Student Receipt Details 
 // Author :Nishu Bindal
 // Created on : 16-April-2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------	
 	public function getReceiptDetails($receiptNo,$condition){
@@ -327,7 +327,7 @@ class CanceledReceiptsManager {
 //  This function is used to fetch Payment Details (CASH,DD, cheque) Of Student Fee
 // Author :Nishu Bindal
 // Created on : 16-April-2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------	
 	public function getPaymentDetails($receiptNo,$condition){
 		$query = "SELECT
@@ -345,7 +345,7 @@ class CanceledReceiptsManager {
 //  This function is used for Logical Delete of feeReceiptDetails data
 // Author :Nishu Bindal
 // Created on : 16-April-2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 	public function deleteFromReceiptDetails($feeReceiptId,$receiptNo,$reason){
@@ -365,7 +365,7 @@ class CanceledReceiptsManager {
 //  This function is used for Logical Delete of `fee_head_collection_new` data
 // Author :Nishu Bindal
 // Created on : 16-April-2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------	
 	public function deleteFromHeadCollection($feeReceiptId,$receiptNo,$reason){
@@ -384,7 +384,7 @@ class CanceledReceiptsManager {
 //  This function is used To get Total Amount paid in previous installments
 // Author :Nishu Bindal
 // Created on : 16-April-2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 	public function getTotalAlreadyPaid($feeReceiptId,$installmentNo){
@@ -401,7 +401,7 @@ class CanceledReceiptsManager {
 //  This function is used To get Prev Total Fine in previous installments
 // Author :Nishu Bindal
 // Created on : 16-April-2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 	public function getTotalPrevFine($feeReceiptId,$installmentNo){

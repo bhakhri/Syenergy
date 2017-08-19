@@ -4,7 +4,7 @@
 //
 // Author : Jaineesh
 // Created on : (.6.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;
@@ -71,7 +71,7 @@ var cdate = "<?php echo date('Y-m-d'); ?>";
 //act : action value of the button (add/edit)
 //Author : Jaineesh
 // Created on : (24.11.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function validateAddForm(frm, act) {
@@ -202,7 +202,7 @@ function validateAddForm(frm, act) {
 //
 //Author : Jaineesh
 // Created on : (26.11.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function addInsuranceClaim() {
@@ -301,7 +301,7 @@ function showHelpDetails(title,msg) {
 //
 //Author : Jaineesh
 // Created on : (12.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -345,7 +345,7 @@ function deleteInsuranceClaim(id) {
 //
 //Author : Jaineesh
 // Created on : (12.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
  
@@ -369,7 +369,7 @@ function blankValues() {
 //
 //Author : Jaineesh
 // Created on : (26.11.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -444,7 +444,7 @@ function editInsuranceClaim() {
 // 
 //Author : Jaineesh
 // Created on : (26.11.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function populateValues(id) {
@@ -498,7 +498,7 @@ function populateValues(id) {
 // 
 //Author : Jaineesh
 // Created on : (30.12.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -545,7 +545,7 @@ function getVehicleDetails() {
 // 
 //Author : Jaineesh
 // Created on : (30.12.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -602,7 +602,7 @@ function getEditVehicleDetails(id) {
 // 
 //Author : Jaineesh
 // Created on : (22.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -617,7 +617,7 @@ function getSelfExpenses() {
 // 
 //Author : Jaineesh
 // Created on : (22.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -641,7 +641,7 @@ function getEditSelfExpenses() {
 // 
 //Author : Jaineesh
 // Created on : (30.12.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -671,7 +671,7 @@ function getNcbDetails() {
 // 
 //Author : Jaineesh
 // Created on : (30.12.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 

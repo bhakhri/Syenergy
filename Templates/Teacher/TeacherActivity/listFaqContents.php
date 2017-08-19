@@ -5,7 +5,7 @@
 //
 // Author :Dipanjan Bhattacharjee
 // Created on : 12.07.2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 ?>
@@ -580,7 +580,7 @@
 				  </div>                         
 				</div> 
 
-				<div class="dhtmlgoodies_question">How can I see the data about me as entered in Chalkpad? </div>
+				<div class="dhtmlgoodies_question">How can I see the data about me as entered in syenergy? </div>
 				<div class="dhtmlgoodies_answer">
 					<div>
 				Click on link Employee Information. The personal data about you will be displayed. 
@@ -616,7 +616,7 @@
 				<div class="dhtmlgoodies_question">How can I share some interesting teaching material with the students ? </div>
 				<div class="dhtmlgoodies_answer">
 					<div>
-					When a teacher finds some document of interest to students, it is important to share it with the students. Chalkpad provides an easy way to share this material. This can be done by using the link Messaging  » Upload Course Resource. 
+					When a teacher finds some document of interest to students, it is important to share it with the students. syenergy provides an easy way to share this material. This can be done by using the link Messaging  » Upload Course Resource. 
 				<br>
 				<div style="margin-top:5px; margin-bottom:5px;"><img src="<?php echo IMG_HTTP_PATH.'/faq'?>/image054.png"></div>
 				<br>	
@@ -755,7 +755,7 @@
 				<div class="dhtmlgoodies_question">I am having multiple roles in the organization. In some departments I am a teacher while in another I am an HOD. Is there a simple way to switch between these roles without logging out of the application and then logging in again ? </div>
 				<div class="dhtmlgoodies_answer">
 					<div>
-					At the top of Chalkpad you will see two drop downs containing list of institutes to which you can log on and roles assigned to you 
+					At the top of syenergy you will see two drop downs containing list of institutes to which you can log on and roles assigned to you 
 				<br>
 				<div style="margin-top:5px; margin-bottom:5px;"><img src="<?php echo IMG_HTTP_PATH.'/faq'?>/image071.png"></div>  	
 				<br>
@@ -765,7 +765,7 @@
 				<div class="dhtmlgoodies_question">I am teaching in multiple institutes in a mult-campus organization setup and have different time tables in them. Is there a way to easily switch between the institutes without logging out of the application and then logging in back again ? </div>
 				<div class="dhtmlgoodies_answer">
 					<div>
-					At the top of Chalkpad you will see two drop downs containing list of institutes to which you can log on and roles assigned to you 
+					At the top of syenergy you will see two drop downs containing list of institutes to which you can log on and roles assigned to you 
 				<br>
 				<div style="margin-top:5px; margin-bottom:5px;"><img src="<?php echo IMG_HTTP_PATH.'/faq'?>/image071.png"></div>  	
 				<br>

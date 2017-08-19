@@ -4,7 +4,7 @@
 //  This File contains Bussiness Logic of the CONSOLIDATED FEE DETAILS
 // Author :Nishu Bindal
 // Created on : 16-April-2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -29,7 +29,7 @@ class ConsolidatedFeeDetailsManager {
 //  This function is used to fetch Study Period
 // Author :Nishu Bindal
 // Created on : 21-Mar-2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
     
       public function fetchStudyPeriod($condition=''){
@@ -48,7 +48,7 @@ class ConsolidatedFeeDetailsManager {
 //  This function is used to fetch Payment Details  Of Student Fee
 // Author :Nishu Bindal
 // Created on : 16-April-2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 

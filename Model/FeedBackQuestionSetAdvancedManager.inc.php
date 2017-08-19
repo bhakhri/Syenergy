@@ -5,7 +5,7 @@
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008 )
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -19,7 +19,7 @@ class FeedBackQuestionSetAdvancedManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
 	private function __construct() {
@@ -30,7 +30,7 @@ class FeedBackQuestionSetAdvancedManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 	public static function getInstance() {
@@ -45,7 +45,7 @@ class FeedBackQuestionSetAdvancedManager {
 // THIS FUNCTION IS USED FOR ADDING An Adv. Feedback Question Set
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //------------------------------------------------------------------    
     public function addAdvFeedbackQuestionSet($setName) {
         global $sessionHandler;
@@ -75,7 +75,7 @@ class FeedBackQuestionSetAdvancedManager {
 // THIS FUNCTION IS USED FOR Editing An Adv. Feedback Question Set 
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------    
     public function editAdvFeedbackQuestionSet($setId,$setName) {
         //instituteId will not be updated to prevent : Question set cannot span across multiple institutes.
@@ -94,7 +94,7 @@ class FeedBackQuestionSetAdvancedManager {
 // $conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------         
     public function getFeedbackQuestionSet($conditions='') {
      
@@ -118,7 +118,7 @@ class FeedBackQuestionSetAdvancedManager {
 // $conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------         
     public function getQuestionSetUsage($setId) {
         
@@ -141,7 +141,7 @@ class FeedBackQuestionSetAdvancedManager {
 // THIS FUNCTION IS USED FOR DELETING An Adv. Question Set
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------------------------------------------------------      
     public function deleteQuestionSet($setId) {
      
@@ -160,7 +160,7 @@ class FeedBackQuestionSetAdvancedManager {
 // orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------       
     public function getFeedbackQuestionSetList($conditions='', $limit = '', $orderBy=' qs.feedbackQuestionSetName') {
         global $sessionHandler;
@@ -186,7 +186,7 @@ class FeedBackQuestionSetAdvancedManager {
 // $conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------      
     public function getTotalFeedbackQuestionSet($conditions='') {
         global $sessionHandler;

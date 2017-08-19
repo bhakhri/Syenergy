@@ -5,7 +5,7 @@
 //
 // Author :Ajinder Singh
 // Created on : 29-05-2009
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -1004,7 +1004,7 @@ function addTimeTableLabel() {
 //  id=busRouteId
 //Author : Dipanjan Bhattacharjee
 // Created on : (30.09.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function deleteTimeTableLabel(id) {
@@ -1044,7 +1044,7 @@ function deleteTimeTableLabel(id) {
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (30.09.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function blankTimeTableLabelValues() {
@@ -1061,7 +1061,7 @@ function blankTimeTableLabelValues() {
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (30.09.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function editTimeTableLabel() {
@@ -1124,7 +1124,7 @@ function editTimeTableLabel() {
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (30.09.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function populateTimeTableLabelValues(id) {

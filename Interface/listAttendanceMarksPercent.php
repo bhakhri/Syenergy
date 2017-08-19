@@ -3,7 +3,7 @@
 // Purpose: To generate Attendance Marks Percent functionality
 // Author : Parveen Sharma
 // Created on : 27-01-09
-// Copyright 2009-2010: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2009-2010: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 global $FE;
 require_once($FE . "/Library/common.inc.php");

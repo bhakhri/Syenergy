@@ -3,7 +3,7 @@
 //  THIS FILE IS USED FOR DB OPERATION FOR "tfeedback_survey" TABLE
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.11.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------
 
@@ -18,7 +18,7 @@ class FeedBackManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
     private function __construct() {
@@ -29,7 +29,7 @@ class FeedBackManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
     public static function getInstance() {
@@ -47,7 +47,7 @@ class FeedBackManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
     public function addFeedBackLabel() {
@@ -69,7 +69,7 @@ class FeedBackManager {
 //$id:busRouteId
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------        
     public function editFeedBackLabel($id) {
@@ -96,7 +96,7 @@ class FeedBackManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getFeedBackLabel($conditions='') {
@@ -123,7 +123,7 @@ class FeedBackManager {
 //$feedBackLabelId :feedBackLabelId of the feedback label
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteFeedBackLabel($feedBackLabelId) {
@@ -142,7 +142,7 @@ class FeedBackManager {
 //orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -164,7 +164,7 @@ class FeedBackManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalFeedBackLabel($conditions='') {
@@ -184,7 +184,7 @@ class FeedBackManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function makeAllFeedBackLabelInActive($conditions='') {
@@ -209,7 +209,7 @@ class FeedBackManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
     public function addFeedBackCategory() {
@@ -228,7 +228,7 @@ class FeedBackManager {
 //$id:busRouteId
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------        
     public function editFeedBackCategory($id) {
@@ -247,7 +247,7 @@ class FeedBackManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------         
     public function getFeedBackCategory($conditions='') {
@@ -273,7 +273,7 @@ class FeedBackManager {
 //$FeedBackCategoryId :FeedBackCategoryId of the FeedBack Category
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteFeedBackCategory($feedBackCategoryId) {
@@ -289,7 +289,7 @@ class FeedBackManager {
 //$FeedBackCategoryId :FeedBackCategoryId of the FeedBack Category
 // Author :Dipanjan Bhattacharjee 
 // Created on : (11.06.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------------------------------------------------------      
     public function checkFeedBackCategory($feedBackCategoryId) {
      
@@ -310,7 +310,7 @@ class FeedBackManager {
 //orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -339,7 +339,7 @@ class FeedBackManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalFeedBackCategory($conditions='') {
@@ -366,7 +366,7 @@ class FeedBackManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (15.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
     public function addFeedBackGrades() {
@@ -384,7 +384,7 @@ class FeedBackManager {
 //$id:busRouteId
 // Author :Dipanjan Bhattacharjee 
 // Created on : (15.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------        
     public function editFeedBackGrades($id) {
@@ -402,7 +402,7 @@ class FeedBackManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (15.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------         
     public function getFeedBackGrades($conditions='') {
@@ -419,7 +419,7 @@ class FeedBackManager {
 //$FeedBackGradesId :FeedBackGradesId of the FeedBack Grades
 // Author :Dipanjan Bhattacharjee 
 // Created on : (15.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteFeedBackGrades($feedbackGradeId) {
@@ -438,7 +438,7 @@ class FeedBackManager {
 //orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (15.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -465,7 +465,7 @@ class FeedBackManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (15.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalFeedBackGrades($conditions='') {
@@ -487,7 +487,7 @@ class FeedBackManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (15.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------       
     
@@ -512,7 +512,7 @@ class FeedBackManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (15.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------       
     
@@ -537,7 +537,7 @@ class FeedBackManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (13.01.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------       
     
@@ -566,7 +566,7 @@ class FeedBackManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (15.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
     public function addFeedBackQuestions() {
@@ -584,7 +584,7 @@ class FeedBackManager {
 //$id:busRouteId
 // Author :Dipanjan Bhattacharjee 
 // Created on : (15.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------        
     public function editFeedBackQuestions($id) {
@@ -602,7 +602,7 @@ class FeedBackManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (15.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------         
     public function getFeedBackQuestions($conditions='') {
@@ -619,7 +619,7 @@ class FeedBackManager {
 //$FeedBackQuestionsId :FeedBackQuestionsId of the FeedBack Question
 // Author :Dipanjan Bhattacharjee 
 // Created on : (15.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteFeedBackQuestions($feedbackQuestionId) {
@@ -638,7 +638,7 @@ class FeedBackManager {
 //orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (15.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------       
     
@@ -690,7 +690,7 @@ class FeedBackManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (15.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalFeedBackQuestions($conditions='') {
@@ -722,7 +722,7 @@ class FeedBackManager {
 //$conditions :db clauses
 // Author :Jaineesh 
 // Created on : (15.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------------------------- 
     public function getCheckFeedBackLabel($conditions='') {
@@ -742,7 +742,7 @@ class FeedBackManager {
 //$conditions :db clauses
 // Author :Jaineesh 
 // Created on : (15.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------------------------- 
     
@@ -796,7 +796,7 @@ class FeedBackManager {
 //orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -825,7 +825,7 @@ class FeedBackManager {
 //orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -852,7 +852,7 @@ class FeedBackManager {
 //orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (15.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------       
     
@@ -890,7 +890,7 @@ class FeedBackManager {
 //orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (15.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------       
     
@@ -926,7 +926,7 @@ class FeedBackManager {
 //orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (15.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------       
     
@@ -959,7 +959,7 @@ class FeedBackManager {
 //orderBy:sort on which column
 // Author :Rajeev Aggarwal 
 // Created on : (19.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------       
     
@@ -1017,7 +1017,7 @@ class FeedBackManager {
 //
 // Author :Jaineesh
 // Created on : 10-11-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------------------------------------------------------------------------------
   public function getFeedBackData($condition) {

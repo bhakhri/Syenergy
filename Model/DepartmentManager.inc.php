@@ -5,7 +5,7 @@
 //
 // Author :Jaineesh 
 // Created on : (20.11.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -18,7 +18,7 @@ class DepartmentManager {
 //
 // Author : Jaineesh 
 // Created on : (20.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
     private function __construct() {
@@ -29,7 +29,7 @@ class DepartmentManager {
 //
 // Author :Jaineesh 
 // Created on : (20.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
     public static function getInstance() {
@@ -45,7 +45,7 @@ class DepartmentManager {
 //
 // Author :Jaineesh 
 // Created on : (20.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
     public function addDepartment() {
@@ -62,7 +62,7 @@ class DepartmentManager {
 //$id:departmentId
 // Author :Jaineesh
 // Created on : (13.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------        
     public function editDepartment($id) {
@@ -76,7 +76,7 @@ class DepartmentManager {
 //
 // Author :Jaineesh
 // Created on : (20.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getDepartment($conditions='') {
@@ -94,7 +94,7 @@ class DepartmentManager {
 //$departmentId :departmentid of the City
 // Author :Jaineesh
 // Created on : (20.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteDepartment($departmentId) {
@@ -113,7 +113,7 @@ class DepartmentManager {
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (20.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -145,7 +145,7 @@ class DepartmentManager {
 //$conditions :db clauses
 // Author :Jaineesh
 // Created on : (20.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalDepartment($conditions='') {
@@ -175,7 +175,7 @@ class DepartmentManager {
 //
 // Author :Jaineesh
 // Created on : (20.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function checkDepartmentInNotice($conditions='') {

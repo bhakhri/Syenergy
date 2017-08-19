@@ -3,7 +3,7 @@
 //  THIS FILE IS USED FOR DB OPERATION FOR "period_slot" TABLE
 // Author :Jaineesh 
 // Created on : (15.12.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------
 
@@ -18,7 +18,7 @@ class PeriodSlotManager {
 //
 // Author : Jaineesh 
 // Created on : (15.12.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
 	private function __construct() {
@@ -29,7 +29,7 @@ class PeriodSlotManager {
 //
 // Author :Jaineesh 
 // Created on : (15.12.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 	public static function getInstance() {
@@ -45,7 +45,7 @@ class PeriodSlotManager {
 //
 // Author : Jaineesh
 // Created on : (15.12.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
 	public function addPeriodSlot() {
@@ -63,7 +63,7 @@ class PeriodSlotManager {
 //$id:periodSlotId
 // Author : Jaineesh 
 // Created on : (15.12.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------        
     public function editPeriodSlot($id) {
@@ -79,7 +79,7 @@ class PeriodSlotManager {
 //$conditions :db clauses
 // Author : Jaineesh
 // Created on : (15.12.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getPeriodSlot($conditions='') {
@@ -107,7 +107,7 @@ class PeriodSlotManager {
 //$periodSlotId :periodSlotId of the PEROD SLOT
 // Author :Jaineesh
 // Created on : (15.12.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deletePeriodSlot($periodSlotId) {
@@ -126,7 +126,7 @@ class PeriodSlotManager {
 //orderBy:sort on which column
 // Author :Jaineesh 
 // Created on : (15.12.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -160,7 +160,7 @@ class PeriodSlotManager {
 //$conditions :db clauses
 // Author :Jaineesh
 // Created on : (15.12.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalPeriodSlotDetail($conditions='') {
@@ -185,7 +185,7 @@ class PeriodSlotManager {
 //$conditions :db clauses
 // Author :Jaineesh
 // Created on : (15.12.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function makeAllPeriodSlotInActive($conditions='') {
@@ -213,7 +213,7 @@ class PeriodSlotManager {
 //$conditions :db clauses
 // Author :Jaineesh
 // Created on : (15.12.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getPeriodSlotIdActive($conditions='') {
@@ -240,7 +240,7 @@ class PeriodSlotManager {
 // $condition - used to check the condition of the table
 // Author : Jaineesh
 // Created on : 14.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------- 
     public function getPeriodSlotId($conditions='') {

@@ -3,7 +3,7 @@
 // THIS FILE IS USED AS TEMPLATE FOR feed back grades 
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.1.2010 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(BL_PATH.'/HtmlFunctions.inc.php');

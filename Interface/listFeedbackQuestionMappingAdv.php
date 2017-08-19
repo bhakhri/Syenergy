@@ -3,7 +3,7 @@
 // THIS FILE SHOWS A LIST OF FEED BACK Questions(ADV) and their mapping
 // Author : Dipanjan Bhattacharjee
 // Created on : (11.01.2010 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------
 global $FE;
 require_once($FE . "/Library/common.inc.php");
@@ -89,7 +89,7 @@ function getQuestionData(){
 //act:type of operations(Add/Edit)
 //Author : Dipanjan Bhattacharjee
 // Created on : (11.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function validateAddForm() {
@@ -121,7 +121,7 @@ function validateAddForm() {
 // THIS FUNCTION IS USED TO Mapp questions with label and category
 // Author : Dipanjan Bhattacharjee
 // Created on : (11.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //----------------------------------------------------------------------
 function doQuestionMapping() {
          var url = '<?php echo HTTP_LIB_PATH;?>/FeedbackAdvanced/ajaxAdvFeedBackQuestionsMapping.php';

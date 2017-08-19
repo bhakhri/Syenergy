@@ -3,7 +3,7 @@
 //The file contains data base functions for geating students 
 // Author :Nishu Bindal
 // Created on : 10.05.12
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
    
 	global $FE;

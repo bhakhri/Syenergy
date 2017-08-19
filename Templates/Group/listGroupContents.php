@@ -5,7 +5,7 @@
 //
 // Author :&nbsp;Jaineesh
 // Created on :&nbsp; (14.06.2008)
-// Copyright 2008-2000:&nbsp; Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000:&nbsp; syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(TEMPLATES_PATH . "/breadCrumb.php");

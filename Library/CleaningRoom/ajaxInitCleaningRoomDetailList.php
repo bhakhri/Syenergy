@@ -5,7 +5,7 @@
 //
 // Author : Jaineesh
 // Created on : (01.05.09)
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 

@@ -3,7 +3,7 @@
 // THIS FILE IS USED TO upload files when an user send message to employees
 // Author : Dipanjan Bhattacharjee
 // Created on : (11.05.2010)
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //----------------------------------------------------------------------------------------------
 set_time_limit(0);
 global $FE;

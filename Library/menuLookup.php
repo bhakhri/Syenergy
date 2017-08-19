@@ -4,7 +4,7 @@
 // pages according to the user input
 // Author : Abhiraj
 // Created on : (08.03.2011)
-// Copyright 2008-2001: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2001: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 global $FE;
 require_once($FE . "/Library/common.inc.php");

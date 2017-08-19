@@ -3,7 +3,7 @@
 //  THIS FILE IS USED FOR DB OPERATION FOR "advfeedback_answer_set" table
 // Author :Gurkeerat Sidhu 
 // Created on : (08.01.2010)
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -16,7 +16,7 @@ class FeedbackLabelManager {
 //
 // Author :Gurkeerat Sidhu 
 // Created on : (08.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
     private function __construct() {
@@ -27,7 +27,7 @@ class FeedbackLabelManager {
 //
 // Author :Gurkeerat Sidhu 
 // Created on : (08.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
     public static function getInstance() {
@@ -46,7 +46,7 @@ class FeedbackLabelManager {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (08.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getFeedBackLabel($conditions='') {
@@ -77,7 +77,7 @@ class FeedbackLabelManager {
 //
 // Author :Gurkeerat Sidhu 
 // Created on : (08.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
     public function addFeedBackLabel($labelName,$timeTableLabelId,$isActive,$startDate,$toDate,$noOfAttempts,$roleId,$extendDate) {
@@ -102,7 +102,7 @@ class FeedbackLabelManager {
 //$id:busRouteId
 // Author :Gurkeerat Sidhu 
 // Created on : (08.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------        
     public function editFeedBackLabel($labelId,$labelName,$timeTableLabelId,$isActive,$startDate,$toDate,$noOfAttempts,$roleId,$usage,$extendDate) {
@@ -171,7 +171,7 @@ class FeedbackLabelManager {
 //$feedBackLabelId :feedBackLabelId of the feedback label
 // Author :Gurkeerat Sidhu 
 // Created on : (08.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteFeedBackLabel($feedBackLabelId) {
@@ -191,7 +191,7 @@ class FeedbackLabelManager {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (08.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalFeedBackLabel($conditions='') {
@@ -219,7 +219,7 @@ class FeedbackLabelManager {
 //orderBy:sort on which column
 // Author :Gurkeerat Sidhu 
 // Created on : (08.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -273,7 +273,7 @@ class FeedbackLabelManager {
 // $conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (12.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------- 
     public function checkFeedBackLabelUsage($conditions='') {
         
@@ -294,7 +294,7 @@ class FeedbackLabelManager {
 //
 // Author :Gurkeerat Sidhu 
 // Created on : (08.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------- 
 //public function addToClass($feedbackSurveyId,$classId) {
@@ -312,7 +312,7 @@ public function addToClass($insQuery) {
 //$cityId :cityid of the City
 // Author :Gurkeerat Sidhu 
 // Created on : (08.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteToClass($feedbackSurveyId) {
@@ -329,7 +329,7 @@ public function addToClass($insQuery) {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (08.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getToClass($conditions='') {
@@ -351,7 +351,7 @@ public function addToClass($insQuery) {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (03.02.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function checkFeedbackLabelInSurveyMapping($conditions='') {
@@ -369,7 +369,7 @@ public function addToClass($insQuery) {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (03.02.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function checkFeedbackLabelInAnswer($labelId) {
@@ -395,7 +395,7 @@ public function addToClass($insQuery) {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (03.02.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getMaxDate($labelId) {
@@ -421,7 +421,7 @@ public function addToClass($insQuery) {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (03.02.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
   /*  public function getValueForTeacherMapping() {
@@ -493,7 +493,7 @@ public function addToClass($insQuery) {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (03.02.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function countTeacherMapping($concatStr) {
@@ -517,7 +517,7 @@ public function addToClass($insQuery) {
 //
 // Author :Gurkeerat Sidhu 
 // Created on : (12.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
   

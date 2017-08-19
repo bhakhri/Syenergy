@@ -4,7 +4,7 @@
 // THIS FILE IS USED TO upload student photo from student login 
 // Author : Dipanjan Bhattacharjee
 // Created on : (14.06.2010)
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------
 set_time_limit(0);
 global $FE;

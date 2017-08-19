@@ -3,7 +3,7 @@
 // Purpose: To delete fee cycle detail
 // Author : Nishu Bindal
 // Created on : (14.03.2012 )
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 

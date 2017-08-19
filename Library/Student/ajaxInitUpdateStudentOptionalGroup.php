@@ -3,7 +3,7 @@
 // This File contains Validation and ajax function used for group change
 // Author :Dipanjan Bhattacharjee
 // Created on : 07-Mar-2009
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 set_time_limit(0);
 global $FE;

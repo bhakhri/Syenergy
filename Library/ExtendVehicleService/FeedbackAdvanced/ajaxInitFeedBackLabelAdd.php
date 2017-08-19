@@ -3,7 +3,7 @@
 // THIS FILE IS USED TO ADD A FeedBack
 // Author : Gurkeerat Sidhu
 // Created on : (08.01.2010 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;

@@ -5,7 +5,7 @@
 //EmployeeManager is used having all the Add, edit, delete function..
 // Author : Gurkeerat Sidhu
 // Created on : 29.04.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
   include_once(DA_PATH ."/SystemDatabaseManager.inc.php");
@@ -28,7 +28,7 @@
 //addDesignation() is used to add new record in database.
 // Author : Gurkeerat Sidhu
 // Created on : 29.04.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function addDesignation() {
@@ -42,7 +42,7 @@
 //editDesignation() is used to edit the existing record through id.
 //Author : Gurkeerat Sidhu
 // Created on : 29.04.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function editDesignation($id) {
@@ -55,7 +55,7 @@
 //deleteDesignation() is used to delete the existing record through id.
 //Author : Gurkeerat Sidhu
 // Created on : 29.04.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------  
     public function deleteDesignation($tempDesignationId) {
@@ -71,7 +71,7 @@
 //getDesignation() is used to get the list of data 
 //Author : Gurkeerat Sidhu
 // Created on : 29.04.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getDesignation($conditions='') {
@@ -86,7 +86,7 @@
 //getDesignationList() is used to get the list of data order by name.
 //Author : Gurkeerat Sidhu
 // Created on : 29.04.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getDesignationList($conditions='', $limit = '', $orderBy='designationName') {
@@ -102,7 +102,7 @@
 //getTotalDesignation() is used to get total no. of records
 //Author : Gurkeerat Sidhu
 // Created on : 29.04.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     

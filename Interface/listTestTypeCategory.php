@@ -4,7 +4,7 @@
 //
 // Author : Jaineesh
 // Created on : (22.12.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;
@@ -95,7 +95,7 @@ function getTestTypeCategoryData(){
 //h:height of the div
 //Author : Jaineesh
 // Created on : (22.12.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -113,7 +113,7 @@ function editWindow(id,dv,w,h) {
 //act : action value of the button (add/edit)
 //Author : Jaineesh
 // Created on : (15.12.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function validateAddForm(frm, act) {   
@@ -174,7 +174,7 @@ function emptySlotId() {
 //
 //Author : Jaineesh
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function addTestTypeCategory() {
@@ -238,7 +238,7 @@ function addTestTypeCategory() {
 //  id=testTypeCategoryId
 //Author : Jaineesh
 // Created on : (15.12.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function deleteTestTypeCategory(id) {
@@ -277,7 +277,7 @@ function deleteTestTypeCategory(id) {
 //
 //Author : Jaineesh
 // Created on : (22.12.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------
 
@@ -302,7 +302,7 @@ function blankValues() {
 //
 //Author : Jaineesh
 // Created on : (22.12.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function editTestTypeCategory() {
@@ -360,7 +360,7 @@ function editTestTypeCategory() {
 //
 //Author : Jaineesh
 // Created on : (22.12.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function populateValues(id) {

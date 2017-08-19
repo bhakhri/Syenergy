@@ -4,7 +4,7 @@
 //
 // Author : Parveen Sharma
 // Created on : 10.12.2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;
@@ -532,7 +532,7 @@ function initAdd() {
 //
 //Author : Rajeev Aggarwal
 // Created on : (17.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------------------------------------------
 //id:id 
@@ -544,7 +544,7 @@ function initAdd() {
 //
 //Author : Aditi Miglani
 // Created on : (04.11.2011)
-// Copyright 2011-2012 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2011-2012 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function populateDutyLeaveValues(id) {

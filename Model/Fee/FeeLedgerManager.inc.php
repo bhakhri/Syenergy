@@ -4,7 +4,7 @@
 //
 // Author :Nishu Bindal
 // Created on : (28.03.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -17,7 +17,7 @@ class FeeLedgerManager {
 //
 // Author :Nishu Bindal
 // Created on : (28.03.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------
 	private function __construct() {
@@ -28,7 +28,7 @@ class FeeLedgerManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------    
 	public static function getInstance() {
@@ -43,7 +43,7 @@ class FeeLedgerManager {
 // THIS FUNCTION IS USED FOR Student FEE DETAILS
 // Author :NISHU BINDAL
 // Created on : (28.MAR.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------      
     public function getStudentLedger($regRollNo) {          
         $query = "
@@ -120,7 +120,7 @@ class FeeLedgerManager {
 // THIS FUNCTION IS USED TO INSERT DBIT/CREDIT
 // Author :NISHU BINDAL
 // Created on : (28.MAR.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
     public function addDebitCredit($classId,$studentId,$comments,$debit,$credit,$feeCycleId,$ledgerTypeId) {

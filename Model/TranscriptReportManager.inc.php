@@ -4,7 +4,7 @@
 //StudentReportsManager .
 // Author : Jaineesh
 // Created on : 07.07.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');

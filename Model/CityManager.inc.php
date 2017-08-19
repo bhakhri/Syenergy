@@ -5,7 +5,7 @@
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 ?>
@@ -20,7 +20,7 @@ class CityManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
 	private function __construct() {
@@ -31,7 +31,7 @@ class CityManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 	public static function getInstance() {
@@ -47,7 +47,7 @@ class CityManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
 	public function addCity() {
@@ -63,7 +63,7 @@ class CityManager {
 //$id:cityId
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------        
     public function editCity($id) {
@@ -78,7 +78,7 @@ class CityManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getCity($conditions='') {
@@ -95,7 +95,7 @@ class CityManager {
 //$cityId :cityid of the City
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------             
     public function checkInInstitute($cityId) {
@@ -112,7 +112,7 @@ class CityManager {
 //$cityId :cityid of the City
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteCity($cityId) {
@@ -131,7 +131,7 @@ class CityManager {
 //orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -150,7 +150,7 @@ class CityManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalCity($conditions='') {

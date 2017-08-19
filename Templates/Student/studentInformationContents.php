@@ -3,7 +3,7 @@
 // Purpose: to design the layout for assign to subject.
 // Author : Jaineesh
 // Created on : (02.07.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 ?>
 <form method="post" name="addForm" id="addForm" action="<?php echo HTTP_LIB_PATH;?>/Student/studentFileUpload.php" method="post" enctype="multipart/form-data" style="display:inline" onsubmit="return false;"> 

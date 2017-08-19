@@ -3,7 +3,7 @@
 //  THIS FILE IS USED FOR DB OPERATION FOR "university" TABLE
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.6.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -16,7 +16,7 @@ class FollowUpManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
     private function __construct() {
@@ -27,7 +27,7 @@ class FollowUpManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
     public static function getInstance() {
@@ -44,7 +44,7 @@ class FollowUpManager {
 // Created on : (14.6.2008)
 // Modified on: 7.7.2008
 // Modified By: Dipanjan Bhattacharjee
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------    
     public function addFollowUp() {
         global $REQUEST_DATA;
@@ -71,7 +71,7 @@ class FollowUpManager {
 // $id:cityId
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------        
     public function editFollowUp($id) {
         global $REQUEST_DATA;
@@ -107,7 +107,7 @@ class FollowUpManager {
 // $conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------         
     public function getFollowUps($conditions='') {
         $query = "SELECT *  FROM placement_followups $conditions";
@@ -121,7 +121,7 @@ class FollowUpManager {
 //$universityId :universityId of the Company
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------             
     public function checkInPlacementDrive($companyId) {
@@ -137,7 +137,7 @@ class FollowUpManager {
 //$universityid :universityid of the City
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteFollowUp($followUpId) {
@@ -153,7 +153,7 @@ class FollowUpManager {
 // orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------       
     
     public function getFollowUpList($conditions='', $limit = '', $orderBy=' c.companyName') {
@@ -188,7 +188,7 @@ class FollowUpManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalFollowUp($conditions='') {

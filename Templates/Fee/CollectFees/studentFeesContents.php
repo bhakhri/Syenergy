@@ -3,7 +3,7 @@
 // Purpose: to design add fees receipt.
 // Author : Nishu Bindal
 // Created on : (7.Feb.2012 )
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
 $paidStyle = "style='font-family: Verdana,Arial,Helvetica,sans-serif; font-size:12px; color: red;'";

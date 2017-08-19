@@ -26,7 +26,7 @@
 			$jsonType  = '';
 			for($s = 0; $s<$results1Count; $s++) {
                // U have cannot remove this code
-               // In chalkpad, some subjects for 2011-CSE-3rd Sem showing wrong mapped subject codes as due to changes in APG, 
+               // In syenergy, some subjects for 2011-CSE-3rd Sem showing wrong mapped subject codes as due to changes in APG, 
                // some codes were also changed. 
                /*
                if(CLIENT_INSTITUTES >=10) { 

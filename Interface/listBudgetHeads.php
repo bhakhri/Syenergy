@@ -3,7 +3,7 @@
 // THIS FILE SHOWS A LIST OF CITIES ALONG WITH ADD,EDIT,DELETE,SEARCH AND PAGING OPTIONS
 // Author : Dipanjan Bhattacharjee
 // Created on : (12.6.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 global $FE;
 require_once($FE . "/Library/common.inc.php");
@@ -61,7 +61,7 @@ var flag = false; // for whether the record has been added or not, if flag is tr
 //h:height of the div
 //Author : Dipanjan Bhattacharjee
 // Created on : (12.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function editWindow(id,dv,w,h) {
@@ -76,7 +76,7 @@ function editWindow(id,dv,w,h) {
 //act:type of operations(Add/Edit)
 //Author : Dipanjan Bhattacharjee
 // Created on : (12.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function validateAddForm(frm, act) {
@@ -135,7 +135,7 @@ function validateAddForm(frm, act) {
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (12.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function addBudgetHeads() {
@@ -182,7 +182,7 @@ function addBudgetHeads() {
 //  id=cityId
 //Author : Dipanjan Bhattacharjee
 // Created on : (25.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function deleteBudgetHeads(id) {
@@ -220,7 +220,7 @@ function deleteBudgetHeads(id) {
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (12.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function blankValues() {
@@ -237,7 +237,7 @@ function blankValues() {
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (12.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function editBudgetHeads() {
@@ -281,7 +281,7 @@ function editBudgetHeads() {
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (12.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function populateValues(id) {

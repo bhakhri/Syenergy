@@ -3,7 +3,7 @@
 // THIS FILE IS USED FOR DB OPERATION FOR "university" TABLE
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.6.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
 
@@ -14,7 +14,7 @@ class DriveManager {
 // THIS FUNCTION IS USED FOR CREATING AN OBJECT OF "DriveManager" CLASS
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------      
     private function __construct() {
     }
@@ -23,7 +23,7 @@ class DriveManager {
 // THIS FUNCTION IS USED FOR GETTING AN INSTANCE OF "DriveManager" CLASS
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------       
     public static function getInstance() {
         if (self::$instance === null) {
@@ -39,7 +39,7 @@ class DriveManager {
 // Created on : (14.6.2008)
 // Modified on: 7.7.2008
 // Modified By: Dipanjan Bhattacharjee
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------    
     public function addPlacementDrive() {
         global $REQUEST_DATA;
@@ -86,7 +86,7 @@ class DriveManager {
 // $id:cityId
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------        
    public function editPlacementDrive($placementDriveId) {
         global $REQUEST_DATA;
@@ -138,7 +138,7 @@ class DriveManager {
 // $conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------         
     public function getPlacementDrives($conditions='') {
         $query = "SELECT *  FROM placement_drive $conditions";
@@ -168,7 +168,7 @@ class DriveManager {
 //$universityId :universityId of the Company
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------             
     public function checkInPlacementResult($placementDriveId) {
@@ -182,7 +182,7 @@ class DriveManager {
 //$universityid :universityid of the City
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deletePlacementDrive($placementDriveId) {
@@ -194,7 +194,7 @@ class DriveManager {
 //THIS FUNCTION IS FOR DELETING DATA
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------------------------------
 
     public function getPlacementDriveCount($placementDriveId) {
@@ -209,7 +209,7 @@ class DriveManager {
 // orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------       
     
     public function getPlacementDriveList($conditions='', $limit = '', $orderBy=' c.companyCode') {
@@ -237,7 +237,7 @@ class DriveManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalPlacementDrive($conditions='') {

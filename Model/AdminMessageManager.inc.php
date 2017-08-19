@@ -21,7 +21,7 @@ class AdminMessageManager {
     //
     // Author :Rajeev Aggarwal
     // Created on : (28.01.2009)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //-------------------------------------------------------------------------------      
     public function addAdminMessageStudent() {
@@ -56,7 +56,7 @@ class AdminMessageManager {
     //$fileName: name of the file
     // Author :Parveen Sharma
     // Created on : (17.08.2009)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //---------------------------------------------------------------------------------------------------------------    
     public function updateAttachmentFilenameInMessage($id, $fileName) {
         global $sessionHandler;
@@ -73,7 +73,7 @@ class AdminMessageManager {
     //$fileName: name of the file
     // Author :Parveen Sharma
     // Created on : (17.08.2009)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //---------------------------------------------------------------------------------------------------------------       
     public function deleteTeacherAttachementOnFailedUpload($id) {
         global $sessionHandler;
@@ -89,7 +89,7 @@ class AdminMessageManager {
     //
     // Author :Rajeev Aggarwal
     // Created on : (28.01.2009)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //-------------------------------------------------------------------------------      
     public function getTotalParentAdminMessage($conditions='') {
@@ -125,7 +125,7 @@ class AdminMessageManager {
     //
     // Author :Rajeev Aggarwal
     // Created on : (28.01.2009)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //-------------------------------------------------------------------------------      
     public function getParentTeacherAdminList($conditions='', $limit = '', $orderBy=' messageDate') {
@@ -162,7 +162,7 @@ class AdminMessageManager {
     //$id:busRouteId
     // Author :Rajeev Aggarwal 
     // Created on : (25.11.2008)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------------------        
     public function changeMessageStatus($id) {
@@ -183,7 +183,7 @@ class AdminMessageManager {
     //
     // Author :Rajeev Aggarwal
     // Created on : (28.01.2009)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //-------------------------------------------------------------------------------      
     public function getParentMessageDetail($conditions='', $limit = '', $orderBy=' messageDate') {
@@ -222,7 +222,7 @@ class AdminMessageManager {
     //
     // Author :Rajeev Aggarwal
     // Created on : (28.01.2009)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //-------------------------------------------------------------------------------      
     public function getTotalParentSentItemMessage($conditions='') {
@@ -257,7 +257,7 @@ class AdminMessageManager {
     //
     // Author :Rajeev Aggarwal
     // Created on : (28.01.2009)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //-------------------------------------------------------------------------------      
     public function getParentSentItemList($conditions='', $limit = '', $orderBy=' messageDate') {

@@ -20,7 +20,7 @@ mysql_select_db(DB_NAME,$conn) or die(mysql_error());
 //Authorisation Key is a unique LoginKey which will be used as a parameter in all further calls from mobile applications
 // Author :Cheena Garg
 // Created on : (18.07.2011)
-// Copyright 2011-2012 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2011-2012 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
 if($_REQUEST['fn']== "login") {
@@ -90,7 +90,7 @@ if($_REQUEST['fn']== "login") {
 //Returns 1 if user is logged in else returns 0
 // Author :Cheena Garg
 // Created on : (18.07.2011)
-// Copyright 2011-2012 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2011-2012 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
 else if($_REQUEST['fn']== "checklogin"){   
@@ -119,7 +119,7 @@ else if($_REQUEST['fn']== "checklogin"){
 //deletes authkey from mobile_user table
 // Author :Cheena Garg
 // Created on : (18.07.2011)
-// Copyright 2011-2012 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2011-2012 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
 else if($_REQUEST['fn']== "logout"){    
@@ -139,7 +139,7 @@ else if($_REQUEST['fn']== "logout"){
 //User can see subjects/courses currently taken
 // Author :Cheena Garg
 // Created on : (19.07.2011)
-// Copyright 2011-2012 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2011-2012 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 else if($_REQUEST['fn']== "subjects"){
         if($_REQUEST['authkey']!=""){  //to get userId
@@ -230,7 +230,7 @@ else if($_REQUEST['fn']== "subjects"){
 //User sees a list of notices on the screen
 // Author :Cheena Garg
 // Created on : (19.07.2011)
-// Copyright 2011-2012 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2011-2012 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 else if($_REQUEST['fn']== "notices"){
 
@@ -316,7 +316,7 @@ else if($_REQUEST['fn']== "notices"){
 //list lecture attended,delivered ,percentage
 // Author :Cheena Garg
 // Created on : (20.07.2011)
-// Copyright 2011-2012 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2011-2012 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 else if($_REQUEST['fn']== "attendance"){   
         if($_REQUEST['authkey']!=""){                 
@@ -439,7 +439,7 @@ else if($_REQUEST['fn']== "attendance"){
 //To Get faculty list and their email address
 // Author :Cheena Garg
 // Created on : (21.07.2011)
-// Copyright 2011-2012 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2011-2012 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 else if($_REQUEST['fn']== "faculty"){    
         if($_REQUEST['authkey']!=""){     
@@ -518,7 +518,7 @@ else if($_REQUEST['fn']== "faculty"){
 //User can see the attendance in grid format
 // Author :Cheena Garg
 // Created on : (22.07.2011)
-// Copyright 2011-2012 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2011-2012 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 else if($_REQUEST['fn']== "attendance2"){   
         if($_REQUEST['authkey']!=""){  
@@ -586,7 +586,7 @@ else if($_REQUEST['fn']== "attendance2"){
 //User selects the subject and then sees the marks for the different test components
 // Author :Cheena Garg
 // Created on : (25.07.2011)
-// Copyright 2011-2012 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2011-2012 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 else if($_REQUEST['fn']== "testmarks"){    
         if($_REQUEST['authkey']!=""){  
@@ -676,7 +676,7 @@ else if($_REQUEST['fn']== "testmarks"){
 //User selects the study period and sees the grades
 // Author :Cheena Garg
 // Created on : (25.07.2011)
-// Copyright 2011-2012 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2011-2012 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
 else if($_REQUEST['fn']== "grades"){    
@@ -769,7 +769,7 @@ else if($_REQUEST['fn']== "grades"){
 //list student's semester till date
 // Author :Cheena Garg
 // Created on : (25.07.2011)
-// Copyright 2011-2012 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2011-2012 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
 else if($_REQUEST['fn']== "semester"){
@@ -835,7 +835,7 @@ else if($_REQUEST['fn']== "semester"){
 //fees detail, returns total fess paid=cash amount+instrument amount
 // Author :Cheena Garg
 // Created on : (26.07.2011)
-// Copyright 2011-2012 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2011-2012 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
 else if($_REQUEST['fn']== "fees"){    
@@ -901,7 +901,7 @@ else if($_REQUEST['fn']== "fees"){
 //to get timetable details i.e coursecode,roomno,periodno,teacher name
 // Author :Cheena Garg
 // Created on : (25.07.2011)
-// Copyright 2011-2012 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2011-2012 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 else if($_REQUEST['fn']== "timetable"){    
         if($_REQUEST['authkey']!=""){  
@@ -1029,7 +1029,7 @@ else if($_REQUEST['fn']== "timetable"){
 // to get resource details of student
 // Author: Raghav salotra
 // created On: (21/11/2011)
-// copyright 2011-2012- Chalkpad Technologies Pvt. Ltd.
+// copyright 2011-2012- syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------
 
 else if($_REQUEST['fn']== "resourcedetails"){    
@@ -1109,7 +1109,7 @@ else if($_REQUEST['fn']== "resourcedetails"){
 //to get feedback,suggestion from user
 // Author :Cheena Garg
 // Created on : (27.07.2011)
-// Copyright 2011-2012 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2011-2012 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 else if($_REQUEST['fn']== "feedback"){
         if($_REQUEST['authkey']!=""){  
@@ -1302,7 +1302,7 @@ else if($_REQUEST['fn']== "completeinfo"){
 //to get institute logo
 // Author :Cheena Garg
 // Created on : (27.07.2011)
-// Copyright 2011-2012 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2011-2012 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 else if($_REQUEST['fn']== "logo"){
     $url = STORAGE_HTTP_PATH."/Images/logo.gif?xx=".rand(0,1000);  

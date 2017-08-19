@@ -36,7 +36,7 @@ require_once(BL_PATH . "/UtilityManager.inc.php");
   </td>
 </tr>
 <tr>
-     <td align="center" class="text_menu" valign="middle">&laquo; Powered By ChalkPad Technologies Pvt Ltd &raquo;</td>
+     <td align="center" class="text_menu" valign="middle">&laquo; Powered By syenergy Technologies Pvt Ltd &raquo;</td>
 </tr>  
 </table>
 </body>

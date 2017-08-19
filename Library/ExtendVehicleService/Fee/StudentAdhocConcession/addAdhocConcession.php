@@ -3,7 +3,7 @@
 // THIS FILE IS USED TO DO STUDENT CONCESSION ENTRIES
 // Author : Nishu Bindal
 // Created on : (9.Feb.2012 )
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 global $FE;
 require_once($FE . "/Library/common.inc.php");

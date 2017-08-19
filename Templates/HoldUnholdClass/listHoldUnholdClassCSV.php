@@ -3,7 +3,7 @@
 // THIS FILE IS USED TO Reappear/ Re-exam Flow
 // Author : Parveen Sharma
 // Created on : (12.06.2011 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 ?>
 <?php	       

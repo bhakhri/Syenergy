@@ -5,7 +5,7 @@
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (26.06.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 ?>
@@ -21,7 +21,7 @@ class TransportStaffManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
     private function __construct() {
@@ -32,7 +32,7 @@ class TransportStaffManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
     public static function getInstance() {
@@ -48,7 +48,7 @@ class TransportStaffManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
     public function addTransportStaff() {
@@ -87,7 +87,7 @@ class TransportStaffManager {
 //$id:busStopId
 // Author :Dipanjan Bhattacharjee 
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------        
     public function editTransportStaff($id) {
@@ -125,7 +125,7 @@ class TransportStaffManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getTransportStaff($conditions='') {
@@ -162,7 +162,7 @@ class TransportStaffManager {
 //$cityId :busStopid of the TransportStuff
 // Author :Dipanjan Bhattacharjee 
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteTransportStaff($id) {
@@ -183,7 +183,7 @@ class TransportStaffManager {
 //orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -215,7 +215,7 @@ class TransportStaffManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalTransportStaff($conditions='') {
@@ -234,7 +234,7 @@ class TransportStaffManager {
 //
 // Author :Jaineesh                        
 // Created on : (10.12.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------------------------- 
 	public function updateStaffImage($id, $fileName) {
@@ -254,7 +254,7 @@ class TransportStaffManager {
 //
 // Author :Jaineesh                        
 // Created on : (10.12.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------------------------- 
 	public function updateDLImage($id, $fileName1) {
@@ -273,7 +273,7 @@ class TransportStaffManager {
 //
 // Author :Jaineesh                        
 // Created on : (20.08.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------------------------- 
 	public function getStaffImageDetail($condition) {
@@ -287,7 +287,7 @@ class TransportStaffManager {
 //
 // Author :Jaineesh                        
 // Created on : (20.08.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------------------------- 
 	public function getDLImageDetail($condition) {
@@ -300,7 +300,7 @@ class TransportStaffManager {
 //
 // Author :Jaineesh                        
 // Created on : (20.08.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------------------------- 
 	public function deleteStaffImage($id = '') {
@@ -314,7 +314,7 @@ class TransportStaffManager {
 //
 // Author :Jaineesh                        
 // Created on : (20.08.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------------------------- 
 	public function deleteDLImage($id = '') {
@@ -328,7 +328,7 @@ class TransportStaffManager {
 //getVehicleAccidentStaffDetail() is used to vehicle accident detail
 //Author : Jaineesh
 // Created on : 06.01.10
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------  
     public function getVehicleAccidentStaffDetail($staffId) {
@@ -347,7 +347,7 @@ class TransportStaffManager {
 //getVehicleRepairStaffDetail() is used to vehicle repair staff detail
 //Author : Jaineesh
 // Created on : 06.01.10
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------  
     public function getVehicleRepairStaffDetail($staffId) {
@@ -366,7 +366,7 @@ class TransportStaffManager {
 //getVehicleBusRouteStaffDetail() is used to vehicle route staff detail
 //Author : Jaineesh
 // Created on : 06.01.10
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------  
     public function getVehicleBusRouteStaffDetail($staffId) {

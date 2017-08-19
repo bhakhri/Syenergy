@@ -3,7 +3,7 @@
 // Purpose: To display attendance list
 // Author : Dipanjan Bbhattacharjee
 // Created on : (14.04.2009 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------------------------------------
     set_time_limit(0);

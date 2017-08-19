@@ -3,7 +3,7 @@
 // THIS FILE SHOWS A LIST OF STUDENT FINE IN CATEGORIES ALONG WITH ADD,EDIT,DELETE,SEARCH AND PAGING OPTIONS
 // Author : Rajeev Aggarwal
 // Created on : (03.07.2009 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //----------------------------------------------------------------------------------------------------------
 global $FE;
 require_once($FE . "/Library/common.inc.php");
@@ -73,7 +73,7 @@ var flag = false; // for whether the record has been added or not, if flag is tr
 //h:height of the div
 //Author : Rajeev Aggarwal
 // Created on : (13.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function editWindow(id,dv,w,h) {
@@ -88,7 +88,7 @@ function editWindow(id,dv,w,h) {
 //act:type of operations(Add/Edit)
 //Author : Rajeev Aggarwal
 // Created on : (13.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 var cdate="<?php echo date('Y-m-d'); ?>";
@@ -214,7 +214,7 @@ function validateAddForm(frm, act) {
 // THIS FUNCTION IS USED TO ADD A NEW Fine Category
 // Author : Rajeev Aggarwal
 // Created on : (02.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 function addFineStudent() {
 
@@ -265,7 +265,7 @@ function addFineStudent() {
 // id=fineCategoryId
 // Author : Rajeev Aggarwal
 // Created on : (02.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 function deleteFineCategory(id) {
 
@@ -306,7 +306,7 @@ function deleteFineCategory(id) {
 // THIS FUNCTION IS USED TO CLEAN UP THE "AddFineCategory" DIV
 // Author : Rajeev Aggarwal
 // Created on : (13.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------------------
 function blankValues() {
    document.AddFineStudent.reset();
@@ -322,7 +322,7 @@ function blankValues() {
 // THIS FUNCTION IS USED TO EDIT A Fine Category
 // Author : Rajeev Aggarwal
 // Created on : (02.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 function editFineStudent() {
 
@@ -370,7 +370,7 @@ function editFineStudent() {
 // THIS FUNCTION IS USED TO POPULATE "EditFineCategory" DIV
 // Author : Rajeev Aggarwal
 // Created on : (02.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 function populateValues(id) {
 
@@ -431,7 +431,7 @@ function printReport() {
 //
 //Author : Rajeev Aggarwal
 // Created on : (12.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function getStudent(value,act) {

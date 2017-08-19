@@ -3,7 +3,7 @@
 //
 // Author :Arvind Singh Rawat
 // Created on : 13-Aug-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     global $FE;

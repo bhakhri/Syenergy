@@ -5,7 +5,7 @@
 //
 // Author : Parveen Sharma
 // Created on : 30-March-2009
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
  
@@ -19,7 +19,7 @@ class AssignFinalGradeManager {
 //
 // Author :Jaineesh 
 // Created on : 30-March-2009
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------     
 
@@ -31,7 +31,7 @@ class AssignFinalGradeManager {
 //
 // Author :Jaineesh 
 // Created on : 30-March-2009
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 
@@ -79,7 +79,7 @@ public function addIncentiveDetail($fieldValue='') {
 //
 // Author :Parveen Sharma
 // Created on : (29-May-2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------      
     public function getAssignFinalGradeList($condition='', $orderBy='finalGradeId') {
@@ -153,7 +153,7 @@ public function getIncentiveDetailList($condition='') {
 //
 // Author :Parveen Sharma
 // Created on : (29-May-2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------      
     public function deleteAssignFinalGrade($instituteId,$sessionId,$condition='') {

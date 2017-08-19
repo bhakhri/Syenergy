@@ -586,7 +586,7 @@ function  download(id){
 //
 //Author : Rajeev Aggarwal
 // Created on : (17.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------------------------------------------
 //id:id 
@@ -762,7 +762,7 @@ function getWorkExperience() {
 //
 //Author : Rajeev Aggarwal
 // Created on : (12.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function validateAll(frm) {

@@ -5,7 +5,7 @@
 //
 // Author :Gurkeerat Sidhu
 // Created on : 15.01.10
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     global $FE;

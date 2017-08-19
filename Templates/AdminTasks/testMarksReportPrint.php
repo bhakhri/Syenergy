@@ -4,7 +4,7 @@
 //
 // Author : Kavish Manjkhola
 // Created on : (4/26/2011)
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------------------------------------------------
 

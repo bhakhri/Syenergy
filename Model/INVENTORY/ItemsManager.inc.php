@@ -5,7 +5,7 @@
 //
 // Author :Jaineesh
 // Created on : (27.07.2010)
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -18,7 +18,7 @@ class ItemsManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
 	private function __construct() {
@@ -29,7 +29,7 @@ class ItemsManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 	public static function getInstance() {
@@ -45,7 +45,7 @@ class ItemsManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
 	public function addItem() {
@@ -92,7 +92,7 @@ public function updateItemDescription($filter='',$itemCategoryId='',$itemName=''
 //$id:cityId
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------        
     public function editItem($id,$conditions='') {
@@ -118,7 +118,7 @@ public function updateItemDescription($filter='',$itemCategoryId='',$itemName=''
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getItem($conditions='') {
@@ -158,7 +158,7 @@ public function updateItemDescription($filter='',$itemCategoryId='',$itemName=''
 //$itemId :itemId of the items_master
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteItem($itemId) {
@@ -180,7 +180,7 @@ public function updateItemDescription($filter='',$itemCategoryId='',$itemName=''
 //orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -207,7 +207,7 @@ public function updateItemDescription($filter='',$itemCategoryId='',$itemName=''
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalItem($conditions='') {
@@ -242,7 +242,7 @@ public function updateItemDescription($filter='',$itemCategoryId='',$itemName=''
 //orderBy:sort on which column
 // Author :Gurkeerat Sidhu 
 // Created on : (10.09.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -262,7 +262,7 @@ public function updateItemDescription($filter='',$itemCategoryId='',$itemName=''
 // THIS FUNCTION will fetch list of suppliers
 // Author :Jaineesh
 // Created on : (17.03.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------------------------------------------------------             
     public function getItemDetail($conditions='') {
      
@@ -279,7 +279,7 @@ public function updateItemDescription($filter='',$itemCategoryId='',$itemName=''
 // THIS FUNCTION will fetch list of suppliers
 // Author :Jaineesh
 // Created on : (17.03.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-----------------------------------------------------------------------------------------------             
    public function getCategory($conditions='') {
      
@@ -297,7 +297,7 @@ public function updateItemDescription($filter='',$itemCategoryId='',$itemName=''
 // THIS FUNCTION will fetch list of suppliers
 // Author :Jaineesh
 // Created on : (17.03.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-----------------------------------------------------------------------------------------------             
     public function getParticularItem($conditions='') {
      
@@ -316,7 +316,7 @@ public function updateItemDescription($filter='',$itemCategoryId='',$itemName=''
 // THIS FUNCTION will fetch list of suppliers
 // Author :Jaineesh
 // Created on : (17.03.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-----------------------------------------------------------------------------------------------             
     public function getParticularItemData($conditions='') {
      
@@ -336,7 +336,7 @@ public function updateItemDescription($filter='',$itemCategoryId='',$itemName=''
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
 	public function addOpeningStock($str) {
@@ -354,7 +354,7 @@ public function updateItemDescription($filter='',$itemCategoryId='',$itemName=''
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
 	public function addTotalItemStock($val) {
@@ -373,7 +373,7 @@ public function updateItemDescription($filter='',$itemCategoryId='',$itemName=''
 //$itemId :itemId of the items_master
 // Author :Jaineesh
 // Created on : (16 Aug 10)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteStock($itemCategoryId) {

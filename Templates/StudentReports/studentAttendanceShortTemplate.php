@@ -5,7 +5,7 @@
 //
 // Author :&nbsp;&nbsp;Parveen Sharma
 // Created on :&nbsp;&nbsp; (26.02.2009)
-// Copyright 2008-2000:&nbsp;&nbsp; Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000:&nbsp;&nbsp; syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 

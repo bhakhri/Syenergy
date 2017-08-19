@@ -4,7 +4,7 @@
 //
 // Author : Dipanjan Bhattacharjee
 // Created on : (1.07.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 ?>
@@ -67,7 +67,7 @@ var flag = false; // for whether the record has been added or not, if flag is tr
 //h:height of the div
 //Author : Dipanjan Bhattacharjee
 // Created on : (1.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function editWindow(id,dv,w,h) {
@@ -85,7 +85,7 @@ function editWindow(id,dv,w,h) {
 //act:type of operations(Add/Edit)
 //Author : Dipanjan Bhattacharjee
 // Created on : (1.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function validateAddForm(frm, act) {
@@ -194,7 +194,7 @@ function validateAddForm(frm, act) {
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (1.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function addManageUser() {
@@ -289,7 +289,7 @@ function addManageUser() {
 //  id=userId
 //Author : Dipanjan Bhattacharjee
 // Created on : (25.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function deleteUser(id) {
@@ -328,7 +328,7 @@ function deleteUser(id) {
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (1.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function blankValues() {
@@ -350,7 +350,7 @@ function blankValues() {
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (1.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function editManageUser() {
@@ -463,7 +463,7 @@ function roleCheck(id)
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (1.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function populateValues(id) {
@@ -583,7 +583,7 @@ function populateValues(id) {
 //Purpose:Trim leading and trailing from password fields
 //Author: Dipanjan Bhattacharjee
 //Date:25.09.2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------
 function trim_pwd_space(value){

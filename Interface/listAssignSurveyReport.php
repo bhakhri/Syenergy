@@ -3,7 +3,7 @@
 // THIS FILE is used for assigning survey to emps/student/parents
 // Author : Dipanjan Bhattacharjee
 // Created on : (13.01.2010)
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //----------------------------------------------------------------------------
 die('This report is closed now.Please go to Feedback Label Wise Survey Report (Advanced)');
 global $FE;
@@ -49,7 +49,7 @@ var flag = false; // for whether the record has been added or not, if flag is tr
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (21.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function hide_div(id,mode){
@@ -264,7 +264,7 @@ function hideDetails() {
 //Pupose:To reset form after data submission
 //Author: Dipanjan Bhattacharjee
 //Date : 5.08.2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------------------
 function resetForm1(){

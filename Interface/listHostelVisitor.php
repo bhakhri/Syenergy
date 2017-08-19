@@ -4,7 +4,7 @@
 //
 // Author : Gurkeerat Sidhu
 // Created on : (18.4.2009)
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------
 ?>
@@ -68,7 +68,7 @@ var flag = false; // for whether the record has been added or not, if flag is tr
 //h:height of the div
 //Author : Gurkeerat Sidhu
 // Created on : (18.4.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function editWindow(id,dv,w,h) {
@@ -83,7 +83,7 @@ function editWindow(id,dv,w,h) {
 //act:type of operations(Add/Edit)
 //Author : Gurkeerat Sidhu
 // Created on : (18.4.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 var cdate="<?php echo date('Y-m-d'); ?>";
@@ -193,7 +193,7 @@ function validateAddForm(frm, act) {
 //
 //Author : Gurkeerat Sidhu
 // Created on : (18.4.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function addHostelVisitor() {
@@ -245,7 +245,7 @@ function addHostelVisitor() {
 //  id=visitorId
 //Author : Gurkeerat Sidhu
 // Created on : (18.4.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function deleteHostelVisitor(id) {
@@ -284,7 +284,7 @@ function deleteHostelVisitor(id) {
 //
 //Author : Gurkeerat Sidhu
 // Created on : (18.4.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function blankValues() {
@@ -300,7 +300,7 @@ function blankValues() {
 //
 //Author : Gurkeerat Sidhu
 // Created on : (18.4.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function editHostelVisitor() {
@@ -344,7 +344,7 @@ function editHostelVisitor() {
 //
 //Author : Gurkeerat Sidhu
 // Created on : (18.4.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function populateValues(id) {

@@ -3,7 +3,7 @@
 //  THIS FILE used for sending message(sms/email/dashboard) to students
 // Author : Dipanjan Bhattacharjee
 // Created on : (20.01.2009 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //----------------------------------------------------------------------------
 global $FE;
 require_once($FE . "/Library/common.inc.php");
@@ -72,7 +72,7 @@ var flag = false; // for whether the record has been added or not, if flag is tr
 //
 //Author : Jaineesh
 // Created on : (20.01.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------
 function chkObject(id){
@@ -91,7 +91,7 @@ function chkObject(id){
 
 // Author     :Gagan Gill
 // Created on : (07.10.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------------
 function showHelpDetails(title,msg) {
@@ -117,7 +117,7 @@ function showHelpDetails(title,msg) {
 //
 //Author : Jaineesh
 // Created on : (20.01.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------
 function  selectFathers(){
@@ -148,7 +148,7 @@ function  selectFathers(){
 //
 //Author : Jaineesh
 // Created on : (20.01.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------
 function  selectStudents(){
@@ -178,7 +178,7 @@ function  selectStudents(){
 //
 //Author : Jaineesh
 // Created on : (20.01.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------
 function  selectMothers(){
@@ -208,7 +208,7 @@ function  selectMothers(){
 //
 //Author : Jaineesh
 // Created on : (20.01.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------
 function  selectGuardians(){
@@ -239,7 +239,7 @@ function  selectGuardians(){
 //
 //Author : Jaineesh
 // Created on : (20.01.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------------
 function checkFathers(){
@@ -270,7 +270,7 @@ function checkFathers(){
 //
 //Author : Jaineesh
 // Created on : (20.01.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------------
 function checkMothers(){
@@ -302,7 +302,7 @@ function checkMothers(){
 //
 //Author : Jaineesh
 // Created on : (20.01.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------------
 function checkGuardians(){
@@ -333,7 +333,7 @@ function checkGuardians(){
 //
 //Author : Jaineesh
 // Created on : (20.01.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------------
 function checkStudents(){
@@ -364,7 +364,7 @@ function checkStudents(){
 //
 //Author : Jaineesh
 // Created on : (20.01.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------------
 function checkParents(){
@@ -382,7 +382,7 @@ function checkParents(){
 //
 //Author : Jaineesh
 // Created on : (20.01.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function hide_div(id,mode){
@@ -402,7 +402,7 @@ function hide_div(id,mode){
 //
 //Author : Jaineesh
 // Created on : (20.01.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------
 
@@ -488,7 +488,7 @@ function hideDetails() {
 //act:type of operations(Add/Edit)
 //Author : Jaineesh
 // Created on : (20.01.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 var serverDate="<?php echo date('Y-m-d');?>";
@@ -534,7 +534,7 @@ else{
 //
 //Author : Jaineesh
 // Created on : (20.01.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function sendMessage() {
@@ -719,7 +719,7 @@ function sendMessage() {
 //purspose:to show date options when msgmedium is dashboard
 //Author: Jaineesh
 //Date: 20.01.2009
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------------------
 function dateDivShow()
@@ -740,7 +740,7 @@ function dateDivShow()
 //purspose:to show sms div  when msgmedium is sms
 //Author: Jaineesh
 //Date: 20.01.2009
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------------------
 function smsDivShow()
@@ -761,7 +761,7 @@ function subjectDivShow(){
 //Pupose:Calculates  sms chars and no of smses
 //Author: Dipanjan Bhattacharjee
 //Date : 5.08.2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------------------
 function smsCalculation(value,limit,target){
@@ -786,7 +786,7 @@ document.getElementById(target).value=nos;
 //Pupose:To reset form after data submission
 //Author: Jaineesh
 //Date : 20.01.2009
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------------------
 function resetForm(){

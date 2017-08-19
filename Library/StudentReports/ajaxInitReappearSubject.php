@@ -3,7 +3,7 @@
 // THIS FILE IS USED TO fetch student internal re-appear subject Details
 // Author : PArveen Sharma
 // Created on : (23.12.2009 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 global $FE;
 require_once($FE . "/Library/common.inc.php");

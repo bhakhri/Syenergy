@@ -273,7 +273,7 @@ function printReportCSV() {
 // ADD GRADE DESCRIPTION
 // Author :Aditi Miglani
 // Created on : (19.08.2011 )
-// Copyright 2011-2012: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2011-2012: syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------
 
 //for deleting a row from the table 

@@ -4,7 +4,7 @@
 //
 // Author : Jaineesh
 // Created on : (13.6.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;
@@ -110,7 +110,7 @@ function getVehicleTyre(){
 //act : action value of the button (add/edit)
 //Author : Jaineesh
 // Created on : (24.11.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function validateAddForm(frm, act) {
@@ -188,7 +188,7 @@ function validateAddForm(frm, act) {
 //act : action value of the button (add/edit)
 //Author : Jaineesh
 // Created on : (24.11.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function validateStockAdddForm(frm, act) {
@@ -234,7 +234,7 @@ function validateStockAdddForm(frm, act) {
 //
 //Author : Jaineesh
 // Created on : (24.11.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function addVehicleTyre() {
@@ -295,7 +295,7 @@ function addVehicleTyre() {
 //
 //Author : Jaineesh
 // Created on : (08.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function addStockVehicleTyre() {
@@ -402,7 +402,7 @@ function showHelpDetails(title,msg) {
 //
 //Author : Jaineesh
 // Created on : (24.11.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -446,7 +446,7 @@ function deleteVehicleTyre(id) {
 //
 //Author : Jaineesh
 // Created on : (24.11.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
  
@@ -483,7 +483,7 @@ function clearText1() {
 //
 //Author : Jaineesh
 // Created on : (24.11.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -554,7 +554,7 @@ function editVehicleTyre() {
 // 
 //Author : Jaineesh
 // Created on : (12.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function populateValues(id) {
@@ -627,7 +627,7 @@ function populateValues(id) {
 // 
 //Author : Jaineesh
 // Created on : (12.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function populateAddValues(id) {
@@ -699,7 +699,7 @@ function populateAddValues(id) {
 // 
 //Author : Jaineesh
 // Created on : (12.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function populateStockAddValues(id) {
@@ -764,7 +764,7 @@ function populateStockAddValues(id) {
 // 
 //Author : Jaineesh
 // Created on : (30.12.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -833,7 +833,7 @@ function clearText() {
 // 
 //Author : Jaineesh
 // Created on : (30.12.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -887,7 +887,7 @@ function getSpareTyreList() {
 // 
 //Author : Jaineesh
 // Created on : (30.12.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 

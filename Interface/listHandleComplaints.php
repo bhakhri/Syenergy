@@ -6,7 +6,7 @@
 //
 // Author :Jaineesh
 // Created on : 28.04.09
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -103,7 +103,7 @@ function hideResults() {
 //
 //Author : Jaineesh
 // Created on : (28.04.09)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -153,7 +153,7 @@ function getHostelRoom() {
 //
 //Author : Jaineesh
 // Created on : (28.04.09)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 

@@ -58,7 +58,7 @@ function checkInputData(){
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (14.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------
 function getGraphData(){
@@ -209,7 +209,7 @@ function getFilterName(){
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (14.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------
 function  populateTestTypeCategory(value){
@@ -294,7 +294,7 @@ function populateSubject(condunctingAuthority,testTypeCategory){
 //THIS FUNCTION IS USED TO populate test drop down
 // Author : Dipanajan Bhattacharjee
 // Created on : (26.10.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------------------------------------------------------------
 function populateTest(conductingAuthority,testTypeCategory,subject) {
 

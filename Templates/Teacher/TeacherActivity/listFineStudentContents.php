@@ -3,7 +3,7 @@
 // THIS FILE IS USED AS TEMPLATE FOR Fine Category LISTING 
 // Author :Dipanjan Bhattacharjee 
 // Created on : (02.07.2009)
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 require_once(TEMPLATES_PATH . "/breadCrumb.php");
 ?>

@@ -719,7 +719,7 @@ function floatingDiv_Close()
 			 //Author: Kavish Manjkhola
 			 //Created On: 04/04/2011
 			 //Modified On: 19/04/2011
-			 //Copyright 2010-2011: Chalkpad Technologies Pvt. Ltd.
+			 //Copyright 2010-2011: syenergy Technologies Pvt. Ltd.
 			 //****************************************************
 			 require_once(MODEL_PATH . "/InsuranceVehicleManager.inc.php");
 			 $insuranceVehicleManager = InsuranceVehicleManager::getInstance();

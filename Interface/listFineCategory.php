@@ -3,7 +3,7 @@
 // THIS FILE SHOWS A LIST OF FINE CATEGORIES ALONG WITH ADD,EDIT,DELETE,SEARCH AND PAGING OPTIONS
 // Author : Dipanjan Bhattacharjee
 // Created on : (02.07.2009 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //----------------------------------------------------------------------------------------------------------
 global $FE;
 require_once($FE . "/Library/common.inc.php");
@@ -60,7 +60,7 @@ var flag = false; // for whether the record has been added or not, if flag is tr
 //h:height of the div
 //Author : Dipanjan Bhattacharjee
 // Created on : (13.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function editWindow(id,dv,w,h) {
@@ -75,7 +75,7 @@ function editWindow(id,dv,w,h) {
 //act:type of operations(Add/Edit)
 //Author : Dipanjan Bhattacharjee
 // Created on : (13.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function validateAddForm(frm, act) {
@@ -130,7 +130,7 @@ function validateAddForm(frm, act) {
 // THIS FUNCTION IS USED TO ADD A NEW Fine Category
 // Author : Dipanjan Bhattacharjee
 // Created on : (02.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 function addFineCategory() {
 		fineType ='';
@@ -188,7 +188,7 @@ function addFineCategory() {
 // id=fineCategoryId
 // Author : Dipanjan Bhattacharjee
 // Created on : (02.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 function deleteFineCategory(id) {
          if(false===confirm("Do you want to delete this record?")) {
@@ -229,7 +229,7 @@ function deleteFineCategory(id) {
 // THIS FUNCTION IS USED TO CLEAN UP THE "AddFineCategory" DIV
 // Author : Dipanjan Bhattacharjee
 // Created on : (13.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------------------
 function blankValues() {
    document.AddFineCategory.reset();
@@ -241,7 +241,7 @@ function blankValues() {
 // THIS FUNCTION IS USED TO EDIT A Fine Category
 // Author : Dipanjan Bhattacharjee
 // Created on : (02.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 function editFineCategory() {
 		fineType ='';
@@ -294,7 +294,7 @@ function editFineCategory() {
 // THIS FUNCTION IS USED TO POPULATE "EditFineCategory" DIV
 // Author : Dipanjan Bhattacharjee
 // Created on : (02.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 function populateValues(id) {
          var url = '<?php echo HTTP_LIB_PATH;?>/Fine/ajaxGetValues.php';

@@ -23,7 +23,7 @@ class OptionalSubjectGroupManager {
 //
 // Author :Parveen Sharma
 // Created on : (29-May-2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------
     public function addOptionalSubjectGroup($groupName,$groupShort,$groupTypeId,$classId,$isOptional,$optionalSubjectId) {
@@ -56,7 +56,7 @@ class OptionalSubjectGroupManager {
 //
 // Author :Parveen Sharma
 // Created on : (29-May-2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------
     public function addStudentOptionalSubjectGroup($subjectId, $studentId, $classId, $groupId) {
@@ -97,7 +97,7 @@ class OptionalSubjectGroupManager {
 //
 // Author :Parveen Sharma
 // Created on : (29-May-2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------
     public function deleteOptionalSubjectGroup($condition) {
@@ -116,7 +116,7 @@ class OptionalSubjectGroupManager {
 //
 // Author :Parveen Sharma
 // Created on : (29-May-2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------
     public function deleteStudentOptionalSubjectGroup($condition) {
@@ -146,7 +146,7 @@ class OptionalSubjectGroupManager {
 //
 // Author :Parveen Sharma 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -220,7 +220,7 @@ class OptionalSubjectGroupManager {
 //
 // Author :Parveen Sharma 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -312,7 +312,7 @@ class OptionalSubjectGroupManager {
 //
 // Author :Parveen Sharma
 // Created on : (29-May-2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------
     public function checkOptionalSubjectGroup($condition='') {

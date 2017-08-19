@@ -5,7 +5,7 @@
 //
 // Author : Dipanjan Bbhattacharjee
 // Created on : (16.07.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------------------
 
@@ -28,7 +28,7 @@
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (19.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function sendSMS($mobileNo,$message){

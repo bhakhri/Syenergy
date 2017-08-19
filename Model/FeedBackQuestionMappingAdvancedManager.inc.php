@@ -5,7 +5,7 @@
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008 )
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -19,7 +19,7 @@ class FeedBackQuestionMappingAdvancedManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
 	private function __construct() {
@@ -30,7 +30,7 @@ class FeedBackQuestionMappingAdvancedManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 	public static function getInstance() {
@@ -49,7 +49,7 @@ class FeedBackQuestionMappingAdvancedManager {
 // orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (11.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //------------------------------------------------------------------       
     public function getFeedbackMappedQuestionList($conditions='',$conditions2='' ,$limit = '', $orderBy=' fc.feedbackCategoryName') {
         global $sessionHandler;
@@ -87,7 +87,7 @@ class FeedBackQuestionMappingAdvancedManager {
 // $conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (11.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------      
     public function getTotalFeedbackMappedQuestion($conditions='',$conditions2='') {
         global $sessionHandler;
@@ -116,7 +116,7 @@ class FeedBackQuestionMappingAdvancedManager {
 // $conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (11.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-----------------------------------------------------------------------------------      
     public function getQuestionUsageList($feedbackToQuestionIds) {
         
@@ -138,7 +138,7 @@ class FeedBackQuestionMappingAdvancedManager {
 // $conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------------------------------------------------------------      
     public function getQuestionUsageListAdvanced($conditions='') {
         
@@ -167,7 +167,7 @@ class FeedBackQuestionMappingAdvancedManager {
 // $conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (11.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-----------------------------------------------------------------------------------      
     public function deleteMappedQuestions($labelId,$catId,$questionSetId,$mappedQuestionIds) {
         
@@ -190,7 +190,7 @@ class FeedBackQuestionMappingAdvancedManager {
 // $conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-----------------------------------------------------------------------------------------------------------      
     public function deleteMappedQuestionsAdvanced($labelId,$catId,$questionSetId) {
         
@@ -218,7 +218,7 @@ class FeedBackQuestionMappingAdvancedManager {
 // $conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (11.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-----------------------------------------------------------------------------------      
     public function doQuestionsMapping($insertQuery) {
         
@@ -235,7 +235,7 @@ class FeedBackQuestionMappingAdvancedManager {
 //
 // Author :Gurkeerat Sidhu
 // Created on : (15.01.10)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------      
     public function getSelectedTimeTableLabel($timeTableLabelId) {

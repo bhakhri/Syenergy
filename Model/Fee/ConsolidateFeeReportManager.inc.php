@@ -6,7 +6,7 @@
 //
 // Author :Nishu Bindal
 // Created on : 16-April-2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -33,7 +33,7 @@ class ConsolidateFeeReportManager {
 //  This function is used to fetch Payment Details Count Of Student Fee
 // Author :Nishu Bindal
 // Created on : 16-April-2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -168,7 +168,7 @@ class ConsolidateFeeReportManager {
 //  This function is used to fetch Payment Details Of Student Fee
 // Author :Nishu Bindal
 // Created on : 16-April-2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -308,7 +308,7 @@ class ConsolidateFeeReportManager {
 //  This function is used to fetch Payment Details Of Student Fee
 // Author :Nishu Bindal
 // Created on : 16-April-2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 

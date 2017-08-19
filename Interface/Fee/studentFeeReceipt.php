@@ -3,7 +3,7 @@
 // Purpose: To generate student fee receipt functionality
 // Author : Nishu Bindal
 // Created on : (14.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;
@@ -444,7 +444,7 @@ window.onload = function () {
 //THIS FUNCTION IS USED TO Search Student
 //Author : Nishu Bindal
 // Created on : (6.Feb.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
 function getData(){
@@ -486,7 +486,7 @@ function getData(){
 //THIS FUNCTION IS USED TO Fill student roll no
 //Author : Nishu Bindal
 // Created on : (6.Feb.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 function fillStudent(rollNoRegNo){ 
 	hiddenFloatingDiv('getStudentDetail');
@@ -502,7 +502,7 @@ function fillStudent(rollNoRegNo){
 //
 //Author : Nishu Bindal
 // Created on : (6.Feb.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -547,7 +547,7 @@ function getStudentClasses() {
 //THIS FUNCTION IS USED TO GET Last Receipt No
 //Author : Nishu Bindal
 // Created on : (10.May.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -585,7 +585,7 @@ function getLastEntry() {
 //THIS FUNCTION IS USED TO Calculate Payable Amount
 //Author : Nishu Bindal
 // Created on : (10.May.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 function claculatePayableAmount(){
 	var payableFees = 0;
@@ -670,7 +670,7 @@ function setSelectedIndex(s, valsearch)
 // THIS FUNCTION IS used to getStudent details & Fee Details
 // Author :Nishu Bindal
 // Created on : (27.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------------------------------------- 
 		function getStudentDetails(){
             
@@ -790,7 +790,7 @@ function setSelectedIndex(s, valsearch)
 // THIS FUNCTION IS used to validate form before saving
 // Author :Nishu Bindal
 // Created on : (27.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------------------------------------- 
 	function validateForm(frm, act) {
 	
@@ -1054,7 +1054,7 @@ function setSelectedIndex(s, valsearch)
 // THIS FUNCTION IS used to add student fees
 // Author :Nishu Bindal
 // Created on : (27.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------------------------------------- 
 function addStudentFees(act){
 		var url = '<?php echo HTTP_LIB_PATH;?>/Fee/CollectFees/initAddFee.php';
@@ -1100,7 +1100,7 @@ function printReport(receiptNo) {
 // THIS FUNCTION IS TO RESET FORM 
 // Author :Nishu Bindal
 // Created on : (27.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------------------------------------- 
 	function resetForm(mode){ 
 		if(mode == 'all'){ 
@@ -1163,7 +1163,7 @@ function printReport(receiptNo) {
 // THIS FUNCTION IS TO Get the reason of delete 
 // Author :Nishu Bindal
 // Created on : (27.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------------------------------------- 
 	
 	function getDeleteReason(){

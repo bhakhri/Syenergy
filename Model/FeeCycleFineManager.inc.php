@@ -6,7 +6,7 @@
 //
 // Author :Arvind Singh Rawat
 // Created on : 1-July
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -22,7 +22,7 @@ class FeeCycleFineManager {
 //
 // Author :Arvind Singh Rawat
 // Created on : 1-July
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------- 	
 	
@@ -35,7 +35,7 @@ class FeeCycleFineManager {
 //
 // Author :Arvind Singh Rawat
 // Created on : 1-July
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------- 	
 
@@ -50,7 +50,7 @@ class FeeCycleFineManager {
 // THIS FUNCTION IS USED geting fee cycle name 
 //
 // Created on : 1-July
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------- 	
 
@@ -66,7 +66,7 @@ class FeeCycleFineManager {
 // THIS FUNCTION IS USED geting fee cycle name 
 //
 // Created on : 1-July
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------- 	
 
@@ -83,7 +83,7 @@ class FeeCycleFineManager {
 //
 // Author :Arvind Singh Rawat
 // Created on : 1-July
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------- 	
 
@@ -99,7 +99,7 @@ class FeeCycleFineManager {
 //
 // Author :Arvind Singh Rawat
 // Created on : 1-July
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------- 		
 	
@@ -115,7 +115,7 @@ class FeeCycleFineManager {
 //
 // Author :Arvind Singh Rawat
 // Created on : 1-July
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------- 		
 	 
@@ -136,7 +136,7 @@ WHERE fcf.feeCycleId = fc.feeCycleId
 //
 // Author :Arvind Singh Rawat
 // Created on : 1-July
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------- 	
  
@@ -158,7 +158,7 @@ WHERE fcf.feeCycleId = fc.feeCycleId
 //
 // Author :Arvind Singh Rawat
 // Created on : 22-oct
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------- 	
  
@@ -185,7 +185,7 @@ WHERE fcf.feeCycleId = fc.feeCycleId
 //
 // Author :Arvind Singh Rawat
 // Created on : 1-July
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------- 	
 
@@ -207,7 +207,7 @@ WHERE fcf.feeCycleId = fc.feeCycleId
 //
 // Author :Arvind Singh Rawat
 // Created on : 1-July
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------- 	
  

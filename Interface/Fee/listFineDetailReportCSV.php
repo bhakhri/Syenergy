@@ -3,7 +3,7 @@
 //  This File outputs the payment history to CSV for subject centric
 // Author :Nishu Bindal
 // Created on : 11-05-2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
 global $FE;

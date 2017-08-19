@@ -3,7 +3,7 @@
 //  THIS FILE IS USED FOR DB OPERATION FOR "user_prefs" TABLE
 // Author :Dipanjan Bhattacharjee 
 // Created on : (17.12.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -16,7 +16,7 @@ class ThemeManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
 	private function __construct() {
@@ -27,7 +27,7 @@ class ThemeManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 	public static function getInstance() {
@@ -45,7 +45,7 @@ class ThemeManager {
 //$userId=userId
 // Author :Dipanjan Bhattacharjee 
 // Created on : (17.12.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------        
     public function changeTheme($themeId,$userId) {
@@ -61,7 +61,7 @@ class ThemeManager {
 	//
 	// Author :Rajeev Aggarwal
 	// Created on : (11.08.2009)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//-------------------------------------------------------------------------------   	
 	public function checkUserPref($userId) {
@@ -75,7 +75,7 @@ class ThemeManager {
 	//
 	// Author :Rajeev Aggarwal
 	// Created on : (11.08.2009)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//-------------------------------------------------------------------------------   	
 	public function insertUserPref($userId) {
@@ -90,7 +90,7 @@ class ThemeManager {
 //$userId=userId
 // Author :Dipanjan Bhattacharjee 
 // Created on : (16.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------        
     public function changeGrouping($grouping,$userId) {
@@ -108,7 +108,7 @@ class ThemeManager {
 // $userId=userId
 // Author :Dipanjan Bhattacharjee 
 // Created on : (08.07.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------        
     public function changeDashBoardLayout($dashboardLayout,$userId) {
         return SystemDatabaseManager::getInstance()->runAutoUpdate('user_prefs', 

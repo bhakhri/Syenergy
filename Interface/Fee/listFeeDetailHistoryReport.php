@@ -3,7 +3,7 @@
 // Purpose: To List Fee Detail payemnt
 //Author : Harpreet
 // Created on : 16-April-2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 global $FE;
 require_once($FE . "/Library/common.inc.php");
@@ -65,7 +65,7 @@ sortOrderBy    = 'ASC';
 //
 //Author : Nishu Bindal
 // Created on : (6.Feb.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -105,7 +105,7 @@ function getBranches() {
 //
 //Author : Nishu Bindal
 // Created on : (6.Feb.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -147,7 +147,7 @@ function getBatch() {
 //
 //Author : Harpreet
 // Created on : (6.Feb.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 

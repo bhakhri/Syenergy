@@ -3,7 +3,7 @@
 // THIS FILE IS USED AS TEMPLATE FOR CITY LISTING 
 // Author :Dipanjan Bhattacharjee 
 // Created on : (11.01.2010)
-// Copyright 2008-2010: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2010: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 ?>
     <table width="100%" border="0" cellspacing="0" cellpadding="0">

@@ -3,7 +3,7 @@
 //  THIS FILE IS USED FOR DB OPERATION FOR "item_category" table
 // Author :Gurkeerat Sidhu 
 // Created on : (08.05.2009)
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -16,7 +16,7 @@ class ItemCategoryManager {
 //
 // Author :Gurkeerat Sidhu 
 // Created on : (08.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
     private function __construct() {
@@ -27,7 +27,7 @@ class ItemCategoryManager {
 //
 // Author :Gurkeerat Sidhu 
 // Created on : (08.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
     public static function getInstance() {
@@ -44,7 +44,7 @@ class ItemCategoryManager {
 //
 // Author :Gurkeerat Sidhu
 // Created on : (08.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
     public function addItemCategory() {
@@ -62,7 +62,7 @@ class ItemCategoryManager {
 //$id:itemCategoryId
 // Author :Gurkeerat Sidhu
 // Created on : (08.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------        
     public function editItemCategory($id) {
@@ -84,7 +84,7 @@ class ItemCategoryManager {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (08.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getItemCategory($conditions='') {
@@ -102,7 +102,7 @@ class ItemCategoryManager {
 //orderBy:sort on which column
 // Author :Gurkeerat Sidhu
 // Created on : (08.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -128,7 +128,7 @@ class ItemCategoryManager {
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (16.03.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -152,7 +152,7 @@ class ItemCategoryManager {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (08.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalItemCategory($conditions='') {
@@ -171,7 +171,7 @@ class ItemCategoryManager {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (08.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function checkItemCategory($conditions='') {
@@ -190,7 +190,7 @@ class ItemCategoryManager {
 //$itemCategoryId :itemCategoryId of the item_category
 // Author :Gurkeerat Sidhu 
 // Created on : (18.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------             
     public function checkInItemsMaster($itemCategoryId) {
@@ -207,7 +207,7 @@ class ItemCategoryManager {
 //$Id :itemCategoryId
 // Author :Gurkeerat Sidhu 
 // Created on : (08.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteItemCategory($id) {

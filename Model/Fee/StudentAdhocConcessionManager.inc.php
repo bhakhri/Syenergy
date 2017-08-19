@@ -3,7 +3,7 @@
 //  THIS FILE IS USED FOR DB OPERATION FOR "student and teacher_comment" TABLE
 // Author :Nishu Bindal
 // Created on : (8.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -17,7 +17,7 @@ class StudentAdhocConcessionManager {
 //
 // Author :Nishu Bindal
 // Created on : (8.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
 	private function __construct(){
@@ -28,7 +28,7 @@ class StudentAdhocConcessionManager {
 //
 // Author :Nishu Bindal
 // Created on : (8.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 	public static function getInstance() {
@@ -44,7 +44,7 @@ class StudentAdhocConcessionManager {
 // THIS FUNCTION IS used to delete student concession data
 // Author :Nishu Bindal
 // Created on : (8.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------
     public function deleteAdhocConcessionMaster($condition) {
          
@@ -63,7 +63,7 @@ class StudentAdhocConcessionManager {
 // THIS FUNCTION IS used to insert student concession data
 // Author :Nishu Bindal
 // Created on : (8.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------
     public function insertAdhocConcessionDetail($insertString) {
          
@@ -92,7 +92,7 @@ class StudentAdhocConcessionManager {
 //
 // Author :Nishu Bindal
 // Created on : (8.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 

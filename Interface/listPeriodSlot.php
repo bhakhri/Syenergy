@@ -4,7 +4,7 @@
 //
 // Author : Jaineesh
 // Created on : (15.12.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;
@@ -63,7 +63,7 @@ function getPeriodSlotData(){
 //h:height of the div
 //Author : Jaineesh
 // Created on : (15.12.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -81,7 +81,7 @@ function editWindow(id,dv,w,h) {
 //act : action value of the button (add/edit)
 //Author : Jaineesh
 // Created on : (15.12.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function validateAddForm(frm, act) {   
@@ -141,7 +141,7 @@ function emptySlotId() {
 //
 //Author : Jaineesh
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function addPeriodSlot() {
@@ -194,7 +194,7 @@ function addPeriodSlot() {
 //  id=periodSlotId
 //Author : Jaineesh
 // Created on : (15.12.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function deletePeriodSlot(id) {
@@ -233,7 +233,7 @@ function deletePeriodSlot(id) {
 //
 //Author : Jaineesh
 // Created on : (15.12.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------
 
@@ -250,7 +250,7 @@ function blankValues() {
 //
 //Author : Jaineesh
 // Created on : (15.12.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function editPeriodSlot() {
@@ -300,7 +300,7 @@ function editPeriodSlot() {
 //
 //Author : Jaineesh
 // Created on : (15.12.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function populateValues(id) {

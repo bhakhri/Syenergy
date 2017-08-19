@@ -3,7 +3,7 @@
 //
 // Author : Aditi Miglani
 // Created on : 09 Aug 2011
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -21,7 +21,7 @@ $classWiseEvaluationReportManager = ClassWiseEvaluationReportManager::getInstanc
     //Purpose:To escape any newline or comma present in data
     //Author: Dipanjan Bhattacharee
     //Date: 31.10.2008
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------   
     function parseCSVComments($comments) {

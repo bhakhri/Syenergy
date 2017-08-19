@@ -3,7 +3,7 @@
 //  THIS FILE IS USED FOR DB OPERATION FOR "REQUISTION MAPPING" table
 // Author :Jaineesh
 // Created on : (08.05.2009)
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -16,7 +16,7 @@ class GRNManager {
 //
 // Author :Jaineesh
 // Created on : (27 July 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     private function __construct() {
@@ -27,7 +27,7 @@ class GRNManager {
 //
 // Author :Jaineesh
 // Created on : (27 July 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public static function getInstance() {
@@ -47,7 +47,7 @@ class GRNManager {
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (27 July 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -71,7 +71,7 @@ class GRNManager {
 //
 // Author :Jaineesh
 // Created on : (03 Sep 10)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 	public function getPO($orderBy='poId') {
@@ -98,7 +98,7 @@ class GRNManager {
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (27 July 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -127,7 +127,7 @@ class GRNManager {
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (27 July 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -155,7 +155,7 @@ class GRNManager {
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (07 Sep 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -183,7 +183,7 @@ class GRNManager {
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (07 Sep 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -210,7 +210,7 @@ class GRNManager {
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (27 July 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -240,7 +240,7 @@ class GRNManager {
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (27 July 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -272,7 +272,7 @@ class GRNManager {
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (07 Sep 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -295,7 +295,7 @@ class GRNManager {
 //
 // Author :Jaineesh
 // Created on : (02 Sep 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------
     public function getGRNData($conditions) {
@@ -311,7 +311,7 @@ class GRNManager {
 //
 // Author :Jaineesh
 // Created on : (06 Sep 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------
 
@@ -338,7 +338,7 @@ public function addGRN(){
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (06 Sept 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -364,7 +364,7 @@ public function addGRN(){
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (06 Sept 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -392,7 +392,7 @@ public function addGRN(){
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (06 Sept 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -420,7 +420,7 @@ public function addGRN(){
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (06 Sept 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -450,7 +450,7 @@ public function addGRN(){
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (07 Sep 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -485,7 +485,7 @@ public function addGRN(){
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (06 Sept 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------
 

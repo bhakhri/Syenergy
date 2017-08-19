@@ -3,7 +3,7 @@
 // This file is used as CSV version for display feedback comments
 // Author :Dipanjan Bhattacharjee
 // Created on : 13-Aug-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------------------
     global $FE;
     require_once($FE . "/Library/common.inc.php");

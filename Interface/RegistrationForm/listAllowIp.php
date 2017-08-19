@@ -4,7 +4,7 @@
 //
 // Author :Abhay Kant
 // Created on : 22.6.2011
-// Copyright 2010-2011: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2010-2011: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 global $FE;
 require_once($FE . "/Library/common.inc.php");

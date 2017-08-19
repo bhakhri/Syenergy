@@ -4,7 +4,7 @@
 //
 // Author : Jaineesh
 // Created on : (10.06.2010 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------
 global $FE;
@@ -68,7 +68,7 @@ var flag = false; // for whether the record has been added or not, if flag is tr
 //h:height of the div
 //Author : Dipanjan Bhattacharjee
 // Created on : (26.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function editWindow(id,dv,w,h) {
@@ -107,7 +107,7 @@ function showHelpDetails(title,msg) {
 //act:type of operations(Add/Edit)
 //Author : Dipanjan Bhattacharjee
 // Created on : (26.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 var serverDate="<?php echo date('Y-m-d'); ?>";
@@ -183,7 +183,7 @@ function validateAddForm(frm, act) {
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (26.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function addVehicleServiceRepair() {
@@ -224,7 +224,7 @@ function addVehicleServiceRepair() {
 //  id=busStopId
 //Author : Dipanjan Bhattacharjee
 // Created on : (26.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function deleteServiceRepair(id) {
@@ -263,7 +263,7 @@ function deleteServiceRepair(id) {
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (26.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function blankValues() {
@@ -277,7 +277,7 @@ function blankValues() {
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (26.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function editVehicleServiceRepair() {
@@ -313,7 +313,7 @@ function editVehicleServiceRepair() {
 //
 //Author : Jaineesh
 // Created on : (10.06.10)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -345,7 +345,7 @@ function getServiceDetailData() {
 //
 //Author : Jaineesh
 // Created on : (10.06.10)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -378,7 +378,7 @@ function getEditServiceDetailData() {
 //
 //Author : Jaineesh
 // Created on : (10.06.10)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -440,7 +440,7 @@ function getServiceDetail(id) {
 // 
 //Author : Jaineesh
 // Created on : (30.12.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -762,7 +762,7 @@ var isMozilla = (document.all) ? 0 : 1;
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (26.6.2008)                                              
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function populateValues(id) {

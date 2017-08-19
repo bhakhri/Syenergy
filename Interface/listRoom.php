@@ -53,7 +53,7 @@ sortOrderBy    = 'ASC';
 //h:height of the div
 //Author : Jaineesh
 // Created on : (26.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 var flag = false; // for whether the record has been added or not, if flag is true then refresh your page when user clicks on cancel button
@@ -70,7 +70,7 @@ function editWindow(id,dv,w,h) {
 //act : action value of the button (add/edit)
 //Author : Jaineesh
 // Created on : (26.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function validateAddForm(frm, act) {
@@ -157,7 +157,7 @@ function validateAddForm(frm, act) {
 //
 //Author : Jaineesh
 // Created on : (2.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function addRoom() {
@@ -232,7 +232,7 @@ function addRoom() {
 //
 //Author : Jaineesh
 // Created on : (26.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function deleteRoom(id) {
@@ -270,7 +270,7 @@ function deleteRoom(id) {
 //
 //Author : Jaineesh
 // Created on : (2.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
  
@@ -297,7 +297,7 @@ function blankValues() {
 // 
 //Author : Jaineesh
 // Created on : (26.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function editRoom() {

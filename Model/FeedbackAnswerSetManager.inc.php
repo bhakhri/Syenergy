@@ -3,7 +3,7 @@
 //  THIS FILE IS USED FOR DB OPERATION FOR "feedbackadv_answer_set" table
 // Author :Gurkeerat Sidhu 
 // Created on : (08.01.2010)
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -16,7 +16,7 @@ class FeedbackAnswerSetManager {
 //
 // Author :Gurkeerat Sidhu 
 // Created on : (08.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
     private function __construct() {
@@ -27,7 +27,7 @@ class FeedbackAnswerSetManager {
 //
 // Author :Gurkeerat Sidhu 
 // Created on : (08.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
     public static function getInstance() {
@@ -44,7 +44,7 @@ class FeedbackAnswerSetManager {
 //
 // Author :Gurkeerat Sidhu
 // Created on : (08.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
     public function addAnswerSet() {
@@ -64,7 +64,7 @@ class FeedbackAnswerSetManager {
 //$id:cityId
 // Author :Gurkeerat Sidhu
 // Created on : (08.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------        
     public function editAnswerSet($id) {
@@ -85,7 +85,7 @@ class FeedbackAnswerSetManager {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (08.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getAnswerSet($conditions='') {
@@ -103,7 +103,7 @@ class FeedbackAnswerSetManager {
 //orderBy:sort on which column
 // Author :Gurkeerat Sidhu
 // Created on : (08.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -130,7 +130,7 @@ class FeedbackAnswerSetManager {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (08.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalAnswerSet($conditions='') {
@@ -152,7 +152,7 @@ class FeedbackAnswerSetManager {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (08.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function checkAnswerSet($conditions='') {
@@ -171,7 +171,7 @@ class FeedbackAnswerSetManager {
 //$testtypeId :testTypeCategoryId  of testtypecategory
 // Author :Gurkeerat Sidhu 
 // Created on : (08.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteAnswerSet($id) {
@@ -188,7 +188,7 @@ class FeedbackAnswerSetManager {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (08.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function checkExistanceAnswerSet($conditions='') {
@@ -206,7 +206,7 @@ class FeedbackAnswerSetManager {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (08.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function checkExistanceQuestion($conditions='') {
@@ -224,7 +224,7 @@ class FeedbackAnswerSetManager {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (06.02.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function checkExistanceAnswer($id) {

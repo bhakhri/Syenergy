@@ -4,7 +4,7 @@
 //
 // Author : Dipanjan Bhattacharjee
 // Created on : (12.6.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;
@@ -92,7 +92,7 @@ var flag = false; // for whether the record has been added or not, if flag is tr
 //h:height of the div
 //Author : Dipanjan Bhattacharjee
 // Created on : (12.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function editWindow(id,dv,w,h) {
@@ -162,7 +162,7 @@ function getShowSearch(val) {
 //act:type of operations(Add/Edit)
 //Author : Dipanjan Bhattacharjee
 // Created on : (12.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function validateAddForm(frm, act) {
@@ -247,7 +247,7 @@ function validateAddForm(frm, act) {
 //
 //Author : Nishu Bindal
 // Created on : (12.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function addRouteAllocation(frm) {
@@ -308,7 +308,7 @@ function addRouteAllocation(frm) {
 //  id=cityId
 //Author : Dipanjan Bhattacharjee
 // Created on : (25.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function deleteVehicleAllocation(id) {
@@ -348,7 +348,7 @@ function deleteVehicleAllocation(id) {
 //THIS FUNCTION IS USED TO CLEAN UP THE "Add Vehicle Route Allocation" DIV
 //Author : Nishu Bindal
 // Created on : (28.Feb.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function blankValues(isType) {
@@ -380,7 +380,7 @@ function blankValues(isType) {
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (12.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function editRouteAllocation() {
@@ -444,7 +444,7 @@ function editRouteAllocation() {
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (12.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
  function populateValues(id, isAllocationId){
@@ -665,7 +665,7 @@ function getStudentData(value,act){
 //THIS FUNCTION IS USED TO GET Room Type
 //Author : Nishu Bindal
 // Created on : (6.Feb.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function getStatus() {
@@ -786,7 +786,7 @@ function getStatus() {
 //THIS FUNCTION IS USED TO GET Room Name
 //Author : Nishu Bindal
 // Created on : (28.Feb.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 

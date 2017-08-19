@@ -5,7 +5,7 @@
 //
 // Author : Parveen Sharma
 // Created on : (05.07.2009 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;
@@ -58,7 +58,7 @@ sortOrderBy    = 'ASC';
 //h:height of the div
 //Author : Parveen sharma
 // Created on : (26.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 var flag = false; // for whether the record has been added or not, if flag is true then refresh your page when user clicks on cancel button
@@ -123,7 +123,7 @@ function validateAddForm(frm, act) {
 //
 //Author : Parveen sharma
 // Created on : (26.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -193,7 +193,7 @@ function addGroup() {
 //
 //Author : Parveen Sharma
 // Created on : (26.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function deleteGroup(id) {
@@ -231,7 +231,7 @@ function deleteGroup(id) {
 //
 //Author : Parveen Sharma
 // Created on : (26.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -247,7 +247,7 @@ function blankValues(){
 //
 //Author : Parveen Sharma
 // Created on : (26.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function editGroup() {
@@ -309,7 +309,7 @@ function editGroup() {
 //as seen in the subject category master list
 //Author : Cheena garg
 // Created on : (01.08.2011)
-// Copyright 2011-2012 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2011-2012 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 function viewSubjectDetailsWindow(id) {
     
@@ -351,7 +351,7 @@ function viewSubjectDetailsWindow(id) {
 //
 //Author : Parveen Sharma
 // Created on : (26.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 function populateValues(id) {
 

@@ -4,7 +4,7 @@
 //
 // Author :Aanchal Arora
 // Created on : 31-Aug-2011
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 global $FE;
 require_once($FE . "/Library/common.inc.php");

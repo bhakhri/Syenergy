@@ -3,7 +3,7 @@
 //
 // Author :Abhiraj Malhotra
 // Created on : 19-Apr-2010
-// Copyright 2009-2010: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2009-2010: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 

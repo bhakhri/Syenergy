@@ -3,7 +3,7 @@
 // Purpose: To create a subject wise optional group.
 // Author : Parveen Sharma
 // Created on : (02.07.2008 )
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 ini_set('MEMORY_LIMIT','5000M'); 
 set_time_limit(0);  

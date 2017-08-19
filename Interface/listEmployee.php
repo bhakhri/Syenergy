@@ -3,7 +3,7 @@
 //  THIS FILE SHOWS A LIST OF EMPLOYEE ALONG WITH ADD,EDIT,DELETE,SEARCH AND PAGING OPTIONS
 // Author : Jaineesh
 // Created on : (13.6.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;
@@ -66,7 +66,7 @@ var flag = false; // for whether the record has been added or not, if flag is tr
 //h:height of the div
 //Author : Jaineesh
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function editWindow(id,dv,w,h,guestFaculty,left,top) {
@@ -92,7 +92,7 @@ function editWindow(id,dv,w,h,guestFaculty,left,top) {
 //act : action value of the button (add/edit)
 //Author : Jaineesh
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function checkRadio(){
@@ -908,7 +908,7 @@ function validateAddGuestForm(frm, act) {
 //
 //Author : Jaineesh
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function addEmployee() {
@@ -1252,7 +1252,7 @@ function deleteEmployee(id) {
 //THIS FUNCTION IS USED TO DELETE Employee Photo
 //Author : Jaineesh
 // Created on : (20.08.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function deleteEmployeeImage(id) {
@@ -1289,7 +1289,7 @@ function deleteEmployeeImage(id) {
 //THIS FUNCTION IS USED TO DELETE Employee Photo
 //Author : Jaineesh
 // Created on : (20.08.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function deleteDLImage(id) {
@@ -1471,7 +1471,7 @@ function  getLastestUserCode(mode){
 //
 //Author : Jaineesh
 // Created on : (13.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function editEmployee() {
@@ -1782,7 +1782,7 @@ function editGuestEmployee() {
 //
 //Author : Jaineesh
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function populateValues(id) { 
@@ -2249,7 +2249,7 @@ function populateValues(id) {
 //
 //Author : Jaineesh
 // Created on : (17.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------
 //id:id
@@ -2601,7 +2601,7 @@ window.onload=function(){
 //User: Jaineesh     Date: 8/18/09    Time: 7:37p
 //Updated in $/LeapCC/Interface
 //Remove administrator role from role type so that no new administrator
-//can be made and Chalkpad will be administrator and Applied time
+//can be made and syenergy will be administrator and Applied time
 //validation so that start time can not be greater than end time.
 //
 //*****************  Version 20  *****************

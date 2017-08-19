@@ -5,7 +5,7 @@
 //
 // Author :Ajinder Singh
 // Created on : 19-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;
@@ -20,7 +20,7 @@ class ClassesManager {
 //
 // Author :Ajinder Singh
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -34,7 +34,7 @@ class ClassesManager {
 //
 // Author :Ajinder Singh
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public static function getInstance() {
@@ -50,7 +50,7 @@ class ClassesManager {
 //
 // Author :Ajinder Singh
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -81,7 +81,7 @@ class ClassesManager {
 //
 // Author :Ajinder Singh
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getClasses($conditions='') {
@@ -98,7 +98,7 @@ class ClassesManager {
 //
 // Author :Ajinder Singh
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -191,7 +191,7 @@ class ClassesManager {
 //
 // Author :Ajinder Singh
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getTotalClasses($conditions='') {
@@ -214,7 +214,7 @@ class ClassesManager {
 //
 // Author :Ajinder Singh
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function getPeriodicityFrequency($conditions='') {
@@ -227,7 +227,7 @@ class ClassesManager {
 //
 // Author :Ajinder Singh
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function getPeriodicityFrequencyById($periodicityId) {
@@ -240,7 +240,7 @@ class ClassesManager {
 //
 // Author :Ajinder Singh
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function countStudyPeriods($periodicityId) {
@@ -253,7 +253,7 @@ class ClassesManager {
 //
 // Author :Ajinder Singh
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function getStudyPeriods($periodicityId, $records) {
@@ -266,7 +266,7 @@ class ClassesManager {
 //
 // Author :Ajinder Singh
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function getClassName($periodName) {
@@ -281,7 +281,7 @@ class ClassesManager {
 //
 // Author :Ajinder Singh
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function getClass($conditions='') {
@@ -294,7 +294,7 @@ class ClassesManager {
 //
 // Author :Ajinder Singh
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function getBatchAndSessionYear($batchId, $sessionId) {
@@ -307,7 +307,7 @@ class ClassesManager {
 //
 // Author :Ajinder Singh
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function getNextSessionYearId($sessionId) {
@@ -320,7 +320,7 @@ class ClassesManager {
 //
 // Author :Ajinder Singh
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function getSessionId($year) {
@@ -333,7 +333,7 @@ class ClassesManager {
 //
 // Author :Ajinder Singh
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function countSessionYear($year) {
@@ -346,7 +346,7 @@ class ClassesManager {
 //
 // Author :Ajinder Singh
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function getSessionYear($sessionId) {
@@ -359,7 +359,7 @@ class ClassesManager {
 //
 // Author :Ajinder Singh
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function getBatchYear($batchId) {
@@ -372,7 +372,7 @@ class ClassesManager {
 //
 // Author :Ajinder Singh
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function countClassStudents($classId) {
@@ -385,7 +385,7 @@ class ClassesManager {
 //
 // Author :Ajinder Singh
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function countStudentsInRelatedClasses($classId) {
@@ -398,7 +398,7 @@ class ClassesManager {
 //
 // Author :Ajinder Singh
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function countTimeTableMappingInRelatedClasses($classId) {
@@ -411,7 +411,7 @@ class ClassesManager {
 //
 // Author :Ajinder Singh
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function getAllRelatedClasses($classId) {
@@ -424,7 +424,7 @@ class ClassesManager {
 //
 // Author :Ajinder Singh
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function deleteClassInTransaction($classId) {
@@ -437,7 +437,7 @@ class ClassesManager {
 //
 // Author :Ajinder Singh
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function getClassStudyPeriods($classId) {
@@ -450,7 +450,7 @@ class ClassesManager {
 //
 // Author :Ajinder Singh
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function deleteClassSubjectsInTransaction($classId) {
@@ -462,7 +462,7 @@ class ClassesManager {
 //
 // Author :Ajinder Singh
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function deleteClassGroupsInTransaction($classId) {
@@ -475,7 +475,7 @@ class ClassesManager {
 //
 // Author :Ajinder Singh
 // Created on : 29-July-2009
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function getActiveSessionYear() {
@@ -488,7 +488,7 @@ class ClassesManager {
 //
 // Author :Ajinder Singh
 // Created on : 29-July-2009
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function getThisStudyPeriod($classId, $nextPeriod) {
@@ -502,7 +502,7 @@ class ClassesManager {
 //
 // Author :Ajinder Singh
 // Created on : 29-July-2009
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function getRelatedClassStudyPeriod($classId, $studyPeriodId) {
@@ -515,7 +515,7 @@ class ClassesManager {
 //
 // Author :Ajinder Singh
 // Created on : 29-July-2009
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function updateClass($thisClassId, $isActive) {
@@ -530,7 +530,7 @@ class ClassesManager {
 //
 // Author :Ajinder Singh
 // Created on : 29-July-2009
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function updateClassInTransaction($thisClassId, $isActive) {
@@ -545,7 +545,7 @@ class ClassesManager {
 //
 // Author :Ajinder Singh
 // Created on : 29-July-2009
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function getUniversityId($universityId) {
@@ -557,7 +557,7 @@ class ClassesManager {
 //
 // Author :Ajinder Singh
 // Created on : 29-July-2009
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function getDegreeId($degreeId) {
@@ -569,7 +569,7 @@ class ClassesManager {
 //
 // Author :Ajinder Singh
 // Created on : 29-July-2009
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function getBranchId($branchId) {
@@ -582,7 +582,7 @@ class ClassesManager {
 //
 // Author :Ajinder Singh
 // Created on : 29-July-2009
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function countMultiplePeriodicity($batchId, $degreeId, $universityId, $branchId, $instituteId) {
@@ -642,7 +642,7 @@ class ClassesManager {
 //
 // Author :Ajinder Singh
 // Created on : 29-01-2010
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -666,7 +666,7 @@ class ClassesManager {
 //
 // Author :Ajinder Singh
 // Created on : 29-01-2010
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -694,7 +694,7 @@ class ClassesManager {
 //
 // Author :Ajinder Singh
 // Created on : 29-01-2010
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function getLastClassDetails($classId) {

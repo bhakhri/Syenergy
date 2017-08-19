@@ -4,7 +4,7 @@
 //
 // Author : Jaineesh
 // Created on : (13.6.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;
@@ -54,7 +54,7 @@ sortOrderBy    = 'ASC';
 //h:height of the div
 //Author : Jaineesh
 // Created on : (13.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -71,7 +71,7 @@ function editWindow(id,dv,w,h) {
 //act : action value of the button (add/edit)
 //Author : Jaineesh
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function validateAddForm(frm, act) {   
@@ -295,7 +295,7 @@ function validateAddForm(frm, act) {
 //
 //Author : Jaineesh
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function addPeriods() {
@@ -387,7 +387,7 @@ function blankValues() {
 // 
 //Author : Jaineesh
 // Created on : (13.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function editPeriods() {
@@ -433,7 +433,7 @@ function editPeriods() {
 // 
 //Author : Jaineesh
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function populateValues(id) {
@@ -540,7 +540,7 @@ function printCSV() {
 //User: Jaineesh     Date: 8/18/09    Time: 7:37p
 //Updated in $/LeapCC/Interface
 //Remove administrator role from role type so that no new administrator
-//can be made and Chalkpad will be administrator and Applied time
+//can be made and syenergy will be administrator and Applied time
 //validation so that start time can not be greater than end time.
 //
 //*****************  Version 11  *****************

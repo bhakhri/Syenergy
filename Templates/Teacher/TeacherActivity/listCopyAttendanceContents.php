@@ -3,7 +3,7 @@
 // THIS FILE IS USED AS TEMPLATE FOR student and message LISTING 
 // Author :Dipanjan Bhattacharjee 
 // Created on : (8.7.2008)
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 require_once(BL_PATH.'/helpMessage.inc.php');
 

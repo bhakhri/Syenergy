@@ -5,7 +5,7 @@
 //
 // Author : Parveen Sharma
 // Created on : (8.7.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;
@@ -27,7 +27,7 @@ UtilityManager::headerNoCache();
 //$conditions :db clauses
 // Author :Parveen Sharma 
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------  
 function sendSms($toMobileNo,$msgBody){

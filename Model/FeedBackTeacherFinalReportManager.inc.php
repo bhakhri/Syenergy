@@ -5,7 +5,7 @@
 //
 // Author :Gurkeerat Sidhu 
 // Created on : (9.02.2010 )
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -19,7 +19,7 @@ class FeedBackTeacherFinalReportManager {
 //
 // Author :Gurkeerat Sidhu 
 // Created on : (9.02.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
 	private function __construct() {
@@ -30,7 +30,7 @@ class FeedBackTeacherFinalReportManager {
 //
 // Author :Gurkeerat Sidhu 
 // Created on : (9.02.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 	public static function getInstance() {
@@ -47,7 +47,7 @@ class FeedBackTeacherFinalReportManager {
 //
 // Author :Gurkeerat Sidhu
 // Created on : (15.01.10)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------      
     public function getSelectedTimeTableLabel($timeTableLabelId) {
@@ -66,7 +66,7 @@ class FeedBackTeacherFinalReportManager {
 //
 // Author :Gurkeerat Sidhu
 // Created on : (15.01.10)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------      
     public function getTotalCount($feedbackToQuestionId,$employeeId,$answerSetOptionId) {
@@ -88,7 +88,7 @@ class FeedBackTeacherFinalReportManager {
 //
 // Author :Gurkeerat Sidhu
 // Created on : (15.01.10)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------      
     public function getQuestions($feedbackCategoryId,$feedbackSurveyId) {
@@ -110,7 +110,7 @@ class FeedBackTeacherFinalReportManager {
 //
 // Author :Gurkeerat Sidhu
 // Created on : (15.01.10)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------      
     public function getOptions($employeeId,$feedbackCategoryId,$feedbackSurveyId) {
@@ -142,7 +142,7 @@ class FeedBackTeacherFinalReportManager {
 //
 // Author :Gurkeerat Sidhu
 // Created on : (30.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------     
     public function getCategory12($labelId,$orderBy=' feedbackCategoryName') {
@@ -174,7 +174,7 @@ class FeedBackTeacherFinalReportManager {
 //
 // Author :Gurkeerat Sidhu
 // Created on : (30.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------     
     public function getCategory($labelId,$teacherId,$timeTableLabelId,$orderBy=' feedbackCategoryName') {

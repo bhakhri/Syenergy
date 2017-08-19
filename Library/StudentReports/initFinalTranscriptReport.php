@@ -3,7 +3,7 @@
 //This file returns the array of of Test Time Period
 // Author :Ipta Thakur
 // Created on : 2-11-2011
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     set_time_limit(0); 

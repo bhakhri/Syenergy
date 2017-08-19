@@ -4,7 +4,7 @@
 //
 // Author : Jaineesh
 // Created on : (26 July 10)
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;
@@ -65,7 +65,7 @@ var flag = false; // for whether the record has been added or not, if flag is tr
 //h:height of the div
 //Author : Jaineesh
 // Created on : (27.07.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function editWindow(id,dv,w,h) {
@@ -78,7 +78,7 @@ function editWindow(id,dv,w,h) {
 
 //Author : Abhay Kant
 // Created on : (28.07.2011)
-// Copyright 2010-2011 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2010-2011 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 var topPos = 0;
@@ -109,7 +109,7 @@ function showHelpDetails(title,msg) {
 //act:type of operations(Add/Edit)
 //Author : Jaineesh
 // Created on : (27.07.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 var serverDate="<?php echo date('Y-m-d'); ?>";
@@ -410,7 +410,7 @@ function checkDuplicateValue(value){
 //
 //Author : Jaineesh
 // Created on : (27.07.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //reorderLevel
 //--------------------------------------------------------
 function addItem() {
@@ -501,7 +501,7 @@ function addItemDescription() {
 //  id=cityId
 //Author : Jaineesh
 // Created on : (27.07.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function deleteItem(id) {
@@ -541,7 +541,7 @@ function deleteItem(id) {
 //reorderLevel
 //Author : Jaineesh
 // Created on : (27.07.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function blankValues() {
@@ -580,7 +580,7 @@ function  getLastestItemCode(mode){
 //
 //Author : Jaineesh
 // Created on : (27 July 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function editItem() {
@@ -626,7 +626,7 @@ function editItem() {
 //
 //Author : Jaineesh
 // Created on : (27.07.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function populateValues(id) {

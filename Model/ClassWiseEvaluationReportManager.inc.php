@@ -4,7 +4,7 @@
 //	Class Wise Evaluation Reports Manager
 // 	Author : Aditi Miglani
 // 	Created on : 09 Aug 2011
-// 	Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// 	Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -27,7 +27,7 @@ class ClassWiseEvaluationReportManager {
 //function created for fetching subjects and subject Types
 // Author :Parveen Sharma
 // Created on : 04-12-08
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------
     public function getAllSubjectAndSubjectTypes($conditions='', $orderBy=' classId, subjectTypeId, subjectCode',$sortBy='ASC') {
@@ -119,7 +119,7 @@ class ClassWiseEvaluationReportManager {
 
 // Author :Ajinder Singh
 // Created on : 29-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------
 	public function getSingleField($table, $field, $conditions='') {

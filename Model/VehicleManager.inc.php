@@ -5,7 +5,7 @@
 //
 // Author :Dipanjan Bhattacharjee
 // Created on : (26.06.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 ?>
@@ -98,7 +98,7 @@ class VehicleManager {
 //addVehicleType() is used to add new record in database.
 // Author : Jaineesh
 // Created on : 24.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------
     public function addInsuranceVehicleHistory($insertedBusId, $insuranceDate, $insuranceDueDate) {

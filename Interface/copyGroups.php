@@ -4,7 +4,7 @@
 //
 // Author : Dipanjan Bhattacharjee
 // Created on : (12.6.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;
@@ -29,7 +29,7 @@ require_once(TEMPLATES_PATH .'/jsCssHeader.php');
 //THIS FUNCTION IS USED TO fetch previous classes
 //Author : Dipanjan Bhattacharjee
 // Created on : (23.12.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 function getPreviousClass(classId) {
          
@@ -67,7 +67,7 @@ function getPreviousClass(classId) {
 //THIS FUNCTION IS USED TO fetch previous classes
 //Author : Dipanjan Bhattacharjee
 // Created on : (23.12.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 function getActiveClassesWithNoGroups() {
          
@@ -100,7 +100,7 @@ function getActiveClassesWithNoGroups() {
 //THIS FUNCTION IS USED TO copy groups
 //Author : Dipanjan Bhattacharjee
 // Created on : (23.12.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 function copyGroups() {
          var url = '<?php echo HTTP_LIB_PATH;?>/Group/ajaxCopyGroups.php';

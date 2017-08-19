@@ -2,7 +2,7 @@
 //This file creates Html Form output in Bus Stop Head
 // Author :Nishu Bindal
 // Created on : 21-Feb-2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(TEMPLATES_PATH . "/breadCrumb.php");

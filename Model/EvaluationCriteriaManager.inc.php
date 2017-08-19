@@ -5,7 +5,7 @@
 //
 // Author :Rajeev Aggarwal 
 // Created on : (13.06.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -19,7 +19,7 @@ class EvaluationCriteriaManager{
 	//
 	// Author :Rajeev Aggarwal 
 	// Created on : (12.06.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//-------------------------------------------------------------------------------     
 	private function __construct() {
@@ -29,7 +29,7 @@ class EvaluationCriteriaManager{
 	//
 	// Author :Rajeev Aggarwal 
 	// Created on : (12.06.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//-------------------------------------------------------------------------------       
 	public static function getInstance() {
@@ -44,7 +44,7 @@ class EvaluationCriteriaManager{
 	//
 	// Author :Rajeev Aggarwal 
 	// Created on : (12.06.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//--------------------------------------------------------    
 
@@ -60,7 +60,7 @@ class EvaluationCriteriaManager{
 	//$id:cityId
 	// Author :Rajeev Aggarwal 
 	// Created on : (12.06.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//--------------------------------------------------------     
     public function editEvaluationCritieria($id) {
@@ -75,7 +75,7 @@ class EvaluationCriteriaManager{
 	//$conditions :db clauses
 	// Author :Rajeev Aggarwal 
 	// Created on : (12.06.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//-------------------------------------------------------- 
     public function getEvaluationCritieria($conditions='') {
@@ -93,7 +93,7 @@ class EvaluationCriteriaManager{
 	//$cityId :cityid of the City
 	// Author :Rajeev Aggarwal 
 	// Created on : (12.06.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//--------------------------------------------------------------------------------------------------------  
     public function deleteEvalutionCritieria($evalutioncritieriaId) {
@@ -112,7 +112,7 @@ class EvaluationCriteriaManager{
 	//orderBy:sort on which column
 	// Author :Rajeev Aggarwal 
 	// Created on : (12.06.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//--------------------------------------------------------    
     public function getEvaluationCriteriaList($conditions='', $limit = '', $orderBy=' evaluationCriteriaId') {
@@ -131,7 +131,7 @@ class EvaluationCriteriaManager{
 	//$conditions :db clauses
 	// Author :Rajeev Aggarwal 
 	// Created on : (12.06.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------   
     public function getTotalEvaluationCriteriaType($conditions='') {

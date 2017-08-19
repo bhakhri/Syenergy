@@ -3,7 +3,7 @@
 // THIS FILE SHOWS A LIST OF INISTITUTES ALONG WITH ADD,EDIT,DELETE,SEARCH AND PAGING OPTIONS
 // Author : Dipanjan Bhattacharjee
 // Created on : (13.6.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 global $FE;
 require_once($FE . "/Library/common.inc.php");
@@ -62,7 +62,7 @@ var flag = false; // for whether the record has been added or not, if flag is tr
 //h:height of the div
 //Author : Dipanjan Bhattacharjee
 // Created on : (13.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function editWindow(id,dv,w,h) {
@@ -77,7 +77,7 @@ function editWindow(id,dv,w,h) {
 //act:type of operations(Add/Edit)
 //Author : Dipanjan Bhattacharjee
 // Created on : (13.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -439,7 +439,7 @@ function validateAddForm(frm, act) {
 // THIS FUNCTION IS USED TO ADD A NEW INSTITUTE   
 // Author : Dipanjan Bhattacharjee
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 function addDrive() {
          var url = '<?php echo HTTP_LIB_PATH;?>/Placement/Drive/ajaxInitAdd.php';
@@ -522,7 +522,7 @@ function addDrive() {
 //  id=universityId
 //Author : Dipanjan Bhattacharjee
 // Created on : (26.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function deleteDrive(id) {
@@ -560,7 +560,7 @@ function deleteDrive(id) {
 // THIS FUNCTION IS USED TO CLEAN UP THE "AddInatitute" DIV
 // Author : Dipanjan Bhattacharjee
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 function blankValues() {
    document.AddDrive.reset();
@@ -575,7 +575,7 @@ function blankValues() {
 // THIS FUNCTION IS USED TO EDIT A INSTITUTE
 // Author : Dipanjan Bhattacharjee
 // Created on : (13.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 function editDrive() {
          var url = '<?php echo HTTP_LIB_PATH;?>/Placement/Drive/ajaxInitEdit.php';
@@ -651,7 +651,7 @@ function editDrive() {
 // THIS FUNCTION IS USED TO POPULATE "EditInatitute" DIV
 // Author : Dipanjan Bhattacharjee
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 function populateValues(id) {
          

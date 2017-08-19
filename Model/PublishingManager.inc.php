@@ -3,7 +3,7 @@
 //  THIS FILE IS USED FOR DB OPERATION FOR "Document" table
 // Author :Jaineesh 
 // Created on : (28.02.2009 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -16,7 +16,7 @@ class PublishingManager {
 //
 // Author :Jaineesh
 // Created on : (28.02.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
     private function __construct() {
@@ -27,7 +27,7 @@ class PublishingManager {
 //
 // Author :Jaineesh 
 // Created on : (28.02.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
     public static function getInstance() {
@@ -43,7 +43,7 @@ class PublishingManager {
 //
 // Author :Jaineesh 
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
     public function addPublishing($employeeId) {
@@ -63,7 +63,7 @@ class PublishingManager {
 //$id:documentId
 // Author :Jaineesh 
 // Created on : (28.02.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------        
     public function editPublishing($id) {
@@ -84,7 +84,7 @@ class PublishingManager {
 //$publishId :publishId   of document
 // Author :Jaineesh 
 // Created on : (05.03.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deletePublishing($Id) {
@@ -102,7 +102,7 @@ class PublishingManager {
 //$conditions :db clauses
 // Author :Jaineesh 
 // Created on : (05.3.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getPublishing($conditions='') {
@@ -128,7 +128,7 @@ class PublishingManager {
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (19.02.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -157,7 +157,7 @@ class PublishingManager {
 //$conditions :db clauses
 // Author :Jaineesh 
 // Created on : (28.02.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalPublishing($filter='') {
@@ -178,7 +178,7 @@ class PublishingManager {
 //$conditions :db clauses
 // Author :Jaineesh 
 // Created on : (28.02.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getEmployee($code='') {
@@ -199,7 +199,7 @@ class PublishingManager {
 //$conditions :db clauses
 // Author :Jaineesh 
 // Created on : (04.03.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getEmployeeDetail($conditions='') {

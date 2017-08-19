@@ -3,7 +3,7 @@
 // THIS FILE IS USED FOR MEDICAL LEAVE MODULE 
 // Author : Aditi Miglani
 // Created on : 5 Oct 2011
-// Copyright 2011-2012: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2011-2012: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 ini_set("memory_limit","250M");     
 set_time_limit(0);

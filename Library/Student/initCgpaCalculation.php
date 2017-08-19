@@ -3,7 +3,7 @@
 //  This File contains showing section assignment students
 // Author :Parveen Sharma
 // Created on : 16-Feb-2009
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
     ini_set('MEMORY_LIMIT','5000M'); 
     set_time_limit(0);

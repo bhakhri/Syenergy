@@ -3,7 +3,7 @@
 // This File outputs the Bank Branch
 // Author :Jaineesh
 // Created on : 20.08.09
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 global $FE;
 require_once($FE . "/Library/common.inc.php");

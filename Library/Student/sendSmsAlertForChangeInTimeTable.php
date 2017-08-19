@@ -2,7 +2,7 @@
 
 // This file is used to send the sms alert to students for change in there time table
 // Created on : 08-Mar-2011
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -23,7 +23,7 @@ else{
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (19.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 /*function sendSMS($mobileNo,$message){

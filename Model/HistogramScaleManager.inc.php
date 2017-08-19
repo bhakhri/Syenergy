@@ -5,7 +5,7 @@
 // HistogramScaleManager is used having all the Add, edit, delete function..
 // Author : Jaineesh
 // Created on : 14.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
   include_once(DA_PATH ."/SystemDatabaseManager.inc.php");
@@ -28,7 +28,7 @@
 //addHistogramScale() is used to add new record in database.
 // Author : Jaineesh
 // Created on : 22.10.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function addHistogramScale() {
@@ -43,7 +43,7 @@
 //editHistogramScale() is used to edit the existing record through id.
 //Author : Jaineesh
 // Created on : 22.10.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function editHistogramScale($id) {
@@ -56,7 +56,7 @@
 //deleteHistogramScale() is used to delete the existing record through id.
 //Author : Jaineesh
 // Created on : 22.10.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------  
     public function deleteHistogramScale($histogramScaleId) {
@@ -72,7 +72,7 @@
 //getHistogramScale() is used to get the list of data 
 //Author : Jaineesh
 // Created on : 22.10.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getHistogramScale($conditions='') {
@@ -93,7 +93,7 @@
 //getHistogramScaleList() is used to get the list of data order by name.
 //Author : Jaineesh
 // Created on : 22.10.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getHistogramScaleList($conditions='', $limit = '', $orderBy='hs.histogramRangeFrom') {
@@ -118,7 +118,7 @@
 //getTotalHistogramScale() is used to get total no. of records
 //Author : Jaineesh
 // Created on : 22.10.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     

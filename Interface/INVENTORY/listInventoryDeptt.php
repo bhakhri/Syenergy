@@ -4,7 +4,7 @@
 //
 // Author : Gurkeerat Sidhu
 // Created on : (08.05.2009 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;
@@ -64,7 +64,7 @@ function getInventoryDepartmentData(){
 //h:height of the div
 //Author : Jaineesh
 // Created on : (23.02.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -82,7 +82,7 @@ function editWindow(id,dv,w,h) {
 //act : action value of the button (add/edit)
 //Author : Jaineesh
 // Created on : (23.02.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function validateAddForm(frm, act) {   
@@ -132,7 +132,7 @@ function validateAddForm(frm, act) {
 //
 //Author : Jaineesh
 // Created on : (23.02.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function addInventoryDepartment() {
@@ -189,7 +189,7 @@ function addInventoryDepartment() {
 //  id=itemCategoryId
 //Author : Jaineesh
 // Created on : (08.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function deleteInventoryDepartment(id) {
@@ -229,7 +229,7 @@ function deleteInventoryDepartment(id) {
 //
 //Author : Gurkeerat Sidhu
 // Created on : (08.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------
 
@@ -251,7 +251,7 @@ function blankValues() {
 //
 //Author : Gurkeerat Sidhu
 // Created on : (08.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function editInventoryDepartment() {
@@ -298,7 +298,7 @@ function editInventoryDepartment() {
 //
 //Author : Gurkeerat Sidhu
 // Created on : (08.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function populateValues(id) {

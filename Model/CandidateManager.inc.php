@@ -5,7 +5,7 @@
 //
 // Author :Vimal Sharma
 // Created on : (05.02.2009 )
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 ?>
@@ -20,7 +20,7 @@ class CandidateManager {
 //
 // Author : Vimal Sharma
 // Created on : (05.02.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
 	private function __construct() {
@@ -31,7 +31,7 @@ class CandidateManager {
 //
 // Author :Vimal Sharma 
 // Created on : (05.02.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 	public static function getInstance() {
@@ -51,7 +51,7 @@ class CandidateManager {
 //$conditions :db clauses
 // Author :Vimal Sharma 
 // Created on : (12.02.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function authenticateCandidate ($firstName, $dob, $rollNo, $conditions = '') {
@@ -69,7 +69,7 @@ class CandidateManager {
 //
 // Author :Vimal Sharma 
 // Created on : (05.02.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
 	public function addCandidate($insertValues) {
@@ -82,7 +82,7 @@ class CandidateManager {
 //
 // Author :Rajeev Aggarwal
 // Created on : 04-06-2009
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       	
 	
@@ -101,7 +101,7 @@ class CandidateManager {
 //$id:candidate
 // Author :Vimal Sharma 
 // Created on : (05.02.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------        
     public function editCandidate($query) {
@@ -114,7 +114,7 @@ class CandidateManager {
 //$id:candidate
 // Author :Vimal Sharma 
 // Created on : (12.02.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------     
     public function editCandidateInTransaction($query) {
@@ -127,7 +127,7 @@ class CandidateManager {
 //$conditions :db clauses
 // Author :Vimal Sharma 
 // Created on : (05.02.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getCandidate($conditions='') {
@@ -144,7 +144,7 @@ class CandidateManager {
 //$conditions :db clauses
 // Author :Vimal Sharma 
 // Created on : (05.02.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getCandidateAllDetail($conditions='') {
@@ -166,7 +166,7 @@ class CandidateManager {
 //$candidateId :candidateId of candidate
 // Author :Vimal Sharma 
 // Created on : (05.02.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteCandidate($candidateId) {
@@ -185,7 +185,7 @@ class CandidateManager {
 //orderBy:sort on which column
 // Author :Vimal Sharma 
 // Created on : (05.02.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -202,7 +202,7 @@ class CandidateManager {
 //$conditions :db clauses
 // Author :Vimal Sharma 
 // Created on : (05.02.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalCandidate($conditions='') {
@@ -220,7 +220,7 @@ class CandidateManager {
 //$conditions   :db clauses
 // Author       :Vimal Sharma 
 // Created on   : (11.02.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -235,7 +235,7 @@ public function getAllCandidate($conditions='') {
 //
 // Author :Vimal Sharma 
 // Created on : (05.02.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getLastId() {
@@ -248,7 +248,7 @@ public function getAllCandidate($conditions='') {
 //$conditions : Additional Criteria
 // Author :Vimal Sharma 
 // Created on : (09.02.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function emptyData($table, $conditions) {
@@ -263,7 +263,7 @@ public function getAllCandidate($conditions='') {
 //$abbr : Quota Abbr
 // Author :Vimal Sharma 
 // Created on : (09.02.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getQuotaId($abbr) {
@@ -279,7 +279,7 @@ public function getAllCandidate($conditions='') {
 //$conditions :db clauses
 // Author :Vimal Sharma 
 // Created on : (05.02.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getProgramPreference($programType) {
@@ -296,7 +296,7 @@ public function getAllCandidate($conditions='') {
 //$conditions :db clauses
 // Author :Vimal Sharma 
 // Created on : (16.02.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getProgramId($programName, $conditions) {
@@ -312,7 +312,7 @@ public function getAllCandidate($conditions='') {
 //$conditions :db clauses
 // Author :Vimal Sharma 
 // Created on : (05.02.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getAllProgram($conditions = '') {
@@ -328,7 +328,7 @@ public function getAllCandidate($conditions='') {
 //$candidateId : unique id of Candidate
 // Author :Vimal Sharma 
 // Created on : (06.02.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getCandidateProgramPreference($candidateId) {
@@ -347,7 +347,7 @@ public function getAllCandidate($conditions='') {
 //
 // Author :Vimal Sharma 
 // Created on : (05.02.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
     public function addCandidatePreferences($insertValues) {
@@ -363,7 +363,7 @@ public function getAllCandidate($conditions='') {
 //$candidateId : unique id of Candidate
 // Author :Vimal Sharma 
 // Created on : (15.04.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getCandidateProgramPreferenceList($candidateId) {
@@ -382,7 +382,7 @@ public function getAllCandidate($conditions='') {
 //$candidateId : unique id of Candidate
 // Author :Rajeev Aggarwal 
 // Created on : (15.04.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getCandidateProgramList($hpStatus) {
@@ -409,7 +409,7 @@ public function getAllCandidate($conditions='') {
 //$candidateId : unique id of Candidate
 // Author :Rajeev Aggarwal 
 // Created on : (15.04.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getReceiptNo() {
@@ -424,7 +424,7 @@ public function getAllCandidate($conditions='') {
 //
 // Author :Vimal Sharma 
 // Created on : (16.04.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------     
     public function editCandidateDetailsInTransaction($candidateStatus, $programId, $history, $conditions = '') {
@@ -437,7 +437,7 @@ public function getAllCandidate($conditions='') {
 //
 // Author :Vimal Sharma 
 // Created on : (16.04.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------     
     public function editProgramDetailsInTransaction($queryStr) {
@@ -450,7 +450,7 @@ public function getAllCandidate($conditions='') {
 //
 // Author :Vimal Sharma 
 // Created on : (16.04.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------     
     public function insertProgramAllotmentStatusInTransaction($insertValues) {
@@ -464,7 +464,7 @@ public function getAllCandidate($conditions='') {
 //
 // Author :Vimal Sharma 
 // Created on : (18.04.2009)    
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 // $conditions : Additional Criteria 
 //
 //--------------------------------------------------------     
@@ -479,7 +479,7 @@ public function getAllCandidate($conditions='') {
 //
 // Author :Vimal Sharma 
 // Created on : (07.06.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------     
     public function insertFeeDetailsInTransaction($insertValues) {

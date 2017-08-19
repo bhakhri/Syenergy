@@ -4,7 +4,7 @@
 //RoomManager is used having all the Add, edit, delete function..
 // Author : Jaineesh
 // Created on : 14.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
   include_once(DA_PATH ."/SystemDatabaseManager.inc.php");
@@ -27,7 +27,7 @@
 // Thit function is used for mapping rooms with institutes
 // Author : Dipanjan Bhattacharjee
 // Created on : 14.08.2009
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------
     public function doRoomInstituteMapping($str) {
 
@@ -40,7 +40,7 @@
 // Thit function is used for deleting mapping rooms with institutes
 // Author : Dipanjan Bhattacharjee
 // Created on : 14.08.2009
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------
     public function deleteRoomInstituteMapping($roomId) {
 
@@ -53,7 +53,7 @@
 //addRoom() function is used for adding new periods into the period table....
 // Author : Jaineesh
 // Created on : 2.07.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function addRoom() {
@@ -76,7 +76,7 @@
 //editPeriods() function is used for edit the existing period into the period table....
 // Author : Jaineesh
 // Created on : 2.07.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function editRoom($id) {
@@ -103,7 +103,7 @@
 // $periodId - used to generate the unique id of the table
 // Author : Jaineesh
 // Created on : 2.07.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------- 
     public function deleteRoom($roomId) {
@@ -121,7 +121,7 @@
 // This function is used for getting room and institute mapping
 // Author : Dipanjan Bhattacharjee
 // Created on : 14.08.2009
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------
     public function getInstituteRoomMapping($conditions='') {
      
@@ -143,7 +143,7 @@
 // 
 // Author : Jaineesh
 // Created on : 2.07.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getRoom($conditions='') {
@@ -179,7 +179,7 @@
 // $limit - used to check the limit of showing records in list
 // Author : Jaineesh
 // Created on : 02.07.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------- 
     public function getRoomList($conditions='', $limit = '', $orderBy='r.roomName') {
@@ -215,7 +215,7 @@
 // $condition - used to check the condition of the table
 // Author : Jaineesh
 // Created on : 02.07.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------- 
     public function getTotalRoom($conditions='') {
@@ -241,7 +241,7 @@
 // $condition - used to check the condition of the table
 // Author : Jaineesh
 // Created on : 12.08.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------- 
     public function getBlock($buildingId) {
@@ -261,7 +261,7 @@
 // This function is used for checking "room" uses in "time_table" table
 // Author : Dipanjan Bhattacharjee
 // Created on : 17.08.2009
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------
     public function checkInTimeTable($conditions='') {
      
@@ -283,7 +283,7 @@
 // $condition - used to check the condition of the table
 // Author : Jaineesh
 // Created on : 08.10.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------- 
     public function getBlockDetail($blockName,$buildingId) {
@@ -303,7 +303,7 @@
 // $condition - used to check the condition of the table
 // Author : Jaineesh
 // Created on : 20.10.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------- 
     public function getCountBuilding($buildingName) {
@@ -321,7 +321,7 @@
 // $condition - used to check the condition of the table
 // Author : Jaineesh
 // Created on : 20.10.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------- 
     public function getBuildingDetail($buildingName) {
@@ -341,7 +341,7 @@
 // $condition - used to check the condition of the table
 // Author : Jaineesh
 // Created on : 08.10.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------- 
     public function getInstitute($instituteCode) {
@@ -359,7 +359,7 @@
 // $condition - used to check the condition of the table
 // Author : Jaineesh
 // Created on : 08.10.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------- 
 
@@ -374,7 +374,7 @@
 // $condition - used to check the condition of the table
 // Author : Jaineesh
 // Created on : 08.10.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------- 
 
@@ -389,7 +389,7 @@
 // $condition - used to check the condition of the table
 // Author : Jaineesh
 // Created on : 20.10.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------- 
 
@@ -405,7 +405,7 @@
 // $condition - used to check the condition of the table
 // Author : Jaineesh
 // Created on : 20.10.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------- 
 
@@ -420,7 +420,7 @@
 // $condition - used to check the condition of the table
 // Author : Jaineesh
 // Created on : 08.10.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------- 
 
@@ -435,7 +435,7 @@
 // $condition - used to check the condition of the table
 // Author : Jaineesh
 // Created on : 08.10.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------- 
     public function getRoomCheck($roomName,$getBlockId) {
@@ -456,7 +456,7 @@
 // $condition - used to check the condition of the table
 // Author : Jaineesh
 // Created on : 08.10.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------- 
     public function getRoomAbbrCheck($roomAbbreviation,$getBlockId) {

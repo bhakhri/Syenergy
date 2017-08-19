@@ -3,7 +3,7 @@
 // Purpose: To make Add STUDENT HOSTEL FEES
 // Author : Nishu Bindal
 // Created on : (17.Feb.2012 )
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
  
 global $FE;

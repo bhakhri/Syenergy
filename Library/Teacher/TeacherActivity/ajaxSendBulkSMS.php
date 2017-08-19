@@ -5,7 +5,7 @@
 //
 // Author : Dipanjan Bhattacharjee
 // Created on : (8.7.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 set_time_limit(0); //to overcome the time taken for sending Email
@@ -28,7 +28,7 @@ $teacherManager = TeacherManager::getInstance();
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (21.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------  
 function sendSMS($mobileNo,$message){
@@ -41,7 +41,7 @@ function sendSMS($mobileNo,$message){
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (21.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------------  
 $smsArr=array();  //will contain smss(each of sms_max_length or less)

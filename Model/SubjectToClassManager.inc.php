@@ -5,7 +5,7 @@
 //
 // Author :Rajeev Aggarwal
 // Created on : (14.08.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -29,7 +29,7 @@ class SubjectToClassManager {
 //
 // Author :Rajeev Aggarwal
 // Created on : (14.08.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function getClassData($conditions='') {
@@ -45,7 +45,7 @@ class SubjectToClassManager {
 //
 // Author :Rajeev Aggarwal
 // Created on : (14.08.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function getClass($universityID,$degreeID,$branchID,$studyperiodId) {
@@ -101,7 +101,7 @@ class SubjectToClassManager {
 //
 // Author :Rajeev Aggarwal
 // Created on : (14.08.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function insertSubToClass($classId) {
@@ -190,7 +190,7 @@ class SubjectToClassManager {
 //
 // Author :Rajeev Aggarwal
 // Created on : (14.08.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getSubToClassList($conditions='',$conditions1='', $limit = '', $orderBy=' subjectName') {
@@ -224,7 +224,7 @@ class SubjectToClassManager {
 //
 // Author :Rajeev Aggarwal
 // Created on : (14.08.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getSubList($conditions='', $limit = '', $orderBy=' subjectName') {
@@ -252,7 +252,7 @@ class SubjectToClassManager {
 //
 // Author :Rajeev Aggarwal
 // Created on : (14.08.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getSubList1($conditions='', $limit = '', $orderBy=' subjectName') {
@@ -277,7 +277,7 @@ class SubjectToClassManager {
 //
 // Author :Rajeev Aggarwal
 // Created on : (14.08.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function countSubList($conditions='') {
@@ -300,7 +300,7 @@ class SubjectToClassManager {
 //
 // Author :Rajeev Aggarwal
 // Created on : (14.08.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function getTotalSubToClass($conditions='') {
@@ -316,7 +316,7 @@ class SubjectToClassManager {
 //
 // Author :Rajeev Aggarwal
 // Created on : (14.08.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	 public function getSubToClassListPrint($conditions='', $limit = '', $orderBy=' subjectName') {

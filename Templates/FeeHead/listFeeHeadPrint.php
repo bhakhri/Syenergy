@@ -3,7 +3,7 @@
 //
 // Author :Parveen Sharma
 // Created on : 21.10.09
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 ?>

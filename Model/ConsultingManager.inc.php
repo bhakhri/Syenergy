@@ -3,7 +3,7 @@
 //  THIS FILE IS USED FOR DB OPERATION FOR "Document" table
 // Author :Jaineesh 
 // Created on : (28.02.2009 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -16,7 +16,7 @@ class ConsultingManager {
 //
 // Author :Jaineesh
 // Created on : (28.02.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
     private function __construct() {
@@ -27,7 +27,7 @@ class ConsultingManager {
 //
 // Author :Jaineesh 
 // Created on : (28.02.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
     public static function getInstance() {
@@ -43,7 +43,7 @@ class ConsultingManager {
 //
 // Author :Jaineesh 
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
     public function addConsulting($employeeId) {
@@ -62,7 +62,7 @@ class ConsultingManager {
 //$id:documentId
 // Author :Jaineesh 
 // Created on : (28.02.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------        
     public function editConsulting($id) {
@@ -85,7 +85,7 @@ class ConsultingManager {
 //$publishId :publishId   of document
 // Author :Jaineesh 
 // Created on : (05.03.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteConsulting($Id) {
@@ -103,7 +103,7 @@ class ConsultingManager {
 //$conditions :db clauses
 // Author :Jaineesh 
 // Created on : (05.3.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getConsulting($conditions='') {
@@ -126,7 +126,7 @@ class ConsultingManager {
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (19.02.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -149,7 +149,7 @@ class ConsultingManager {
 //$conditions :db clauses
 // Author :Jaineesh 
 // Created on : (28.02.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalConsulting($filter='') {
@@ -170,7 +170,7 @@ class ConsultingManager {
 //$conditions :db clauses
 // Author :Jaineesh 
 // Created on : (04.03.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getEmployeeDetail($conditions='') {

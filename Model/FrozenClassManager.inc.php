@@ -19,7 +19,7 @@ class FrozenClassManager {
 //
 // Author : Jaineesh
 // Created on : 01-07-2009
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------
 
@@ -53,7 +53,7 @@ class FrozenClassManager {
 //
 // Author :Jaineesh
 // Created on : 01-07-2009
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function updateFreezeClass() {
@@ -83,7 +83,7 @@ class FrozenClassManager {
 //
 // Author :Jaineesh
 // Created on : 01-07-2009
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function insertFreezeUnfreezeLog() {
@@ -119,7 +119,7 @@ class FrozenClassManager {
 //
 // Author :Jaineesh
 // Created on : 01-07-2009
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function updateUnfreezeClasses() {
@@ -151,7 +151,7 @@ class FrozenClassManager {
 //
 // Author :Jaineesh
 // Created on : 01-07-2009
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function insertUnfreezeLog() {
@@ -187,7 +187,7 @@ class FrozenClassManager {
 //
 // Author : Jaineesh
 // Created on : 01-07-2009
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------
 
@@ -218,7 +218,7 @@ class FrozenClassManager {
 //
 // Author : Jaineesh
 // Created on : 01-07-2009
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------
 
@@ -242,7 +242,7 @@ class FrozenClassManager {
 //
 // Author : Jaineesh
 // Created on : 17-12-2009
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------
 

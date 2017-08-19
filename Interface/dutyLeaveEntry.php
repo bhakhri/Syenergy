@@ -50,7 +50,7 @@ var flag = false; // for whether the record has been added or not, if flag is tr
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (14.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------
 function getData(){
@@ -187,7 +187,7 @@ function populateSubjects(classId){
 //THIS FUNCTION IS USED TO populate topic drop-down upon selection of  subject(Teacher Module)
 //Author : Jaineesh 
 // Created on : (12.03.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------------------------------------------------------------
 function populateGroups(classId,subjectId) {
    clearData(4); 
@@ -530,7 +530,7 @@ function giveDutyLeaves(dates,leaves,comments){
 //THIS FUNCTION IS USED TO POPULATE "dutyLeaveDiv" DIV
 //Author : Dipanjan Bhattacharjee
 // Created on : (19.05.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 function populateValues(studentId,classId,groupId,subjectId) {
          url = '<?php echo HTTP_LIB_PATH;?>/AdminTasks/getStudentDutyLeaveDetails.php';

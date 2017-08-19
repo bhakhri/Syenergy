@@ -2,7 +2,7 @@
 // This File calls addFunction used in Fee Paymnt Report
 //author: harpreet
 // Created on : 2-Feb-2013
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
     global $FE;
     require_once($FE . "/Library/common.inc.php");

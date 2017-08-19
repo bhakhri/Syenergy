@@ -3,7 +3,7 @@
 //
 // Author :Arvind Singh Rawat
 // Created on : 5-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;
@@ -73,7 +73,7 @@ UtilityManager::headerNoCache();
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (19.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function sendSMS($mobileNo,$message){

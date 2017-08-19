@@ -4,7 +4,7 @@
 // functionality
 //
 // Created on : (15.06.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(MODEL_PATH."/PreAdmissionManager.inc.php");

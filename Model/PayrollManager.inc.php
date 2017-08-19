@@ -5,7 +5,7 @@
 //
 // Author :Abhiraj Malhotra
 // Created on : 04-April-2010
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;
@@ -20,7 +20,7 @@ class PayrollManager {
 //
 // Author :Abhiraj Malhotra 
 // Created on : 04-April-2010
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------     
 
@@ -34,7 +34,7 @@ class PayrollManager {
 //
 // Author :Abhiraj 
 // Created on : 04-April-2010
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 	public static function getInstance() {
@@ -50,7 +50,7 @@ class PayrollManager {
 //
 // Author :Abhiraj Malhotra 
 // Created on : 10-Apr-2010
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 
@@ -69,7 +69,7 @@ class PayrollManager {
 //
 // Author :Abhiraj 
 // Created on : 10-Apr-2010
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 
@@ -84,7 +84,7 @@ class PayrollManager {
 //
 // Author :Abhiraj 
 // Created on : 10-Apr-2010
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------     
      public function inactivePrevHeadMappings($empId)
@@ -98,7 +98,7 @@ class PayrollManager {
 //
 // Author :Abhiraj 
 // Created on : 10-Apr-2010
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------- 
      public function saveHeadsMapping($headDataArray,$empId,$wefDate)
@@ -115,7 +115,7 @@ class PayrollManager {
 //
 // Author :Abhiraj 
 // Created on : 10-Apr-2010
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------     
      public function updateGenerateBit($month,$year)
@@ -131,7 +131,7 @@ class PayrollManager {
 //
 // Author :Abhiraj  
 // Created on : 1-May-2010
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------           
     
@@ -148,7 +148,7 @@ class PayrollManager {
 //
 // Author :Abhiraj 
 // Created on : 10-Apr-2010
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------           
     
@@ -163,7 +163,7 @@ class PayrollManager {
 //
 // Author :Abhiraj
 // Created on : 10-Apr-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------     
 
@@ -181,7 +181,7 @@ class PayrollManager {
 //
 // Author :Abhiraj 
 // Created on : 10-Apr-2010
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------     
 
@@ -200,7 +200,7 @@ class PayrollManager {
 //
 // Author :Abhiraj 
 // Created on : 10-Apr-2010
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------          
     public function getDedAccount($conditions='') {
@@ -219,7 +219,7 @@ class PayrollManager {
 //
 // Author :Ajinder Singh 
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------          
    	
@@ -237,7 +237,7 @@ class PayrollManager {
 //
 // Author :Ajinder Singh 
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------          
        
@@ -253,7 +253,7 @@ class PayrollManager {
 //
 // Author :Abhiraj Malhotra
 // Created on : 11-June-2009
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------          
        
@@ -270,7 +270,7 @@ class PayrollManager {
 //
 // Author :Abhiraj Malhotra
 // Created on : 11-June-2009
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------          
        
@@ -284,7 +284,7 @@ class PayrollManager {
 //
 // Author :Abhiraj Malhotra
 // Created on : 11-June-2009
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------          
        
@@ -301,7 +301,7 @@ class PayrollManager {
 //
 // Author :Ajinder Singh 
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------- 
 public function truncateTable($tableName)
@@ -335,7 +335,7 @@ public function truncateTable($tableName)
 //
 // Author :Ajinder Singh 
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------          
        
@@ -358,7 +358,7 @@ public function truncateTable($tableName)
 //
 // Author :Ajinder Singh 
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------          
        
@@ -375,7 +375,7 @@ public function truncateTable($tableName)
 //
 // Author :Ajinder Singh 
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------          
     public function getAssignedHeads($conditions='') {
@@ -418,7 +418,7 @@ public function truncateTable($tableName)
 //
 // Author :Ajinder Singh 
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 		
@@ -440,7 +440,7 @@ public function truncateTable($tableName)
 //
 // Author :Ajinder Singh 
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
         
@@ -463,7 +463,7 @@ public function truncateTable($tableName)
 //
 // Author :Ajinder Singh 
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
         
@@ -485,7 +485,7 @@ public function truncateTable($tableName)
 //
 // Author :Jaineesh
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 	 
@@ -504,7 +504,7 @@ public function truncateTable($tableName)
 //
 // Author :Jaineesh
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
      
@@ -520,7 +520,7 @@ public function truncateTable($tableName)
 
 // Author :Ajinder Singh
 // Created on : 29-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------
 	public function getSingleField($table, $field, $conditions='') {
@@ -545,7 +545,7 @@ public function truncateTable($tableName)
 //
 // Author :Abhiraj malhotra 
 // Created on : 20-April-2010
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------          
        
@@ -563,7 +563,7 @@ public function truncateTable($tableName)
 //
 // Author :Jaineesh
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
      
@@ -604,7 +604,7 @@ public function truncateTable($tableName)
 //
 // Author :Abhiraj
 // Created on : 07-May-2010
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------         
      public function checkSalaryGenerated() {
@@ -621,7 +621,7 @@ public function truncateTable($tableName)
 //
 // Author :Abhiraj
 // Created on : 11-June-2010
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------         
     /* public function checkPreviousMonthGeneration() {
@@ -636,7 +636,7 @@ public function truncateTable($tableName)
 //
 // Author :Abhiraj
 // Created on : 07-May-2010
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------         
      public function clearSalaryGenerated($empId,$month,$year) {
@@ -654,7 +654,7 @@ public function truncateTable($tableName)
 //
 // Author :Abhiraj Malhotra 
 // Created on : 10-Apr-2010
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 
@@ -670,7 +670,7 @@ public function truncateTable($tableName)
 //
 // Author :Abhiraj
 // Created on : 10-May-2010
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------         
      public function getEmpSalaryHistory($empId,$month,$year) {
@@ -687,7 +687,7 @@ public function truncateTable($tableName)
 //
 // Author :Abhiraj
 // Created on : 10-May-2010
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------         
      public function getSalaryHoldDetails($empId,$month,$year) {
@@ -704,7 +704,7 @@ public function truncateTable($tableName)
 //
 // Author :Abhiraj
 // Created on : 10-May-2010
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------         
      public function getAllSalaryHoldDetails($empId) {
@@ -719,7 +719,7 @@ public function truncateTable($tableName)
 //
 // Author :Abhiraj
 // Created on : 10-May-2010
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------         
      public function holdUnholdSalary($empId,$month,$year,$reason,$actionBy,$status) {
@@ -732,7 +732,7 @@ public function truncateTable($tableName)
 //
 // Author :Abhiraj
 // Created on : 10-May-2010
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------         
      public function clearPrevHolds($empId,$month,$year) {

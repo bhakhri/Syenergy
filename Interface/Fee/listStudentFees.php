@@ -5,7 +5,7 @@
 //
 // Author : Nishu Bindal
 // Created on : (8.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;

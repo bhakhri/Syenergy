@@ -4,7 +4,7 @@
 //
 // Author :Alka Handa
 // Created on : 12-June-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -18,7 +18,7 @@ class StreamWiseAttendanceManager {
 //
 // Author :Arvind Singh Rawat
 // Created on : 12-June-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -30,7 +30,7 @@ class StreamWiseAttendanceManager {
 //
 // Author :Arvind Singh Rawat
 // Created on : 12-June-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 

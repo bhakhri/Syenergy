@@ -20,7 +20,7 @@ class LoginManager {
 // Returns: array
 // Created on : (14.06.2008)
 // Modified on: (04.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 // --------------------------------------------------------
 
     public function authenticateUser($userName, $userPass) {
@@ -93,7 +93,7 @@ public function getDefaultUserRole($userId, $instituteId) {
 // Params: requires institute id
 // Returns: array
 // Created on : (04.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
     public function getInstituteDetail($instituteId) {
@@ -107,7 +107,7 @@ public function getDefaultUserRole($userId, $instituteId) {
 // Params: requires session id
 // Returns: array
 // Created on : (04.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
     public function getSessionDetail($sessionId) {
 
@@ -122,7 +122,7 @@ public function getDefaultUserRole($userId, $instituteId) {
 // Params: requires userid
 // Returns: array
 // Created on : (15.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
     public function getStudentDetail($userId) {
         global $sessionHandler;
@@ -204,7 +204,7 @@ public function getDefaultUserRole($userId, $instituteId) {
 // Params: requires user id
 // Returns: array
 // Created on : (15.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
     public function getEmployeeDetail($userId) { //teacher detail
 
@@ -236,7 +236,7 @@ public function getDefaultUserRole($userId, $instituteId) {
 // Params: requires user Name
 // Returns: array
 // Created on : (23.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
     public function getEmail($username) {
 
@@ -295,7 +295,7 @@ public function getDefaultUserRole($userId, $instituteId) {
 // Params: requires user Name
 // Returns:
 // Created on : (23.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
     public function insertPassword($returnStatus) {
       return SystemDatabaseManager::getInstance()->runAutoUpdate('user', array('userPassword','verificationCode'), array($returnStatus[0]['newPassword'],NULL), "userId='".$returnStatus[0]['userId']."'" );
@@ -305,7 +305,7 @@ public function getDefaultUserRole($userId, $instituteId) {
 // Purpose: to insert password based on verificationCode
 // Author:Parveen Sharma
 // Created on : 14-12-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
     public function verifcationPassword($returnStatus) {
       return SystemDatabaseManager::getInstance()->runAutoUpdate('user', array('verificationCode'), array($returnStatus[0]['verifyCode']), "userId='".$returnStatus[0]['userId']."'" );
@@ -315,7 +315,7 @@ public function getDefaultUserRole($userId, $instituteId) {
 // Purpose: to fetch values from config master table
 // Author:Ajinder Singh
 // Created on : (23.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 	public function getConfigSettings() {
 
@@ -329,7 +329,7 @@ public function getDefaultUserRole($userId, $instituteId) {
 // Purpose: to fetch values from role permission
 // Author:Ajinder Singh
 // Created on : (23.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 	public function getAccessArray($roleId = 0) {
 		global $sessionHandler;
@@ -365,7 +365,7 @@ public function getDefaultUserRole($userId, $instituteId) {
 // Purpose: to save time of user when he logs in
 // Author:Pushpender Kumar
 // Created on : (18.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
     public function updateUserLogTimeIn() {
         global $sessionHandler;
@@ -377,7 +377,7 @@ public function getDefaultUserRole($userId, $instituteId) {
 // Purpose: to save time of user when he logs out
 // Author:Pushpender Kumar
 // Created on : (18.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
     public function updateUserLogTimeOut() {
         global $sessionHandler;
@@ -393,7 +393,7 @@ public function getDefaultUserRole($userId, $instituteId) {
 	// Purpose: to check if module exists
 	// Author:Ajinder Singh
 	// Created on : (05.10.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//--------------------------------------------------------
 	public function checkModuleExists($moduleName) {
 		$query = "
@@ -408,7 +408,7 @@ public function getDefaultUserRole($userId, $instituteId) {
 	// Purpose: to make new module
 	// Author:Ajinder Singh
 	// Created on : (05.10.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//--------------------------------------------------------
 	public function addModule($moduleName) {
         $query = "INSERT INTO module (moduleName,isActive) VALUES('$moduleName', 1) ";
@@ -419,7 +419,7 @@ public function getDefaultUserRole($userId, $instituteId) {
 	// Purpose: to make new module
 	// Author:Ajinder Singh
 	// Created on : (05.10.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//--------------------------------------------------------
 	public function addModuleInTransaction($moduleName) {
         $query = "INSERT INTO module (moduleName,isActive) VALUES('$moduleName', 1) ";
@@ -434,7 +434,7 @@ public function getDefaultUserRole($userId, $instituteId) {
 	// Purpose: to check if module entry exists for that module or not
 	// Author:Ajinder Singh
 	// Created on : (05.10.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//--------------------------------------------------------
 	
     public function checkModuleAccess($roleId, $moduleId, $instituteId='') {
@@ -455,7 +455,7 @@ public function getDefaultUserRole($userId, $instituteId) {
 	// Purpose: to unset all values for role
 	// Author:Ajinder Singh
 	// Created on : (05.10.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//--------------------------------------------------------
 	public function unsetAllPermissions($roleId) {
         $query = "
@@ -472,7 +472,7 @@ public function getDefaultUserRole($userId, $instituteId) {
 	// Purpose: to unset all values for role
 	// Author:Ajinder Singh
 	// Created on : (05.10.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//--------------------------------------------------------
 	public function unsetAllPermissionsInTransaction($roleId) {
 		global $sessionHandler;
@@ -494,7 +494,7 @@ public function getDefaultUserRole($userId, $instituteId) {
 	// Purpose: to add permission for a role and a module
 	// Author:Ajinder Singh
 	// Created on : (05.10.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//--------------------------------------------------------
 	public function addRolePermission($roleId,$moduleId) {
 		global $sessionHandler;
@@ -511,7 +511,7 @@ public function getDefaultUserRole($userId, $instituteId) {
 	// Purpose: to add permission for a role and a module
 	// Author:Ajinder Singh
 	// Created on : (05.10.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//--------------------------------------------------------
 	public function addRolePermissionInTransaction($roleId,$moduleId) {
 		global $sessionHandler;
@@ -528,7 +528,7 @@ public function getDefaultUserRole($userId, $instituteId) {
 	// Purpose: to update permission for a role and a module
 	// Author:Ajinder Singh
 	// Created on : (05.10.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//--------------------------------------------------------
 	public function updatePermissions($roleId,$moduleId, $modulePermission) {
 		$query = "UPDATE role_permission SET $modulePermission = 1 WHERE roleId = $roleId AND moduleId = $moduleId";
@@ -538,7 +538,7 @@ public function getDefaultUserRole($userId, $instituteId) {
 	// Purpose: to update permission for a role and a module
 	// Author:Ajinder Singh
 	// Created on : (05.10.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//--------------------------------------------------------
 	public function updatePermissionsInTransaction($roleId,$moduleId, $modulePermission) {
 	
@@ -556,7 +556,7 @@ public function getDefaultUserRole($userId, $instituteId) {
 // Params: requires user Name
 // Returns: array
 // Created on : (23.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
     public function getVerifyEmail($CC) {
 
@@ -613,7 +613,7 @@ public function getDefaultUserRole($userId, $instituteId) {
 	// Purpose: function to fetch dashboard module list
 	// Author:Rajeev Aggarwal
 	// Created on : (29.12.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//--------------------------------------------------------
 	public function getDashboardFrameList($condition='', $orderBy='', $limit='') {
 		global $sessionHandler;
@@ -652,7 +652,7 @@ public function getDefaultUserRole($userId, $instituteId) {
 	//
 	// Author :Rajeev Aggarwal
 	// Created on : (29.12.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//-------------------------------------------------------------------------------
 	public function insertRolePermission($roleId) {
@@ -752,7 +752,7 @@ public function getDefaultUserRole($userId, $instituteId) {
 	//
 	// Author :Rajeev Aggarwal
 	// Created on : (29.12.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//-------------------------------------------------------------------------------
 	public function insertRolePermissionInTransaction($roleId) {
@@ -808,7 +808,7 @@ public function getDefaultUserRole($userId, $instituteId) {
 	// Purpose: to fetch values from dashboard role permission
 	// Author:Rajeev Aggarwal
 	// Created on : (29.12.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//--------------------------------------------------------
 	public function getDashboardAccessArray($roleId = 0) {
 
@@ -842,7 +842,7 @@ public function getDefaultUserRole($userId, $instituteId) {
 	// Purpose: to fetch values from dashboard frame
 	// Author:Rajeev Aggarwal
 	// Created on : (29.12.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//--------------------------------------------------------
 	public function getDashboardFrame() {
 
@@ -862,7 +862,7 @@ public function getDefaultUserRole($userId, $instituteId) {
 	// Purpose: to fetch values from dashboard role permission
 	// Author:Rajeev Aggarwal
 	// Created on : (29.12.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//--------------------------------------------------------
 	public function getDashboardAccessArray1($roleId = 0,$condition='') {
 	
@@ -893,7 +893,7 @@ public function getDefaultUserRole($userId, $instituteId) {
 	// Purpose: to fetch values from dashboard role permission
 	// Author:Abhay Kant
 	// Created on : (19.07.2011)
-	// Copyright 2010-2011 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2010-2011 - syenergy Technologies Pvt. Ltd.
 	//--------------------------------------------------------  
 	public function getDashboardAccessArray2($roleId = 0) {
 		
@@ -917,7 +917,7 @@ public function getDefaultUserRole($userId, $instituteId) {
     // Purpose: to fetch parent login name
     // Author:Parveen Sharma
     // Created on : (09.01.2009)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //--------------------------------------------------------
     public function getParentName($userId) {
 
@@ -951,7 +951,7 @@ public function getDefaultUserRole($userId, $instituteId) {
 // Params: optional
 // Returns: array
 // Created on : (12.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
     public function getActiveSessionDetail($conditions='') {
         $query = "SELECT sessionId, sessionYear FROM session WHERE active=1 $conditions";
@@ -962,7 +962,7 @@ public function getDefaultUserRole($userId, $instituteId) {
 // Purpose: to fetch values from user_role table
 // Author:Rajeev Aggarwal
 // Created on : (30.06.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 	public function getAllUserRole() {
 
@@ -1008,7 +1008,7 @@ public function getDefaultUserRole($userId, $instituteId) {
 // Purpose: to save values for usage_log
 // Author:Ajinder Singh
 // Created on : (12-oct-2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 	public function saveCurrentAccessedDetails() {
 		global $sessionHandler;
@@ -1026,7 +1026,7 @@ public function getDefaultUserRole($userId, $instituteId) {
 // Params: requires employee id
 // Returns: array
 // Created on : (17.04.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------------------
     public function getTimeTableLabelType($employeeId='') {
         
@@ -1067,7 +1067,7 @@ public function getDefaultUserRole($userId, $instituteId) {
 // Params: requires userId
 // Returns: array
 // Created on : (07.04.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 // --------------------------------------------------------
 
     public function getUserCredentials($userId) {

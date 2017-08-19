@@ -5,7 +5,7 @@
 //CleaningRoomManager is used having all the Add, edit, delete function..
 // Author : Jaineesh
 // Created on : 14.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -27,7 +27,7 @@ class CleaningRoomManager {
 //addCleaningRoom() is used to add new record in database.
 // Author : Jaineesh
 // Created on : 30.04.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function addCleaningRoom() {
@@ -41,7 +41,7 @@ class CleaningRoomManager {
 //editHostelRoom() is used to edit the existing record through id.
 //Author : Jaineesh
 // Created on : 27.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function editCleaningRoom($id) {
@@ -54,7 +54,7 @@ class CleaningRoomManager {
 //getHostelRoom() is used to get the data.
 //Author : Jaineesh
 // Created on : 27.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getCleaningRoom($conditions='') {
@@ -79,7 +79,7 @@ class CleaningRoomManager {
 //deleteHostelRoom() is used to delete the existing record through id.
 //Author : Jaineesh
 // Created on : 27.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------   
     public function deleteHostelRoomTypeDetail($id) {
@@ -95,7 +95,7 @@ class CleaningRoomManager {
 //getHostelRoomList() is used to get the list of data order by name.
 //Author : Jaineesh
 // Created on : 27.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getCleaningRoomDetailList($conditions='', $limit = '', $orderBy=' hr.roomName') {
@@ -119,7 +119,7 @@ class CleaningRoomManager {
 //getTotalHostelRoom() is used to get total no. of records
 //Author : Jaineesh
 // Created on : 27.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------  
     public function getTotalCleaningRoomDetail($conditions='') {
@@ -140,7 +140,7 @@ class CleaningRoomManager {
 //getTotalCleaningHistory() is used to get total no. of records
 //Author : Jaineesh
 // Created on : 27.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------  
     public function getTotalCleaningHistoryDetail($conditions) {
@@ -160,7 +160,7 @@ class CleaningRoomManager {
 //getCleaningHistoryList() is used to get the list of data order by name.
 //Author : Jaineesh
 // Created on : 27.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getCleaningHistoryList($conditions,$orderBy=' hr.roomName') {
@@ -185,7 +185,7 @@ class CleaningRoomManager {
 //getTotalCleaningHistory() is used to get total no. of records
 //Author : Jaineesh
 // Created on : 27.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------  
     public function getTotalSafaiwalaAbsentDetail($conditions) {
@@ -204,7 +204,7 @@ class CleaningRoomManager {
 //getCleaningHistoryList() is used to get the list of data order by name.
 //Author : Jaineesh
 // Created on : 27.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getSafaiwalaAbsentList($conditions,$orderBy=' hr.tempEmployeeId') {

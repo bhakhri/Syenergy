@@ -5,7 +5,7 @@
 //
 // Author : Jaineesh
 // Created on : (26.06.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;
@@ -59,7 +59,7 @@ sortOrderBy    = 'ASC';
 //h:height of the div
 //Author : Jaineesh
 // Created on : (26.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 var flag = false; // for whether the record has been added or not, if flag is true then refresh your page when user clicks on cancel button
@@ -75,7 +75,7 @@ function editWindow(id,dv,w,h) {
 //act : action value of the button (add/edit)
 //Author : Jaineesh
 // Created on : (26.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function validateAddForm(frm, act) {
@@ -194,7 +194,7 @@ function checkEditParentGroup() {
 //
 //Author : Jaineesh
 // Created on : (26.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -223,7 +223,7 @@ function checkStatus() {
 //
 //Author : Jaineesh
 // Created on : (26.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -250,7 +250,7 @@ function checkEditStatus() {
 //-------------------------------------------------------
 //THIS FUNCTION is used to disable optional subject  in add
 //
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function disableOptional(){
@@ -260,7 +260,7 @@ document.addGroup.optionalSubject.disabled = true;
 //-------------------------------------------------------
 //THIS FUNCTION is used to disable optional subject  in edit
 //
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function disableEditOptional(){
@@ -274,7 +274,7 @@ checkEditStatus();
 //
 //Author : Jaineesh
 // Created on : (26.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -315,7 +315,7 @@ function checkOptionalSubject() {
 //
 //Author : Jaineesh
 // Created on : (26.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -356,7 +356,7 @@ function checkOptionalSubjectInEdit() {
 //
 //Author : Jaineesh
 // Created on : (26.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -407,7 +407,7 @@ function checkEditOptionalSubject(classId,optionId,optionalSubjectId) {
 //
 //Author : Jaineesh
 // Created on : (26.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -575,7 +575,7 @@ function getEditGroupName(){
 //
 //Author : Jaineesh
 // Created on : (26.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function deleteGroup(id) {
@@ -617,7 +617,7 @@ function deleteGroup(id) {
 //
 //Author : Jaineesh
 // Created on : (26.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -642,7 +642,7 @@ function blankValues() {
 //
 //Author : Jaineesh
 // Created on : (26.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function editGroup() {
@@ -738,7 +738,7 @@ function editGroup() {
 //
 //Author : Jaineesh
 // Created on : (26.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function populateValues(id,classId) {

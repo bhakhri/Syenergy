@@ -3,7 +3,7 @@
 // This File contains Validation and ajax function used in student performance report Form
 // Author :Dipanjan
 // Created on : 28.04.2010
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
 global $FE;

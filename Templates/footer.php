@@ -7,7 +7,7 @@
      <td colspan="2" class="text_menu" valign="middle" width="100%">
 	 <table cellspacing="0" cellspacing="0" width="100%" border="0">
 	 <tr>
-		<td align="right" class="text_menu" valign="middle" width="730">For reporting feedback / issues write to <?php echo ACCOUNT_MANAGER_NAME;?> at <?php echo ACCOUNT_MANAGER_EMAIL;?> | &laquo; <a href='http://www.chalkpad.in' target="_blank" style='color:#FFFFFF'>powered by ChalkPad Technologies Pvt. Ltd.</a> &raquo;</td>
+		<td align="right" class="text_menu" valign="middle" width="730">For reporting feedback / issues write to <?php echo ACCOUNT_MANAGER_NAME;?> at <?php echo ACCOUNT_MANAGER_EMAIL;?> | &laquo; <a href='http://www.syenergy.in' target="_blank" style='color:#FFFFFF'>powered by syenergy Technologies Pvt. Ltd.</a> &raquo;</td>
 		 <td align="right" class="text_menu" valign="middle"></td>
 	</tr>
 	 </table>

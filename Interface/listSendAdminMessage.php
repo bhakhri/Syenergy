@@ -3,7 +3,7 @@
 // THIS FILE used for sending message(sms/email/dashboard) to students
 // Author : Dipanjan Bhattacharjee
 // Created on : (25.01.2010)
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //----------------------------------------------------------------------------
 global $FE;
 require_once($FE . "/Library/common.inc.php");
@@ -82,7 +82,7 @@ function checkDuplicate(val){
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (21.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 var mArray=new Array();
@@ -160,7 +160,7 @@ function sendMessage() {
 //Pupose:Calculates  sms chars and no of smses
 //Author: Dipanjan Bhattacharjee
 //Date : 5.08.2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------------------
 function smsCalculation(value,limit,target){

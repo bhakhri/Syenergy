@@ -3,7 +3,7 @@
 // Purpose: To generate student payment history listfunctionality 
 // Author : Nishu Bindal
 // Created on : (08-may-2012 )
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 global $FE;
 global $sessionHandler;
@@ -89,7 +89,7 @@ function populateValues(id) {
 //
 //Author : Nishu Bindal
 // Created on : (6.Feb.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -127,7 +127,7 @@ function getBranches() {
 //THIS FUNCTION IS USED TO GET BRANCHES
 //Author : Nishu Bindal
 // Created on : (6.Feb.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -168,7 +168,7 @@ function getBatch() {
 //THIS FUNCTION IS USED TO GET Classes
 //Author : Nishu Bindal
 // Created on : (6.Feb.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
 function getClass() {

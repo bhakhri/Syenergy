@@ -3,7 +3,7 @@
 //  This File contains html code for marks transfer
 ////// Author :Ajinder Singh
 // Created on : 31-10-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 ////--------------------------------------------------------?>
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
 	<tr>

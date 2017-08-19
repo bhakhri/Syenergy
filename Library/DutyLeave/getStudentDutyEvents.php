@@ -3,7 +3,7 @@
 // THIS FILE IS USED TO POPULATE CITY LIST
 // Author : Dipanjan Bhattacharjee
 // Created on : (12.06.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 ini_set("memory_limit","250M");     
 set_time_limit(0);

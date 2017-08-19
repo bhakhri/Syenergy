@@ -3,7 +3,7 @@
 // THIS FILE IS USED FOR DB OPERATION FOR "city" TABLE
 // Author :Dipanjan Bhattacharjee
 // Created on : (12.06.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
 
@@ -14,7 +14,7 @@ class QuestionManager {
 // THIS FUNCTION IS USED FOR CREATING AN OBJECT OF "QuestionManager" CLASS
 // Author :Dipanjan Bhattacharjee
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------
 	private function __construct() {
 	}
@@ -23,7 +23,7 @@ class QuestionManager {
 // THIS FUNCTION IS USED FOR GETTING AN INSTANCE OF "QuestionManager" CLASS
 // Author :Dipanjan Bhattacharjee
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------
 	public static function getInstance() {
 		if (self::$instance === null) {
@@ -37,7 +37,7 @@ class QuestionManager {
 // THIS FUNCTION IS USED FOR ADDING A CITY
 // Author :Dipanjan Bhattacharjee
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 	public function addQuestion() {
 		global $REQUEST_DATA;
@@ -58,7 +58,7 @@ class QuestionManager {
 // $id:cityId
 // Author :Dipanjan Bhattacharjee
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
     public function editQuestion($id) {
         global $REQUEST_DATA;
@@ -78,7 +78,7 @@ class QuestionManager {
 // $conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
     public function getQuestion($conditions='') {
 
@@ -96,7 +96,7 @@ class QuestionManager {
 // $cityId :cityid of the City
 // Author :Dipanjan Bhattacharjee
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------------------------------------------------------
     public function checkInAppraisalData($appraisalId) {
 
@@ -114,7 +114,7 @@ class QuestionManager {
 // $cityId :cityid of the City
 // Author :Dipanjan Bhattacharjee
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------------------------------------------------------
     public function deleteQuestion($appraisalId) {
 
@@ -133,7 +133,7 @@ class QuestionManager {
 // orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
     public function getQuestionList($conditions='', $limit = '', $orderBy='') {
@@ -166,7 +166,7 @@ class QuestionManager {
 // $conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //----------------------------------------------------------------------------------------
     public function getTotalQuestion($conditions='') {
 

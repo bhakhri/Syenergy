@@ -5,7 +5,7 @@
 //
 // Author :Ajinder Singh
 // Created on : 10-Aug-2009
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once($FE . "/Library/common.inc.php"); //for sessionId 

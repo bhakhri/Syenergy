@@ -4,7 +4,7 @@
 //StudentReportsManager .
 // Author : Ipta Thakur
 // Created on : 04.11.11
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');

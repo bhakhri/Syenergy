@@ -3,7 +3,7 @@
 //StudentReportsManager .
 // Author : Parveen Sharma
 // Created on : 07.07.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -25,7 +25,7 @@ class StudentReportsManager {
 // addBusPass() is used to add new record in database.
 // Author : Parveen Sharma
 // Created on : 12.06.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function addBusPass($strValue='') {
@@ -55,7 +55,7 @@ class StudentReportsManager {
 // editBusPass() is used to edit new record in database.
 // Author : Parveen Sharma
 // Created on : 12.06.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -71,7 +71,7 @@ class StudentReportsManager {
 // Purpose: To count Audit Trail details
 // Author : Kavish Manjkhola
 // Created on : 24.03.2011
-// Copyright 2010-2011: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2010-2011: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -90,7 +90,7 @@ class StudentReportsManager {
 // Purpose: To select Audit Trail details
 // Author : Kavish Manjkhola
 // Created on : 24.03.2011
-// Copyright 2010-2011: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2010-2011: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -137,7 +137,7 @@ class StudentReportsManager {
 // deleteBusPass() is used to edit new record in database.
 // Author : Parveen Sharma
 // Created on : 12.06.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -156,7 +156,7 @@ class StudentReportsManager {
 //addHostel() is used to add new record in database.
 // Author : Jaineesh
 // Created on : 27.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -183,7 +183,7 @@ class StudentReportsManager {
 //
 // Author :Arvind Singh Rawat
 // Created on : 08-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------
 
@@ -200,7 +200,7 @@ class StudentReportsManager {
 
 // Author :Arvind Singh Rawat
 // Created on : 08-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------
 
@@ -275,7 +275,7 @@ class StudentReportsManager {
 
 // Author :Ajinder Singh
 // Created on : 16-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd..
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd..
 //
 //----------------------------------------------------------------------------------------------------
 	public function getSubjectList($condition) {
@@ -339,7 +339,7 @@ class StudentReportsManager {
 
 // Author :Ajinder Singh
 // Created on : 16-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------
 	public function getAttendanceData($classId, $subjectId, $sortField, $sortOrderBy,$limit = '',$attendanceCodeWise='') {
@@ -374,7 +374,7 @@ class StudentReportsManager {
 
 // Author :Ajinder Singh
 // Created on : 29-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------
 	public function getAllClassMissedAttendanceReport($labelId='', $tillDate='', $sortField='', $sortOrderBy='',$condition='') {
@@ -406,7 +406,7 @@ class StudentReportsManager {
 
 // Author :Ajinder Singh
 // Created on : 29-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------
 	public function getAllSubjectMissedAttendanceReport($classId, $tillDate, $sortField, $sortOrderBy,$condition='') {
@@ -434,7 +434,7 @@ class StudentReportsManager {
 
 // Author :Ajinder Singh
 // Created on : 29-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------
 	public function getOneSubjectMissedAttendanceReport($classId, $subjectId, $tillDate, $sortField, $sortOrderBy,$condition='') {
@@ -477,7 +477,7 @@ class StudentReportsManager {
 
 // Author :Ajinder Singh
 // Created on : 29-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------
 	public function getSingleField($table, $field, $conditions='') {
@@ -490,7 +490,7 @@ class StudentReportsManager {
 
 // Author :Ajinder Singh
 // Created on : 09-Aug-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------
 	public function getSubjectListByType($degree, $subjectTypeId) {
@@ -512,7 +512,7 @@ class StudentReportsManager {
 
 // Author :Ajinder Singh
 // Created on : 09-Aug-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------
 	public function getMarksDistributionAllSubjects($degree, $subjectTypeId, $sortField, $limit='',$condition='') {
@@ -572,7 +572,7 @@ class StudentReportsManager {
 
 // Author :Ajinder Singh
 // Created on : 09-Aug-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------
 	public function getMarksDistributionOneSubject($degree, $subjectTypeId, $subjectId, $sortField, $limit='',$condition='') {
@@ -629,7 +629,7 @@ class StudentReportsManager {
 
 // Author :Ajinder Singh
 // Created on : 09-Aug-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------
 	public function getClassTestTypes($classId, $conditions='') {
@@ -650,7 +650,7 @@ class StudentReportsManager {
 
 // Author :Ajinder Singh
 // Created on : 09-Aug-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------
 	public function getTestDetails($testTypeCategoryId, $conditions='') {
@@ -716,7 +716,7 @@ class StudentReportsManager {
 
 // Author :Ajinder Singh
 // Created on : 23-Sep-2009
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------
 	public function getTestWiseMarksResult($classId, $firstString, $secondString, $limit = '', $tableName, $order = ' a.rollNo') {
@@ -744,7 +744,7 @@ class StudentReportsManager {
 
 // Author :Ajinder Singh
 // Created on : 23-Sep-2009
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------
 	public function getTestWiseMarksResultConsolidated($classId, $subjectId, $firstString, $secondString, $limit = '') {
@@ -773,7 +773,7 @@ class StudentReportsManager {
 
 // Author :Ajinder Singh
 // Created on : 09-Aug-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------
 	public function countClassSubjectStudents($classId, $subjectId) {
@@ -790,7 +790,7 @@ class StudentReportsManager {
 
 // Author :Ajinder Singh
 // Created on : 09-Aug-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------
 	public function getSubjectWiseConsolidatedMarks($classId, $subjectId) {
@@ -824,7 +824,7 @@ class StudentReportsManager {
 
 // Author :Ajinder Singh
 // Created on : 22-Aug-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------
 	public function getClassConsolidatedSubjects($classId) {
@@ -844,7 +844,7 @@ class StudentReportsManager {
 
 	// Author :Ajinder Singh
 	// Created on : 22-Aug-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------
 	/*	Please note that same $conditions part is made in
@@ -874,7 +874,7 @@ class StudentReportsManager {
 
 	// Author :Ajinder Singh
 	// Created on : 22-Aug-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------
 	public function getStudentLabelData($universityId, $degreeId, $branchId) {
@@ -908,7 +908,7 @@ class StudentReportsManager {
 
 	// Author :Ajinder Singh
 	// Created on : 27-Aug-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------
 	public function getEmployeeList($classId, $conditions = '') {
@@ -932,7 +932,7 @@ class StudentReportsManager {
 
 	// Author :Ajinder Singh
 	// Created on : 27-Aug-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------
 	public function getEmployeeGroupList($classId, $employeeId, $conditions='') {
@@ -956,7 +956,7 @@ class StudentReportsManager {
 
 	// Author :Ajinder Singh
 	// Created on : 27-Aug-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------
 	public function getTestList($classId, $conditions = '') {
@@ -977,7 +977,7 @@ class StudentReportsManager {
 
 	// Author :Ajinder Singh
 	// Created on : 27-Aug-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------
 	public function getTestTotalStudents($classId, $testId) {
@@ -997,7 +997,7 @@ class StudentReportsManager {
 
 	// Author :Ajinder Singh
 	// Created on : 27-Aug-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------
 	public function getTestPresentStudents($classId, $testId) {
@@ -1018,7 +1018,7 @@ class StudentReportsManager {
 
 	// Author :Ajinder Singh
 	// Created on : 27-Aug-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------
 	public function getClassWiseConsolidatedMarks($classId, $testId) {
@@ -1052,7 +1052,7 @@ class StudentReportsManager {
 
 	// Author :Ajinder Singh
 	// Created on : 29-Aug-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------
 	public function getStudentIdClass($rollNo) {
@@ -1073,7 +1073,7 @@ class StudentReportsManager {
 
 	// Author :Ajinder Singh
 	// Created on : 29-Aug-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------
 	public function getTestSubjectTypes($classId) {
@@ -1092,7 +1092,7 @@ class StudentReportsManager {
 
 	// Author :Ajinder Singh
 	// Created on : 29-Aug-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------
 	public function getTestTypes($classId, $subjectList) {
@@ -1118,7 +1118,7 @@ class StudentReportsManager {
 
 	// Author :Ajinder Singh
 	// Created on : 29-Aug-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------
 	public function getSubjectTypeSubjects($subjectTypeId, $classId) {
@@ -1137,7 +1137,7 @@ class StudentReportsManager {
 
 	// Author :Ajinder Singh
 	// Created on : 29-Aug-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------
 	public function getAttendanceMarks($classId, $studentId, $subjectId) {
@@ -1157,7 +1157,7 @@ class StudentReportsManager {
 
 	// Author :Ajinder Singh
 	// Created on : 29-Aug-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------
 	public function getMarks($classId, $studentId, $subjectId, $testId) {
@@ -1179,7 +1179,7 @@ class StudentReportsManager {
 
 	// Author :Ajinder Singh
 	// Created on : 29-Aug-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------
 	public function getTotalMarks($classId, $subjectId, $studentId, $testTypeId) {
@@ -1199,7 +1199,7 @@ class StudentReportsManager {
 
 	// Author :Ajinder Singh
 	// Created on : 29-Aug-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------
 	public function getTests($testTypeList = 0, $subjectList = 0, $classId, $studentId) {
@@ -1224,7 +1224,7 @@ class StudentReportsManager {
 
 	// Author :Ajinder Singh
 	// Created on : 29-Aug-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------
 	public function countTestTypeSubjectListTest($testTypeId, $subjectList, $classId) {
@@ -1242,7 +1242,7 @@ class StudentReportsManager {
 
 	// Author :Ajinder Singh
 	// Created on : 29-Aug-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------
 	public function getTestClasses($conditions = '') {
@@ -1258,7 +1258,7 @@ class StudentReportsManager {
 
 	// Author :Ajinder Singh
 	// Created on : 29-Aug-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------
 	public function getClassSubjectGroupTests($classId, $subjectId, $groupId) {
@@ -1285,7 +1285,7 @@ class StudentReportsManager {
 
 	// Author :Ajinder Singh
 	// Created on : 29-Aug-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------
 	public function getClassTeachingSubjectList($classId) {
@@ -1306,7 +1306,7 @@ class StudentReportsManager {
 
 	// Author :Ajinder Singh
 	// Created on : 13-Sep-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------
 	public function getAllDetails($conditions='', $order, $limit) {
@@ -1334,7 +1334,7 @@ class StudentReportsManager {
 
 	// Author :Ajinder Singh
 	// Created on : 13-Sep-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------
 	public function countRecords($conditions='') {
@@ -1358,7 +1358,7 @@ class StudentReportsManager {
     //function created for fetching subjects and subject Types
     // Author :Parveen Sharma
     // Created on : 04-12-08
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //----------------------------------------------------------------------------------------------------
     public function getAllSubjectAndSubjectTypes($conditions='', $filter='', $groupBy='', $orderBy='',$sortBy='ASC') {
@@ -1447,7 +1447,7 @@ class StudentReportsManager {
 
     // Author :Parveen Sharma
     // Created on : 04-12-08
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //----------------------------------------------------------------------------------------------------
     public function getSubjectAttendanceClasses($degreeId) {
@@ -1514,7 +1514,7 @@ class StudentReportsManager {
 
     // Author :Parveen Sharma
     // Created on : 12-04-08
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //----------------------------------------------------------------------------------------------------
     public function getSubjectGroups($degreeId='',$subjectId='') {
@@ -1553,7 +1553,7 @@ class StudentReportsManager {
 //
 // Author :Arvind Singh Rawat
 // Created on : 23-oct-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------------------------------------------
     public function getStudentPercentageAttendanceReport($classCondition='',$condition='',$groupBy='',$orderBy='studentName',$limit='')  {
@@ -1629,7 +1629,7 @@ class StudentReportsManager {
 	//
 	// Author :Ajinder Singh
 	// Created on : (15.11.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//--------------------------------------------------------
 	public function getMarksTotalClasses($labelId) {
@@ -1654,7 +1654,7 @@ class StudentReportsManager {
     //function created for counting students matching conditions
     // Author :Parveen Sharma
     // Created on : 12-01-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //----------------------------------------------------------------------------------------------------
 
@@ -1702,7 +1702,7 @@ class StudentReportsManager {
     // function created for students matching conditions
     // Author :Parveen Sharma
     // Created on : 12-01-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //----------------------------------------------------------------------------------------------------
      public function getStudentICardDetails($conditions='', $orderBy=' rollNo', $limit='') {
@@ -1791,7 +1791,7 @@ class StudentReportsManager {
     //function created for students bus pass count
     // Author :Parveen Sharma
     // Created on : 12-01-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //----------------------------------------------------------------------------------------------------
 
@@ -1819,7 +1819,7 @@ class StudentReportsManager {
     // function created for students bus pass
     // Author :Parveen Sharma
     // Created on : 12-01-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //----------------------------------------------------------------------------------------------------
     public function getStudentBusPassDetails($conditions='', $order='', $limit='') {
@@ -1858,7 +1858,7 @@ class StudentReportsManager {
     // function created for fetching groups for a class subject for which test is taken
     // Author :Ajinder Singh
     // Created on : 31-03-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //----------------------------------------------------------------------------------------------------
 	public function getSubjectTestGroups($classId,$subjectId) {
@@ -1879,7 +1879,7 @@ class StudentReportsManager {
     // function created for fetching groups for a class subject for which test is taken
     // Author :Ajinder Singh
     // Created on : 31-03-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //----------------------------------------------------------------------------------------------------
 	public function getSubjectUserTestGroups($classId,$subjectId, $userId) {
@@ -1904,7 +1904,7 @@ class StudentReportsManager {
     // function created for fetching groups for a class subject for which test is taken
     // Author :Ajinder Singh
     // Created on : 31-03-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //----------------------------------------------------------------------------------------------------
 	public function getClassSubjectGroups($classId,$subjectId) {
@@ -1925,7 +1925,7 @@ class StudentReportsManager {
     // function created for fetching teacher name which is teaching to a subject and a group
     // Author :Ajinder Singh
     // Created on : 31-03-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //----------------------------------------------------------------------------------------------------
 	public function getClassSubjectGroupTeacher($subjectId,$groupId) {
@@ -1944,7 +1944,7 @@ class StudentReportsManager {
     // function created for fetching groups linked to a class
     // Author :Ajinder Singh
     // Created on : 31-03-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //----------------------------------------------------------------------------------------------------
 	public function getClassGroups($classId) {
@@ -1965,7 +1965,7 @@ class StudentReportsManager {
     // function created for fetching records for transferred marks
     // Author :Rajeev Aggarwal
     // Created on : 21-04-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------------------------------------------
 	public function getSubjectInternalMarksTheory($condition='') {
@@ -2010,7 +2010,7 @@ class StudentReportsManager {
     // function created for fetching records for transferred marks
     // Author :Rajeev Aggarwal
     // Created on : 21-04-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------------------------------------------
 	public function getSubjectInternalMarksPractical($condition='') {
@@ -2057,7 +2057,7 @@ class StudentReportsManager {
     // function created for fetching records for transferred marks
     // Author :Rajeev Aggarwal
     // Created on : 21-04-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------------------------------------------
 	public function getSubjectPercentageInternalMarks($condition='') {
@@ -2104,7 +2104,7 @@ class StudentReportsManager {
     // function created for fetching records for students for transferred marks
     // Author :Rajeev Aggarwal
     // Created on : 21-04-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------------------------------------------
 	public function getLabelClass($labelId,$orderBy=' cls.degreeId,cls.branchId,cls.studyPeriodId') {
@@ -2385,7 +2385,7 @@ class StudentReportsManager {
     // function created for fetching records for students for transferred marks
     // Author :Rajeev Aggarwal
     // Created on : 21-04-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------------------------------------------
 	public function getSubjectTypeClass($classId,$subjectTypeId='') {
@@ -2424,7 +2424,7 @@ class StudentReportsManager {
     // function created for fetching records for students for transferred marks
     // Author :Rajeev Aggarwal
     // Created on : 21-04-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------------------------------------------
 	public function getSubjectTypeGroup($classId,$subjectTypeId) {
@@ -2447,7 +2447,7 @@ class StudentReportsManager {
     // function created for fetching records for total test type
     // Author :Rajeev Aggarwal
     // Created on : 21-04-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------------------------------------------
 	public function getCountTestTypeGroup($condition,$orderBy=' sub.subjectCode,tt.groupId') {
@@ -2493,7 +2493,7 @@ class StudentReportsManager {
     // function created for fetching records for total test type
     // Author :Rajeev Aggarwal
     // Created on : 21-04-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------------------------------------------
 	public function getTestTypeList($condition,$orderBy=' tt.testDate DESC') {
@@ -2521,7 +2521,7 @@ class StudentReportsManager {
     // function created for fetching records for students for transferred marks
     // Author :Rajeev Aggarwal
     // Created on : 21-04-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------------------------------------------
 	public function getAllTransferredDetails($condition='',$lowerValue='',$upperValue='',$orderBy) {
@@ -2554,7 +2554,7 @@ class StudentReportsManager {
     // function created for fetching records for students for transferred marks
     // Author :Rajeev Aggarwal
     // Created on : 21-04-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------------------------------------------
 	public function getAllTeacherWiseDetails($condition='',$lowerValue='',$upperValue='',$orderBy) {
@@ -2588,7 +2588,7 @@ class StudentReportsManager {
     // function created for fetching records for students for transferred marks
     // Author :Rajeev Aggarwal
     // Created on : 21-04-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------------------------------------------
 	public function getConsolidatedAttendanceDetails($conditions,$conditions2,$sortField=' universityRollNo',$sortOrderBy=' ASC', $group='') {
@@ -2630,7 +2630,7 @@ class StudentReportsManager {
     // function created for fetching records for students for transferred marks
     // Author :Rajeev Aggarwal
     // Created on : 21-04-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------------------------------------------
 	public function getConsolidatedMarksDetails($conditions,$conditions2,$sortField=' universityRollNo',$sortOrderBy=' ASC',$includeGrace='') {
@@ -2762,7 +2762,7 @@ class StudentReportsManager {
     // function created for fetching records for students for transferred marks
     // Author :Rajeev Aggarwal
     // Created on : 21-04-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------------------------------------------
 	public function getTotalConsolidatedMarksDetails($conditions,$conditions2,$sortField=' universityRollNo',$sortOrderBy=' ASC') {
@@ -2804,7 +2804,7 @@ class StudentReportsManager {
     // function created for fetching records for students for transferred marks
     // Author :Rajeev Aggarwal
     // Created on : 21-04-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------------------------------------------
 	public function getConsolidatedTeacherDetails($conditions) {
@@ -2852,7 +2852,7 @@ class StudentReportsManager {
     // function created for fetching records for students for transferred marks
     // Author :Rajeev Aggarwal
     // Created on : 21-04-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------------------------------------------
 	public function getConsolidatedStudents($conditions) {
@@ -2890,7 +2890,7 @@ class StudentReportsManager {
     // function created for fetching records for students for transferred marks
     // Author :Rajeev Aggarwal
     // Created on : 21-04-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------------------------------------------
 	public function getTeachers($conditions) {
@@ -2928,7 +2928,7 @@ class StudentReportsManager {
 //function created for fetching subjects for class wise
 // Author :Parveen Sharma
 // Created on : 28-04-2009
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------
     public function classwiseSubjects($condition='',$orderBy=' sub.subjectCode') {
@@ -3046,7 +3046,7 @@ class StudentReportsManager {
 //function created for fetching Student External Marks
 // Author :Parveen Sharma
 // Created on : 28-04-2009
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------
     public function getStudentExternalMarks($condition='',$orderBy=' s.universityRollNo',$limit='') {
@@ -3090,7 +3090,7 @@ class StudentReportsManager {
 //function created for fetching Student External Marks
 // Author :Parveen Sharma
 // Created on : 28-04-2009
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------
     public function getStudentTotalExternalMarks($condition='') {
@@ -3114,7 +3114,7 @@ class StudentReportsManager {
     // function created for fetching records for students for internal marks
     // Author :Rajeev Aggarwal
     // Created on : 21-04-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------------------------------------------
 	public function getCountInternalPerformanceData($conditions,$orderBy) {
@@ -3139,7 +3139,7 @@ class StudentReportsManager {
     // function created for fetching records for students for internal marks
     // Author :Rajeev Aggarwal
     // Created on : 21-04-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------------------------------------------
 	public function getInternalPerformanceData($conditions,$orderBy,$limit) {
@@ -3165,7 +3165,7 @@ class StudentReportsManager {
     // function created for fetching Student Detail
     // Author :Rajeev Aggarwal
     // Created on : 21-04-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------------------------------------------
 
@@ -3200,7 +3200,7 @@ class StudentReportsManager {
     // function created for fetching records for students for internal marks
     // Author :Rajeev Aggarwal
     // Created on : 21-04-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------------------------------------------
 	public function getStudentArray($conditions) {
@@ -3218,7 +3218,7 @@ class StudentReportsManager {
     // function created for fetching records for students for internal marks
     // Author :Rajeev Aggarwal
     // Created on : 21-04-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------------------------------------------
 	public function getStudentMarksArray($conditions) {
@@ -3266,7 +3266,7 @@ class StudentReportsManager {
     // function created for fetching records for students for internal marks
     // Author :Rajeev Aggarwal
     // Created on : 21-04-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------------------------------------------
 	public function getStudentAttendanceArray($conditions) {
@@ -3309,7 +3309,7 @@ class StudentReportsManager {
 
 	// Author :Rajeev Aggarwal
 	// Created on : 04-05-2009
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------
 	public function getProgrammeWiseHostel($conditions='') {
@@ -3340,7 +3340,7 @@ class StudentReportsManager {
 //orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -3373,7 +3373,7 @@ class StudentReportsManager {
 
 	// Author :Rajeev Aggarwal
 	// Created on : 04-05-2009
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------
 	public function getAllHostelDetails($conditions='',$orderBy='cls.degreeId,cls.branchId,studentGender') {
@@ -3440,7 +3440,7 @@ class StudentReportsManager {
 //
 // Author :Parveen Sharma
 // Created on : 19-05-09
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------------------------------------------
     public function getTestRecord($conditions='',$orderBy='employeeName',$limit='')
@@ -3510,7 +3510,7 @@ class StudentReportsManager {
 //
 // Author :Parveen Sharma
 // Created on : 19-05-09
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------------------------------------------
     public function getCountTestRecord($conditions='')
@@ -3547,7 +3547,7 @@ class StudentReportsManager {
 
 	// Author :Jaineesh
 	// Created on : 19-Jan-2009
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------
 	public function getRoleName($roleId='') {
@@ -3567,7 +3567,7 @@ class StudentReportsManager {
 
 	// Author :Jaineesh
 	// Created on : 19-Jan-2009
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------
 	public function getUserData($limit='',$orderBy='',$roleId) {
@@ -3607,7 +3607,7 @@ class StudentReportsManager {
 
 // Author :Jaineesh
 // Created on : 09-April-2009
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------------------
 	public function getUserThreeMonthsLoginData() {
@@ -3622,7 +3622,7 @@ class StudentReportsManager {
 
 // Author :Jaineesh
 // Created on : 09-April-2009
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------------------
 	public function getUserThreeLoginData($userId) {
@@ -3643,7 +3643,7 @@ class StudentReportsManager {
 
 // Author :Jaineesh
 // Created on : 09-April-2009
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------------------
 	public function getUserSixLoginData($userId) {
@@ -3665,7 +3665,7 @@ class StudentReportsManager {
 
 // Author :Jaineesh
 // Created on : 09-April-2009
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------
 	public function getUserSixMonthsLoginData() {
@@ -3680,7 +3680,7 @@ class StudentReportsManager {
 
 // Author :Jaineesh
 // Created on : 09-April-2009
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------------------
 	public function getUserNineLoginData($userId) {
@@ -3701,7 +3701,7 @@ class StudentReportsManager {
 
 // Author :Jaineesh
 // Created on : 09-April-2009
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------------------------------------
 	public function getUserNineMonthsLoginData() {
@@ -3716,7 +3716,7 @@ class StudentReportsManager {
 
 // Author :Jaineesh
 // Created on : 09-April-2009
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------------------
 	public function getUserYearLoginData($userId) {
@@ -3737,7 +3737,7 @@ class StudentReportsManager {
 
 // Author :Jaineesh
 // Created on : 09-April-2009
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------
 	public function getUserOneYearLoginData() {
@@ -3752,7 +3752,7 @@ class StudentReportsManager {
 
 // Author :Jaineesh
 // Created on : 19-Jan-2009
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------
 	public function getTotalUserData($roleId) {
@@ -3772,7 +3772,7 @@ class StudentReportsManager {
 //
 // Author :Parveen Sharma
 // Created on : (29.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------------------
     public function getStudentOffenceList($condition='',$orderBy='offenseName',$limit=''){
@@ -3820,7 +3820,7 @@ class StudentReportsManager {
 //
 // Author :Parveen Sharma
 // Created on : (29.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------------------
     public function getTotalStudentOffence($condition=''){
@@ -3865,7 +3865,7 @@ class StudentReportsManager {
 //
 // Author :Parveen Sharma
 // Created on : (29.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------------------
     public function getOffenceDetail($condition=''){
@@ -3888,7 +3888,7 @@ class StudentReportsManager {
 //
 // Author :Jaineesh
 // Created on : (17.06.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------------------
     public function getStudentInfo($studentIds){
@@ -3917,7 +3917,7 @@ class StudentReportsManager {
 //
 // Author :Jaineesh
 // Created on : (17.06.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------------------
     public function getHODInfo($condition){
@@ -3962,7 +3962,7 @@ class StudentReportsManager {
 //
 // Author :Jaineesh
 // Created on : (17.06.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------------------
     public function getStudentAttendanceDate($classId,$studentId){
@@ -3997,7 +3997,7 @@ class StudentReportsManager {
 //
 // Author :Jaineesh
 // Created on : (17.06.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------------------
     public function getStudentClassDetail($condition='',$orderBy=' rollNO'){
@@ -4054,7 +4054,7 @@ public function getSubjectTypeDetails($classId){
 //
 // Author :Jaineesh
 // Created on : (17.06.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------------------
     public function getStudentAttendanceSubject($classId,$studentId,$subjectTypeId){
@@ -4094,7 +4094,7 @@ public function getSubjectTypeDetails($classId){
 //
 // Author :Jaineesh
 // Created on : (17.06.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------------------
     public function getStudentAttendanceTransferredMarks($classId,$studentId,$subjectIdList){
@@ -4348,7 +4348,7 @@ public function getSubjectWiseTestTransferredMarks($testTypeIds,$studentId,$clas
 //
 // Author :Jaineesh
 // Created on : (17.06.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------------------
     public function getStudentTestTypeCategory($subjectTypeId,$subjectId){
@@ -4377,7 +4377,7 @@ public function getSubjectWiseTestTransferredMarks($testTypeIds,$studentId,$clas
 //
 // Author :Jaineesh
 // Created on : (17.06.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------------------
     public function getStudentTestMarks($getSubjectIds,$studentId,$testId){
@@ -4415,7 +4415,7 @@ public function getSubjectWiseTestTransferredMarks($testTypeIds,$studentId,$clas
 //
 // Author :Jaineesh
 // Created on : (17.06.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------------------
     public function getMaxStudentTest($getSubjectIds,$classId,$studentId){
@@ -4450,7 +4450,7 @@ public function getSubjectWiseTestTransferredMarks($testTypeIds,$studentId,$clas
 //
 // Author :Jaineesh
 // Created on : (17.06.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------------------
     public function getStudentTestId($getSubjectIds,$classId,$studentId){
@@ -4489,7 +4489,7 @@ public function getSubjectWiseTestTransferredMarks($testTypeIds,$studentId,$clas
 
 // Author :Jaineesh
 // Created on : 09-Aug-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------
 	public function getMarksOneSubject($degree, $subjectTypeId, $subjectId) {
@@ -4548,7 +4548,7 @@ public function getSubjectWiseTestTransferredMarks($testTypeIds,$studentId,$clas
 //
 // Author :Jaineesh
 // Created on : (17.06.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------------------
     public function getTotalTransferredMarks($classId,$studentId,$subjectId,$testTypeId){
@@ -4576,7 +4576,7 @@ public function getSubjectWiseTestTransferredMarks($testTypeIds,$studentId,$clas
 //
 // Author :Jaineesh
 // Created on : (17.06.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------------------
     public function getTotalTestMarks($classId,$studentId,$subjectId,$testTypeId){
@@ -4604,7 +4604,7 @@ public function getSubjectWiseTestTransferredMarks($testTypeIds,$studentId,$clas
 //
 // Author :Jaineesh
 // Created on : (17.06.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------------------
     public function getStudentTestType($subjectTypeList,$testTypeCategoryList){
@@ -4637,7 +4637,7 @@ public function getSubjectWiseTestTransferredMarks($testTypeIds,$studentId,$clas
 //
 // Author :Jaineesh
 // Created on : (17.06.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------------------
     public function getStudentTestTransferredMarks($testTypeId,$classId,$studentId,$getSubjectIds){
@@ -4668,7 +4668,7 @@ public function getSubjectWiseTestTransferredMarks($testTypeIds,$studentId,$clas
     // function created for students receipt no findout
     // Author :Parveen Sharma
     // Created on : 29-06-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //----------------------------------------------------------------------------------------------------
     public function getReceiptNo($conditions='') {
@@ -4724,7 +4724,7 @@ public function getSubjectWiseTestTransferredMarks($testTypeIds,$studentId,$clas
 	//
 	// Author :Jaienesh
 	// Created on : (25.08.09)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//--------------------------------------------------------
 	public function getSelectedTimeTableClasses($labelId) {
@@ -4794,7 +4794,7 @@ public function getSubjectWiseTestTransferredMarks($testTypeIds,$studentId,$clas
     //
     // Author :Jaineesh
     // Created on : (01-10-2009)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------
 	public function getRoleUser($userId) {
@@ -4814,7 +4814,7 @@ public function getSubjectWiseTestTransferredMarks($testTypeIds,$studentId,$clas
 //
 // Author :Arvind Singh Rawat
 // Created on : 23-oct-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------------------------------------------
     public function getStudentDetailPercentageAttendance($filter='',$conditions='',$having='',$orderBy='studentName',$limit='')
@@ -4859,7 +4859,7 @@ public function getSubjectWiseTestTransferredMarks($testTypeIds,$studentId,$clas
 //
 // Author :Parveen Sharma
 // Created on : 14-oct-2009
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------------------------------------------
     public function getClasswiseSubject($conditions='', $having='') {
@@ -4918,7 +4918,7 @@ public function getSubjectWiseTestTransferredMarks($testTypeIds,$studentId,$clas
 //
 // Author :Parveen Sharma
 // Created on : 14-oct-2009
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------------------------------------------
     public function getClasswiseStudent($conditions='',$orderBy=' classId, rollNo, studentId',$limit='') {
@@ -4974,7 +4974,7 @@ public function getSubjectWiseTestTransferredMarks($testTypeIds,$studentId,$clas
 //
 // Author :Parveen Sharma
 // Created on : 14-oct-2009
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------------------------------------------
     public function getStudentDutyLeaves($conditions='') {
@@ -5022,7 +5022,7 @@ public function getSubjectWiseTestTransferredMarks($testTypeIds,$studentId,$clas
 
     // Author :Parveen Sharma
     // Created on : 12-04-08
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //----------------------------------------------------------------------------------------------------
     public function getSubjectwiseGroups($conditions='') {
@@ -5048,7 +5048,7 @@ public function getSubjectWiseTestTransferredMarks($testTypeIds,$studentId,$clas
 
     // Author :Jaineesh
     // Created on : 12-04-08
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //----------------------------------------------------------------------------------------------------
     public function getTimeTableClass($conditions='') {
@@ -5074,7 +5074,7 @@ public function getSubjectWiseTestTransferredMarks($testTypeIds,$studentId,$clas
 
     // Author :Ajinder Singh
     // Created on : 29-Dec-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //----------------------------------------------------------------------------------------------------
 	public function getMarksStatusReport($labelId, $sortField, $sortOrderBy, $conditions = '', $limit = '') {
@@ -5213,7 +5213,7 @@ public function getSubjectWiseTestTransferredMarks($testTypeIds,$studentId,$clas
     // function created for students bus pass
     // Author :Parveen Sharma
     // Created on : 12-01-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //----------------------------------------------------------------------------------------------------
     public function getAllBusPassDetails($conditions='', $order='', $limit='') {
@@ -5247,7 +5247,7 @@ public function getSubjectWiseTestTransferredMarks($testTypeIds,$studentId,$clas
     // function created for students bus pass
     // Author :Parveen Sharma
     // Created on : 12-01-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //----------------------------------------------------------------------------------------------------
     public function getCountAllBusPassDetails($conditions='') {
@@ -5327,7 +5327,7 @@ public function getSubjectWiseTestTransferredMarks($testTypeIds,$studentId,$clas
     //
     // Author :Parveen Sharma
     // Created on : (12.07.2008)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //---------------------------------------------------------------------------------------------------------------
     public function getClassSubjects($condition='') {
@@ -5354,7 +5354,7 @@ public function getSubjectWiseTestTransferredMarks($testTypeIds,$studentId,$clas
 //funciton return records for student attendance
 // Author :Parveen Sharma
 // Created on : 16-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------
     public function getStudentAttendanceData($fieldName='', $condition='', $orderBy='', $limit='',$conslidated='') {
@@ -5415,7 +5415,7 @@ public function getSubjectWiseTestTransferredMarks($testTypeIds,$studentId,$clas
 //funciton return records for student attendance
 // Author :Parveen Sharma
 // Created on : 16-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------
     public function getTotalDeliveredAttendance($condition='',$field='',$groupBy='',$filter='',$groupBy1='') {
@@ -5455,7 +5455,7 @@ public function getSubjectWiseTestTransferredMarks($testTypeIds,$studentId,$clas
 //funciton return records for attendance short report.
 // Author :Parveen Sharma
 // Created on : 16-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //----------------------------------------------------------------------------------------------------
      public function getAttendanceThresholdRecords($fieldName='',$condition='',$having='',$orderBy=' att.classId, att.subjectId  ',$limit='') {
 
@@ -5500,7 +5500,7 @@ public function getSubjectWiseTestTransferredMarks($testTypeIds,$studentId,$clas
     //function created for fetching students matching conditions
     // Author :Parveen Sharma
     // Created on : 23-Sep-2008
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //----------------------------------------------------------------------------------------------------
     public function getAllDetailsStudentList($conditions='', $order=' rollNo', $limit='') {
@@ -5547,7 +5547,7 @@ public function getSubjectWiseTestTransferredMarks($testTypeIds,$studentId,$clas
     //
     // Author :Parveen Sharma
     // Created on : (05.03.2009)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------
     public function getSubjectData($conditions='',$orderBy=' sub.subjectCode') {
@@ -5577,7 +5577,7 @@ public function getSubjectWiseTestTransferredMarks($testTypeIds,$studentId,$clas
     //
     // Author :Parveen Sharma
     // Created on : (05.03.2009)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------
     public function getFoxproStudentInfo($conditions='',$orderBy=' universityRollNo') {
@@ -5613,7 +5613,7 @@ public function getSubjectWiseTestTransferredMarks($testTypeIds,$studentId,$clas
     //
     // Author :Parveen Sharma
     // Created on : (05.03.2009)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------
     public function getFoxproSubjectInfo($conditions='',$orderBy=' a.subjectId') {
@@ -5641,7 +5641,7 @@ public function getSubjectWiseTestTransferredMarks($testTypeIds,$studentId,$clas
     //
     // Author :Parveen Sharma
     // Created on : (05.03.2009)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------
     public function getFoxproFinalMarksInfo($conditions='',$orderBy=' ttm1.classId, ttm1.studentId, ttm1.subjectId') {
@@ -5675,7 +5675,7 @@ public function getSubjectWiseTestTransferredMarks($testTypeIds,$studentId,$clas
     //
     // Author :Parveen Sharma
     // Created on : (05.03.2009)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------
     public function getStudentRankWise($conditions='',$orderBy='',$limit='') {
@@ -5705,7 +5705,7 @@ public function getSubjectWiseTestTransferredMarks($testTypeIds,$studentId,$clas
     //
     // Author :Parveen Sharma
     // Created on : (05.03.2009)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------
     public function getStudentRankWiseCount($conditions='') {
@@ -5740,7 +5740,7 @@ public function getSubjectWiseTestTransferredMarks($testTypeIds,$studentId,$clas
     //
     // Author :Parveen Sharma
     // Created on : (05.03.2009)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------
     public function getStudentAcademic($conditions='') {
@@ -5773,7 +5773,7 @@ public function getSubjectWiseTestTransferredMarks($testTypeIds,$studentId,$clas
     //
     // Author :Parveen Sharma
     // Created on : (05.03.2009)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------
 
@@ -5814,7 +5814,7 @@ public function getSubjectWiseTestTransferredMarks($testTypeIds,$studentId,$clas
 
     // Author :Ajinder Singh
     // Created on : 09-Aug-2008
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //----------------------------------------------------------------------------------------------------
     public function getTestWiseDetails($conditions='',$fieldName='',$groupBy='', $orderBy='') {
@@ -5855,7 +5855,7 @@ public function getSubjectWiseTestTransferredMarks($testTypeIds,$studentId,$clas
 
     // Author :Ajinder Singh
     // Created on : 09-Aug-2008
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //----------------------------------------------------------------------------------------------------
     public function getStudentTestDetails($conditions='') {
@@ -5897,7 +5897,7 @@ public function getSubjectWiseTestTransferredMarks($testTypeIds,$studentId,$clas
 //funciton return records for student attendance
 // Author :Parveen Sharma
 // Created on : 16-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------
     public function getDeliveredLectureCount($condition='',$fieldName='') {
@@ -6230,7 +6230,7 @@ public function getTeacherAttendanceSummeryListClassWise($filter,$limit='',$orde
 
 	// Author :Ajinder Singh
 	// Created on : 20-oct-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------
 	public function getClassMarksTotalSubjects($classIdList) {
@@ -6250,7 +6250,7 @@ public function getTeacherAttendanceSummeryListClassWise($filter,$limit='',$orde
 
 	// Author :Ajinder Singh
 	// Created on : 28-nov-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------
 	public function getSubjectMarks($classIdList,$subjectId) {
@@ -6277,7 +6277,7 @@ public function getTeacherAttendanceSummeryListClassWise($filter,$limit='',$orde
 
 	// Author :Ajinder Singh
 	// Created on : 28-nov-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------
 	public function countTotalMarksData($classIdList, $conditions = '') {
@@ -6671,7 +6671,7 @@ public function getTeacherAttendanceSummeryListClassWise($filter,$limit='',$orde
 //This function is used for fetching start and end date of a time table label
 // Author :Dipanjan Bhattacharjee
 // Created on : 1-05-2010
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //----------------------------------------------------------------------------------------------------
 
     public function getSelectedTimeTableDates($conditions='') {
@@ -6701,7 +6701,7 @@ public function getTeacherAttendanceSummeryListClassWise($filter,$limit='',$orde
 //This function is used for fetching teachers of a subject
 // Author :Dipanjan Bhattacharjee
 // Created on : 1-05-2010
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //----------------------------------------------------------------------------------------------------
 
     public function getTimeTableClassSubjectTeacher($conditions='') {
@@ -6734,7 +6734,7 @@ public function getTeacherAttendanceSummeryListClassWise($filter,$limit='',$orde
 //This function is used for fetching groups of a subject and a class of particular time table
 // Author :Dipanjan Bhattacharjee
 // Created on : 1-05-2010
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //----------------------------------------------------------------------------------------------------
 public function getTimeTableClassSubjectGroup($conditions='',$orderBy=' g.groupName') {
     global $sessionHandler;
@@ -6761,7 +6761,7 @@ public function getTimeTableClassSubjectGroup($conditions='',$orderBy=' g.groupN
 //This function is used for fetching subjects of a class of particular time table
 // Author :Dipanjan Bhattacharjee
 // Created on : 1-05-2010
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //----------------------------------------------------------------------------------------------------
 public function getTimeTableClassSubject($conditions='',$orderBy=' s.subjectCode') {
     global $sessionHandler;
@@ -6789,7 +6789,7 @@ public function getTimeTableClassSubject($conditions='',$orderBy=' s.subjectCode
 //This function is used for finding group hierarchy
 // Author :Dipanjan Bhattacharjee
 // Created on : 1-05-2010
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //----------------------------------------------------------------------------------------------------
 public function getBranch($degreeId,$orderBy=' branchCode'){
 	global $sessionHandler;
@@ -6863,7 +6863,7 @@ public function getGroupHierarchy($classId,$groupId) {
     //
     // Author :Parveen Sharma
     // Created on : (05.03.2009)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------
     public function getStudentAcademicList($conditions='') {
@@ -6891,7 +6891,7 @@ public function getGroupHierarchy($classId,$groupId) {
     //
     // Author :Parveen Sharma
     // Created on : (05.03.2009)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------
     public function getAdmittedStudentList($condition='',$orderBy='',$limit='') {
@@ -6976,7 +6976,7 @@ public function getGroupHierarchy($classId,$groupId) {
 //
 // Author :Arvind Singh Rawat
 // Created on : 08-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------
     public function getStudentPreviousDutyLeave($condition='',$field='',$groupBy='',$filter='',$groupBy1='') {
@@ -7074,7 +7074,7 @@ public function getGroupHierarchy($classId,$groupId) {
 // Usage : To fetch student's address
 // Author :Dipanjan Bhattacharjee
 // Created on : 06.10.2010
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------------------------------------------------
     public function getStudentAddress($studentIds) {
     $query = " SELECT
@@ -7179,7 +7179,7 @@ public function getGroupHierarchy($classId,$groupId) {
     // function created for fetching records for students for transferred marks
     // Author :Rajeev Aggarwal
     // Created on : 21-04-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------------------------------------------
     public function getSubjectTransferredDetails($condition='') {
@@ -7480,7 +7480,7 @@ public function getGroupHierarchy($classId,$groupId) {
      //-------------------------------------------------------
     //  THIS FUNCTION IS USED TO GET CLASS Privileges Classes
     //
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------
     public function getPrivilegesClasses($labelId) {

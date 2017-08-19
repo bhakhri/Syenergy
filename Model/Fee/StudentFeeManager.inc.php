@@ -3,7 +3,7 @@
 // THIS FILE IS USED FOR DB OPERATION FOR "student and teacher_comment" TABLE
 // Author :Nishu Bindal
 // Created on : (8.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -17,7 +17,7 @@ class StudentFeeManager {
 //
 // Author :Nishu Bindal
 // Created on : (8.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
 	private function __construct(){
@@ -28,7 +28,7 @@ class StudentFeeManager {
 //
 // Author :Nishu Bindal
 // Created on : (8.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 	public static function getInstance() {
@@ -44,7 +44,7 @@ class StudentFeeManager {
 // THIS FUNCTION IS used to fetch student Fee Class
 // Author :Nishu Bindal
 // Created on : (27.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //----------------------------------------------------------------------------------
     public function getFeeClass($feeClassId){
     	global $sessionHandler;
@@ -80,7 +80,7 @@ class StudentFeeManager {
 // THIS FUNCTION IS used to fetch student all clases
 // Author :Nishu Bindal
 // Created on : (27.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------
     
     public function fetchClases($rollNo = ''){
@@ -104,7 +104,7 @@ class StudentFeeManager {
 // THIS FUNCTION IS used to INSERT INTO FEE_RECEIPT
 // Author :Nishu Bindal
 // Created on : (4.Mar.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------
     public function insertFeeReceiptTime($feeReceiptId){
     	  global $sessionHandler;
@@ -123,7 +123,7 @@ class StudentFeeManager {
 // THIS FUNCTION IS used to GET STUDENT FEE RECEIPT COUNT 
 // Author :Nishu Bindal
 // Created on : (4.Mar.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------
    public function getCountOfReceiptNo(){
    	$query = "SELECT COUNT(feeReceiptId) AS noOfReceipt 
@@ -138,7 +138,7 @@ class StudentFeeManager {
 // THIS FUNCTION IS used to Check Receipt No already exists 
 // Author :Nishu Bindal
 // Created on : (4.Mar.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------
    public function checkReceiptNo($receiptNo){
    	$query ="SELECT COUNT(feeReceiptId) AS cnt FROM `fee_receipt_master` WHERE feeReceiptNo = '$receiptNo' ";
@@ -151,7 +151,7 @@ class StudentFeeManager {
 // THIS FUNCTION IS used to GET STUDENT Fee Details
 // Author :Nishu Bindal
 // Created on : (22.Mar.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------
     public function getStudentFeeDetails($studentId,$classId,$feeClassId){
 	$query ="SELECT 
@@ -267,7 +267,7 @@ class StudentFeeManager {
 // THIS FUNCTION IS used to GET STUDENT Fee Details
 // Author :Nishu Bindal
 // Created on : (22.Mar.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------   
    public function getLedgerData($studentId='',$feeCycleId='',$feeClassId='',$ledgerTypeId='' ){
 	

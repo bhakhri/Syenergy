@@ -4,7 +4,7 @@
 
  Author :Rajeev Aggarwal
  Created on : 09-02-2009
- Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+ Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 
 --------------------------------------------------------
 */
@@ -78,7 +78,7 @@ require_once(BL_PATH . "/UtilityManager.inc.php");
              
             $emailFrom = $emailAddress[0];
 			if($emailFrom=='-')
-				$emailFrom = "admin.chalkpad.com";
+				$emailFrom = "admin.syenergy.com";
 			$subject="New Suggestion";
 			$from = 'From: '.$emailFrom. ";\r\n" ;    
      		$from .= 'Content-type: text/html;'; 

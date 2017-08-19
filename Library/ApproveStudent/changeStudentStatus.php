@@ -3,7 +3,7 @@
 // THIS FILE IS USED TO ADD A CITY 
 // Author : Dipanjan Bhattacharjee
 // Created on : (12.06.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 global $FE;
 require_once($FE . "/Library/common.inc.php");
@@ -58,7 +58,7 @@ function sendAcknowledgeMail($toEmailIds,$mode){
       $headers  = 'MIME-Version: 1.0' . "\r\n";
       $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
       // Additional headers
-      //$headers .= "To : dipanjan@im.chalkpad.in \r\n";
+      //$headers .= "To : dipanjan@im.syenergy.in \r\n";
       $headers .= 'From: '.$commonMailFrom. "\r\n";
       $headers .= "Bcc: ".$to."\r\n";
       // Mail it

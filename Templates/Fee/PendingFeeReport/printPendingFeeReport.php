@@ -2,7 +2,7 @@
 //--------------------------------------------------------
 // This file is used as printing version for Pending Fee Report.
 // Created on : 7-May-2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 ?>
 <?php

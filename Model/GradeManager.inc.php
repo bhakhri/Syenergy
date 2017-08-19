@@ -25,7 +25,7 @@ class GradeManager {
 //
 // Author :Ajinder Singh
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public static function getInstance() {
@@ -62,7 +62,7 @@ class GradeManager {
 // THIS FUNCTION IS USED FOR UPDATING GRADE DESCRIPTION VALUES
 //  Author: Aditi Miglani
 //  Created on: 23 August 2011
-//  Copyright 2011-2012 - Chalkpad Technologies Pvt. Ltd.
+//  Copyright 2011-2012 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------
 
 public function updateGradeDescription($filter,$gradeSetId,$gradeLabel,$gradePoints,$condition='',$failGrade='',$gradeStatus='') {

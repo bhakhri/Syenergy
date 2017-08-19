@@ -6,7 +6,7 @@
 //
 // Author :Arvind Singh Rawat
 // Created on : 5-july-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -589,7 +589,7 @@ class NoticeManager {
     //$conditions :db clauses
     // Author :Dipanjan Bhattacharjee
     // Created on : (05.11.2008)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //---------------------------------------------------------------------------------------------------------------
     public function checkNoticeExists($noticeId){
@@ -605,7 +605,7 @@ class NoticeManager {
 	// Purpose : This Function counts the list of all the notifications
 	// Author :Kavish Manjkhola
 	// Created on : 05.04.2011
-	// Copyright 2010-2011: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2010-2011: syenergy Technologies Pvt. Ltd.
 	//-----------------------------------------------------
 	public function getNotificationsCount() {
 			$query = "
@@ -621,7 +621,7 @@ class NoticeManager {
 	// Purpose : This Function fetches list of all the notifications
 	// Author :Kavish Manjkhola
 	// Created on : 05.04.2011
-	// Copyright 2010-2011: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2010-2011: syenergy Technologies Pvt. Ltd.
 	//-----------------------------------------------------
 	public function getNotificationsList($filter, $orderBy, $limit) {
 			$query = "
@@ -639,7 +639,7 @@ class NoticeManager {
 	//getInsuranceDueDateList() is used to vehicle insurance due date list
 	//Author : Kavish Manjkhola
 	//Created on : 06.04.11
-	//Copyright 2010-2011: Chalkpad Technologies Pvt. Ltd.
+	//Copyright 2010-2011: syenergy Technologies Pvt. Ltd.
 	//-------------------------------------------------------------------------------  
     public function deleteInsuranceNoticePassTime($timeLimit) {
      
@@ -656,7 +656,7 @@ class NoticeManager {
 	//updateNotificationViewDateTime() is used to update notification viewTime
 	//Author : Kavish Manjkhola
 	//Created on : 06.04.11
-	//Copyright 2010-2011: Chalkpad Technologies Pvt. Ltd.
+	//Copyright 2010-2011: syenergy Technologies Pvt. Ltd.
 	//------------------------------------------------------------------------
     public function updateNotificationViewDateTime() {
      

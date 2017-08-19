@@ -5,7 +5,7 @@
 //
 // Author : Jaineesh
 // Created on : (20.01.2009 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 set_time_limit(0); //to 
@@ -41,7 +41,7 @@ $lastInsertIdsString='';
 //$conditions :db clauses
 // Author :Jaineesh 
 // Created on : (20.01.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------  
 function sendSMS($mobileNo,$message){
@@ -55,7 +55,7 @@ function sendSMS($mobileNo,$message){
 //$conditions :db clauses
 // Author :Jaineesh 
 // Created on : (20.01.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------  
 function sendEmail($from,$to,$msgSubject,$msgBody){
@@ -75,7 +75,7 @@ function sendEmail($from,$to,$msgSubject,$msgBody){
 //$conditions :db clauses
 // Author :Jaineesh 
 // Created on : (20.01.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------------  
 $smsArr=array();  //will contain smss(each of sms_max_length or less)

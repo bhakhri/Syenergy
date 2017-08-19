@@ -98,7 +98,7 @@
 <footer>
   <div class="container">
     <div class="col-md-10 col-md-offset-1 text-center">
-      <h6>Powered By ChalkPad Technologies Pvt Ltd</h6>
+      <h6>Powered By syenergy Technologies Pvt Ltd</h6>
     </div>
   </div>
 </footer>

@@ -6,7 +6,7 @@
 //
 // Author :Ajinder Singh
 // Created on : 08-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -2569,7 +2569,7 @@ class ReportManager {
 //*****************  Version 4  *****************
 //User: Ajinder      Date: 8/09/08    Time: 7:07p
 //Updated in $/Leap/Source/Library
-//changed footer from "chalkpad" to logged-in-user, as told
+//changed footer from "syenergy" to logged-in-user, as told
 //
 //*****************  Version 3  *****************
 //User: Ajinder      Date: 8/07/08    Time: 5:48p

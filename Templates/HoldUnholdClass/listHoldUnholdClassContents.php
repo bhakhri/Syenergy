@@ -3,7 +3,7 @@
 // THIS FILE IS USED TO Reappear/Re-exam Label base Class Mapping
 // Author : Parveen Sharma
 // Created on : (12.06.2011 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 ?>
 <form name="frmReappearMapping" id="frmReappearMapping" action="" method="post" onSubmit="return false;">

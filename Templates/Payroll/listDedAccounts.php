@@ -5,7 +5,7 @@
 //
 // Author :Abhiraj
 // Created on : 14-April-2010
-// Copyright 2009-20010: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2009-20010: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 ?>    <form onSubmit="sendReq(listURL,divResultName,searchFormName,'');return false;" name="searchForm">  

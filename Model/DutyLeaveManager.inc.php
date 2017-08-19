@@ -3,7 +3,7 @@
 // THIS FILE IS USED FOR DB OPERATION FOR "city" TABLE
 // Author :Dipanjan Bhattacharjee
 // Created on : (12.06.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -15,7 +15,7 @@ class DutyLeaveManager {
 // THIS FUNCTION IS USED FOR CREATING AN OBJECT OF "DutyLeaveManager" CLASS
 // Author :Dipanjan Bhattacharjee
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------
 	private function __construct() {
 	}
@@ -24,7 +24,7 @@ class DutyLeaveManager {
 // THIS FUNCTION IS USED FOR GETTING AN INSTANCE OF "DutyLeaveManager" CLASS
 // Author :Dipanjan Bhattacharjee
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------
 	public static function getInstance() {
 		if (self::$instance === null) {
@@ -277,7 +277,7 @@ class DutyLeaveManager {
 // orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
     public function getEventList($conditions='', $limit = '', $orderBy=' eventTitle') {
@@ -297,7 +297,7 @@ class DutyLeaveManager {
 // $conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //----------------------------------------------------------------------------------------
     public function getTotalEvent($conditions='') {
 
@@ -827,7 +827,7 @@ public function getSubjectAndGroupInfoFromAttendance($studentId,$classId,$period
 //
 // Author :Parveen Sharma
 // Created on : (29-May-2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------      
     public function getStudentClassDetail($condition='') {
@@ -864,7 +864,7 @@ public function getSubjectAndGroupInfoFromAttendance($studentId,$classId,$period
 //
 // Author :Parveen Sharma
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 
 //-------------------------------------------------------------------------------    

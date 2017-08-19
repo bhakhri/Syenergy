@@ -4,7 +4,7 @@
 // Purpose: To generate Quota Seat Intake functionality
 // Author : Nishu Bindal
 // Created on : 6-Feb-2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 global $FE;
 require_once($FE . "/Library/common.inc.php");
@@ -72,7 +72,7 @@ function addDetailRows(value){
 //
 //Author : Nishu Bindal
 // Created on : (6.Feb.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -112,7 +112,7 @@ function getBranches() {
 //
 //Author : Nishu Bindal
 // Created on : (6.Feb.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -154,7 +154,7 @@ function getBatch() {
 //
 //Author : Nishu Bindal
 // Created on : (6.Feb.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function getSearchValue(){

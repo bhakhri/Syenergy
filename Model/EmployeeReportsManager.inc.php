@@ -4,7 +4,7 @@
 //EmployeeReportsManager .
 // Author : Jaineesh
 // Created on : 07.07.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -27,7 +27,7 @@ class EmployeeReportsManager {
 //addHostel() is used to add new record in database.
 // Author : Jaineesh
 // Created on : 27.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -67,7 +67,7 @@ class EmployeeReportsManager {
 //
 // Author :Arvind Singh Rawat
 // Created on : 18-sept-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------------------------------------------
 
@@ -83,7 +83,7 @@ class EmployeeReportsManager {
 
 // Author :Arvind Singh Rawat
 // Created on : 18-Sept-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------
 
@@ -99,7 +99,7 @@ class EmployeeReportsManager {
 //
 // Author :Arvind Singh Rawat
 // Created on : 08-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------
 
@@ -118,7 +118,7 @@ class EmployeeReportsManager {
 
 // Author :Arvind Singh Rawat
 // Created on : 08-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------
 
@@ -133,7 +133,7 @@ class EmployeeReportsManager {
 
 // Author :Ajinder Singh
 // Created on : 16-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------
 	public function getSubjectList($classesList) {
@@ -147,7 +147,7 @@ class EmployeeReportsManager {
 
 // Author :Ajinder Singh
 // Created on : 29-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------
 	public function getSingleField($table, $field, $conditions='') {
@@ -160,7 +160,7 @@ class EmployeeReportsManager {
 
 // Author :Ajinder Singh
 // Created on : 09-Aug-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------
 	public function getSubjectListByType($degree, $subjectTypeId) {
@@ -170,7 +170,7 @@ class EmployeeReportsManager {
 
 // Author :Ajinder Singh
 // Created on : 09-Aug-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------
 	public function countClassSubjectEmployees($classId, $subjectId) {
@@ -189,7 +189,7 @@ class EmployeeReportsManager {
 
 	// Author :Ajinder Singh
 	// Created on : 22-Aug-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------
 	/*	Please note that same $conditions part is made in
@@ -219,7 +219,7 @@ class EmployeeReportsManager {
 
 	// Author :Ajinder Singh
 	// Created on : 22-Aug-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------
 	public function getEmployeeLabelData($universityId,$branchId,$instituteId) {
@@ -250,7 +250,7 @@ class EmployeeReportsManager {
 
 	// Author :Ajinder Singh
 	// Created on : 27-Aug-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------
 	public function getEmployeeList($employeeCode, $conditions = '') {
@@ -272,7 +272,7 @@ class EmployeeReportsManager {
 
 	// Author :Ajinder Singh
 	// Created on : 27-Aug-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------
 	public function getEmployeeGroupList($classId, $employeeId, $conditions='') {
@@ -296,7 +296,7 @@ class EmployeeReportsManager {
 
 	// Author :Ajinder Singh
 	// Created on : 27-Aug-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------
 	public function getTestList($classId, $conditions = '') {
@@ -317,7 +317,7 @@ class EmployeeReportsManager {
 
 	// Author :Ajinder Singh
 	// Created on : 27-Aug-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------
 	public function getTestTotalEmployees($testId, $conditions='') {
@@ -337,7 +337,7 @@ class EmployeeReportsManager {
 
 	// Author :Ajinder Singh
 	// Created on : 27-Aug-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------
 	public function getTestPresentEmployees($testId, $conditions = '') {
@@ -358,7 +358,7 @@ class EmployeeReportsManager {
 
 	// Author :Ajinder Singh
 	// Created on : 27-Aug-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------
 	public function getClassWiseConsolidatedMarks($classId, $testId) {
@@ -401,7 +401,7 @@ class EmployeeReportsManager {
 
 	// Author :Ajinder Singh
 	// Created on : 27-Aug-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------
 	public function getClassWiseConsolidatedMarksCon($testId) {
@@ -434,7 +434,7 @@ class EmployeeReportsManager {
 
 	// Author :Ajinder Singh
 	// Created on : 29-Aug-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------	
 	public function getEmployeeIdClass($rollNo) {
@@ -455,7 +455,7 @@ class EmployeeReportsManager {
 
 	// Author :Ajinder Singh
 	// Created on : 29-Aug-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------	
 	public function getTestSubjectTypes($classId) {
@@ -474,7 +474,7 @@ class EmployeeReportsManager {
 
 	// Author :Ajinder Singh
 	// Created on : 29-Aug-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------	
 	public function getTestTypes($classId, $subjectList) {
@@ -500,7 +500,7 @@ class EmployeeReportsManager {
 
 	// Author :Ajinder Singh
 	// Created on : 29-Aug-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------	
 	public function getSubjectTypeSubjects($subjectTypeId, $classId) {
@@ -519,7 +519,7 @@ class EmployeeReportsManager {
 
 	// Author :Ajinder Singh
 	// Created on : 29-Aug-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------	
 	public function getAttendanceMarks($classId, $EmployeeId, $subjectId) {
@@ -542,7 +542,7 @@ class EmployeeReportsManager {
 
 	// Author :Ajinder Singh
 	// Created on : 29-Aug-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------	
 	public function getMarks($classId, $EmployeeId, $subjectId, $testId) {
@@ -564,7 +564,7 @@ class EmployeeReportsManager {
 
 	// Author :Ajinder Singh
 	// Created on : 29-Aug-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------	
 	public function getTotalMarks($classId, $subjectId, $EmployeeId, $testTypeId) {
@@ -584,7 +584,7 @@ class EmployeeReportsManager {
 
 	// Author :Ajinder Singh
 	// Created on : 29-Aug-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------	
 	public function getTests($testTypeList = 0, $subjectList = 0, $classId, $EmployeeId) {
@@ -609,7 +609,7 @@ class EmployeeReportsManager {
 
 	// Author :Ajinder Singh
 	// Created on : 29-Aug-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------	
 	public function countTestTypeSubjectListTest($testTypeId, $subjectList, $classId) {
@@ -627,7 +627,7 @@ class EmployeeReportsManager {
 
 	// Author :Ajinder Singh
 	// Created on : 29-Aug-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------	
 	public function getTestClasses() {
@@ -644,7 +644,7 @@ class EmployeeReportsManager {
 
 	// Author :Ajinder Singh
 	// Created on : 29-Aug-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------	
 	public function getClassSubjectGroupTests($classId, $subjectId, $groupId) {
@@ -674,7 +674,7 @@ class EmployeeReportsManager {
 
 	// Author :Ajinder Singh
 	// Created on : 29-Aug-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------	
 	public function getClassTeachingSubjectList($classId) {
@@ -694,7 +694,7 @@ class EmployeeReportsManager {
 
 	// Author :Ajinder Singh
 	// Created on : 13-Sep-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------	
 	public function getAllDetails($conditions='', $order, $limit) {
@@ -722,7 +722,7 @@ class EmployeeReportsManager {
 
     // Author :Arvind Singh Rawat
     // Created on : 23-Sep-2008
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //----------------------------------------------------------------------------------------------------    
     public function getAllDetailsEmployeeList($conditions='', $order, $limit) {
@@ -750,7 +750,7 @@ class EmployeeReportsManager {
 
 	// Author :Ajinder Singh
 	// Created on : 13-Sep-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------	
 	public function countRecords($conditions='') {
@@ -903,7 +903,7 @@ class EmployeeReportsManager {
     //function created for fetching Employees topic Count
     // Author :Parveen Sharma
     // Created on : 02-06-09
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //----------------------------------------------------------------------------------------------------    
     
@@ -950,7 +950,7 @@ class EmployeeReportsManager {
     //
     // Author :Parveen Sharma
     // Created on : 02-06-09
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //----------------------------------------------------------------------------------------------------    
     
@@ -995,7 +995,7 @@ class EmployeeReportsManager {
     //function fetching Lecture Delivered Details 
     // Author :Parveen Sharma
     // Created on : 15-05-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //----------------------------------------------------------------------------------------------------    
     public function getLectureDelivered($conditions='', $orderBy='', $limit='',$filter1='',$filter2='') {
         
@@ -1033,7 +1033,7 @@ class EmployeeReportsManager {
     //function fetching Lecture Delivered Details 
     // Author :Parveen Sharma
     // Created on : 15-05-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //----------------------------------------------------------------------------------------------------    
     public function getLectureDeliveredCount($conditions='',$filter1='',$filter2='') {
         
@@ -1074,7 +1074,7 @@ class EmployeeReportsManager {
     //function created for fetching topics & pending Topic Details 
     // Author :Parveen Sharma
     // Created on : 05-05-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //----------------------------------------------------------------------------------------------------    
     
@@ -1118,7 +1118,7 @@ class EmployeeReportsManager {
     //function created for fetching topics & pending Topic Details 
     // Author :Parveen Sharma
     // Created on : 05-05-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //----------------------------------------------------------------------------------------------------    
     
@@ -1166,7 +1166,7 @@ class EmployeeReportsManager {
     //function created for fetching Employee Time Tables wise Subject Details findout
     // Author :Parveen Sharma
     // Created on : 05-05-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //----------------------------------------------------------------------------------------------------    
     
     public function getEmployeeSubjectDetails($conditions='',$orderBy='' ) {
@@ -1194,7 +1194,7 @@ class EmployeeReportsManager {
     //
     // Author :Jaineesh
     // Created on : (01-10-2009)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------      
 	public function getRoleUser($userId) {
@@ -1215,7 +1215,7 @@ class EmployeeReportsManager {
     //
     // Author :Parveen Sharma
     // Created on : 02-06-09
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //----------------------------------------------------------------------------------------------------    
     
@@ -1263,7 +1263,7 @@ class EmployeeReportsManager {
     // function created for teacher in active time table
     // Author :Parveen Sharma
     // Created on : 12-01-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //----------------------------------------------------------------------------------------------------    
     public function getTimeTableTeacher($condition='') {
@@ -1295,7 +1295,7 @@ class EmployeeReportsManager {
     // function created for Classes in active time table       
     // Author :Parveen Sharma
     // Created on : 21-04-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------------------------------------------    
     public function getTimeTableClass($condition, $orderBy=' c.className') {
@@ -1351,7 +1351,7 @@ class EmployeeReportsManager {
     // function created for Classes in active time table  type      
     // Author :Prashant
     // Created on : 21-05-2010
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------------------------------------------  
 	
@@ -1421,7 +1421,7 @@ class EmployeeReportsManager {
     // function created for Subject in active time table       
     // Author :Parveen Sharma
     // Created on : 21-04-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------------------------------------------    
     public function getTimeTableSubject($condition, $orderBy=' s.subjectTypeId, s.subjectCode', $groupBy='') {
@@ -1458,7 +1458,7 @@ class EmployeeReportsManager {
     // function created for Subject in active time table       
     // Author :Parveen Sharma
     // Created on : 21-04-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------------------------------------------    
     public function getTimeTableGroup($condition='', $orderBy=' g.groupName') {
@@ -1529,7 +1529,7 @@ class EmployeeReportsManager {
     // function created for Subject in active time table       
     // Author :Parveen Sharma
     // Created on : 21-04-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------------------------------------------    
     public function getClasswiseGroup($condition='', $orderBy=' groupName') {
@@ -1593,7 +1593,7 @@ class EmployeeReportsManager {
     // function created for Subject in active time table       
     // Author :Parveen Sharma
     // Created on : 21-04-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------------------------------------------    
     public function getActiveTimeTableSubject($condition='', $orderBy=' s.subjectCode') {

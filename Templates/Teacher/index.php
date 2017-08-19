@@ -2,7 +2,7 @@
 // This file creates DashBoard for Teacher Module
 // Author :Dipanjan Bhattacharjee
 // Created on : 12.07.2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
     require_once(BL_PATH . "/UtilityManager.inc.php");
     require_once(MODEL_PATH."/CommonQueryManager.inc.php");

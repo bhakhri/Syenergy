@@ -3,7 +3,7 @@
 //
 // Author :Ankur Aggarwal
 // Created on : 18-Aug-2011
-// Copyright 2011-2012: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2011-2012: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
  

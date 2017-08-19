@@ -35,7 +35,7 @@ var flag = false; // for whether the record has been added or not, if flag is tr
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (14.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------
 function getData(){
@@ -155,7 +155,7 @@ function populateSubjects(classId){
 //THIS FUNCTION IS USED TO populate topic drop-down upon selection of  subject(Teacher Module)
 //Author : Jaineesh 
 // Created on : (12.03.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------------------------------------------------------------
 function populateGroups(classId,subjectId) {
    clearData(3); 
@@ -270,7 +270,7 @@ function csvFinalMarksReport() {
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (21.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function hide_div(id,mode){

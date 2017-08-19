@@ -2,7 +2,7 @@
 //-------------------------------------------------------
 // This File contains Bussiness Logic of the feeDetail report
 // Created By:  Harpreet
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -24,7 +24,7 @@ class StudentGenerateFeeManager {
 //  This function is used to fetch all branches
 // Author :Nishu Bindal
 // Created on : 21-Mar-2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     

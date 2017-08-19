@@ -4,7 +4,7 @@
 //
 // Author : Jaineesh
 // Created on : (04 Aug 2010 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 ?>
@@ -75,7 +75,7 @@ var flag = false; // for whether the record has been added or not, if flag is tr
 //act:type of operations(Add/Edit)
 //Author : Jaineesh
 // Created on : (29 July 10)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function cancelledPO(Id) {
@@ -93,7 +93,7 @@ function cancelledPO(Id) {
 //act:type of operations(Add/Edit)
 //Author : Jaineesh
 // Created on : (29 July 10)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function validateAddForm(frm, act) {
@@ -149,7 +149,7 @@ function validateAddForm(frm, act) {
 //
 //Author : Jaineesh
 // Created on : (02 Aug 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function blankValues() {
@@ -168,7 +168,7 @@ function blankValues() {
 //
 //Author : Jaineesh
 // Created on : (20.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function addPO() {
@@ -221,7 +221,7 @@ function addPO() {
 //
 //Author : Jaineesh
 // Created on : (20.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function getIndentValues() {
@@ -264,7 +264,7 @@ function getIndentValues() {
 //
 //Author : Jaineesh
 // Created on : (20.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function rejectPO(Id) {
@@ -697,7 +697,7 @@ var isMozilla = (document.all) ? 0 : 1;
 //THIS FUNCTION IS USED TO MAKE A FLOAT
 //
 // Created on : (9.DEC.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function makeFloat(val){
@@ -711,7 +711,7 @@ function makeFloat(val){
 //THIS FUNCTION IS USED TO CALCULATE NET PAYBLE AMOUNT & GRAND TOTAL
 //
 // Created on : (15.DEC.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function updateTotal(){
@@ -761,7 +761,7 @@ function updateTotal(){
 //
 //Author : Jaineesh
 // Created on : (20.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function populateValues(id,dv,w,h) {
@@ -831,7 +831,7 @@ function  getLastestPOCode(){
 //
 //Author : Jaineesh
 // Created on : (03.09.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 

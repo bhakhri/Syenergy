@@ -3,7 +3,7 @@
 //  THIS FILE IS USED FOR DB OPERATION FOR "REQUISTION MAPPING" table
 // Author :Jaineesh
 // Created on : (08.05.2009)
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -16,7 +16,7 @@ class POManager {
 //
 // Author :Jaineesh
 // Created on : (27 July 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     private function __construct() {
@@ -27,7 +27,7 @@ class POManager {
 //
 // Author :Jaineesh
 // Created on : (27 July 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public static function getInstance() {
@@ -47,7 +47,7 @@ class POManager {
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (27 July 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -77,7 +77,7 @@ class POManager {
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (27 July 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -105,7 +105,7 @@ class POManager {
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (27 July 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 //In this query MIN(ipt.status) is used to select the min PO status from inv_po_trans because min PO status is the current satus of PO
@@ -150,7 +150,7 @@ class POManager {
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (29 Nov 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
   public function countUnapprovedPOList($conditions='',$limit='',$orderBy) {
@@ -175,7 +175,7 @@ class POManager {
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (29 Nov 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
   public function getUnapprovedPOList($conditions='',$limit='',$orderBy) {
@@ -205,7 +205,7 @@ class POManager {
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (03 Sept 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -236,7 +236,7 @@ class POManager {
 //
 // Author :Jaineesh
 // Created on : (03 Sep 10)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     public function getIndentValues($orderBy=' indentId') {
@@ -263,7 +263,7 @@ class POManager {
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (27 July 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -283,7 +283,7 @@ class POManager {
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (27 July 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -324,7 +324,7 @@ class POManager {
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (27 July 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -352,7 +352,7 @@ class POManager {
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (27 July 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -378,7 +378,7 @@ class POManager {
 //
 // Author :Jaineesh
 // Created on : (02 Sep 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------
     public function getPOData($conditions) {
@@ -395,7 +395,7 @@ class POManager {
 //
 // Author :Jaineesh
 // Created on : (06 Sep 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------
 
@@ -426,7 +426,7 @@ public function addPO(){
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (06 Sept 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -450,7 +450,7 @@ public function addPO(){
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (06 Sept 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -474,7 +474,7 @@ public function addPO(){
 //$conditions :db clauses
 // Author :Nishu
 // Created on : (16 nov 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 	public function countPendingPO($indentId) {
@@ -495,7 +495,7 @@ public function addPO(){
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (06 Sept 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -519,7 +519,7 @@ public function addPO(){
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (06 Sept 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -542,7 +542,7 @@ public function addPO(){
 //$limit:specifies limit
 //orderBy:sort on which column
 // Created on : (9 dec 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     public function cancelledGeneratedPO($poId) {
@@ -566,7 +566,7 @@ public function addPO(){
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (06 Sept 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -590,7 +590,7 @@ public function addPO(){
 //$limit:specifies limit
 //orderBy:sort on which column
 // Created on : (9 dec 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
   public function rejectPOTrans($poId, $conditions = '') {
@@ -626,7 +626,7 @@ public function addPO(){
 //
 // Author :Jaineesh
 // Created on : (02 Sep 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------
     public function getIndent($poId) {
@@ -643,7 +643,7 @@ public function addPO(){
 //$limit:specifies limit
 //orderBy:sort on which column
 // Created on : (9 dec 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
   public function getPO($poId) {
@@ -660,7 +660,7 @@ public function addPO(){
 //$limit:specifies limit
 //orderBy:sort on which column
 // Created on : (9 dec 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     public function getPODetail($poId) {
@@ -709,7 +709,7 @@ public function addPO(){
 //$limit:specifies limit
 //orderBy:sort on which column
 // Created on : (9 dec 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 	public function updatePOMaster($poId,$partyId,$discount,$aditonalCharges,$vat,$grandtotal,$netAmount){
@@ -735,7 +735,7 @@ public function addPO(){
 //$limit:specifies limit
 //orderBy:sort on which column
 // Created on : (9 dec 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 	public function UpdatePOTrans($poId,$itemId,$rate,$quantityRequired,$amount){

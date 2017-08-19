@@ -3,7 +3,7 @@
 //  THIS FILE IS USED FOR DB OPERATION FOR "testtype" table
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.6.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -16,7 +16,7 @@ class TestTypeManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
     private function __construct() {
@@ -27,7 +27,7 @@ class TestTypeManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
     public static function getInstance() {
@@ -43,7 +43,7 @@ class TestTypeManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
     public function addTestType() {
@@ -91,7 +91,7 @@ class TestTypeManager {
 //$id:cityId
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------        
     public function editTestType($id) {
@@ -136,7 +136,7 @@ class TestTypeManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getTestType($conditions='') {
@@ -181,7 +181,7 @@ class TestTypeManager {
 //$testtypeId :testtypeId   of testtype
 // Author :Dipanjan Bhattacharjee 
 // Created on : (25.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------             
     public function checkInTest($testTypeId) {
@@ -199,7 +199,7 @@ class TestTypeManager {
 //$testtypeId :testtypeId   of testtype
 // Author :Dipanjan Bhattacharjee 
 // Created on : (25.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteTestType($testTypeid) {
@@ -220,7 +220,7 @@ class TestTypeManager {
 //orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -266,7 +266,7 @@ class TestTypeManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalTestType($conditions='') {
@@ -299,7 +299,7 @@ class TestTypeManager {
 //
 // Author :Jaineesh
 // Created on : (19.2.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
     public function addTestTypeCategory() {
@@ -318,7 +318,7 @@ class TestTypeManager {
 //$id:cityId
 // Author :Jaineesh 
 // Created on : (19.2.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------        
     public function editTestTypeCategory($id) {
@@ -337,7 +337,7 @@ class TestTypeManager {
 //$conditions :db clauses
 // Author :Jaineesh 
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getTestTypeCategory($conditions='') {
@@ -356,7 +356,7 @@ class TestTypeManager {
 //$conditions :db clauses
 // Author :Jaineesh 
 // Created on : (19.2.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalTestTypeCategory($conditions='') {
@@ -386,7 +386,7 @@ class TestTypeManager {
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (19.02.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -422,7 +422,7 @@ class TestTypeManager {
 //$conditions :db clauses
 // Author :Jaineesh 
 // Created on : (19.2.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function checkTestTypeCategory($conditions='') {
@@ -470,7 +470,7 @@ class TestTypeManager {
 //$testtypeId :testTypeCategoryId  of testtypecategory
 // Author :Dipanjan Bhattacharjee 
 // Created on : (25.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteTestTypeCategory($id) {
@@ -487,7 +487,7 @@ class TestTypeManager {
 //$conditions :db clauses
 // Author :Jaineesh 
 // Created on : (19.2.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTimeTableSubjectSelect($id) {
@@ -514,7 +514,7 @@ class TestTypeManager {
 //$conditions :db clauses
 // Author :Jaineesh 
 // Created on : (19.2.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getCheckExam($conditions='') {
@@ -533,7 +533,7 @@ class TestTypeManager {
 //$conditions :db clauses
 // Author :Jaineesh 
 // Created on : (19.2.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getCheckAttendance($conditions='') {
@@ -552,7 +552,7 @@ class TestTypeManager {
 //$conditions :db clauses
 // Author :Jaineesh 
 // Created on : (19.2.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getCheckEditAttendance($conditions='') {
@@ -571,7 +571,7 @@ class TestTypeManager {
 //$conditions :db clauses
 // Author :Jaineesh 
 // Created on : (19.2.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getCheckEditExam($conditions='') {

@@ -52,7 +52,7 @@ var flag = false; // for whether the record has been added or not, if flag is tr
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (14.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------
 function getData(){
@@ -632,7 +632,7 @@ function giveGraceMarks(){
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (07.08.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------
 function deleteRollNo(){
@@ -643,7 +643,7 @@ function deleteRollNo(){
 //THIS FUNCTION IS USED TO populate topic drop-down upon selection of  subject(Teacher Module)
 //Author : Jaineesh 
 // Created on : (12.03.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------------------------------------------------------------
 function groupPopulate(value) {
    url = '<?php echo HTTP_LIB_PATH;?>/AdminTasks/ajaxAllGroupPopulate.php';
@@ -696,7 +696,7 @@ function groupPopulate(value) {
 //THIS FUNCTION IS USED TO populate topic drop-down upon selection of  subject(Teacher Module)
 //Author : Jaineesh 
 // Created on : (12.03.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------------------------------------------------------------
 function subjectPopulate(value) {
    url = '<?php echo HTTP_LIB_PATH;?>/AdminTasks/ajaxTransferredSubjectPopulate.php';

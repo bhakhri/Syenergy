@@ -3,7 +3,7 @@
 //-------------------------------------------------------
 //  This File outputs the Consolidated Fee Details Report
 // Created on : 18-Nov-2010
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
 global $FE;

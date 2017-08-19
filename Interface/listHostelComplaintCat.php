@@ -4,7 +4,7 @@
 //
 // Author : Gurkeerat Sidhu
 // Created on : (23.04.2009 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;
@@ -61,7 +61,7 @@ function getComplaintCategoryData(){
 //h:height of the div
 //Author : Gurkeerat Sidhu
 // Created on : (23.04.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -79,7 +79,7 @@ function editWindow(id,dv,w,h) {
 //act : action value of the button (add/edit)
 //Author : Gurkeerat Sidhu 
 // Created on : (23.04.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function validateAddForm(frm, act) {   
@@ -119,7 +119,7 @@ function emptySlotId() {
 //
 //Author : Gurkeerat Sidhu
 // Created on : (23.04.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function addComplaintCategory() {
@@ -168,7 +168,7 @@ function addComplaintCategory() {
 //  id=complaintCatId
 //Author : Gurkeerat Sidhu
 // Created on : (23.04.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function deleteComplaintCategory(id) {
@@ -208,7 +208,7 @@ function deleteComplaintCategory(id) {
 //
 //Author : Gurkeerat Sidhu
 // Created on : (23.04.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------
 
@@ -224,7 +224,7 @@ function blankValues() {
 //
 //Author : Gurkeerat Sidhu
 // Created on : (23.04.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function editComplaintCategory() {
@@ -265,7 +265,7 @@ function editComplaintCategory() {
 //
 //Author : Gurkeerat Sidhu
 // Created on : (23.04.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function populateValues(id) {

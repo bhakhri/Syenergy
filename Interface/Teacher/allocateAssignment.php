@@ -5,7 +5,7 @@
 //
 // Author : Rajeev Aggarwal
 // Created on : (06.09.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;
@@ -159,7 +159,7 @@ function showWindow(id,dv) {
 //
 //Author : Rajeev Aggarwal
 // Created on : (26.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function populateValues(id,dv) {
@@ -293,7 +293,7 @@ if(false===confirm("Do you want to delete this file?")) {
 //
 //Author : Rajeev Aggarwal
 // Created on : (26.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function populateAssignment(id,dv) {
@@ -437,7 +437,7 @@ function groupPopulate(value) {
 //
 //Author : Rajeev Aggarwal
 // Created on : (21.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------
 
@@ -517,7 +517,7 @@ function getData(){
 //
 //Author : Rajeev Aggarwal
 // Created on : (24.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------
 function chkObject(id){
@@ -537,7 +537,7 @@ function chkObject(id){
 //
 //Author : Rajeev Aggarwal
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------
 function  selectStudents(){
@@ -563,7 +563,7 @@ function  selectStudents(){
 //act:type of operations(Add/Edit)
 //Author : Rajeev Aggarwal
 // Created on : (21.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function validateForm() {
@@ -668,7 +668,7 @@ function initUpload() {
 //
 //Author : Rajeev Aggarwal
 // Created on : (21.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function sendMessage() {
@@ -740,7 +740,7 @@ function sendMessage() {
 //
 //Author : Rajeev Aggarwal
 // Created on : (21.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function editSendMessage() {
@@ -807,7 +807,7 @@ function editSendMessage() {
 //
 //Author : Rajeev Aggarwal
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------------
 function checkStudents(){

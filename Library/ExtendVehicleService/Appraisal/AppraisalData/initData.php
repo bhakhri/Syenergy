@@ -3,7 +3,7 @@
 // THIS FILE IS USED TO GET ALL INFORMATION FROM "city" TABLE AND DELETION AND PAGING
 // Author : Dipanjan Bhattacharjee
 // Created on : (12.06.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
     require_once(MODEL_PATH . "/Appraisal/AppraisalDataManager.inc.php");

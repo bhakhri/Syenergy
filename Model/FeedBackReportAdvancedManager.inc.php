@@ -5,7 +5,7 @@
 //
 // Author :Dipanjan Bhattacharjee
 // Created on : (12.06.2008 )
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -19,7 +19,7 @@ class FeedBackReportAdvancedManager {
 //
 // Author :Dipanjan Bhattacharjee
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	private function __construct() {
@@ -30,7 +30,7 @@ class FeedBackReportAdvancedManager {
 //
 // Author :Dipanjan Bhattacharjee
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public static function getInstance() {
@@ -48,7 +48,7 @@ class FeedBackReportAdvancedManager {
 // $conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (09.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
     public function getLabelDetails($conditions='') {
@@ -1468,7 +1468,7 @@ public function getEmployeeQuestionWiseGPA($labelId,$categoryId,$employeeId='') 
 //
 // Author :Gurkeerat Sidhu
 // Created on : (15.02.10)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     public function getSelectedTimeTableLabel($timeTableLabelId,$type=1) {
@@ -1504,7 +1504,7 @@ public function getEmployeeQuestionWiseGPA($labelId,$categoryId,$employeeId='') 
 //
 // Author :Gurkeerat Sidhu
 // Created on : (15.02.10)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     public function getTotalCount($feedbackToQuestionId,$employeeId,$answerSetOptionId) {
@@ -1526,7 +1526,7 @@ public function getEmployeeQuestionWiseGPA($labelId,$categoryId,$employeeId='') 
 //
 // Author :Gurkeerat Sidhu
 // Created on : (15.02.10)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     public function getQuestions($feedbackCategoryId,$feedbackSurveyId) {
@@ -1548,7 +1548,7 @@ public function getEmployeeQuestionWiseGPA($labelId,$categoryId,$employeeId='') 
 //
 // Author :Gurkeerat Sidhu
 // Created on : (15.02.10)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     public function getOptions($employeeId,$feedbackCategoryId,$feedbackSurveyId) {
@@ -1580,7 +1580,7 @@ public function getEmployeeQuestionWiseGPA($labelId,$categoryId,$employeeId='') 
 //
 // Author :Gurkeerat Sidhu
 // Created on : (15.02.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     public function getCategory12($labelId,$orderBy=' feedbackCategoryName') {
@@ -1612,7 +1612,7 @@ public function getEmployeeQuestionWiseGPA($labelId,$categoryId,$employeeId='') 
 //
 // Author :Gurkeerat Sidhu
 // Created on : (15.02.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     public function getCategory($labelId,$teacherId='',$timeTableLabelId,$categoryId='',$orderBy=' feedbackCategoryName') {
@@ -1661,7 +1661,7 @@ public function getEmployeeQuestionWiseGPA($labelId,$categoryId,$employeeId='') 
 // THIS FUNCTION IS USED TO GET LABEL
 // Author :Dipanjan Bhattacharjee
 // Created on : (15.02.10)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
     public function getCategoryResponseCount($feedbackCategoryId,$feedbackSurveyId) {
         $query = "

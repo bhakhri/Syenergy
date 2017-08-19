@@ -3,7 +3,7 @@
 // THIS FILE IS USED FOR DB OPERATION FOR "city" TABLE
 // Author :Dipanjan Bhattacharjee 
 // Created on : (01.09.2009)
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
 
@@ -15,7 +15,7 @@ class IndentManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (01.09.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
 	private function __construct() {
@@ -26,7 +26,7 @@ class IndentManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (01.09.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 	public static function getInstance() {
@@ -43,7 +43,7 @@ class IndentManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (01.09.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getItemName($conditions) {
@@ -97,7 +97,7 @@ public function addIndent(){
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (02 Sept 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -146,7 +146,7 @@ public function addIndentDetails($insStr){
 //
 // Author :Jaineesh 
 // Created on : (27 July 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------             
     public function getIndent($conditions) {
@@ -178,7 +178,7 @@ public function addIndentDetails($insStr){
 //orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (01.09.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -240,7 +240,7 @@ public function addIndentDetails($insStr){
 //
 // Author :Jaineesh 
 // Created on : (02 Sep 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------             
     public function getIndentData($conditions) {
@@ -259,7 +259,7 @@ public function addIndentDetails($insStr){
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (28 July 10)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -282,7 +282,7 @@ public function addIndentDetails($insStr){
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (27 July 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -316,7 +316,7 @@ public function addIndentDetails($insStr){
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (28 July 10)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     

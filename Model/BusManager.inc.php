@@ -5,7 +5,7 @@
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (26.06.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 ?>
@@ -21,7 +21,7 @@ class BusManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
     private function __construct() {
@@ -32,7 +32,7 @@ class BusManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
     public static function getInstance() {
@@ -48,7 +48,7 @@ class BusManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
     public function addBus() {
@@ -77,7 +77,7 @@ class BusManager {
 //$id:busStopId
 // Author :Dipanjan Bhattacharjee 
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------        
     public function editBus($id) {
@@ -119,7 +119,7 @@ class BusManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getBus($conditions='') {
@@ -142,7 +142,7 @@ class BusManager {
 //$cityId :busStopid of the Bus
 // Author :Dipanjan Bhattacharjee 
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteBus($busStopid) {
@@ -162,7 +162,7 @@ class BusManager {
 //orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -199,7 +199,7 @@ class BusManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalBus($conditions='') {

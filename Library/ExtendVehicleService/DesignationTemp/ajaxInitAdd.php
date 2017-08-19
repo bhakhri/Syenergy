@@ -3,7 +3,7 @@
 // THIS FILE IS USED TO ADD NEW DESIGNATION
 // Author : Gurkeerat Sidhu
 // Created on : (29.04.2009 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;

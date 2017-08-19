@@ -6,7 +6,7 @@
 //
 // Author :Arvind Singh Rawat
 // Created on : 18-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -32,7 +32,7 @@ class FeeHeadValuesManager {
 //
 // Author :Parveen Sharma
 // Created on : (29-May-2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------      
     public function addFeeCylceHeadValue($fieldValue) {
@@ -52,7 +52,7 @@ class FeeHeadValuesManager {
 // THIS FUNCTION IS USED TO CHECK IF CLASS FEE IS ALREADY GENERATED 
 // Author :NISHU BINDAL
 // Created on : (7-April-2012)
-// Copyright 2011-2012 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2011-2012 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------    
     public function checkIfFeeAlreadyGenerated($classId){
@@ -84,7 +84,7 @@ class FeeHeadValuesManager {
 // THIS FUNCTION IS USED TO CHECK IF Concession is Given 
 // Author :NISHU BINDAL
 // Created on : (7-April-2012)
-// Copyright 2011-2012 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2011-2012 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------  
     
@@ -116,7 +116,7 @@ class FeeHeadValuesManager {
 //
 // Author :Parveen Sharma
 // Created on : (29-May-2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------       
     
@@ -190,7 +190,7 @@ class FeeHeadValuesManager {
 //
 // Author :Arvind Singh Rawat
 // Created on : 18-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
  
@@ -208,7 +208,7 @@ class FeeHeadValuesManager {
 //
 // Author :Arvind Singh Rawat
 // Created on : 18-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -229,7 +229,7 @@ class FeeHeadValuesManager {
 //
 // Author :Arvind Singh Rawat
 // Created on : 18-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -266,7 +266,7 @@ class FeeHeadValuesManager {
 //
 // Author :Arvind Singh Rawat
 // Created on : 18-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
    
@@ -323,7 +323,7 @@ class FeeHeadValuesManager {
 //
 // Author :Arvind Singh Rawat
 // Created on : 18-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------  
   

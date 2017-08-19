@@ -5,7 +5,7 @@
 //
 // Author :Gurkeerat Sidhu 
 // Created on : (29.4.2009 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 ?>
@@ -21,7 +21,7 @@ class TempEmployeeManager {
 //
 // Author :Gurkeerat Sidhu 
 // Created on : (29.4.2009 )
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
 	private function __construct() {
@@ -32,7 +32,7 @@ class TempEmployeeManager {
 //
 // Author :Gurkeerat Sidhu  
 // Created on : (29.4.2009 )
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 	public static function getInstance() {
@@ -48,7 +48,7 @@ class TempEmployeeManager {
 //
 // Author :Gurkeerat Sidhu  
 // Created on : (29.4.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
 	public function addTempEmployee() {
@@ -65,7 +65,7 @@ class TempEmployeeManager {
 //$id:visitorId
 // Author :Gurkeerat Sidhu
 // Created on : (29.4.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------        
     public function editTempEmployee($id) {
@@ -83,7 +83,7 @@ class TempEmployeeManager {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (29.4.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getTempEmployee($conditions='') {
@@ -101,7 +101,7 @@ class TempEmployeeManager {
 //
 // Author :Gurkeerat Sidhu 
 // Created on : (29.4.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteTempEmployee($tempEmployeeId) {
@@ -120,7 +120,7 @@ class TempEmployeeManager {
 //orderBy:sort on which column
 // Author :Gurkeerat Sidhu 
 // Created on : (29.4.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -144,7 +144,7 @@ class TempEmployeeManager {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu  
 // Created on : (29.4.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalTempEmployee($conditions='') {

@@ -3,7 +3,7 @@
 // THIS FILE IS USED TO POPULATE CITY LIST
 // Author : SAURABH THUKRAL
 // Created on : (20.08.2012 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 ?>
 <?php

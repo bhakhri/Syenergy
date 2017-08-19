@@ -5,7 +5,7 @@
 //
 // Author :Jaineesh
 // Created on : (14.08.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -29,7 +29,7 @@ class RoleToClassManager {
 //
 // Author :Jaineesh
 // Created on : (23.09.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------  	
 	public function getClassData($conditions='') {
@@ -77,7 +77,7 @@ class RoleToClassManager {
 //
 // Author :Jaineesh
 // Created on : (23.09.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------  	
 	public function getVisibleClassRole($conditions='') {
@@ -106,7 +106,7 @@ class RoleToClassManager {
 //
 // Author :Jaineesh
 // Created on : (23.09.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------  	
 	public function getPrintVisibleClassRole($conditions='') {
@@ -133,7 +133,7 @@ class RoleToClassManager {
 //
 // Author :Jaineesh
 // Created on : (23.09.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------  	
 	public function getVisibleGroup($userId,$roleId,$conditions='') {
@@ -162,7 +162,7 @@ class RoleToClassManager {
 //
 // Author :Jaineesh
 // Created on : (23.09.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------  	
 	public function getGroupType($conditions='') {
@@ -182,7 +182,7 @@ class RoleToClassManager {
 //
 // Author :Jaineesh
 // Created on : (23.09.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------  	
 	public function getGroupTypeRole($conditions='') {
@@ -209,7 +209,7 @@ class RoleToClassManager {
 //
 // Author :Jaineesh
 // Created on : (23.09.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------  	
 	public function getEmployeeUserId($conditions) {
@@ -229,7 +229,7 @@ class RoleToClassManager {
 //
 // Author :Jaineesh
 // Created on : (23.09.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------  	
 	public function insertUserRole($conditions,$userId,$roleId) {
@@ -253,7 +253,7 @@ class RoleToClassManager {
 //
 // Author :Jaineesh
 // Created on : (24.09.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------  	
 	public function deleteRoleToClass($userId,$roleId) {
@@ -294,7 +294,7 @@ class RoleToClassManager {
 //
 // Author :Jaineesh
 // Created on : (24.09.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------  	
 	public function insertRoleToClass($userId,$classId,$classGroup,$roleId) {
@@ -332,7 +332,7 @@ class RoleToClassManager {
 //
 // Author :Jaineesh
 // Created on : (24.09.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------  	
 
@@ -357,7 +357,7 @@ public function getTeacherData($conditions='', $orderBy='emp.employeeName') {
 //
 // Author :Jaineesh
 // Created on : (23.09.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------  	
 	public function getUserRole($conditions) {

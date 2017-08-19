@@ -466,7 +466,7 @@ class UtilityManager {
      *
      * @return boolean
      */    
-    public static function sendSMS($mobileNo, $message, $sender='CHALKPAD') {
+    public static function sendSMS($mobileNo, $message, $sender='syenergy') {
         $message =str_ireplace('&amp;','&',$message);
         $message =urlencode(preg_replace("/&#?[a-z0-9]+;/i","",$message));
         

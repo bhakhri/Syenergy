@@ -5,7 +5,7 @@
 //
 // Author :Rajeev Aggarwal 
 // Created on : (20.11.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------
 ?>
@@ -21,7 +21,7 @@ class FeeReportManager {
 //
 // Author :Rajeev Aggarwal 
 // Created on : (20.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
 	private function __construct() {
@@ -32,7 +32,7 @@ class FeeReportManager {
 //
 // Author :Rajeev Aggarwal 
 // Created on : (20.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 	public static function getInstance() {
@@ -49,7 +49,7 @@ class FeeReportManager {
 // $conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (20.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------------  
 public function getFeeCycleTotal($conditions='', $orderBy=' fr.feeCycleId'){
@@ -84,7 +84,7 @@ public function getFeeCycleTotal($conditions='', $orderBy=' fr.feeCycleId'){
 // $conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (20.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------------  
 public function getFeeClassTotal($conditions='', $orderBy=' cls.classId'){
@@ -119,7 +119,7 @@ public function getFeeClassTotal($conditions='', $orderBy=' cls.classId'){
 // $conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (20.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------------  
 public function getFeeBatchTotal($conditions='', $orderBy=' ba.batchId'){
@@ -155,7 +155,7 @@ public function getFeeBatchTotal($conditions='', $orderBy=' ba.batchId'){
 // $conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (20.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------------  
 public function getFeeStudyPeriodTotal($conditions='', $orderBy=' sp.studyPeriodId'){
@@ -191,7 +191,7 @@ public function getFeeStudyPeriodTotal($conditions='', $orderBy=' sp.studyPeriod
 // $conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (20.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------------  
 public function getFeeHostelTotal($conditions='', $orderBy=' sct.hostelId'){
@@ -227,7 +227,7 @@ public function getFeeHostelTotal($conditions='', $orderBy=' sct.hostelId'){
 // $conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (20.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------------  
 public function getFeeTransportTotal($conditions='', $orderBy=' sct.hostelId'){
@@ -264,7 +264,7 @@ public function getFeeTransportTotal($conditions='', $orderBy=' sct.hostelId'){
 // $conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (20.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------------  
 public function getFeeGenderTotal($conditions='', $orderBy=' sct.studentGender'){
@@ -299,7 +299,7 @@ public function getFeeGenderTotal($conditions='', $orderBy=' sct.studentGender')
 // $conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (20.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------------  
 public function getFeeInstrumentTotal($conditions='', $orderBy=' fr.paymentInstrument'){
@@ -334,7 +334,7 @@ public function getFeeInstrumentTotal($conditions='', $orderBy=' fr.paymentInstr
 // $conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (20.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------------  
 public function getFeeCategoryTotal($conditions='', $orderBy=' sct.quotaId'){
@@ -368,7 +368,7 @@ public function getFeeCategoryTotal($conditions='', $orderBy=' sct.quotaId'){
 // $conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (20.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------------  
 public function getFeeCityTotal($conditions='', $orderBy=' sct.corrCityId'){
@@ -402,7 +402,7 @@ public function getFeeCityTotal($conditions='', $orderBy=' sct.corrCityId'){
 // $conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (20.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------------  
 public function getFeeStateTotal($conditions='', $orderBy=' sct.corrStateId'){

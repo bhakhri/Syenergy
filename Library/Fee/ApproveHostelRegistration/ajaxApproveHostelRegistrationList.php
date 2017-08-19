@@ -3,7 +3,7 @@
 // Purpose: To show online payment records
 // Author :harpreet kaur
 // Created on : 13-may-2013
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     set_time_limit(0); 

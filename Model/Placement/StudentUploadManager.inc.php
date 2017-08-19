@@ -3,7 +3,7 @@
 // THIS FILE IS USED FOR DB OPERATION FOR "university" TABLE
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.6.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
 
@@ -14,7 +14,7 @@ class StudentUploadManager {
 // THIS FUNCTION IS USED FOR CREATING AN OBJECT OF "StudentUploadManager" CLASS
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------      
     private function __construct() {
     }
@@ -23,7 +23,7 @@ class StudentUploadManager {
 // THIS FUNCTION IS USED FOR GETTING AN INSTANCE OF "StudentUploadManager" CLASS
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------       
     public static function getInstance() {
         if (self::$instance === null) {
@@ -39,7 +39,7 @@ class StudentUploadManager {
 // Created on : (14.6.2008)
 // Modified on: 7.7.2008
 // Modified By: Dipanjan Bhattacharjee
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------    
     public function insertStudentDetails($insertString,$marksIds) {
         global $REQUEST_DATA;
@@ -75,7 +75,7 @@ class StudentUploadManager {
 // $conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------         
     public function getPlacementDrivesUsage($placementDriveId) {
         $query = "SELECT 
@@ -100,7 +100,7 @@ class StudentUploadManager {
 //$universityId :universityId of the Company
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------             
 public function checkInPlacementResult($placementDriveId) {

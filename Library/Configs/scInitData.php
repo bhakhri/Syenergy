@@ -4,7 +4,7 @@
 
  Author :Rajeev Aggarwal
  Created on : 28-02-2009
- Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+ Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 
 --------------------------------------------------------
 */

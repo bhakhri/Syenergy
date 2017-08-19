@@ -4,7 +4,7 @@
 //
 // Author :Parveen Sharma
 // Created on : (12.06.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -17,7 +17,7 @@ class CollectFeesManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------
 	private function __construct() {
@@ -28,7 +28,7 @@ class CollectFeesManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------    
 	public static function getInstance() {
@@ -44,7 +44,7 @@ class CollectFeesManager {
 //  THIS FUNCTION IS Add Student Facility (Hostel / Transport)
 //  Author :Parveen Sharma
 //  Created on : (29-May-2009)
-//  Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+//  Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------------        
     public function addFeeFacility($insertValue) {
         global $sessionHandler;
@@ -61,7 +61,7 @@ class CollectFeesManager {
 //  THIS FUNCTION IS Delete Facility (Hostel / Transport)
 //  Author :Parveen Sharma
 //  Created on : (29-May-2009)
-//  Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+//  Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------------        
     public function deleteFeeFacility($studentId,$facilityType) {
         global $sessionHandler;
@@ -75,7 +75,7 @@ class CollectFeesManager {
 //  THIS FUNCTION IS Delete Facility (Hostel / Transport)
 //  Author :Parveen Sharma
 //  Created on : (29-May-2009)
-//  Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+//  Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------------        
     public function getFacility($condition='') {
         global $sessionHandler;
@@ -99,7 +99,7 @@ class CollectFeesManager {
 //
 // Author :Parveen Sharma
 // Created on : (29-May-2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------      
     public function addFeeReceiptCollection($insertValue) {
@@ -134,7 +134,7 @@ class CollectFeesManager {
 //
 // Author :Parveen Sharma
 // Created on : (29-May-2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------      
     public function addFeePaymentDetailCollection($insertValue) {
@@ -158,7 +158,7 @@ class CollectFeesManager {
 //
 // Author :Parveen Sharma
 // Created on : (29-May-2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------      
     public function deleteReceipt($id) {
@@ -178,7 +178,7 @@ class CollectFeesManager {
 //
 // Author :Parveen Sharma
 // Created on : (29-May-2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------      
     public function addFeeHeadCollection($insertValue) {
@@ -202,7 +202,7 @@ class CollectFeesManager {
 //
 // Author :Parveen Sharma
 // Created on : (29-May-2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------      
     public function getReceiptNo($condition='') {
@@ -229,7 +229,7 @@ class CollectFeesManager {
 //
 // Author :Parveen Sharma
 // Created on : (29-May-2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------      
     public function getCountInstallment($condition='') {
@@ -256,7 +256,7 @@ class CollectFeesManager {
 //
 // Author :Parveen Sharma
 // Created on : (29-May-2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------      
     public function getPreviousFeePaymentDetail($condition='') {
@@ -289,7 +289,7 @@ class CollectFeesManager {
 //
 // Author :Parveen Sharma
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------    
     public function getFeeCycleClasses($condition='',$orderBy=' c.branchId, c.studyPeriodId') {
@@ -328,7 +328,7 @@ class CollectFeesManager {
 //
 // Author :Parveen Sharma
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------    
     public function getStudentPreviousClassDetail($condition) {
@@ -356,7 +356,7 @@ class CollectFeesManager {
 //
 // Author :Parveen Sharma
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
     public function getStudentDetailClass($condition,$feeClassId='',$tableName='') {
@@ -424,7 +424,7 @@ class CollectFeesManager {
 //
 // Author :Parveen Sharma
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
     public function getStudentFeeHeadDetail($studentId,$feeClassId='',$quotaId='',$isLeet='',$feeReceiptId='',$feeId='') {
@@ -525,7 +525,7 @@ class CollectFeesManager {
 //
 // Author :Parveen Sharma
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
     public function getStudentPreviousFeeDetail($studentId,$feeClassId='',$quotaId='',$isLeet='') {
@@ -589,7 +589,7 @@ class CollectFeesManager {
 //
 // Author :Parveen Sharma
 // Created on : (29-May-2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------      
     public function getStudentReceiptPrintDetail($condition='') {
@@ -638,7 +638,7 @@ class CollectFeesManager {
 //
 // Author :Parveen Sharma
 // Created on : (29-May-2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------      
     public function getStudentPaymentPrintDetail($condition='') {
@@ -670,7 +670,7 @@ class CollectFeesManager {
 //
 // Author :Parveen Sharma
 // Created on : (29-May-2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------      
     public function getStudentClassDetail($condition='') {
@@ -705,7 +705,7 @@ class CollectFeesManager {
 //
 // Author :Parveen Sharma
 // Created on : (29-May-2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------      
     public function getPreviousHostelPaymentDetail($condition='') {
@@ -734,7 +734,7 @@ class CollectFeesManager {
 //
 // Author :Parveen Sharma
 // Created on : (29-May-2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------      
     public function getPreviousTransportPaymentDetail($condition='') {
@@ -763,7 +763,7 @@ class CollectFeesManager {
 //
 // Author :Parveen Sharma
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------    
     public function getFeeReceiptClasses($condition='',$orderBy=' c.branchId, c.studyPeriodId',$studentId='',$id='') {
@@ -802,7 +802,7 @@ class CollectFeesManager {
 //
 // Author :Parveen Sharma
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------    
     public function getLastEntry() {

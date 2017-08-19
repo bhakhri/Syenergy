@@ -5,7 +5,7 @@
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -17,7 +17,7 @@ class AttendanceSetManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
 	private function __construct() {
@@ -28,7 +28,7 @@ class AttendanceSetManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 	public static function getInstance() {
@@ -44,7 +44,7 @@ class AttendanceSetManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
 	public function addAttendanceSet($setName,$setCondition) {
@@ -61,7 +61,7 @@ class AttendanceSetManager {
 //$id:cityId
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------        
     public function editAttendanceSet($id,$setName,$setCondition) {
@@ -78,7 +78,7 @@ class AttendanceSetManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getAttendanceSet($conditions='') {
@@ -92,7 +92,7 @@ class AttendanceSetManager {
 // $setId : attendanceSetId of the atendance_set
 // Author :Dipanjan Bhattacharjee 
 // Created on : (29.12.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //----------------------------------------------------------------------------------------------------------------------             
     public function checkInSubjectToClass($setId) {
      
@@ -132,7 +132,7 @@ class AttendanceSetManager {
 // $setId : attendanceSetId of the atendance_set
 // Author :Dipanjan Bhattacharjee 
 // Created on : (29.12.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------------------------------------------------------      
     public function deleteAttendanceSet($setId) {
      
@@ -151,7 +151,7 @@ class AttendanceSetManager {
 // orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (29.12.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------       
     
     public function getAttendanceList($conditions='', $limit = '', $orderBy=' at.attendanceSetName') {
@@ -171,7 +171,7 @@ class AttendanceSetManager {
 // $conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (29.12.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //----------------------------------------------------------------------------------------      
     public function getTotalAttendanceSet($conditions='') {
     

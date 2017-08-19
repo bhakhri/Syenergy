@@ -4,7 +4,7 @@
 //
 // Author : Parveen Sharma
 // Created on : 30-March-2009
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
  
@@ -18,7 +18,7 @@ class AttendanceDeductManager {
 //
 // Author :Jaineesh 
 // Created on : 30-March-2009
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------     
 
@@ -30,7 +30,7 @@ class AttendanceDeductManager {
 //
 // Author :Jaineesh 
 // Created on : 30-March-2009
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 
@@ -62,7 +62,7 @@ class AttendanceDeductManager {
 //
 // Author :Parveen Sharma
 // Created on : (29-May-2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------      
     public function getAttendanceDeductList($condition='', $orderBy='attendanceGradeId') {
@@ -94,7 +94,7 @@ class AttendanceDeductManager {
 //
 // Author :Parveen Sharma
 // Created on : (29-May-2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------      
     public function deleteAttendanceDeduct($instituteId,$sessionId,$condition='') {

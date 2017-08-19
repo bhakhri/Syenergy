@@ -2,7 +2,7 @@
 //-------------------------------------------------------
 // THIS FILE IS USED TO UPDATE EDITED GENERATED PO
 // Created on : (08 Dec 2010 )
-// Copyright 2008-2010: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2010: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;

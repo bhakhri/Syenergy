@@ -5,7 +5,7 @@
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (10.7.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -18,7 +18,7 @@ class BlockManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (10.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
     private function __construct() {
@@ -29,7 +29,7 @@ class BlockManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (10.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
     public static function getInstance() {
@@ -45,7 +45,7 @@ class BlockManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (10.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
     public function addBlock() {
@@ -61,7 +61,7 @@ class BlockManager {
 //$id:cityId
 // Author :Dipanjan Bhattacharjee 
 // Created on : (10.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------        
     public function editBlock($id) {
@@ -76,7 +76,7 @@ class BlockManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (10.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getBlock($conditions='') {
@@ -93,7 +93,7 @@ class BlockManager {
 //$blockId :blockId of the Block
 // Author :Dipanjan Bhattacharjee 
 // Created on : (10.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------             
     public function checkInRoom($blockId) {
@@ -110,7 +110,7 @@ class BlockManager {
 //$blockId :blockId of the Block 
 // Author :Dipanjan Bhattacharjee 
 // Created on : (10.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteBlock($blockId) {
@@ -129,7 +129,7 @@ class BlockManager {
 //orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (10.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -148,7 +148,7 @@ class BlockManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (10.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalBlock($conditions='') {

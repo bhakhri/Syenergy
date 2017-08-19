@@ -4,7 +4,7 @@
 //
 // Author : Abhiraj malhotra
 // Created on : 29.04.10
-// Copyright 2009-2010: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2009-2010: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 

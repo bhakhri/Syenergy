@@ -3,7 +3,7 @@
 // THIS FILE SHOWS A LIST OF Attendance sets
 // Author : Dipanjan Bhattacharjee
 // Created on : (28.12.2009)
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 global $FE;
 require_once($FE . "/Library/common.inc.php");
@@ -61,7 +61,7 @@ var flag = false; // for whether the record has been added or not, if flag is tr
 //h:height of the div
 //Author : Dipanjan Bhattacharjee
 // Created on : (12.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function editWindow(id,dv,w,h) {
@@ -77,7 +77,7 @@ function editWindow(id,dv,w,h) {
 //act:type of operations(Add/Edit)
 //Author : Dipanjan Bhattacharjee
 // Created on : (12.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function validateAddForm(frm, act) {
@@ -128,7 +128,7 @@ function validateAddForm(frm, act) {
 // THIS FUNCTION IS USED TO ADD A NEW ATTENDANCE SET
 // Author : Dipanjan Bhattacharjee
 // Created on : (12.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 function addAttendanceSet() {
          var url = '<?php echo HTTP_LIB_PATH;?>/AttendanceSet/ajaxAttendanceSetOperations.php';
@@ -186,7 +186,7 @@ function addAttendanceSet() {
 // id=Id
 // Author : Dipanjan Bhattacharjee
 // Created on : (28.12.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 function deleteAttendanceSet(id) {
          if(false===confirm("<?php echo DELETE_CONFIRM;?>")) {
@@ -225,7 +225,7 @@ function deleteAttendanceSet(id) {
 // THIS FUNCTION IS USED TO CLEAN UP THE "popup" DIV
 // Author : Dipanjan Bhattacharjee
 // Created on : (28.12.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 function blankValues() {
    document.getElementById('divHeaderId1').innerHTML='&nbsp;Add Attendance Set';
@@ -240,7 +240,7 @@ function blankValues() {
 // THIS FUNCTION IS USED TO EDIT AN ATTENDANCE SET
 // Author : Dipanjan Bhattacharjee
 // Created on : (12.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 function editAttendanceSet() {
          var url = '<?php echo HTTP_LIB_PATH;?>/AttendanceSet/ajaxAttendanceSetOperations.php';
@@ -298,7 +298,7 @@ function editAttendanceSet() {
 // THIS FUNCTION IS USED TO POPULATE "popup" DIV
 // Author : Dipanjan Bhattacharjee
 // Created on : (29.12.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 function populateValues(id) {
          document.AttendanceSet.reset();

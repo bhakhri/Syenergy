@@ -3,7 +3,7 @@
 //  THIS FILE IS USED FOR DB OPERATION FOR "Collect Fees Manager" TABLE
 // Author :NIshu Bindal
 // Created on : (12.06.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -16,7 +16,7 @@ class CollectFeesManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------
 	private function __construct() {
@@ -27,7 +27,7 @@ class CollectFeesManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------    
 	public static function getInstance() {
@@ -46,7 +46,7 @@ class CollectFeesManager {
 //
 // Author :Parveen Sharma
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
     public function getStudentDetailClass($condition,$feeClassId='',$tableName='') {
@@ -110,7 +110,7 @@ class CollectFeesManager {
 // THIS FUNCTION IS used to fetch student Fee Head wise
 // Author :Nishu Bindal
 // Created on : (27.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------
     public function getStudentFeeHeadDetail($classId,$quotaId,$isLeet,$studentId,$feeReceiptId) {  
         
@@ -167,7 +167,7 @@ class CollectFeesManager {
 // THIS FUNCTION IS used to fetch student Details
 // Author :Nishu Bindal
 // Created on : (27.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------
     function getStudentFeeDetail($classId,$rollNoRegNo){        
     	$query = "SELECT fc.cycleName,fcm.feeReceiptId,fcm.studentId,fcm.feeClassId,fcm.currentClassId, s.regNo, fcm.hostelId,c.batchId,fcm.feeCycleId,
@@ -191,7 +191,7 @@ fri.feeHeadId,fcm.instituteId,fhn.isSpecial
 // THIS FUNCTION IS used to fetch student PAID FEE Details
 // Author :Nishu Bindal
 // Created on : (27.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------  
     
    function getStudentAlreadyPaidFeeDetail($classId,$studentId,$feeReceiptId){
@@ -234,7 +234,7 @@ fri.feeHeadId,fcm.instituteId,fhn.isSpecial
 // THIS FUNCTION IS used to fetch student LEDGER DEBIT CREDIT
 // Author :Nishu Bindal
 // Created on : (27.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------    
     
     public function getStudentFeeLedger($studentId='',$feeCycleId='',$feeClassId='',$ledgerTypeId=''){
@@ -259,7 +259,7 @@ fri.feeHeadId,fcm.instituteId,fhn.isSpecial
 // THIS FUNCTION IS used to fetch student Hostel Fees
 // Author :Nishu Bindal
 // Created on : (27.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //----------------------------------------------------------------------------------
     public function getStudentHostelFee($studentId,$batchId,$feeStudyPeriodId,$feeClassId,$feeReceiptId){
     	$query = "	SELECT 	
@@ -283,7 +283,7 @@ fri.feeHeadId,fcm.instituteId,fhn.isSpecial
 // THIS FUNCTION IS used to GET STUDENT TRANSPORTAION FEES
 // Author :Nishu Bindal
 // Created on : (27.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------
     public function getStudentTransportFee($studentId,$batchId,$feeStudyPeriodId,$feeClassId,$feeReceiptId){
     	$query ="SELECT 	bf.amount AS transportFee,brsm.busStopId,brsm.busRouteId , frm.transportFees AS paidAmount
@@ -306,7 +306,7 @@ fri.feeHeadId,fcm.instituteId,fhn.isSpecial
 // THIS FUNCTION IS used to fetch student Fee Concession
 // Author :Nishu Bindal
 // Created on : (27.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------
      public function getStudentAdhocConcession($condition='') {  
         
@@ -333,7 +333,7 @@ fri.feeHeadId,fcm.instituteId,fhn.isSpecial
 // THIS FUNCTION IS used to Delete FEE HEAD INSTRUMENT
 // Author :Nishu Bindal
 // Created on : (27.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------------------------------------- 
     public function deleteFromFeeReceiptInstrument($feeReceiptId,$studentId,$feeClassId,$feeHeadId){
     	$query ="DELETE 
@@ -348,7 +348,7 @@ fri.feeHeadId,fcm.instituteId,fhn.isSpecial
 // THIS FUNCTION IS used to INSERT FEE HEAD INSTRUMENT
 // Author :Nishu Bindal
 // Created on : (27.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------------------------------------- 
     public function updateFeeReceiptInstrument($feeReceiptId,$studentId,$feeClassId){
     	$query = "UPDATE `fee_receipt_instrument` 
@@ -365,7 +365,7 @@ fri.feeHeadId,fcm.instituteId,fhn.isSpecial
 // THIS FUNCTION IS used to update Fee of Academic
 // Author :Nishu Bindal
 // Created on : (27.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------  
     public function updateMasterTable($bankScrollNo,$feeDate,$feeReceiptId,$feeCycle,$concession){
     	global $sessionHandler;
@@ -386,7 +386,7 @@ fri.feeHeadId,fcm.instituteId,fhn.isSpecial
 // THIS FUNCTION IS used to update Fee of Hostel,Academic AND Transport
 // Author :Nishu Bindal
 // Created on : (27.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------------------------------------- 
     public function updateFeeReceiptMaster($feeReceiptId,$updateData=''){
     	if($updateData !=''){
@@ -416,7 +416,7 @@ fri.feeHeadId,fcm.instituteId,fhn.isSpecial
 // THIS FUNCTION IS used to update Fee of Hostel
 // Author :Nishu Bindal
 // Created on : (27.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------------------------------------- 
     public function updateHostelFees($feeReceiptId){
     	global $sessionHandler;
@@ -434,7 +434,7 @@ fri.feeHeadId,fcm.instituteId,fhn.isSpecial
 // THIS FUNCTION IS used to update Fee of Fee Ledger
 // Author :Nishu Bindal
 // Created on : (27.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------  
     public function updateFeeLedger($studentId,$classId,$feeCycleId){
     	$query = "UPDATE `fee_ledger_debit_credit`
@@ -451,7 +451,7 @@ fri.feeHeadId,fcm.instituteId,fhn.isSpecial
 // THIS FUNCTION IS used to update Fee of Hostel
 // Author :Nishu Bindal
 // Created on : (27.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------------------------------------- 
     public function updateTransportFees($feeReceiptId){
     	global $sessionHandler;
@@ -471,7 +471,7 @@ fri.feeHeadId,fcm.instituteId,fhn.isSpecial
 // THIS FUNCTION IS used to Delete Fee Receipt Details
 // Author :Nishu Bindal
 // Created on : (27.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------------------------------------- 
     public function deleteFeeReceiptDetails($feeReceiptId,$studentId,$feeClassId,$feeType){
     	$query = "DELETE 
@@ -488,7 +488,7 @@ fri.feeHeadId,fcm.instituteId,fhn.isSpecial
 // THIS FUNCTION IS used to insert into Fee Receipt Details
 // Author :Nishu Bindal
 // Created on : (27.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------------------------------------- 
     public function insertIntoFeeReceiptDetails($values){
     	$query = "INSERT INTO `fee_receipt_details` 
@@ -500,7 +500,7 @@ fri.feeHeadId,fcm.instituteId,fhn.isSpecial
 // THIS FUNCTION IS used to Get Fee Receipt Details
 // Author :Nishu Bindal
 // Created on : (27.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------  
     public function getPaymentDetails($feeReceiptId,$studentId,$classId,$feeType){
     	$query = "SELECT fr.paymentMode,fr.bankId,fr.dated,fr.amount,fr.number,fr.feeType,b.bankAbbr,fr.receiptNo,fr.receiptDate,fr.installmentNo
@@ -519,7 +519,7 @@ fri.feeHeadId,fcm.instituteId,fhn.isSpecial
 // THIS FUNCTION IS used to Get ALready Paid Fees
 // Author :Nishu Bindal
 // Created on : (27.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------  
     public function getAlreadyPaidFee($classId,$studentId,$feeReceiptId){
     	$query = "SELECT	sum(a.academicFeePaid) AS academicFeePaid,sum(a.hostelFeePaid) AS hostelFeePaid,sum(a.transportFeePaid) AS transportFeePaid, 
@@ -542,7 +542,7 @@ fri.feeHeadId,fcm.instituteId,fhn.isSpecial
 // THIS FUNCTION IS used to Check if Receipt No Already exists
 // Author :Nishu Bindal
 // Created on : (27.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------  
     public function checkReceiptNo($receiptNo){
     	$query = "SELECT count(feeReceiptDetailId) AS cnt
@@ -557,7 +557,7 @@ fri.feeHeadId,fcm.instituteId,fhn.isSpecial
 // THIS FUNCTION IS used to Check if Installment No Already exists
 // Author :Nishu Bindal
 // Created on : (27.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------    
     public function checkInstallmentNo($feeReceiptId,$studentId,$feeClassId,$installmentNo){
     	$query ="SELECT	count(feeReceiptDetailId) AS cnt
@@ -574,7 +574,7 @@ fri.feeHeadId,fcm.instituteId,fhn.isSpecial
 // THIS FUNCTION IS used to DELETE FEE RECEIPT LOGICALLY 
 // Author :Nishu Bindal
 // Created on : (27.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------   
     public function changeFeeStatus($feeReceiptId,$reasonForDelete,$update =''){
     	  global $sessionHandler;
@@ -593,7 +593,7 @@ fri.feeHeadId,fcm.instituteId,fhn.isSpecial
 // THIS FUNCTION IS used to RE insert the basic columns as inserted in instrument
 // Author :Nishu Bindal
 // Created on : (27.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------     
     
     public function insertDataInFeeReceiptInstrument($feeReceiptId,$newReceiptId){
@@ -613,7 +613,7 @@ fri.feeHeadId,fcm.instituteId,fhn.isSpecial
 // THIS FUNCTION IS used to Update the Fee Receipt Details 
 // Author :Nishu Bindal
 // Created on : (27.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------       
     public function updateReceiptDetails($feeReceiptId,$type,$newReceiptId){
     	$query = "UPDATE	`fee_receipt_details`
@@ -629,7 +629,7 @@ fri.feeHeadId,fcm.instituteId,fhn.isSpecial
 // THIS FUNCTION IS used to Change status to delete of Fee Ledger
 // Author :Nishu Bindal
 // Created on : (27.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------------------------------------- 
     public function changeStatusOfFeeLedger($feeCycleId,$classId,$studentId){
     	global $sessionHandler;
@@ -650,7 +650,7 @@ fri.feeHeadId,fcm.instituteId,fhn.isSpecial
 // THIS FUNCTION IS used to RE insert the Ledger Enterys  columns 
 // Author :Nishu Bindal
 // Created on : (27.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------------------------------------- 
     public function insertIntoLedger($feeCycleId,$classId,$studentId){
     	global $sessionHandler;
@@ -672,7 +672,7 @@ fri.feeHeadId,fcm.instituteId,fhn.isSpecial
 // THIS FUNCTION IS used to Change the status of hostel security
 // Author :Nishu Bindal
 // Created on : (27.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------------------------------------- 
     public function updateHostelSecurityStatus($studentId,$hostelRoomId,$update =''){
     	global $sessionHandler;
@@ -694,7 +694,7 @@ fri.feeHeadId,fcm.instituteId,fhn.isSpecial
 // THIS FUNCTION IS used to Fetch student classes 
 // Author :Nishu Bindal
 // Created on : (27.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------   
      public function fetchClases($rollNo = '',$migrationStudyPeriod=''){
        
@@ -724,7 +724,7 @@ fri.feeHeadId,fcm.instituteId,fhn.isSpecial
 // THIS FUNCTION fetch last receipt No 
 // Author :Nishu Bindal
 // Created on : (10.05.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------    
     public function getLastEntry() {
@@ -745,7 +745,7 @@ fri.feeHeadId,fcm.instituteId,fhn.isSpecial
 // THIS FUNCTION fetch Misc Fee Head
 // Author :Nishu Bindal
 // Created on : (10.05.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getMiscFeeHead($instituteId){	
@@ -759,7 +759,7 @@ fri.feeHeadId,fcm.instituteId,fhn.isSpecial
 // THIS FUNCTION IS USED TO INSERT DATA IN FEE RECEIPT MASTER TABLE IN CASE OF MISC HEAD
 // Author :Nishu Bindal
 // Created on : (10.05.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------  
     public function insertIntoFeeReceiptInstrument($values){
     	$query = "INSERT INTO `fee_receipt_instrument` (feeReceiptInstrumentId,feeReceiptId,studentId,classId,feeHeadId,feeHeadName,amount)

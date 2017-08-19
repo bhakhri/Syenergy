@@ -5,7 +5,7 @@
 //EmployeeManager is used having all the Add, edit, delete function..
 // Author : Jaineesh
 // Created on : 24.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
   global $FE;
@@ -30,7 +30,7 @@
 //addVehicleType() is used to add new record in database.
 // Author : Jaineesh
 // Created on : 24.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function addInsuranceVehicle() {
@@ -70,7 +70,7 @@
 // addInsuranceVehicleHistory() is used to add new record in database.
 // Author : Kavish Manjkhola
 // Created on : 08.04.2011
-// Copyright 2010-2011: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2010-2011: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function addInsuranceVehicleHistory() {
@@ -99,7 +99,7 @@
 //editVehicleType() is used to edit the existing record through id.
 //Author : Jaineesh
 // Created on : 24.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function editInsuranceVehicle($id) {
@@ -141,7 +141,7 @@
 //deleteVehicleType() is used to delete the existing record through id.
 //Author : Jaineesh
 // Created on : 24.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------  
     public function deleteInsuredVehicle($insuranceId) {
@@ -157,7 +157,7 @@
 //getVehicleType() is used to get the list of data 
 //Author : Jaineesh
 // Created on : 24.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getVehicleInsurance($conditions='') {
@@ -180,7 +180,7 @@
 //getVehicleTypeList() is used to get the list of data order by name.
 //Author : Jaineesh
 // Created on : 26.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getInsuranceVehicleList($conditions='', $limit = '', $orderBy='insuringCompanyName') {
@@ -204,7 +204,7 @@
 //getTotalVehicleInsurance() is used to get total no. of records
 //Author : Jaineesh
 // Created on : 26.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     
@@ -225,7 +225,7 @@
 //getInsuranceDate() is used to get total no. of records
 //Author : Jaineesh
 // Created on : 26.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     
@@ -245,7 +245,7 @@
 //checkBus() is used to get total no. of records
 //Author : Jaineesh
 // Created on : 26.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     
@@ -263,7 +263,7 @@
 //checkBus() is used to get total no. of records
 //Author : Jaineesh
 // Created on : 26.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     
@@ -283,7 +283,7 @@
 //getVehicleInsuranceDetail() is used to vehicle insurance detail
 //Author : Jaineesh
 // Created on : 06.01.10
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------  
     public function getVehicleInsuranceDetail($insuranceId) {
@@ -304,7 +304,7 @@
 //updateNotificationsMessage() is used to vehicle insurance detail
 //Author : Praveen Kumar
 // Created on : 12.04.11
-// Copyright 2010-2011: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2010-2011: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------  
     public function updateNotificationsMessage() {
@@ -339,7 +339,7 @@
 //getInsuranceDueDateList() is used to vehicle insurance due date list
 //Author : Kavish Manjkhola
 //Created on : 06.04.11
-//Copyright 2010-2011: Chalkpad Technologies Pvt. Ltd.
+//Copyright 2010-2011: syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------  
     public function getInsuranceDueDateList($dayLimit='10') {
      
@@ -364,7 +364,7 @@
 //getInsuranceMessageSearch() is used to Search the message pattern in notification table
 //Author : Kavish Manjkhola
 //Created on : 18.04.11
-//Copyright 2010-2011: Chalkpad Technologies Pvt. Ltd.
+//Copyright 2010-2011: syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------  
     public function getInsuranceMessageSearch() {
      
@@ -383,7 +383,7 @@
 //updateInsuranceNotificationsMessage() is used to update message when insurance is paid
 //Author : Kavish Manjkhola
 //Created on : 06.04.11
-//Copyright 2010-2011: Chalkpad Technologies Pvt. Ltd.
+//Copyright 2010-2011: syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------  
     public function updateInsuranceNotificationsMessage() {
      
@@ -414,7 +414,7 @@
 //getNotificationDetails() is used to vehicle insurance due date list
 //Author : Kavish Manjkhola
 //Created on : 06.04.11
-//Copyright 2010-2011: Chalkpad Technologies Pvt. Ltd.
+//Copyright 2010-2011: syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------  
     public function getNotificationDetails() {
      
@@ -430,7 +430,7 @@
 //getInsuranceDueDateListDetails() is used to vehicle insurance due date list
 //Author : Kavish Manjkhola
 //Created on : 06.04.11
-//Copyright 2010-2011: Chalkpad Technologies Pvt. Ltd.
+//Copyright 2010-2011: syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------  
     public function getInsuranceDueDateListDetails($filter, $limit, $orderBy, $dayLimit='10') {
      
@@ -457,7 +457,7 @@
 //getInsuranceDueDateListCount() is used to vehicle insurance due date list
 //Author : Kavish Manjkhola
 //Created on : 06.04.11
-//Copyright 2010-2011: Chalkpad Technologies Pvt. Ltd.
+//Copyright 2010-2011: syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------  
     public function getInsuranceDueDateListCount($filter, $limit, $orderBy, $dayLimit='10') {
      
@@ -482,7 +482,7 @@
 //deleteNotifications() is used to insert notification in the notification table
 //Author : Kavish Manjkhola
 //Created on : 06.04.11
-//Copyright 2010-2011: Chalkpad Technologies Pvt. Ltd.
+//Copyright 2010-2011: syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------  
     public function deleteNotifications() {
      
@@ -495,7 +495,7 @@
 //insertNotifications() is used to insert notification in the notification table
 //Author : Kavish Manjkhola
 //Created on : 06.04.11
-//Copyright 2010-2011: Chalkpad Technologies Pvt. Ltd.
+//Copyright 2010-2011: syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------  
     public function insertNotifications($message) {
      
@@ -512,7 +512,7 @@
 //getVehicleDetials() is used to fetch vehicle details based on vehicleId
 //Author : Kavish Manjkhola
 //Created on : 11.04.11
-//Copyright 2010-2011: Chalkpad Technologies Pvt. Ltd.
+//Copyright 2010-2011: syenergy Technologies Pvt. Ltd.
 //----------------------------------------------------
     public function getVehicleInsuranceDueDate($vehicleId) {
      
@@ -529,7 +529,7 @@
 //updateVehicleInsuranceDetails() is used to insert vehicle insurance detials in the bus_insurance table
 //Author : Kavish Manjkhola
 //Created on : 11.04.11
-//Copyright 2010-2011: Chalkpad Technologies Pvt. Ltd.
+//Copyright 2010-2011: syenergy Technologies Pvt. Ltd.
 //----------------------------------------------------
     public function updateVehicleInsuranceDetails($vehicleId, $insuranceDueDate, $insurancePaidOn) {
 		
@@ -550,7 +550,7 @@
 //updateVehicleInsuranceStatus() is used to update the vehicle insurance status in the insurance_paid_history table
 //Author : Kavish Manjkhola
 //Created on : 11.04.11
-//Copyright 2010-2011: Chalkpad Technologies Pvt. Ltd.
+//Copyright 2010-2011: syenergy Technologies Pvt. Ltd.
 //----------------------------------------------------
     public function updateVehicleInsuranceStatus($vehicleId, $insuranceDueDate, $insurancePaidOn) {
      
@@ -572,7 +572,7 @@
 //updateViewStatus() is used to update the notification status in the notifications table
 //Author : Kavish Manjkhola
 //Created on : 11.04.11
-//Copyright 2010-2011: Chalkpad Technologies Pvt. Ltd.
+//Copyright 2010-2011: syenergy Technologies Pvt. Ltd.
 //----------------------------------------------------
     public function updateViewStatus() {
      
@@ -592,7 +592,7 @@
 //getNotificationViewStatus() is used to fetch the viewStatus from the notification
 //Author : Kavish Manjkhola
 //Created on : 18.04.2011
-//Copyright 2010-2011: Chalkpad Technologies Pvt. Ltd.
+//Copyright 2010-2011: syenergy Technologies Pvt. Ltd.
 //----------------------------------------------------
     public function getNotificationViewStatus() {
      
@@ -609,7 +609,7 @@
 //getInsurancePendingList() is used to fetch the totalRecords from the insurance_paid_history table based on status
 //Author : Kavish Manjkhola
 //Created on : 18.04.2011
-//Copyright 2010-2011: Chalkpad Technologies Pvt. Ltd.
+//Copyright 2010-2011: syenergy Technologies Pvt. Ltd.
 //----------------------------------------------------
     public function getInsurancePendingList() {
      
@@ -628,7 +628,7 @@
 //updateNoticePublishTime() is used to update the vehicle insurance status in the insurance_paid_history table
 //Author : Kavish Manjkhola
 //Created on : 11.04.11
-//Copyright 2010-2011: Chalkpad Technologies Pvt. Ltd.
+//Copyright 2010-2011: syenergy Technologies Pvt. Ltd.
 //----------------------------------------------------
     public function updateNoticePublishTime() {
      

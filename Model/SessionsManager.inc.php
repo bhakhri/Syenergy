@@ -5,7 +5,7 @@
 //
 // Author :Ajinder Singh
 // Created on : 19-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;
@@ -20,7 +20,7 @@ class SessionsManager {
 //
 // Author :Ajinder Singh 
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------     
 
@@ -34,7 +34,7 @@ class SessionsManager {
 //
 // Author :Ajinder Singh 
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
     public static function getInstance() {
@@ -50,7 +50,7 @@ class SessionsManager {
 //
 // Author :Ajinder Singh 
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 
@@ -78,7 +78,7 @@ class SessionsManager {
 //
 // Author :Ajinder Singh 
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------           
     
@@ -103,7 +103,7 @@ class SessionsManager {
 //
 // Author :Ajinder Singh 
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
      
@@ -122,7 +122,7 @@ class SessionsManager {
 //
 // Author :Ajinder Singh 
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
      
@@ -142,7 +142,7 @@ class SessionsManager {
 //
 // Author :Ajinder Singh 
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------     
 
@@ -159,7 +159,7 @@ class SessionsManager {
 //
 // Author :Ajinder Singh 
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------          
     public function getSession($conditions='') {
@@ -176,7 +176,7 @@ class SessionsManager {
 //
 // Author :Ajinder Singh 
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------          
     
@@ -192,7 +192,7 @@ class SessionsManager {
 //
 // Author :Ajinder Singh 
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
         
@@ -230,7 +230,7 @@ class SessionsManager {
 // $condition - used to check the condition of the table
 // Author : Jaineesh
 // Created on : 10.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------- 
 

@@ -2,7 +2,7 @@
 //This file is used as printing version for gazetter report.
 // Author :Ajinder Singh
 // Created on : 14-Aug-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 ?>
 <?php
 	ini_set('MEMORY_LIMIT','200M');

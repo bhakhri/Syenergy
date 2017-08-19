@@ -5,7 +5,7 @@
 //
 // Author : Dipanjan Bbhattacharjee
 // Created on : (19.07.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------------------------------------
 
@@ -13,7 +13,7 @@
 //Purpose:To show ""Not Present" when the database field is empty
 //Author:Dipanjan Bhttacharjee
 //Date: 19.08.2008
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------------------------------------
 function trim_output($val){

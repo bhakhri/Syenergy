@@ -4,7 +4,7 @@
 //
 // Author : Vimal Sharma
 // Created on : 07-Feb-2009
-// Copyright 2008-2009f: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009f: syenergy Technologies Pvt. Ltd.
 //                      
 //--------------------------------------------------------
     set_time_limit(0);

@@ -5,7 +5,7 @@
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (10.7.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -19,7 +19,7 @@ class BuildingManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (10.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
 	private function __construct() {
@@ -30,7 +30,7 @@ class BuildingManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (10.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 	public static function getInstance() {
@@ -46,7 +46,7 @@ class BuildingManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (10.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
 	public function addBuilding() {
@@ -62,7 +62,7 @@ class BuildingManager {
 //$id:busRouteId
 // Author :Dipanjan Bhattacharjee 
 // Created on : (10.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------        
     public function editBuilding($id) {
@@ -77,7 +77,7 @@ class BuildingManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (10.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getBuilding($conditions='') {
@@ -95,7 +95,7 @@ class BuildingManager {
 //$buildingId :buildingId of the Building
 // Author :Dipanjan Bhattacharjee 
 // Created on : (10.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------             
     public function checkInBlock($buildingId) {
@@ -112,7 +112,7 @@ class BuildingManager {
 //$buildingId :buildingId of the Building
 // Author :Dipanjan Bhattacharjee 
 // Created on : (10.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------             
     public function checkInRoom($buildingId) {
@@ -130,7 +130,7 @@ class BuildingManager {
 //$buildingId :buildingId of the Building
 // Author :Dipanjan Bhattacharjee 
 // Created on : (10.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteBuilding($buildingId) {
@@ -149,7 +149,7 @@ class BuildingManager {
 //orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (10.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -167,7 +167,7 @@ class BuildingManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (10.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalBuilding($conditions='') {

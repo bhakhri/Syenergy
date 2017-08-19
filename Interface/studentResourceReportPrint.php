@@ -1,7 +1,7 @@
 <?php 
 //-------------------------------------------------------
 // Student Resource file   
-//08-2009: Chalkpad Technologies Pvt. Ltd.
+//08-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 

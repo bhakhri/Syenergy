@@ -72,7 +72,7 @@ class ChangeMentorManager {
 //orderBy: on which column to sort
 // Author :Nishu Bindal
 // Created on : (6.Feb.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 
 //
 //--------------------------------------------------------

@@ -5,7 +5,7 @@
 //
 // Author :Rajeev Aggarwal 
 // Created on : (12.07.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------
 ?>
@@ -37,7 +37,7 @@ class StudentAdmissionManager {
 	// $conditions :db clauses
 	// Author :Rajeev Aggarwal 
 	// Created on : (01.09.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//---------------------------------------------------------------------------------------------  
 	public function getDistinctYear($conditions='',$limit = ' LIMIT 0,5', $orderBy=' dateOfAdmission DESC'){
@@ -60,7 +60,7 @@ class StudentAdmissionManager {
 	// $conditions :db clauses
 	// Author :Rajeev Aggarwal 
 	// Created on : (01.09.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//---------------------------------------------------------------------------------------------  
 	public function getCityAdmissionYear($conditions='',$limit = ' LIMIT 0,5', $orderBy=' dateOfAdmission DESC'){
@@ -90,7 +90,7 @@ class StudentAdmissionManager {
 	// $conditions :db clauses
 	// Author :Rajeev Aggarwal 
 	// Created on : (01.09.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//---------------------------------------------------------------------------------------------  
 	public function getDistinctBranchYear($conditions='',$limit = ' LIMIT 0,5', $orderBy=' dateOfAdmission DESC'){
@@ -121,7 +121,7 @@ class StudentAdmissionManager {
 	// $conditions :db clauses
 	// Author :Rajeev Aggarwal 
 	// Created on : (01.09.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//---------------------------------------------------------------------------------------------  
 	public function getDistinctBranch($conditions='',$limit = '', $orderBy=' dateOfAdmission DESC'){
@@ -156,7 +156,7 @@ class StudentAdmissionManager {
 	// $conditions :db clauses
 	// Author :Rajeev Aggarwal 
 	// Created on : (01.09.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//---------------------------------------------------------------------------------------------  
 	public function getDistinctDegreeYear($conditions='',$limit = ' LIMIT 0,5', $orderBy=' dateOfAdmission DESC'){
@@ -185,7 +185,7 @@ class StudentAdmissionManager {
 	// $conditions :db clauses
 	// Author :Rajeev Aggarwal 
 	// Created on : (01.09.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//---------------------------------------------------------------------------------------------  
 	public function getDistinctDegree($conditions='',$limit = '', $orderBy=' dateOfAdmission DESC'){
@@ -217,7 +217,7 @@ class StudentAdmissionManager {
 	// $conditions :db clauses
 	// Author :Rajeev Aggarwal 
 	// Created on : (01.09.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//---------------------------------------------------------------------------------------------  
 	public function getCountDegreeYear($condition=''){
@@ -249,7 +249,7 @@ class StudentAdmissionManager {
 	// $conditions :db clauses
 	// Author :Rajeev Aggarwal 
 	// Created on : (01.09.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//---------------------------------------------------------------------------------------------  
 	public function getDegreeList($conditions='',$limit = '', $orderBy=' dateOfAdmission DESC'){
@@ -283,7 +283,7 @@ class StudentAdmissionManager {
 	// $conditions :db clauses
 	// Author :Rajeev Aggarwal 
 	// Created on : (01.09.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//---------------------------------------------------------------------------------------------  
 	public function getDistinctBatchYear($conditions='',$limit = ' LIMIT 0,5', $orderBy=' dateOfAdmission DESC'){
@@ -314,7 +314,7 @@ class StudentAdmissionManager {
 	// $conditions :db clauses
 	// Author :Rajeev Aggarwal 
 	// Created on : (01.09.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//---------------------------------------------------------------------------------------------  
 	public function getDistinctBatch($conditions='',$limit = '', $orderBy=' dateOfAdmission DESC'){
@@ -347,7 +347,7 @@ class StudentAdmissionManager {
 	// $conditions :db clauses
 	// Author :Rajeev Aggarwal 
 	// Created on : (01.09.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//---------------------------------------------------------------------------------------------  
 	public function getCountBatchYear($condition=''){
@@ -380,7 +380,7 @@ class StudentAdmissionManager {
 	// $conditions :db clauses
 	// Author :Rajeev Aggarwal 
 	// Created on : (01.09.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//---------------------------------------------------------------------------------------------  
 	public function getDistinctCategoryYear($conditions='',$limit = ' LIMIT 0,5', $orderBy=' dateOfAdmission DESC'){
@@ -410,7 +410,7 @@ class StudentAdmissionManager {
 	// $conditions :db clauses
 	// Author :Rajeev Aggarwal 
 	// Created on : (01.09.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//---------------------------------------------------------------------------------------------  
 	public function getDistinctCategory($conditions='',$limit = '', $orderBy=' qta.quotaAbbr'){
@@ -439,7 +439,7 @@ class StudentAdmissionManager {
 	// $conditions :db clauses
 	// Author :Rajeev Aggarwal 
 	// Created on : (01.09.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//---------------------------------------------------------------------------------------------  
 	public function getCountCategoryYear($condition=''){
@@ -471,7 +471,7 @@ class StudentAdmissionManager {
 	// $conditions :db clauses
 	// Author :Rajeev Aggarwal 
 	// Created on : (01.09.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//---------------------------------------------------------------------------------------------  
 	public function getGenderList($conditions='',$limit = '', $orderBy=' dateOfAdmission DESC'){
@@ -503,7 +503,7 @@ class StudentAdmissionManager {
 	// $conditions :db clauses
 	// Author :Rajeev Aggarwal 
 	// Created on : (01.09.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//---------------------------------------------------------------------------------------------  
 	public function getQuotaList($conditions='',$limit = '', $orderBy=' dateOfAdmission DESC'){
@@ -536,7 +536,7 @@ class StudentAdmissionManager {
 	// $conditions :db clauses
 	// Author :Rajeev Aggarwal 
 	// Created on : (01.09.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//---------------------------------------------------------------------------------------------  
 	public function getDistinctHostelYear($conditions='',$limit = ' LIMIT 0,5', $orderBy=' dateOfAdmission DESC'){
@@ -565,7 +565,7 @@ class StudentAdmissionManager {
 	// $conditions :db clauses
 	// Author :Rajeev Aggarwal 
 	// Created on : (01.09.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//---------------------------------------------------------------------------------------------  
 	public function getCountHostelYear($condition=''){
@@ -594,7 +594,7 @@ class StudentAdmissionManager {
 	// $conditions :db clauses
 	// Author :Rajeev Aggarwal 
 	// Created on : (01.09.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//---------------------------------------------------------------------------------------------  
 	public function getDistinctGenderYear($conditions='',$limit = ' LIMIT 0,5', $orderBy=' dateOfAdmission DESC'){
@@ -623,7 +623,7 @@ class StudentAdmissionManager {
 	// $conditions :db clauses
 	// Author :Rajeev Aggarwal 
 	// Created on : (01.09.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//---------------------------------------------------------------------------------------------  
 	public function getCountGenderYear($condition=''){
@@ -650,7 +650,7 @@ class StudentAdmissionManager {
 	// $conditions :db clauses
 	// Author :Rajeev Aggarwal 
 	// Created on : (01.09.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//---------------------------------------------------------------------------------------------  
 	public function getBranchList($conditions='',$limit = '', $orderBy=' dateOfAdmission DESC'){
@@ -683,7 +683,7 @@ class StudentAdmissionManager {
 	// $conditions :db clauses
 	// Author :Rajeev Aggarwal 
 	// Created on : (01.09.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//---------------------------------------------------------------------------------------------  
 	public function getCountBranchYear($condition=''){
@@ -722,7 +722,7 @@ class StudentAdmissionManager {
 	// $conditions :db clauses
 	// Author :Rajeev Aggarwal 
 	// Created on : (01.09.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//---------------------------------------------------------------------------------------------  
 	public function getBatchList($conditions='',$limit = '', $orderBy=' dateOfAdmission DESC'){
@@ -754,7 +754,7 @@ class StudentAdmissionManager {
 	// $conditions :db clauses
 	// Author :Rajeev Aggarwal 
 	// Created on : (01.09.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//---------------------------------------------------------------------------------------------  
 	public function getHostelList($conditions='',$limit = '', $orderBy=' dateOfAdmission DESC'){

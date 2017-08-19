@@ -6,7 +6,7 @@
 //
 // Author :Arvind Singh Rawat
 // Created on : 18-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -32,7 +32,7 @@ class ClassWiseHeadValuesManager {
 //
 // Author :Parveen Sharma
 // Created on : (29-May-2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------      
     public function addFeeCylceHeadValue($fieldValue) {
@@ -199,7 +199,7 @@ public function getClassWiseHeadList($condition='')   {
 //
 // Author :Arvind Singh Rawat
 // Created on : 18-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
  

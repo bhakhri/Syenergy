@@ -3,7 +3,7 @@
 // Purpose: To make time table for a teacher
 // Author : Nishu Bindal
 // Created on : (1.Mar.2012 )
-// Copyright 2011-2012: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2011-2012: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
  
 global $FE;

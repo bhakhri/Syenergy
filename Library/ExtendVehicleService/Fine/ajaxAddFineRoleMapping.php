@@ -3,7 +3,7 @@
 // Purpose: To get values of assigned and unassigned courses information according to time table label selected
 // Author : Dipanjan Bhattacharjee
 // Created on : 17.06.2009
-// Copyright 2009-2010: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2009-2010: syenergy Technologies Pvt. Ltd.
 //------------------------------------------------------------------------------------------------------------------
     global $FE;
     require_once($FE . "/Library/common.inc.php");

@@ -3,7 +3,7 @@
 // Purpose: To delete proof detail
 // Author : Dipanjan Bhattacharjee
 // Created on : (19.08.2010 )
-// Copyright 2008-2010: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2010: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 global $FE;
 require_once($FE . "/Library/common.inc.php");

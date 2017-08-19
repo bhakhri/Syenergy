@@ -3,7 +3,7 @@
 //  THIS FILE IS USED FOR DB OPERATION FOR "item_category" table
 // Author :Jaineesh 
 // Created on : (08.05.2009)
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -16,7 +16,7 @@ class InventoryDeptartmentManager {
 //
 // Author :Jaineesh 
 // Created on : (23.02.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
     private function __construct() {
@@ -27,7 +27,7 @@ class InventoryDeptartmentManager {
 //
 // Author :Jaineesh 
 // Created on : (08.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
     public static function getInstance() {
@@ -44,7 +44,7 @@ class InventoryDeptartmentManager {
 //
 // Author :Jaineesh
 // Created on : (23.02.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
     public function addInventoryDepartment() {
@@ -62,7 +62,7 @@ class InventoryDeptartmentManager {
 //
 // Author :Jaineesh
 // Created on : (23.02.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
     public function addInventoryDepartmentIncharge($lastInvDepttId,$toDate) {
@@ -81,7 +81,7 @@ class InventoryDeptartmentManager {
 //$id:itemCategoryId
 // Author :Gurkeerat Sidhu
 // Created on : (08.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------        
     public function editInventoryDepartment($id) {
@@ -103,7 +103,7 @@ class InventoryDeptartmentManager {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (08.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getInventoryDepartment($conditions='') {
@@ -126,7 +126,7 @@ class InventoryDeptartmentManager {
 //orderBy:sort on which column
 // Author :Gurkeerat Sidhu
 // Created on : (08.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -158,7 +158,7 @@ class InventoryDeptartmentManager {
 //$conditions :db clauses
 // Author :Jaineesh
 // Created on : (23.02.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalInventoryDepartment($conditions='') {
@@ -182,7 +182,7 @@ class InventoryDeptartmentManager {
 //$itemCategoryId :itemCategoryId of the item_category
 // Author :Gurkeerat Sidhu 
 // Created on : (18.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------             
     public function checkInItemsMaster($invDepttId) {
@@ -199,7 +199,7 @@ class InventoryDeptartmentManager {
 //$itemCategoryId :itemCategoryId of the item_category
 // Author :Gurkeerat Sidhu 
 // Created on : (18.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------             
     public function checkInIssueItemsMaster($invDepttId) {
@@ -216,7 +216,7 @@ class InventoryDeptartmentManager {
 //$Id :itemCategoryId
 // Author :Gurkeerat Sidhu 
 // Created on : (08.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteInventoryDepartment($id) {
@@ -233,7 +233,7 @@ class InventoryDeptartmentManager {
 //$Id :itemCategoryId
 // Author :Gurkeerat Sidhu 
 // Created on : (08.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteInventoryDepartmentIncharge($id) {

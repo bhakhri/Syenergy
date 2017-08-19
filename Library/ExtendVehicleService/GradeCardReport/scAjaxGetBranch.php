@@ -4,7 +4,7 @@
 //
 // Author :PArveen Sharma
 // Created on : 21-May-2009
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     global $FE;

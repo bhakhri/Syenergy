@@ -5,7 +5,7 @@
 //EmployeeManager is used having all the Add, edit, delete function..
 // Author : Jaineesh
 // Created on : 24.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
   include_once(DA_PATH ."/SystemDatabaseManager.inc.php");
@@ -28,7 +28,7 @@
 //addVehicleTyre() is used to add new record in database.
 // Author : Jaineesh
 // Created on : 25.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function updateVehicleService($busId,$serviceId) {
@@ -48,7 +48,7 @@
 //addVehicleTyre() is used to add new record in database.
 // Author : Jaineesh
 // Created on : 25.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function updateBusService($busId,$serviceId) {
@@ -69,7 +69,7 @@
 //updateVehicleServiceRepair() is used to UPDATE vehicle service repair
 //Author : Jaineesh
 // Created on : 10.06.10
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function updateVehicleServiceRepair() {
@@ -101,7 +101,7 @@
 //insertVehicleServiceRepair() is used to Add vehicle service repair detail
 //Author : Jaineesh
 // Created on : 10.06.10
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function insertVehicleServiceRepair() {
@@ -145,7 +145,7 @@
 // used to Delete Vehicle Service Detail
 // Author : Jaineesh
 // Created on : 11.06.10
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -166,7 +166,7 @@
 // used to Delete Vehicle Repair Detail
 // Author : Jaineesh
 // Created on : 11.06.10
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -187,7 +187,7 @@
 // used to Delete Vehicle Repair Detail
 // Author : Jaineesh
 // Created on : 11.06.10
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -210,7 +210,7 @@
 //insertVehicleServiceRepairDetail() is used to Add vehicle service repair detail
 //Author : Jaineesh
 // Created on : 11.06.10
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function insertVehicleServiceRepairDetail($str) {
@@ -233,7 +233,7 @@
 //insertVehicleServiceOil() is used to Add vehicle service oil
 //Author : Jaineesh
 // Created on : 10.06.10
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function insertVehicleServiceOil($serviceRepairId,$actionId,$amount,$kmRun,$kmChangeRun) {
@@ -269,7 +269,7 @@
 //deleteTyreHistory() is used to delete the existing record through id.
 //Author : Jaineesh
 // Created on : 01.12.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function deleteVehicleService($serviceId) {
@@ -287,7 +287,7 @@
 //getVehicleServiceRepairList() is used to get the list of data
 //Author : Jaineesh
 // Created on : 25.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getVehicleServiceRepairList($conditions='',$limit='',$orderBy='',$condition1='') {
@@ -318,7 +318,7 @@
 //getTotalVehicleServiceRepair() is used to get the list of data
 //Author : Jaineesh
 // Created on : 25.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getTotalVehicleServiceRepair($conditions='') {
@@ -341,7 +341,7 @@
 //getVehicleServiceRepairList() is used to get the list of data
 //Author : Jaineesh
 // Created on : 25.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getVehicleServiceRepairValues($conditions='') {
@@ -373,7 +373,7 @@
 //getVehicleServiceOilValues() is used to get the list of data
 //Author : Jaineesh
 // Created on : 25.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getVehicleServiceOilValues($conditions='') {
@@ -390,7 +390,7 @@
 //getVehicleServiceOilValues() is used to get the list of data
 //Author : Jaineesh
 // Created on : 25.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getVehicleServiceRepair($conditions='') {
@@ -412,7 +412,7 @@
 //getVehicleServiceRepairDetailValues() is used to get the list of data
 //Author : Jaineesh
 // Created on : 25.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getVehicleServiceRepairDetailValues($conditions='') {
@@ -429,7 +429,7 @@
 //getVehicleTyre() is used to get the list of data
 //Author : Jaineesh
 // Created on : 25.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getVehicleService($conditions='') {
@@ -457,7 +457,7 @@
 //getVehicleServiceDetail() is used to get the list of data
 //Author : Jaineesh
 // Created on : 25.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getVehicleFreeServiceDetail($conditions='') {
@@ -483,7 +483,7 @@
 //getVehicleTyre() is used to get the list of data
 //Author : Jaineesh
 // Created on : 25.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getVehicleFreeService($conditions='') {
@@ -504,7 +504,7 @@
 //getVehicleTyreList() is used to get the list of data order by name.
 //Author : Jaineesh
 // Created on : 25.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getVehicleBattery($conditions='', $limit = '', $orderBy='busId') {
@@ -521,7 +521,7 @@
 //getVehicleTyreList() is used to get the list of data order by name.
 //Author : Jaineesh
 // Created on : 25.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getVehicleServiceList($conditions='', $limit = '', $orderBy='busId') {
@@ -544,7 +544,7 @@
 //getTotalVehicleTyre() is used to get total no. of records
 //Author : Jaineesh
 // Created on : 25.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -564,7 +564,7 @@
 //getVehicleTyreList() is used to get the list of data order by name.
 //Author : Jaineesh
 // Created on : 25.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getVehicleTax($busId='') {
@@ -584,7 +584,7 @@
 //getVehicleInsuranceDetail() is used to vehicle insurance detail
 //Author : Jaineesh
 // Created on : 06.01.10
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getVehicleServiceDetail($serviceId) {

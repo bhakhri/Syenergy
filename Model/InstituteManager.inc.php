@@ -3,7 +3,7 @@
 //  THIS FILE IS USED FOR DB OPERATION FOR "institute" TABLE
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.6.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -16,7 +16,7 @@ class InstituteManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
     private function __construct() {
@@ -27,7 +27,7 @@ class InstituteManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
     public static function getInstance() {
@@ -45,7 +45,7 @@ class InstituteManager {
 // Created on : (14.6.2008)
 // Modified on: 7.7.2008
 // Modified By: Pushpender
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
     public function addInstitute() {
@@ -73,7 +73,7 @@ class InstituteManager {
 //$id:cityId
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------        
     public function editInstitute($id) {
@@ -117,7 +117,7 @@ class InstituteManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getInstitute($conditions='') {
@@ -136,7 +136,7 @@ class InstituteManager {
 //$instituteId :instituteId of the Institute
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------             
     public function checkInClass($instituteId) {
@@ -153,7 +153,7 @@ class InstituteManager {
 //$instituteId :instituteId of the Institute
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------             
     public function checkInBatch($instituteId) {
@@ -170,7 +170,7 @@ class InstituteManager {
 //$instituteId :instituteId of the Institute
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------             
     public function checkInEmployee($instituteId) {
@@ -186,7 +186,7 @@ class InstituteManager {
 // return: array 
 // Author :Pushpender Kumar Chauhan
 // Created on : (7.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------             
     public function checkLogoName($instituteId = '') {
@@ -212,7 +212,7 @@ class InstituteManager {
 //$universityid :universityid of the City
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteInstitute($instituteid) {
@@ -231,7 +231,7 @@ class InstituteManager {
 //orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -265,7 +265,7 @@ class InstituteManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalInstitute($conditions='') {
@@ -311,7 +311,7 @@ class InstituteManager {
 //$instituteId :instituteId of the Institute
 // Author :Dipanjan Bhattacharjee 
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------             
     public function getEmployee($conditions1='',$conditions2='') {

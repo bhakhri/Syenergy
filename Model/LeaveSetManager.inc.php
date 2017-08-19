@@ -5,7 +5,7 @@
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (30.09.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -19,7 +19,7 @@ class LeaveSetManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (30.09.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
     private function __construct() {
@@ -30,7 +30,7 @@ class LeaveSetManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (30.09.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
     public static function getInstance() {
@@ -46,7 +46,7 @@ class LeaveSetManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (30.09.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
     public function addLeaveSet() {
@@ -73,7 +73,7 @@ class LeaveSetManager {
 //$id:busRouteId
 // Author :Dipanjan Bhattacharjee 
 // Created on : (30.09.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------        
     public function editLeaveSet($id) {
@@ -96,7 +96,7 @@ class LeaveSetManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (30.09.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getLeaveSet($conditions='') {
@@ -123,7 +123,7 @@ class LeaveSetManager {
 //$busRouteId :busRouteId of the BusStop
 // Author :Dipanjan Bhattacharjee 
 // Created on : (30.09.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function checkLeaveSet($leaveSetId) {
@@ -152,7 +152,7 @@ class LeaveSetManager {
 //orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (30.09.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -178,7 +178,7 @@ class LeaveSetManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (30.09.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalLeaveSet($conditions='') {
@@ -202,7 +202,7 @@ class LeaveSetManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (30.09.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function makeAllLeaveSetInActive($conditions='') {

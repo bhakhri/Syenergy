@@ -5,7 +5,7 @@
 //HostelRoomManager is used having all the Add, edit, delete function..
 // Author : Jaineesh
 // Created on : 14.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -27,7 +27,7 @@ class HostelRoomManager {
 //addHostelRoom() is used to add new record in database.
 // Author : Jaineesh
 // Created on : 27.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function addHostelRoom() {
@@ -50,7 +50,7 @@ class HostelRoomManager {
 //editHostelRoom() is used to edit the existing record through id.
 //Author : Jaineesh
 // Created on : 27.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function editHostelRoom($id) {
@@ -74,7 +74,7 @@ class HostelRoomManager {
 //getHostelRoom() is used to get the data.
 //Author : Jaineesh
 // Created on : 27.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getHostelRoom($conditions='') {
@@ -97,7 +97,7 @@ class HostelRoomManager {
 //deleteHostelRoom() is used to delete the existing record through id.
 //Author : Jaineesh
 // Created on : 27.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------   
     public function deleteHostelRoom($hostelRoomId) {
@@ -113,7 +113,7 @@ class HostelRoomManager {
 //getHostelRoomList() is used to get the list of data order by name.
 //Author : Jaineesh
 // Created on : 27.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getHostelRoomList($filter='', $orderBy='',$limit = '') {
@@ -143,7 +143,7 @@ class HostelRoomManager {
 //getTotalHostelRoom() is used to get total no. of records
 //Author : Jaineesh
 // Created on : 27.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------  
     public function getTotalHostelRoom($conditions='') {
@@ -163,7 +163,7 @@ class HostelRoomManager {
 //getHostelRoomList() is used to get the list of data order by name.
 //Author : Jaineesh
 // Created on : 27.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getHostelRoomTypeDetail($hostelRoomTypeId,$hostelId) {
@@ -183,7 +183,7 @@ class HostelRoomManager {
 //getTotalHostel() is used to get the data.
 //Author : Jaineesh
 // Created on : 23.07.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getTotalHostel($hostelId) {
@@ -201,7 +201,7 @@ class HostelRoomManager {
 //getHostelCapacity() is used to get the data.
 //Author : Jaineesh
 // Created on : 23.07.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getHostelCapacity($hostelId) {
@@ -219,7 +219,7 @@ class HostelRoomManager {
 //getHostelCapacity() is used to get the data.
 //Author : Jaineesh
 // Created on : 23.07.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 public function getEditHostelCapacity($hostelRoomId,$hostelId='') {
@@ -237,7 +237,7 @@ public function getEditHostelCapacity($hostelRoomId,$hostelId='') {
 // used to get room types of hostel.
 //Author : Nishu bindal
 // Created on : 14.03.12
-// Copyright 2008-2012: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2012: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 public function fetchRoomTypes($hostelId) {

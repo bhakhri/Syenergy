@@ -4,7 +4,7 @@
 //  This File contains Bussiness Logic of the Country Module
 // Author :Arvind Singh Rawat
 // Created on : 12-June-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
 

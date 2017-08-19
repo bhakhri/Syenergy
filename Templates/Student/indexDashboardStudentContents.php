@@ -1111,7 +1111,7 @@ floatingDiv_Close();
         <tr>
            <td class="instrunctions" align="justify" width="1%" nowrap valign='top'><b>&bull;</b></td>
            <td class="instrunctions" align="justify" width="99%" valign='top' class='row1'>
-             If you have paid your fee but fee entry is not submitted in chalkpad, and you still generate your slip then also automatic fine will be applied to your fee. So, please generate it carefully.
+             If you have paid your fee but fee entry is not submitted in syenergy, and you still generate your slip then also automatic fine will be applied to your fee. So, please generate it carefully.
            </td>
         </tr>      
         <tr><td height="15px" ></td></tr>

@@ -4,7 +4,7 @@
 //
 // Author : Vimal Sharma
 // Created on : (12.11.2009 )
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 //echo "<h1>Please bear with us, Server is down for maintenance!!</h1>";die; 
@@ -44,8 +44,8 @@ define('SMS_GATEWAY_SNDR_VARIABLE','sndr'); // Sender variable
 define('SMS_GATEWAY_SNDR_VALUE','GNA-IMT'); // Sender value
 // SMS account detail
 define('SMS_GATEWAY_USERNAME','13022');
-define('SMS_GATEWAY_PASSWORD','chalkpad');
-define('SMS_GATEWAY_URL','http://chalkpad.noesisinfoway.com/send.php');  // Gateway URL that sends SMS
+define('SMS_GATEWAY_PASSWORD','syenergy');
+define('SMS_GATEWAY_URL','http://syenergy.noesisinfoway.com/send.php');  // Gateway URL that sends SMS
 define('SMS_GATEWAY_VERIFICATION_URL','http://chaklpad.noesisinfoway.com/rep.php');  // Gateway URL that verifies sent SMSs
 
 
@@ -137,21 +137,21 @@ define("ONLINE_MERCHANT", "GNAIMT");
 define("ONLINE_ACCESS_CODE", "gnaimt");
 
 define("ONLINE_URL","https://pgi.billdesk.com/pgidsk/PGIMerchantPayment");
-// define("ONLINE_URL","http://gnaimt.chalkpad.in/Interface/Student/onlineFeePayment.php");
+// define("ONLINE_URL","http://gnaimt.syenergy.in/Interface/Student/onlineFeePayment.php");
 
-define("ONLINE_RETURN_URL","http://gnaimt.chalkpad.in/Interface/studentPaymentSlip.php");
+define("ONLINE_RETURN_URL","http://gnaimt.syenergy.in/Interface/studentPaymentSlip.php");
 
 define("ONLINE_SECURE_SECRET", "FpfmlKT1i0na");
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
-// 	function used in chalkpad module to redirect or get response fron online transaction portal //
+// 	function used in syenergy module to redirect or get response fron online transaction portal //
 //                Return array And function Name should be have same pattern and index 		   //
 //                      for save data in database successfully   								//
 /////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 function onlineTransactionUrl($OrderId,$totalAmout){
-		//$OrderId unique order id genrated by chalkpad for each transaction
+		//$OrderId unique order id genrated by syenergy for each transaction
 		//$totalAmout Amount of money user want to pay
 
 
@@ -186,7 +186,7 @@ function onlineTransactionResponse($dataArray){
 			// $values['AuthStatus']=$response['14'];
 			
 			
-			$values['orderId']=$response['1']; // orderId provide by chalkpad
+			$values['orderId']=$response['1']; // orderId provide by syenergy
 			$values['TxnReferenceNo']=$response['2']; // transaction no provide by portal
 			$values['TxnAmount']=intval($response['4']); // transaction amount provide by portal			
 			$values['TxnDate']=$response['13'];			// transaction Date provide by portal

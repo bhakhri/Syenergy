@@ -5,7 +5,7 @@
 //
 // Author : Dipanjan Bhattacharjee
 // Created on : (4.08.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;
@@ -18,7 +18,7 @@ UtilityManager::headerNoCache();
 //Puppose: To implode a n-dimentional array
 //Author: Dipanjan Bhattacharjee(src:php.net)
 //Date:03.11.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 function array_implode($arrays, &$target = array()) {
     foreach ($arrays as $item) {

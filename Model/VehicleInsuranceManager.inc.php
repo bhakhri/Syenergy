@@ -5,7 +5,7 @@
 //EmployeeManager is used having all the Add, edit, delete function..
 // Author : Jaineesh
 // Created on : 24.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
   include_once(DA_PATH ."/SystemDatabaseManager.inc.php");
@@ -28,7 +28,7 @@
 //addVehicleType() is used to add new record in database.
 // Author : Jaineesh
 // Created on : 24.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function addVehicleInsurance() {
@@ -42,7 +42,7 @@
 //editVehicleType() is used to edit the existing record through id.
 //Author : Jaineesh
 // Created on : 24.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function editVehicleInsurance($id) {
@@ -55,7 +55,7 @@
 //deleteVehicleType() is used to delete the existing record through id.
 //Author : Jaineesh
 // Created on : 24.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------  
     public function deleteVehicleInsurance($insuringCompanyId) {
@@ -71,7 +71,7 @@
 //getVehicleType() is used to get the list of data 
 //Author : Jaineesh
 // Created on : 24.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getVehicleInsurance($conditions='') {
@@ -85,7 +85,7 @@
 //getVehicleTypeList() is used to get the list of data order by name.
 //Author : Jaineesh
 // Created on : 26.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getVehicleInsuranceList($conditions='', $limit = '', $orderBy='insuringCompanyName') {
@@ -101,7 +101,7 @@
 //getTotalVehicleInsurance() is used to get total no. of records
 //Author : Jaineesh
 // Created on : 26.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     
@@ -117,7 +117,7 @@
 //getVehicleTypeList() is used to get the list of data order by name.
 //Author : Jaineesh
 // Created on : 26.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getVehicleInsuranceHistory($conditions='', $limit = '', $orderBy='insuringCompanyName') {

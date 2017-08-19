@@ -3,7 +3,7 @@
 // Purpose: to centralize all messages of the application and can be altered on need basis
 // Author : Pushpender Kumar Chauhan
 // Created on : (06.08.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
 // Dashboard Welcome message
@@ -110,7 +110,7 @@ define('QUOTA_NAME_ALREADY_EXIST','Quota Name already exists.');
 // Purpose: to centralize all messages of the application and can be altered on need basis
 // Author : Arvind Singh Rawat
 // Created on : (19.08.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
 // COUNTRY Module
@@ -279,11 +279,11 @@ define("OLD_NOTICE","Expired messages cannot be deleted");
 
 //SMS ALERTS DEFINES
 
-define('NEW_NOTICE_IS_ADDED_FOR_DETAILS_LOGIN_TO_CHALKPAD','New Notice Is Added For Details Login To CHALKPAD');
-define('STUDENT_NEW_MARKS_HAS_BEEN_UPlOADED_FOR_DETAILS_LOGIN_TO_CHALKPAD','Student New Marks Has Been Uploaded For Details Login To CHALKPAD');
-define('MARKS_HAS_BEEN_UPLOADED_FOR_DETAILS_LOGIN_TO_CHALKPAD','Marks Has Been Uploaded For Details Login To CHALKPAD');
-define('ATTENDANCE_HAS_BEEN_UPLOADED_FOR_DETAILS_LOGIN_TO_CHALKPAD','Attendance Has Been Uploaded For Details Login To CHALKPAD');
-define('TIME_TABLE_HAS_BEEN_UPDATED_FOR_DETAILS_LOGIN_TO_CHALKPAD','Time Table Has Been Updated For Details Login To CHALKPAD');
+define('NEW_NOTICE_IS_ADDED_FOR_DETAILS_LOGIN_TO_syenergy','New Notice Is Added For Details Login To syenergy');
+define('STUDENT_NEW_MARKS_HAS_BEEN_UPlOADED_FOR_DETAILS_LOGIN_TO_syenergy','Student New Marks Has Been Uploaded For Details Login To syenergy');
+define('MARKS_HAS_BEEN_UPLOADED_FOR_DETAILS_LOGIN_TO_syenergy','Marks Has Been Uploaded For Details Login To syenergy');
+define('ATTENDANCE_HAS_BEEN_UPLOADED_FOR_DETAILS_LOGIN_TO_syenergy','Attendance Has Been Uploaded For Details Login To syenergy');
+define('TIME_TABLE_HAS_BEEN_UPDATED_FOR_DETAILS_LOGIN_TO_syenergy','Time Table Has Been Updated For Details Login To syenergy');
 
 //Change Password Module
 define('ENTER_CURRENT_PASSWORD',            'Enter Current Password');
@@ -300,7 +300,7 @@ define('OLD_PASSWORD_CHECK',                'Please check your Current Password'
 // Purpose: to centralize all messages of the application and can be altered on need basis
 // Author : Jaineesh
 // Created on : 20.08.08
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------------------------------
 
 // Designation Module
@@ -702,7 +702,7 @@ define('INVALID_ROLLNO','Invalid Roll No./User Name');
 // Purpose: to centralize all messages of the application and can be altered on need basis
 // Author : Dipanjan Bhattacharjee
 // Created on : (21.08.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------------------------------
 
 // UNIVERSITY Module
@@ -1758,14 +1758,14 @@ define('SELECT_TEACHER','Select a teacher');
 // Purpose: to centralize all messages of the application and can be altered on need basis
 // Author : Dipanjan Bhattacharjee
 // Created on : (21.08.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------------------------------
 
 //-----------------------------------------------------------------------------------
 // Purpose: to centralize all messages of the application and can be altered on need basis
 // Author : Rajeev Aggarwal
 // Created on : (25.08.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //------------------------------------------------------------------------------------------
 
 // LECTURE TYPE Module
@@ -1938,7 +1938,7 @@ define("FS_CORRECT_DATE","To date cannot be greater than from date");
 // Purpose: to centralize all messages of the application and can be altered on need basis
 // Author : Ajinder
 // Created on : 26.08.08
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------------------------
 
 // Bank Module
@@ -2954,7 +2954,7 @@ define('WRONG_STRING','Roll No has special characters.These are not allowed.Plea
 // Test Module Message
 define('ENTER_TEST_NAME','Enter Test Name');  
 
-define('OLD_DATA',"<br><B>System did not find data for this semester.</B><br><br>The possibilities could be: <br><br> 1. Data was uploaded directly from backend or <br> 2. Chalkpad application was not used to calculate the marks.<br><br>");
+define('OLD_DATA',"<br><B>System did not find data for this semester.</B><br><br>The possibilities could be: <br><br> 1. Data was uploaded directly from backend or <br> 2. syenergy application was not used to calculate the marks.<br><br>");
 define('ENTER_VALID_LECTURES_ATTENDED_FOR_','Enter valid lectures attended for');
 define('TOTAL_LECTURES_ATTENDED_MORE_THAN_TOTAL_LECTURES_DELIVERED','Total lectures attended can not be more than total lectures delivered');
 define('TOTAL_LECTURES_ATTENDED_MORE_THAN_TOTAL_LECTURES_DELIVERED','Total lectures attended can not be more than total lectures delivered');
@@ -2986,7 +2986,7 @@ define('SELECT_GROUP',"Select Group");
 
 define('SELECT_BUS_STOP_CITY','Select Bus Stop City');
 
-define('PENDING_FEE_MESSAGE','Chalkpad Blocked due to pending fees');
+define('PENDING_FEE_MESSAGE','syenergy Blocked due to pending fees');
 
 define('ONLINE_CONFIRM',"Please note that 1.5% of the total fee amount will be charged extra as convenience fee.\\n\\rClick Ok to proceed or Cancel");
 

@@ -3,7 +3,7 @@
     set_time_limit(0); 
     $FE = dirname(__FILE__);
     
-    $serviceProvider = 'CHALKPAD';
+    $serviceProvider = 'syenergy';
     
     $url = $FE.'/Library/common.inc.php';
     require_once("$url");    
@@ -221,7 +221,7 @@ function getAttendanceSendSMS($studentId='',$classId='',$tableName='',$institute
 	return $str;
 }
 // Function To Send Sms
- function studentSendSMS($mobileNo, $message, $sender='CHALKPAD') {
+ function studentSendSMS($mobileNo, $message, $sender='syenergy') {
         $message =str_ireplace('&amp;','&',$message);
         $message =urlencode(preg_replace("/&#?[a-z0-9]+;/i","",$message));
         

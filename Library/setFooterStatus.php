@@ -7,7 +7,7 @@
 //
 // Author :Rahul Nagpal
 // Created on : 03-Nov-2009
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 

@@ -4,7 +4,7 @@
 //
 // Author : Dipanjan Bhattacharjee
 // Created on : (19.07.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 ?>
@@ -83,7 +83,7 @@ var flag = false; // for whether the record has been added or not, if flag is tr
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (24.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------
 function chkObject(id){
@@ -102,7 +102,7 @@ function chkObject(id){
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------
 function  selectStudents(){
@@ -127,7 +127,7 @@ function  selectStudents(){
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------------
 function checkStudents(){
@@ -159,7 +159,7 @@ function checkStudents(){
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------
 function  selectFathers(){
@@ -189,7 +189,7 @@ function  selectFathers(){
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------
 function  selectMothers(){
@@ -219,7 +219,7 @@ function  selectMothers(){
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------
 function  selectGuardians(){
@@ -250,7 +250,7 @@ function  selectGuardians(){
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------------
 function checkFathers(){
@@ -281,7 +281,7 @@ function checkFathers(){
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------------
 function checkMothers(){
@@ -313,7 +313,7 @@ function checkMothers(){
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------------
 function checkGuardians(){
@@ -344,7 +344,7 @@ function checkGuardians(){
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------------
 function checkParents(){
@@ -363,7 +363,7 @@ function checkParents(){
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function hide_div(id,mode){
@@ -383,7 +383,7 @@ function hide_div(id,mode){
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------
 
@@ -416,7 +416,7 @@ function getData(){
 //act:type of operations(Add/Edit)
 //Author : Dipanjan Bhattacharjee
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function validateForm() {
@@ -451,7 +451,7 @@ else if(!(checkStudents()) && !(checkParents())){  //checkes whether any student
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (19.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function sendSMS() {
@@ -557,7 +557,7 @@ function sendSMS() {
 //Pupose:Delete rollNo from studentRollNo field upon changing class,subject or group
 //Author: Dipanjan Bhattacharjee
 //Date : 19.07.2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------------------
 function deleteRollNo(){
@@ -568,7 +568,7 @@ function deleteRollNo(){
 //Pupose:Calculates  sms chars and no of smses
 //Author: Dipanjan Bhattacharjee
 //Date : 5.08.2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------------------
 function smsCalculation(value,limit,target){
@@ -593,7 +593,7 @@ document.getElementById(target).value=nos;
 //Pupose:To reset form after data submission
 //Author: Dipanjan Bhattacharjee
 //Date : 5.08.2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------------------
 function resetForm(){

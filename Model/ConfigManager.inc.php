@@ -5,7 +5,7 @@
 //
 // Author :Ajinder Singh
 // Created on : 05-Sep-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;
@@ -20,7 +20,7 @@ class ConfigManager {
 //
 // Author :Ajinder Singh 
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------     
 
@@ -34,7 +34,7 @@ class ConfigManager {
 //
 // Author :Ajinder Singh 
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 	public static function getInstance() {
@@ -50,7 +50,7 @@ class ConfigManager {
 //
 // Author :Ajinder Singh 
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 
@@ -65,7 +65,7 @@ class ConfigManager {
 //
 // Author :Ajinder Singh 
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       	
 	
@@ -80,7 +80,7 @@ class ConfigManager {
 //
 // Author :Ajinder Singh 
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
  	
@@ -97,7 +97,7 @@ class ConfigManager {
 //
 // Author :Ajinder Singh 
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
  	
@@ -115,7 +115,7 @@ class ConfigManager {
 //
 // Author :Ajinder Singh 
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------     
 
@@ -132,7 +132,7 @@ class ConfigManager {
 //
 // Author :Ajinder Singh 
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------          
     public function getConfig($conditions='') {
@@ -148,7 +148,7 @@ class ConfigManager {
 //
 // Author :Ajinder Singh 
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------          
    	
@@ -163,7 +163,7 @@ class ConfigManager {
 //
 // Author :Ajinder Singh 
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 		

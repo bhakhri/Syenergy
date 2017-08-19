@@ -3,7 +3,7 @@
 // Purpose: To store the records of class in array from the database functionality
 // Author : Nishu Bindal
 // Created on : (05.Mar.2012 )
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
     ini_set('MEMORY_LIMIT','5000M'); 
     set_time_limit(0); 

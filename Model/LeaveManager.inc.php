@@ -5,7 +5,7 @@
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (10.7.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -19,7 +19,7 @@ class LeaveManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (10.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
 	private function __construct() {
@@ -30,7 +30,7 @@ class LeaveManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (10.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 	public static function getInstance() {
@@ -46,7 +46,7 @@ class LeaveManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (10.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
 public function addLeave() {
@@ -66,7 +66,7 @@ public function addLeave() {
 //$id:busRouteId
 // Author :Dipanjan Bhattacharjee 
 // Created on : (10.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------   
 public function editleave($id) {
@@ -89,7 +89,7 @@ public function editleave($id) {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (10.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
  public function getLeave($conditions='') {
@@ -118,7 +118,7 @@ public function editleave($id) {
 //$leaveId :leaveId of the Building
 // Author :Dipanjan Bhattacharjee 
 // Created on : (10.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
 public function deleteLeave($leaveTypeId) {
@@ -143,7 +143,7 @@ public function deleteLeave($leaveTypeId) {
 //orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (10.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
  public function getLeaveList($conditions='', $limit = '', $orderBy=' leaveTypeName') {
@@ -171,7 +171,7 @@ public function deleteLeave($leaveTypeId) {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (10.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
 

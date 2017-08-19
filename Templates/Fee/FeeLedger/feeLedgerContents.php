@@ -2,7 +2,7 @@
 //This file creates Html Form output for Fee Ledger
 // Author :Nishu Bindal
 // Created on : 21-Mar-2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 ?>

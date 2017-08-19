@@ -5,7 +5,7 @@
 //
 // Author : Nishu Bindal
 // Created on : (19.April.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //
 //--------------------------------------------------------
@@ -20,7 +20,7 @@ class BusRouteManagerNew {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
 	private function __construct() {
@@ -31,7 +31,7 @@ class BusRouteManagerNew {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 	public static function getInstance() {
@@ -47,7 +47,7 @@ class BusRouteManagerNew {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
 	public function addBusRoute($insertValue) {
@@ -88,7 +88,7 @@ class BusRouteManagerNew {
 //$busRouteId :busRouteId of the BusStop
 // Author :Dipanjan Bhattacharjee 
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteBusRoute($busRouteId) {
@@ -106,7 +106,7 @@ class BusRouteManagerNew {
 //$id:busRouteId
 // Author :Dipanjan Bhattacharjee 
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------        
     public function editBusRoute($routeName,$routeCode, $id) {
         global $REQUEST_DATA;
@@ -129,7 +129,7 @@ class BusRouteManagerNew {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getBusRoute($conditions='') {
@@ -191,7 +191,7 @@ class BusRouteManagerNew {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalBusRoute($conditions='') {
@@ -221,7 +221,7 @@ class BusRouteManagerNew {
 //$conditions :db clauses
 // Author :NISHU BINDAL
 // Created on : (5.April.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------  
     public function checkBusRouteMapping($condition =''){
@@ -233,7 +233,7 @@ class BusRouteManagerNew {
 //$conditions :db clauses
 // Author :NISHU BINDAL
 // Created on : (5.April.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------  
    public function checkBusFee($condition = ''){

@@ -3,7 +3,7 @@
 //  THIS FILE IS USED FOR DB OPERATION FOR "feedbackadv_answer_set" table
 // Author :Gurkeerat Sidhu 
 // Created on : (14.01.2010)
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -16,7 +16,7 @@ class FeedbackQuestionManager {
 //
 // Author :Gurkeerat Sidhu 
 // Created on : (14.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
     private function __construct() {
@@ -27,7 +27,7 @@ class FeedbackQuestionManager {
 //
 // Author :Gurkeerat Sidhu 
 // Created on : (14.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
     public static function getInstance() {
@@ -44,7 +44,7 @@ class FeedbackQuestionManager {
 //
 // Author :Gurkeerat Sidhu 
 // Created on : (14.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
    /* public function addFeedBackQuestions($value) {
@@ -67,7 +67,7 @@ class FeedbackQuestionManager {
 //$id:busRouteId
 // Author :Gurkeerat Sidhu 
 // Created on : (14.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------        
     public function editFeedBackQuestions($id) {
@@ -85,7 +85,7 @@ class FeedbackQuestionManager {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (14.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------         
     public function getFeedBackQuestions($conditions='') {
@@ -102,7 +102,7 @@ class FeedbackQuestionManager {
 //$FeedBackQuestionsId :FeedBackQuestionsId of the FeedBack Question
 // Author :Gurkeerat Sidhu 
 // Created on : (14.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteFeedBackQuestions($feedbackQuestionId) {
@@ -121,7 +121,7 @@ class FeedbackQuestionManager {
 //orderBy:sort on which column
 // Author :Gurkeerat Sidhu 
 // Created on : (14.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------       
     
@@ -155,7 +155,7 @@ class FeedbackQuestionManager {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (14.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalFeedBackQuestions($conditions='') {
@@ -192,7 +192,7 @@ class FeedbackQuestionManager {
 //orderBy:sort on which column
 // Author :Gurkeerat Sidhu 
 // Created on : (14.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -222,7 +222,7 @@ class FeedbackQuestionManager {
 //orderBy:sort on which column
 // Author :Gurkeerat Sidhu 
 // Created on : (14.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------       
     
@@ -258,7 +258,7 @@ class FeedbackQuestionManager {
 //orderBy:sort on which column
 // Author :Gurkeerat Sidhu 
 // Created on : (14.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------       
     
@@ -292,7 +292,7 @@ class FeedbackQuestionManager {
 // Author :Gurkeerat Sidhu 
 //Modified By : Dipanjan Bhattacharjee
 // Created on : (21.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------       
     

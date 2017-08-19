@@ -4,7 +4,7 @@
 //
 // Author :Abhay Kant
 // Created on : 22-June-2011
-// Copyright 2010-2011: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2010-2011: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     global $FE;
@@ -94,11 +94,11 @@
 		         if($REQUEST_DATA['mail_check']==1){
                     $msg=$REQUEST_DATA['blkmessage'];
                     
-                    $parentMsgBody="This is to inform you that your ward chalkpad is blocked due to $msg \n\n\n. Regards \n Admin.";
-                    $studentMsgBody="This is to inform you that your chalkpad is blocked due to $msg \n\n\n. Regards \n Admin.";
+                    $parentMsgBody="This is to inform you that your ward syenergy is blocked due to $msg \n\n\n. Regards \n Admin.";
+                    $studentMsgBody="This is to inform you that your syenergy is blocked due to $msg \n\n\n. Regards \n Admin.";
                     
-                    $msgSubject="Chalkpad Blocked";
-                    $headers = 'From: webmaster@chalkpad.com' . "\r\n" ;    
+                    $msgSubject="syenergy Blocked";
+                    $headers = 'From: webmaster@syenergy.com' . "\r\n" ;    
                     $headers = 'From: '.$from.' '. "\r\n" ;    
                     $headers .= 'Content-type: text/html;';  
                     for($i=0;$i<count($valueArray);$i++) {

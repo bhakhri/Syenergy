@@ -3,7 +3,7 @@
 // THIS FILE SHOWS A LIST OF Apply Employee Leave
 // Author : Dipanjan Bhattacharjee
 // Created on : (19.05.2010 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 global $FE;
 require_once($FE . "/Library/common.inc.php");
@@ -78,7 +78,7 @@ var flag = false; // for whether the record has been added or not, if flag is tr
 //h:height of the div
 //Author : Dipanjan Bhattacharjee
 // Created on : (19.05.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function editWindow(id) {
@@ -100,7 +100,7 @@ function viewWindow(id)
 //act:type of operations(Add/Edit)
 //Author : Dipanjan Bhattacharjee
 // Created on : (19.05.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function validateAddForm(frm, act) {
@@ -119,7 +119,7 @@ function validateAddForm(frm, act) {
 // THIS FUNCTION IS USED TO ADD A NEW DEGREE
 // Author : Dipanjan Bhattacharjee
 // Created on : (19.05.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function addApplyLeave() {
@@ -231,7 +231,7 @@ function addApplyLeave() {
 //  id=degreeId
 //Author : Dipanjan Bhattacharjee
 // Created on : (25.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function cancelAppliedLeave(id) {
@@ -270,7 +270,7 @@ function cancelAppliedLeave(id) {
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (19.05.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------
 function blankValues() {
@@ -305,7 +305,7 @@ function blankValues() {
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (19.05.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function editApplyLeave() {
@@ -425,7 +425,7 @@ function getLeaveRecord(mode) {
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (19.05.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function populateValues(id,dv,w,h) {

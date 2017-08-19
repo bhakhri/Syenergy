@@ -4,7 +4,7 @@
 //
 // Author : Jaineesh
 // Created on : (25.01.2010 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------
 global $FE;
@@ -68,7 +68,7 @@ var flag = false; // for whether the record has been added or not, if flag is tr
 //
 //Author : Jaineesh
 // Created on : (28.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -115,7 +115,7 @@ function doSubmitAction(id,dv,w,h) {
 //
 //Author : Jaineesh
 // Created on : (28.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -166,7 +166,7 @@ function clearDetailsService(){
 //
 //Author : Jaineesh
 // Created on : (15.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -198,7 +198,7 @@ function getInsuranceDetail() {
 //
 //Author : Jaineesh
 // Created on : (27.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -235,7 +235,7 @@ function getFuelDetail() {
 //
 //Author : Jaineesh
 // Created on : (27.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -272,7 +272,7 @@ function getAccidentDetail() {
 //
 //Author : Jaineesh
 // Created on : (27.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -370,7 +370,7 @@ function getVehicleTyres() {
 //
 //Author : Nishu Bindal
 // Created on : (31.03.2011)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function getServiceDetails(id) {
@@ -471,7 +471,7 @@ function getServiceInfo(value) {
 //
 //Author : Jaineesh
 // Created on : (30.12.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 

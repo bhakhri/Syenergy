@@ -5,7 +5,7 @@
 //
 // Author : Rajeev Aggarwal
 // Created on : 24-01-2009
-// Copyright 2009-2010: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2009-2010: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;
@@ -71,7 +71,7 @@ function showTopicDetails(id,dv,w,h) {
 //
 //Author : Parveen Sharma
 // Created on : 16.01.09
-// Copyright 2009-2010 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2009-2010 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function populateTopicValues(id) {     

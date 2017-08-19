@@ -3,7 +3,7 @@
 //This file is used as printing version for Fee Collection Report
 // Author :Nishu Bindal
 // Created on : 7-May-2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
  

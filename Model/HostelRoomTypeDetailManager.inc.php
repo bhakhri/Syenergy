@@ -5,7 +5,7 @@
 //HostelRoomTypeDetailManager is used having all the Add, edit, delete function..
 // Author : Jaineesh
 // Created on : 14.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -27,7 +27,7 @@ class HostelRoomTypeDetailManager {
 //addHostelRoomTypeDetail() is used to add new record in database.
 // Author : Jaineesh
 // Created on : 27.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function addHostelRoomTypeDetail() {
@@ -40,7 +40,7 @@ class HostelRoomTypeDetailManager {
 //editHostelRoomTypeDetail() is used to edit the existing record through id.
 //Author : Jaineesh
 // Created on : 27.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function editHostelRoomTypeDetail($id) {
@@ -53,7 +53,7 @@ class HostelRoomTypeDetailManager {
 //getHostelRoomTypeDetail() is used to get the data.
 //Author : Jaineesh
 // Created on : 27.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getHostelRoomTypeDetail($conditions='') {
@@ -85,7 +85,7 @@ class HostelRoomTypeDetailManager {
 //deleteHostelRoom() is used to delete the existing record through id.
 //Author : Jaineesh
 // Created on : 27.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------   
     public function deleteHostelRoomTypeDetail($roomTypeInfoId) {
@@ -101,7 +101,7 @@ class HostelRoomTypeDetailManager {
 //getHostelRoomTypeDetailList() is used to get the list of data order by name.
 //Author : Jaineesh
 // Created on : 27.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getHostelRoomTypeDetailList($conditions='', $limit = '', $orderBy='') {
@@ -134,7 +134,7 @@ class HostelRoomTypeDetailManager {
 //getTotalHostelRoomType() is used to get total no. of records
 //Author : Jaineesh
 // Created on : 27.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------  
     public function getTotalHostelRoomTypeDetail($conditions='') {
@@ -154,7 +154,7 @@ class HostelRoomTypeDetailManager {
 //getHostelCapacity() is used to get the data.
 //Author : Jaineesh
 // Created on : 23.07.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getHostelCapacity($hostelId) {

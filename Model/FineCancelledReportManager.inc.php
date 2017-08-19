@@ -3,7 +3,7 @@
 //  THIS FILE IS USED FOR DB OPERATION FOR "fine_student" TABLE
 // Author :Rajeev Aggarwal
 // Created on : (03.07.2009)
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -17,7 +17,7 @@ class FineCancelledReportManager {
 //
 // Author :Rajeev Aggarwal
 // Created on : (03.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     private function __construct() {
@@ -28,7 +28,7 @@ class FineCancelledReportManager {
 //
 // Author :Rajeev Aggarwal
 // Created on : (03.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public static function getInstance() {
@@ -45,7 +45,7 @@ class FineCancelledReportManager {
 // THIS FUNCTION IS USED FOR ADDING A Fine Category
 // Author :Rajeev Aggarwal
 // Created on : (02.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
     
 

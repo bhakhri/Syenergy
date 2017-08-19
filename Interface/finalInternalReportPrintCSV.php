@@ -6,7 +6,7 @@
 //
 // Author :Ajinder Singh
 // Created on : 21-may-2009
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 ob_start();

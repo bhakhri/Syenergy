@@ -3,7 +3,7 @@
 // THIS FILE IS USED FOR DB OPERATION FOR "city" TABLE
 // Author :Dipanjan Bhattacharjee 
 // Created on : (01.09.2009)
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
 
@@ -15,7 +15,7 @@ class IssueManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (01.09.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
 	private function __construct() {
@@ -26,7 +26,7 @@ class IssueManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (01.09.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 	public static function getInstance() {
@@ -81,7 +81,7 @@ public function addIssueDetails($insStr){
 //orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (01.09.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -112,7 +112,7 @@ public function addIssueDetails($insStr){
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (01.09.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalIssuedIndent($conditions='') {
@@ -245,7 +245,7 @@ public function addIssueDetails($insStr){
 //$itemId :itemId of the items_master
 // Author :Jaineesh
 // Created on : (30 Aug 10)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function getApprovedItemsList($conditions,$limit='',$orderBy='') {
@@ -271,7 +271,7 @@ public function addIssueDetails($insStr){
 //
 // Author :Jaineesh 
 // Created on : (27 July 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------             
     public function getRequisition($conditions) {
@@ -312,7 +312,7 @@ public function addIssueDetails($insStr){
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (27 July 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -341,7 +341,7 @@ public function addIssueDetails($insStr){
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (27 July 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -371,7 +371,7 @@ public function addIssueDetails($insStr){
 // orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (1 December 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -402,7 +402,7 @@ public function addIssueDetails($insStr){
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (27 July 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -424,7 +424,7 @@ public function addIssueDetails($insStr){
 // $itemId :itemId of the items_master
 // Author :Jaineesh
 // Created on : (16 Aug 10)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function checkItemsAvailability($requisitionId) {

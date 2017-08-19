@@ -3,7 +3,7 @@
 //This file returns the array of of Percentage Wise attendance report
 // Author :Aditi Miglani
 // Created on : 8-Nov-2011
-// Copyright 2011-2012: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2011-2012: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     set_time_limit(0);

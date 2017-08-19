@@ -5,7 +5,7 @@
 //
 // Author : Dipanjan Bhattacharjee
 // Created on : (21.7.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 /*
@@ -64,7 +64,7 @@ $sessionId   =$argv[3];
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (19.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
  function sendSMS($mobileNo, $message) {
@@ -94,7 +94,7 @@ $sessionId   =$argv[3];
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function sendEmail($from,$to,$msgSubject,$msgBody){
@@ -146,7 +146,7 @@ function insertIntoAdminMsgsFailed($lastMsgId,$curDate,$smsNotSendStudentId){
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (19.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------------------------------------------------
  function adminMessageEmailSMSRecord($conditions='') {
@@ -164,7 +164,7 @@ function insertIntoAdminMsgsFailed($lastMsgId,$curDate,$smsNotSendStudentId){
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (21.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------------
 $smsArr=array();  //will contain smss(each of sms_max_length or less)

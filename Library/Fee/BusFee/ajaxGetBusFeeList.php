@@ -3,7 +3,7 @@
 // Purpose: To store the records of Bus Fees
 // Author : Nishu Bindal
 // Created on : (23.02.2012 )
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------------------------------------------------
 

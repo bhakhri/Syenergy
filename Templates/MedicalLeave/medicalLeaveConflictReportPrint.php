@@ -2,7 +2,7 @@
 //This file is used as printing version for TestType.
 // Author :Dipanjan Bhattacharjee
 // Created on : 20-10-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 ini_set("memory_limit","250M");      
 set_time_limit(0);

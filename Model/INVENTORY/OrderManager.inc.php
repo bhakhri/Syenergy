@@ -3,7 +3,7 @@
 // THIS FILE IS USED FOR DB OPERATION FOR "city" TABLE
 // Author :Dipanjan Bhattacharjee 
 // Created on : (01.09.2009)
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
 
@@ -15,7 +15,7 @@ class OrderManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (01.09.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
 	private function __construct() {
@@ -26,7 +26,7 @@ class OrderManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (01.09.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 	public static function getInstance() {
@@ -43,7 +43,7 @@ class OrderManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (01.09.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getItemName($conditions) {
@@ -116,7 +116,7 @@ public function addOrderDetails($insStr){
 //$cityId :cityid of the City
 // Author :Dipanjan Bhattacharjee 
 // Created on : (01.09.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteOrderDetails($orderId) {
@@ -147,7 +147,7 @@ public function addOrderDetails($insStr){
 //orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (01.09.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -175,7 +175,7 @@ public function addOrderDetails($insStr){
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (01.09.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalOrder($conditions='') {
@@ -199,7 +199,7 @@ public function addOrderDetails($insStr){
 //orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (01.09.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     

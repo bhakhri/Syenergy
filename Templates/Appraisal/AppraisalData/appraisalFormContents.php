@@ -3,7 +3,7 @@
 // Purpose: To design the layout for Employee Information.
 // Author : Dipanjan Bhattacharjee
 // Created on : (24.06.2009 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 ?>
 <?php

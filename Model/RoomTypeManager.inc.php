@@ -3,7 +3,7 @@
 //  THIS FILE IS USED FOR DB OPERATION FOR "room_type" table
 // Author :Gurkeerat Sidhu 
 // Created on : (19.05.2009)
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -16,7 +16,7 @@ class RoomTypeManager {
 //
 // Author :Gurkeerat Sidhu 
 // Created on : (19.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
     private function __construct() {
@@ -27,7 +27,7 @@ class RoomTypeManager {
 //
 // Author :Gurkeerat Sidhu 
 // Created on : (19.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
     public static function getInstance() {
@@ -44,7 +44,7 @@ class RoomTypeManager {
 //
 // Author :Gurkeerat Sidhu
 // Created on : (19.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
     public function addRoomType() {
@@ -63,7 +63,7 @@ class RoomTypeManager {
 //$id:roomTypeId
 // Author :Gurkeerat Sidhu
 // Created on : (19.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------        
     public function editRoomType($id) {
@@ -82,7 +82,7 @@ class RoomTypeManager {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (19.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getRoomType($conditions='') {
@@ -100,7 +100,7 @@ class RoomTypeManager {
 //orderBy:sort on which column
 // Author :Gurkeerat Sidhu
 // Created on : (19.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -122,7 +122,7 @@ class RoomTypeManager {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (19.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalRoomType($conditions='') {
@@ -138,7 +138,7 @@ class RoomTypeManager {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (19.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function checkRoomType($conditions='') {
@@ -156,7 +156,7 @@ class RoomTypeManager {
 //$Id :roomTypeId
 // Author :Gurkeerat Sidhu 
 // Created on : (19.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteRoomType($id) {

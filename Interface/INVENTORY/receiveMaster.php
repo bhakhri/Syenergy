@@ -538,7 +538,7 @@ function doReceive(orderId,itemsReceived,priceStr,receiveDate,mode){
 //  id=cityId
 //Author : Dipanjan Bhattacharjee
 // Created on : (25.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function deleteReceive(id) {
@@ -574,7 +574,7 @@ function deleteReceive(id) {
 //THIS FUNCTION IS USED TO POPULATE "dutyLeaveDiv" DIV
 //Author : Dipanjan Bhattacharjee
 // Created on : (19.05.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 function populateValues(orderId) {
          var url = '<?php echo INVENTORY_HTTP_LIB_PATH;?>/ReceiveMaster/ajaxGetReceiveOrderDetails.php';

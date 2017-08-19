@@ -5,7 +5,7 @@
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -18,7 +18,7 @@ class RoomAllocationManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
 	private function __construct() {
@@ -29,7 +29,7 @@ class RoomAllocationManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 	public static function getInstance() {
@@ -45,7 +45,7 @@ class RoomAllocationManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
 	public function addRoomAllocation($hostelCharges='0') {
@@ -144,7 +144,7 @@ class RoomAllocationManager {
 //$id:cityId
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------        
     public function editRoomAllocation($id) {
@@ -262,7 +262,7 @@ class RoomAllocationManager {
 //$cityId :cityid of the City
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteRoomAllocation($hostelStudentId) {
@@ -280,7 +280,7 @@ class RoomAllocationManager {
 //orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -341,7 +341,7 @@ class RoomAllocationManager {
 //orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -619,7 +619,7 @@ class RoomAllocationManager {
 //Purpose : To fetch list of POSSIBLE vacant rooms
 //Author : Dipanjan Bhattacharjee
 // Created on : 27.04.2010
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------  
 public function getPossibleVacantRoomList($conditions='', $limit = '', $orderBy=' hrt.roomType',$conditions2='') {
     
@@ -648,7 +648,7 @@ public function getPossibleVacantRoomList($conditions='', $limit = '', $orderBy=
 // Purpose : To fetch total no of POSSIBLE vacant rooms
 // Author : Dipanjan Bhattacharjee
 // Created on : 27.04.2010
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------  
     public function getPossibleTotalVacantRoom($conditions='',$conditions2='') {
     
@@ -693,7 +693,7 @@ public function getPossibleVacantRoomOccupantsList($conditions='', $limit = '', 
 // Purpose : To fetch total no of POSSIBLE vacant rooms
 // Author : Dipanjan Bhattacharjee
 // Created on : 27.04.2010
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------  
     public function getPossibleTotalVacantRoomOccupants($conditions='',$conditions2='') {
     

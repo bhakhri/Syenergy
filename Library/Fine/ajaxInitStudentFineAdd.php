@@ -3,7 +3,7 @@
 // THIS FILE IS USED TO ADD A Fine Category
 // Author : Rajeev Aggarwal
 // Created on : (03.07.2009)
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
     global $FE;
     require_once($FE . "/Library/common.inc.php");

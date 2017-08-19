@@ -2,7 +2,7 @@
 //This file sends the data, creates the image on runtime
 // Author :Aditi Miglani
 // Created on : 13-12-2011
-// Copyright 2011-2012: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2011-2012: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
 global $FE;

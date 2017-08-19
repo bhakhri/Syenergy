@@ -1,7 +1,7 @@
 <?php
 //-------------------------------------------------------
 // THIS FILE IS USED FOR DB OPERATION FOR "Online Fee Manange" TABLE
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
 require_once($FE . "/Library/common.inc.php"); //for sessionId
@@ -14,7 +14,7 @@ class OnlineFeeManager {
 //
 // Author :Nishu Bindal
 // Created on : (8.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
 	private function __construct(){
@@ -25,7 +25,7 @@ class OnlineFeeManager {
 //
 // Author :Nishu Bindal
 // Created on : (8.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 	public static function getInstance() {

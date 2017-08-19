@@ -3,7 +3,7 @@
 //  This File outputs the search student to the CSV
 // Author :Dipanjan Bhattacharjee
 // Created on : 20-10-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 global $FE;
 require_once($FE . "/Library/common.inc.php");

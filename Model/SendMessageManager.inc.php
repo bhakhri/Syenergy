@@ -3,7 +3,7 @@
 //  THIS FILE IS USED FOR DB OPERATION FOR "student and teacher_comment" TABLE
 // Author :Dipanjan Bhattacharjee
 // Created on : (8.7.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 global $FE;
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -17,7 +17,7 @@ class SendMessageManager {
 //
 // Author :Dipanjan Bhattacharjee
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	private function __construct() {
@@ -28,7 +28,7 @@ class SendMessageManager {
 //
 // Author :Dipanjan Bhattacharjee
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public static function getInstance() {
@@ -45,7 +45,7 @@ class SendMessageManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------------
 public function getStudentInfo($studentId){
@@ -61,7 +61,7 @@ public function getStudentInfo($studentId){
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------------
 public function getParentInfo($studentId){
@@ -83,7 +83,7 @@ public function getParentInfo($studentId){
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------
 
@@ -99,7 +99,7 @@ public function sendMessage($query){
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 public function getGroup($conditions=''){
@@ -123,7 +123,7 @@ public function getGroup($conditions=''){
 //orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -162,7 +162,7 @@ public function getGroup($conditions=''){
  //$conditions :db clauses
  // Author :Dipanjan Bhattacharjee
  // Created on : (8.7.2008)
- // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+ // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
  //
  //----------------------------------------------------------------------------------------
         public function getTotalStudent($conditions='') {
@@ -188,7 +188,7 @@ public function getGroup($conditions=''){
 // orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -224,7 +224,7 @@ public function getGroup($conditions=''){
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------
     public function getTotalEmployee($conditions='') {
@@ -252,7 +252,7 @@ public function getGroup($conditions=''){
 //$conditions :db clauses
 // Author :Jaineesh
 // Created on : (20.01.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------------------------------------------------
     public function getParentList($conditions='', $limit = '', $orderBy='') {
@@ -291,7 +291,7 @@ public function getGroup($conditions=''){
 //$conditions :db clauses
 // Author :Jaineesh
 // Created on : (20.01.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------------------------------------------------
     public function getTotalParentList($conditions='') {
@@ -327,7 +327,7 @@ public function getGroup($conditions=''){
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (19.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------------------------------------------------
     public function getStudentEmailMobileNoList($conditions='', $orderBy=' studentId') {
@@ -372,7 +372,7 @@ public function getGroup($conditions=''){
 // THIS FUNCTION IS USED FOR Inserting falied sms details
 //
 //$conditions :db clauses
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------------------------------------------------
 	public function insertIntoAdminMsgsFailed($lastMsgId,$receiverType,$curDate,$smsNotSendStudentId,$sub,$msg,$type){
@@ -388,7 +388,7 @@ public function getGroup($conditions=''){
 //--------------------------------------------------------------------------------------------------------------
 // This function is used to update  recever ids in admin_messages_failed and admin_messages tables it remove #0 from the rows which is used to	differen-shiate //failed messages data for send messages data.
 //$conditions :db clauses
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------------------------------------------------
 	public function updateIdInAdminMessages($table, $condition){
@@ -402,7 +402,7 @@ public function getGroup($conditions=''){
 // THIS FUNCTION IS USED TO INSERT MULTPILE ROWS IN ADMIN MESSAGES
 //
 //$conditions :db clauses
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------------------------------------------------
 
@@ -434,7 +434,7 @@ public function getGroup($conditions=''){
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (19.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------------------------------------------------
     public function getEmployeeEmailMobileNoList($conditions='', $orderBy=' employeeId') {
@@ -452,7 +452,7 @@ public function getGroup($conditions=''){
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (21.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------------------------------
     public function getParentEmailMobileNoList($conditions='', $orderBy=' studentId') {
 
@@ -474,7 +474,7 @@ public function getGroup($conditions=''){
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (19.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------------------------------------------------
     public function adminMessageEmailSMSRecord($conditions='') {
@@ -488,7 +488,7 @@ public function getGroup($conditions=''){
 //--------------------------------------------------------------------------------------------------------------
 // THIS FUNCTION IS USED FOR inserting sms/email records sent sms/email to students/+employees in Transaction
 //
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------------------------------------------------
 
@@ -508,7 +508,7 @@ public function getGroup($conditions=''){
     //
     // Author :Jaineesh
     // Created on : (01-10-2009)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------
 	public function getRoleUser($userId) {
@@ -531,7 +531,7 @@ public function getGroup($conditions=''){
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (01.10.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -588,7 +588,7 @@ public function getGroup($conditions=''){
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------
     public function getTotalRoleStudent($conditions='',$userId) {
@@ -629,7 +629,7 @@ public function getGroup($conditions=''){
 //
 // Author :Parveen Sharma
 // Created on : (05.08.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getStudentEnquiryData($condition='',$orderBy='',$limit='') {
@@ -819,7 +819,7 @@ public function getParentListForStudentPerformance($conditions='', $limit = '', 
 //$conditions :db clauses
 // Author :Jaineesh
 // Created on : (20.01.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------------------------------------------------
     public function getTotalParentListForStudentPerformance($conditions='') {
@@ -878,7 +878,7 @@ public function getParentListForStudentPerformance($conditions='', $limit = '', 
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (11.05.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------------------------------
     public function updateAdminMessageFile($messageIds,$fileName='') {
 
@@ -891,7 +891,7 @@ public function getParentListForStudentPerformance($conditions='', $limit = '', 
 //$conditions :db clauses
 // Author :Abhiraj 
 // Created on : (24.03.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------------------------------------------------         
     public function saveSmsMessageIdFailedSms($mobileNo,$smsText,$providerString) {
@@ -911,7 +911,7 @@ public function getParentListForStudentPerformance($conditions='', $limit = '', 
 // $conditions :db clauses
 // Author :Abhiraj 
 // Created on : (24.03.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------------------------------------------------         
     public function saveSmsMessageId($mobileNo,$smsText,$msgId,$providerString) {

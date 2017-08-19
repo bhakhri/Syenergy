@@ -20,7 +20,7 @@ class TimeTableManager {
 // Created on : (12.08.2008)
 // modified on :16.12.2008
 // modified by: Pushpender
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getPeriodList($conditions='', $limit = '', $orderBy=' p.periodNumber') {
@@ -38,7 +38,7 @@ class TimeTableManager {
 //
 // Author :Rajeev Aggarwal
 // Created on : (12.08.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function getRoomList($conditions='', $limit = '', $orderBy=' bl.abbreviation') {
@@ -56,7 +56,7 @@ class TimeTableManager {
 //
 // Author :Rajeev Aggarwal
 // Created on : (12.08.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function getTimeTable($conditions='') {
@@ -88,7 +88,7 @@ class TimeTableManager {
 //
 // Author : Rajeev Aggarwal
 // Created on : 07-08-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------
 
@@ -247,7 +247,7 @@ class TimeTableManager {
 //
 // Author : Rajeev Aggarwal
 // Created on : 07-08-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------
 
@@ -402,7 +402,7 @@ class TimeTableManager {
 //
 // Author :Parveen Sharma
 // Created on : (08.04.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------
     public function getTimeTablePeriodList($conditions='',$orderBy=' p.periodSlotId, LENGTH(p.periodNumber)+0,p.periodNumber',$fieldName='') {
         global $sessionHandler;
@@ -454,7 +454,7 @@ class TimeTableManager {
 //
 // Author : Rajeev Aggarwal
 // Created on : 22.07.08
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------
 
@@ -552,7 +552,7 @@ public function getClassTimeTable ($conditions='', $order='ORDER BY LENGTH(p.per
 //
 // Author : Rajeev Aggarwal
 // Created on : 22.07.08
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------
 
@@ -590,7 +590,7 @@ public function getRoomTimeTable($conditions='', $order='ORDER BY LENGTH(p.perio
 //
 // Author : Rajeev Aggarwal
 // Created on : 10-12-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------
 
@@ -759,7 +759,7 @@ public function getRoomTimeTable($conditions='', $order='ORDER BY LENGTH(p.perio
 //
 // Author : Rajeev Aggarwal
 // Created on : 22-08-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------
 
@@ -789,7 +789,7 @@ public function getRoomTimeTable($conditions='', $order='ORDER BY LENGTH(p.perio
 // Purpose: Multi purpose function for time table validations
 // Author :Pushpender Kumar Chauhan
 // Created on : (18.09.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function checkIntoTimeTable($conditions='') {
@@ -807,7 +807,7 @@ public function getRoomTimeTable($conditions='', $order='ORDER BY LENGTH(p.perio
 // Purpose: update toDate if time table is updated for a teacher
 // Author :Pushpender Kumar Chauhan
 // Created on : (19.09.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
  public function updateTimeTable($conditions='') {
@@ -821,7 +821,7 @@ public function getRoomTimeTable($conditions='', $order='ORDER BY LENGTH(p.perio
 // Purpose: add time table data
 // Author :Pushpender Kumar Chauhan
 // Created on : (19.09.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
  public function addTimeTable($values) {
@@ -835,7 +835,7 @@ public function getRoomTimeTable($conditions='', $order='ORDER BY LENGTH(p.perio
 //
 // Author :Rajeev Aggarwal
 // Created on : (14.08.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getLabelToClassList($conditions='', $limit = '', $orderBy=' className') {
@@ -868,7 +868,7 @@ public function getRoomTimeTable($conditions='', $order='ORDER BY LENGTH(p.perio
 //
 // Author :Rajeev Aggarwal
 // Created on : (18.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getLabelActive($conditions='') {
@@ -886,7 +886,7 @@ public function getRoomTimeTable($conditions='', $order='ORDER BY LENGTH(p.perio
 //
 // Author :Rajeev Aggarwal
 // Created on : (18.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getInActiveLabelToClassList($conditions='', $limit = '', $orderBy=' className') {
@@ -909,7 +909,7 @@ public function getRoomTimeTable($conditions='', $order='ORDER BY LENGTH(p.perio
 //
 // Author :Rajeev Aggarwal
 // Created on : (30.08.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getLabelToClass($labelId) {
@@ -926,7 +926,7 @@ public function getRoomTimeTable($conditions='', $order='ORDER BY LENGTH(p.perio
 //
 // Author :Rajeev Aggarwal
 // Created on : (14.08.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function insertLabelToClass($labelId) {
@@ -1027,7 +1027,7 @@ public function getRoomTimeTable($conditions='', $order='ORDER BY LENGTH(p.perio
 //
 // Author : Parveen Sharma
 // Created on : 19-01-2009
-// Copyright 2009-2010: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2009-2010: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------
 
@@ -1083,7 +1083,7 @@ public function getRoomTimeTable($conditions='', $order='ORDER BY LENGTH(p.perio
 //
 // Author : Parveen Sharma
 // Created on : 19-01-2009
-// Copyright 2009-2010: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2009-2010: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------
     public function getTeacherCountLoadTimeTable ($conditions='') {
@@ -1110,7 +1110,7 @@ public function getRoomTimeTable($conditions='', $order='ORDER BY LENGTH(p.perio
 //
 // Author : Parveen Sharma
 // Created on : 25-02-2009
-// Copyright 2009-2010: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2009-2010: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------
 
@@ -1132,7 +1132,7 @@ public function getRoomTimeTable($conditions='', $order='ORDER BY LENGTH(p.perio
 //
 // Author : Parveen Sharma
 // Created on : 16-02-2009
-// Copyright 2009-2010: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2009-2010: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------
     public function getDaysPeriodsTimeTable($filter='',$conditions='',$orderBy='tt.daysOfWeek,p.periodNumber') {
@@ -1171,7 +1171,7 @@ public function getRoomTimeTable($conditions='', $order='ORDER BY LENGTH(p.perio
 //
 // Author : Parveen Sharma
 // Created on : 19-02-2009
-// Copyright 2009-2010: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2009-2010: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------
     public function getTeacherSubstitutions($conditions='', $orderBy='', $limit='') {
@@ -1213,7 +1213,7 @@ public function getRoomTimeTable($conditions='', $order='ORDER BY LENGTH(p.perio
 //
 // Author : Parveen Sharma
 // Created on : 04-04-2009
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------
 
@@ -1244,7 +1244,7 @@ public function getRoomTimeTable($conditions='', $order='ORDER BY LENGTH(p.perio
 	//
 	// Author : Ajinder Singh
 	// Created on : 30-Sep-2009
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//------------------------------------------------------------------------------------------------
 	public function getClassSubjects($classId) {
@@ -1257,7 +1257,7 @@ public function getRoomTimeTable($conditions='', $order='ORDER BY LENGTH(p.perio
 	//
 	// Author : Ajinder Singh
 	// Created on : 30-Sep-2009
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//------------------------------------------------------------------------------------------------
 	public function getClassAllSubjects($classId) {
@@ -1294,7 +1294,7 @@ public function getRoomTimeTable($conditions='', $order='ORDER BY LENGTH(p.perio
 	//
 	// Author : Ajinder Singh
 	// Created on : 30-Sep-2009
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//------------------------------------------------------------------------------------------------
    public function getClassSubjectsWithOtherSubjects($classId) {
@@ -1312,7 +1312,7 @@ public function getRoomTimeTable($conditions='', $order='ORDER BY LENGTH(p.perio
 	//
 	// Author : Ajinder Singh
 	// Created on : 30-Sep-2009
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//------------------------------------------------------------------------------------------------
    public function getClassGroups($classId) {
@@ -1325,7 +1325,7 @@ public function getRoomTimeTable($conditions='', $order='ORDER BY LENGTH(p.perio
 	//
 	// Author : Ajinder Singh
 	// Created on : 30-Sep-2009
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//------------------------------------------------------------------------------------------------
    public function getPeriods() {
@@ -1349,7 +1349,7 @@ public function getRoomTimeTable($conditions='', $order='ORDER BY LENGTH(p.perio
 	//
 	// Author : Ajinder Singh
 	// Created on : 30-Sep-2009
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//------------------------------------------------------------------------------------------------
    public function getTimeTableCurrentData($timeTableLabelId, $timeTableId = '0',$subjectId='') {
@@ -1414,7 +1414,7 @@ public function getRoomTimeTable($conditions='', $order='ORDER BY LENGTH(p.perio
 	//
 	// Author : Ajinder Singh
 	// Created on : 30-Sep-2009
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//------------------------------------------------------------------------------------------------
    public function updateCurrentTimeTable($periodSlotId, $classId, $timeTableLabelId, $conditions = '', $conditions2 = '') {
@@ -1444,7 +1444,7 @@ public function getRoomTimeTable($conditions='', $order='ORDER BY LENGTH(p.perio
 	//
 	// Author : Ajinder Singh
 	// Created on : 30-Sep-2009
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//------------------------------------------------------------------------------------------------
    public function getClassTimeTableAdvanced($periodSlotId, $timeTableLabelId,$classId, $condition = '', $condition2 = '', $condition4 = '') {
@@ -1523,7 +1523,7 @@ public function getRoomTimeTable($conditions='', $order='ORDER BY LENGTH(p.perio
 	//
 	// Author : Ajinder Singh
 	// Created on : 30-Sep-2009
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//------------------------------------------------------------------------------------------------
    public function getAllPeriods($periodSlotId) {
@@ -1536,7 +1536,7 @@ public function getRoomTimeTable($conditions='', $order='ORDER BY LENGTH(p.perio
 	//
 	// Author : Ajinder Singh
 	// Created on : 30-Sep-2009
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//------------------------------------------------------------------------------------------------
    public function addNewTimeTableInTransaction($insertStr) {
@@ -1884,7 +1884,7 @@ public function deleteAdjustedTimeTableRecords($condition='1=0'){
 	//
 	// Author : Ajinder Singh
 	// Created on : 30-Sep-2009
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//------------------------------------------------------------------------------------------------
 	public function getFutureAdjustmentEntries($fromDate, $timeTableLabelId, $groupId) {
@@ -1970,7 +1970,7 @@ public function deleteAdjustedTimeTableRecords($condition='1=0'){
 //
 // Author : Jaineesh
 // Created on : 25-02-2009
-// Copyright 2009-2010: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2009-2010: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------
 
@@ -2001,7 +2001,7 @@ public function getSubjectClassFromTimeTable($orderBy=' sub.subjectCode',$condit
 //
 // Author : Jaineesh
 // Created on : 25-02-2009
-// Copyright 2009-2010: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2009-2010: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------
 
@@ -2027,7 +2027,7 @@ public function getGroupsClassFromTimeTable($orderBy=' sub.subjectCode',$conditi
 //
 // Author : Jaineesh
 // Created on : 25-02-2009
-// Copyright 2009-2010: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2009-2010: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------
 
@@ -2055,7 +2055,7 @@ public function getEmployeeClassFromTimeTable($orderBy=' emp.employeeName',$cond
 //
 // Author : Jaineesh
 // Created on : 25-02-2009
-// Copyright 2009-2010: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2009-2010: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------
 
@@ -2109,7 +2109,7 @@ public function getTeacherTimeTableForMoveCopy ($conditions='',$condition='',$or
 //
 // Author : Jaineesh
 // Created on : 25-02-2009
-// Copyright 2009-2010: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2009-2010: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------
 
@@ -2132,7 +2132,7 @@ public function getTeacherTimeTableForAdjustment ($conditions=''){
 //
 // Author : Jaineesh
 // Created on : 25-02-2009
-// Copyright 2009-2010: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2009-2010: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------
 
@@ -2153,7 +2153,7 @@ public function getTeacherTimeTableForAdjustment ($conditions=''){
 //
 // Author : Jaineesh
 // Created on : 30-10-2009
-// Copyright 2009-2010: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2009-2010: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------
 
@@ -2168,7 +2168,7 @@ public function getTeacherTimeTableForAdjustment ($conditions=''){
 //
 // Author : Jaineesh
 // Created on : 30-10-2009
-// Copyright 2009-2010: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2009-2010: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------
 	public function getNewTimeTableId($roomId, $employeeId, $groupId, $instituteId, $sessionId, $daysOfWeek, $periodSlotId, $periodId, $subjectId, $timeTableLabelId) {
@@ -2181,7 +2181,7 @@ public function getTeacherTimeTableForAdjustment ($conditions=''){
 //
 // Author : Jaineesh
 // Created on : 25-02-2009
-// Copyright 2009-2010: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2009-2010: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------
 	public function updateAdjustmentInTransaction($timeTableId, $newId) {
@@ -2194,7 +2194,7 @@ public function getTeacherTimeTableForAdjustment ($conditions=''){
 //
 // Author : Jaineesh
 // Created on : 25-02-2009
-// Copyright 2009-2010: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2009-2010: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------
 
@@ -2382,7 +2382,7 @@ public function getCopyMoveTeacherTimeTableForTimeTable ($conditions='',$order='
 // THIS FUNCTION IS USED TO FETCH Subjects associated with a class and time table
 // Author : Dipanjan Bhattacharjee
 // Created on : (17.03.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------
     public function getClassSubjectsList($timeTableLabelId,$classId,$orderBy='s.subjectCode',$limit='') {
         global $sessionHandler;
@@ -2437,7 +2437,7 @@ public function getCopyMoveTeacherTimeTableForTimeTable ($conditions='',$order='
 // THIS FUNCTION IS USED TO FETCH Subjects associated with a class and time table
 // Author : Jaineesh
 // Created on : (07.07.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------
     public function getTimeTableAllClasses($conditions='') {
         global $sessionHandler;
@@ -2462,7 +2462,7 @@ public function getCopyMoveTeacherTimeTableForTimeTable ($conditions='',$order='
 // THIS FUNCTION IS USED TO FETCH Subjects associated with a class and time table
 // Author : Jaineesh
 // Created on : (07.07.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------
     public function getAllTimeTable($conditions='',$orderBy=' timeTableLabelId') {
         global $sessionHandler;
@@ -2486,7 +2486,7 @@ public function getCopyMoveTeacherTimeTableForTimeTable ($conditions='',$order='
 // THIS FUNCTION IS USED TO FETCH Subjects associated with a class and time table
 // Author : Jaineesh
 // Created on : (07.07.10)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------
     public function getTimeTableClassSubjects($conditions,$orderBy='s.subjectCode') {
         global $sessionHandler;
@@ -2515,7 +2515,7 @@ public function getCopyMoveTeacherTimeTableForTimeTable ($conditions='',$order='
 // THIS FUNCTION IS USED TO FETCH Subjects associated with a class and time table
 // Author : Jaineesh
 // Created on : (07.07.10)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------
     public function getTimeTableClassTeacher($conditions,$orderBy='employeeName') {
         global $sessionHandler;
@@ -2544,7 +2544,7 @@ public function getCopyMoveTeacherTimeTableForTimeTable ($conditions='',$order='
 // THIS FUNCTION IS USED TO FETCH Subjects associated with a class and time table
 // Author : Jaineesh
 // Created on : (07.07.10)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------
     public function getTimeTableClassSubjectTeacher($conditions,$limit='',$orderBy='employeeName') {
         global $sessionHandler;
@@ -2581,7 +2581,7 @@ public function getCopyMoveTeacherTimeTableForTimeTable ($conditions='',$order='
 // THIS FUNCTION IS USED TO FETCH Label of Time Table
 // Author : Jaineesh
 // Created on : (08.07.10)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------
     public function getTimeTableLabel($timeTableLabelId) {
         global $sessionHandler;
@@ -2600,7 +2600,7 @@ public function getCopyMoveTeacherTimeTableForTimeTable ($conditions='',$order='
 // THIS FUNCTION IS USED TO FETCH Label of Time Table
 // Author : Jaineesh
 // Created on : (08.07.10)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------
     public function getClassName($classId) {
         global $sessionHandler;
@@ -2619,7 +2619,7 @@ public function getCopyMoveTeacherTimeTableForTimeTable ($conditions='',$order='
 // THIS FUNCTION IS USED TO FETCH Subject
 // Author : Jaineesh
 // Created on : (08.07.10)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------
     public function getSubjectName($subjectId) {
         global $sessionHandler;
@@ -2639,7 +2639,7 @@ public function getCopyMoveTeacherTimeTableForTimeTable ($conditions='',$order='
 // THIS FUNCTION IS USED TO FETCH Subject
 // Author : Jaineesh
 // Created on : (08.07.10)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------
     public function getEmployeeName($employeeId) {
         global $sessionHandler;
@@ -2660,7 +2660,7 @@ public function getCopyMoveTeacherTimeTableForTimeTable ($conditions='',$order='
 //
 // Author :Parveen Sharma
 // Created on : (29-May-2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------
     public function deleteAssignTimeTableClasses($condition='') {
@@ -2679,7 +2679,7 @@ public function getCopyMoveTeacherTimeTableForTimeTable ($conditions='',$order='
 //
 // Author :Parveen Sharma
 // Created on : (29-May-2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------
     public function addTimeTableClasses($fieldValue) {

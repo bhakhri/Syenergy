@@ -3,7 +3,7 @@
 //  THIS FILE IS USED FOR DB OPERATION FOR "student and teacher_comment" TABLE
 // Author :Nishu Bindal
 // Created on : (8.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
 require_once($FE . "/Library/common.inc.php"); //for sessionId
@@ -16,7 +16,7 @@ class HostelFeeManager {
 //
 // Author :Nishu Bindal
 // Created on : (8.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
 	private function __construct(){
@@ -27,7 +27,7 @@ class HostelFeeManager {
 //
 // Author :Nishu Bindal
 // Created on : (8.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 	public static function getInstance() {
@@ -44,7 +44,7 @@ class HostelFeeManager {
 //
 // Author :Nishu Bindal
 // Created on : (17.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     
@@ -67,7 +67,7 @@ class HostelFeeManager {
 //
 // Author :Nishu Bindal
 // Created on : (17.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
  	public function getHostelRoomList($conditions='',$classId,$limit,$orderBy='hostelName') {
@@ -92,7 +92,7 @@ class HostelFeeManager {
 // THIS FUNCTION IS USED TO INSERT FEE OF HOSTEL ROOMS
 // Author :Nishu Bindal
 // Created on : (17.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     	public function insertIntoFeeValues($values){
@@ -104,7 +104,7 @@ class HostelFeeManager {
 // THIS FUNCTION IS USED TO DELETE HOSTEL FEES
 // Author :Nishu Bindal
 // Created on : (17.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     	
@@ -116,7 +116,7 @@ class HostelFeeManager {
 // THIS FUNCTION IS USED TO FETCH Room Types
 // Author :Nishu Bindal
 // Created on : (17.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     	public function fetchHostelRoomTypes($hostelIdList){
@@ -137,7 +137,7 @@ class HostelFeeManager {
 // THIS FUNCTION IS USED TO Check if fee is generated for this class
 // Author :Nishu Bindal
 // Created on : (17.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     	public function checkForFeeGeneration($classId){

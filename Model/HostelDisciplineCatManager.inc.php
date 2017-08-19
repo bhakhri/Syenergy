@@ -3,7 +3,7 @@
 //  THIS FILE IS USED FOR DB OPERATION FOR "hostel_discipline_category" table
 // Author :Gurkeerat Sidhu 
 // Created on : (28.4.2009)
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -16,7 +16,7 @@ class DisciplineManager {
 //
 // Author :Gurkeerat Sidhu 
 // Created on : (28.4.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
     private function __construct() {
@@ -27,7 +27,7 @@ class DisciplineManager {
 //
 // Author :Gurkeerat Sidhu 
 // Created on : (28.4.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
     public static function getInstance() {
@@ -44,7 +44,7 @@ class DisciplineManager {
 //
 // Author :Gurkeerat Sidhu
 // Created on : (28.4.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
     public function addDisciplineCategory() {
@@ -63,7 +63,7 @@ class DisciplineManager {
 //$id:cityId
 // Author :Gurkeerat Sidhu
 // Created on : (28.4.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------        
     public function editDisciplineCategory($id) {
@@ -82,7 +82,7 @@ class DisciplineManager {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (28.4.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getDisciplineCategory($conditions='') {
@@ -100,7 +100,7 @@ class DisciplineManager {
 //orderBy:sort on which column
 // Author :Gurkeerat Sidhu
 // Created on : (28.4.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -124,7 +124,7 @@ class DisciplineManager {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (28.4.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalDisciplineCategory($conditions='') {
@@ -143,7 +143,7 @@ class DisciplineManager {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (28.4.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function checkDisciplineCategory($conditions='') {
@@ -162,7 +162,7 @@ class DisciplineManager {
 //$testtypeId :testTypeCategoryId  of testtypecategory
 // Author :Gurkeerat Sidhu 
 // Created on : (28.4.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteDisciplineCategory($id) {

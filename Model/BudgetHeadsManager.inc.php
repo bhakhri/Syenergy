@@ -3,7 +3,7 @@
 // THIS FILE IS USED FOR DB OPERATION FOR "city" TABLE
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
 
@@ -14,7 +14,7 @@ class BudgetHeadsManager {
 // THIS FUNCTION IS USED FOR CREATING AN OBJECT OF "BudgetHeadsManager" CLASS
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------      
 	private function __construct() {
 	}
@@ -23,7 +23,7 @@ class BudgetHeadsManager {
 // THIS FUNCTION IS USED FOR GETTING AN INSTANCE OF "BudgetHeadsManager" CLASS
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------       
 	public static function getInstance() {
 		if (self::$instance === null) {
@@ -37,7 +37,7 @@ class BudgetHeadsManager {
 // THIS FUNCTION IS USED FOR ADDING A CITY
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------    
 	public function addBudgetHeads() {
 		global $REQUEST_DATA;
@@ -54,7 +54,7 @@ class BudgetHeadsManager {
 // $id:cityId
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------        
     public function editBudgetHeads($id) {
         global $REQUEST_DATA;
@@ -70,7 +70,7 @@ class BudgetHeadsManager {
 // $conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------         
     public function getBudgetHeads($conditions='') {
      
@@ -87,7 +87,7 @@ class BudgetHeadsManager {
 // $cityId :cityid of the City
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------------------------------------------------------             
     public function checkInGuestHouse($budgetHeadId) {
      
@@ -105,7 +105,7 @@ class BudgetHeadsManager {
 // $cityId :cityid of the City
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------------------------------------------------------      
     public function deleteBudgetHeads($budgetHeadId) {
      
@@ -124,7 +124,7 @@ class BudgetHeadsManager {
 // orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------       
     
     public function getBudgetHeadsList($conditions='', $limit = '', $orderBy=' headName') {
@@ -144,7 +144,7 @@ class BudgetHeadsManager {
 // $conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //----------------------------------------------------------------------------------------      
     public function getTotalBudgetHeads($conditions='') {
     

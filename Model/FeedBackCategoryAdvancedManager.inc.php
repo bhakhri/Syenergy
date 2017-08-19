@@ -5,7 +5,7 @@
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008 )
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -19,7 +19,7 @@ class FeedBackCategoryAdvancedManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
 	private function __construct() {
@@ -30,7 +30,7 @@ class FeedBackCategoryAdvancedManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 	public static function getInstance() {
@@ -45,7 +45,7 @@ class FeedBackCategoryAdvancedManager {
 // THIS FUNCTION IS USED FOR ADDING An Adv. Feedback category
 // Author :Dipanjan Bhattacharjee 
 // Created on : (09.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------    
 	//public function addAdvFeedbackCategory($labelId,$catName,$parentCatId,$catReln,$subjectType,$catDesc,$printOrder,$catComments) {
     public function addAdvFeedbackCategory($catName,$parentCatId,$catReln,$subjectType,$catDesc,$printOrder,$catComments) {
@@ -88,7 +88,7 @@ class FeedBackCategoryAdvancedManager {
 // THIS FUNCTION IS USED FOR Editing An Adv. Feedback category
 // Author :Dipanjan Bhattacharjee 
 // Created on : (09.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------    
     //public function editAdvFeedbackCategory($catId,$labelId,$catName,$parentCatId,$catReln,$subjectType,$catDesc,$printOrder,$catComments) {
     public function editAdvFeedbackCategory($catId,$catName,$parentCatId,$catReln,$subjectType,$catDesc,$printOrder,$catComments) {
@@ -135,7 +135,7 @@ class FeedBackCategoryAdvancedManager {
 // $conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (09.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------         
     public function getParentCategory($conditions='') {
         /*
@@ -167,7 +167,7 @@ class FeedBackCategoryAdvancedManager {
 // $conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (09.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------         
     public function getFeedbackCategory($conditions='') {
      
@@ -186,7 +186,7 @@ class FeedBackCategoryAdvancedManager {
 // $conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (09.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------         
     public function getCategoryUsage($catId) {
         
@@ -240,7 +240,7 @@ class FeedBackCategoryAdvancedManager {
 // $conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (09.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------         
     public function getPrintOrder($conditions='') {
      
@@ -258,7 +258,7 @@ class FeedBackCategoryAdvancedManager {
 // $conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (09.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------         
     public function checkParentCategory($catId) {
      
@@ -277,7 +277,7 @@ class FeedBackCategoryAdvancedManager {
 // THIS FUNCTION IS USED FOR DELETING An Adv. category
 // Author :Dipanjan Bhattacharjee 
 // Created on : (09.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------------------------------------------------------      
     public function deleteCategory($catId) {
      
@@ -295,7 +295,7 @@ class FeedBackCategoryAdvancedManager {
 // $conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (09.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------         
     public function getCategoryUsageList($conditions='') {
         require_once(BL_PATH . "/UtilityManager.inc.php"); 
@@ -360,7 +360,7 @@ class FeedBackCategoryAdvancedManager {
 // orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (09.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------       
     public function getFeedbackCategoryList($conditions='', $limit = '', $orderBy=' fc.feedbackCategoryName') {
         global $sessionHandler;
@@ -414,7 +414,7 @@ class FeedBackCategoryAdvancedManager {
 // $conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (09.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------      
     public function getTotalFeedbackCategory($conditions='') {
         global $sessionHandler;

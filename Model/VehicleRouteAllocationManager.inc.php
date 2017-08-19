@@ -3,7 +3,7 @@
 //  THIS FILE IS USED FOR DB OPERATION FOR "Vehicle Route" 
 // Author :NISHU BINDAL
 // Created on : (28.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -16,7 +16,7 @@ class VehicleRouteAllocationManager {
 //
 // Author :NISHU BINDAL
 // Created on : (28.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------   
 	private function __construct() {
@@ -27,7 +27,7 @@ class VehicleRouteAllocationManager {
 //
 // Author :NISHU BINDAL
 // Created on : (28.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------     
 	public static function getInstance() {
@@ -133,7 +133,7 @@ if($busRouteStudentMappingId=='') {
 
 // Author :Nishu Bindal 
 // Created on : (1.Mar.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------------------------------- 
     public function insertIntoBusStopRouteMapping($busRouteStopMappingId,$busRouteId,$busStopId,$busStopCityId,$busRouteStudentMappingId='') {
@@ -243,7 +243,7 @@ if($busRouteStudentMappingId=='') {
 // THIS FUNCTION IS USED FOR CHECKING IF STUDENT IS ALREADY MAPPED
 // Author :Nishu Bindal 
 // Created on : (1.Mar.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------------------------------- 
     public function checkForAlReadyMapped($condition =''){
@@ -256,7 +256,7 @@ if($busRouteStudentMappingId=='') {
 // THIS FUNCTION IS USED FOR DELETING A bus Route Student Mapping
 // Author :Nishu Bindal
 // Created on : (5.April.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteRootAllocation($busRouteStudentMappingId) {
@@ -291,7 +291,7 @@ if($busRouteStudentMappingId=='') {
 // THIS FUNCTION IS USED TO GET STUDENT ID
 // Author :Nishu Bindal
 // Created on : (5.April.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------------------------------- 
     public function getStudentId($busRouteStudentMappingId){
     	 $query ="SELECT studentId  
@@ -304,7 +304,7 @@ if($busRouteStudentMappingId=='') {
 // THIS FUNCTION IS USED TO UPDATE STUDENT 
 // Author :Nishu Bindal
 // Created on : (5.April.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------------------------------- 
     public function updateStudentTableData($studentId){
       
@@ -325,7 +325,7 @@ if($busRouteStudentMappingId=='') {
 //orderBy:sort on which column
 // Author :Nishu Bindal
 // Created on : (28.Feb.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     public function getVehicleRouteAllocationList($conditions='', $limit = '', $orderBy=' studentName',$having='') {
@@ -409,7 +409,7 @@ brsm.employeeId
 //orderBy:sort on which column
 // Author :Nishu Bindal
 // Created on : (28.Feb.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------        
     
@@ -450,7 +450,7 @@ brsm.employeeId
 //orderBy:sort on which column
 // Author :Nishu Bindal
 // Created on : (28.Feb.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------  
     public function fetchRootNames($stopId){
@@ -489,7 +489,7 @@ brsm.employeeId
 //orderBy:sort on which column
 // Author :Nishu Bindal
 // Created on : (28.Feb.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------  
     
@@ -550,7 +550,7 @@ brsm.employeeId
 //orderBy:sort on which column
 // Author :Nishu Bindal
 // Created on : (28.Feb.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------   
     public function editBusRouteStudentMapping($studentId,$busRouteStopMappingId,$busRouteStudentMappingId,$seatNumber,$validFrom,$validTo,$comments){
@@ -585,7 +585,7 @@ brsm.employeeId
 //orderBy:sort on which column
 // Author :Nishu Bindal
 // Created on : (28.Feb.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------   
     public function getBusStopRouteMappingId($busStopId,$busRouteId){

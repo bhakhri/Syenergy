@@ -5,7 +5,7 @@
 //
 // Author :Jaineesh
 // Created on : 28.05.09
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -103,7 +103,7 @@ function selectOption() {
 //
 //Author : Jaineesh
 // Created on : 16.01.09
-// Copyright 2009-2010 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2009-2010 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function populateUserThreeLoginValues(id) {
@@ -158,7 +158,7 @@ function showThreeBarChartResults() {
 //
 //Author : Jaineesh
 // Created on : 16.01.09
-// Copyright 2009-2010 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2009-2010 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function populateUserRoleValues(id) {

@@ -3,7 +3,7 @@
 //  THIS FILE IS USED FOR DB OPERATION FOR "resource_category" table
 // Author :Gurkeerat Sidhu 
 // Created on : (20.5.2009)
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -16,7 +16,7 @@ class ResourceCategoryManager {
 //
 // Author :Gurkeerat Sidhu 
 // Created on : (20.5.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
     private function __construct() {
@@ -27,7 +27,7 @@ class ResourceCategoryManager {
 //
 // Author :Gurkeerat Sidhu 
 // Created on : (20.5.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
     public static function getInstance() {
@@ -44,7 +44,7 @@ class ResourceCategoryManager {
 //
 // Author :Gurkeerat Sidhu
 // Created on : (20.5.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
     public function addResourceCategory() {
@@ -66,7 +66,7 @@ class ResourceCategoryManager {
 //$id:resourceTypeId
 // Author :Gurkeerat Sidhu
 // Created on : (20.5.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------        
     public function editResourceCategory($id) {
@@ -92,7 +92,7 @@ class ResourceCategoryManager {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (20.5.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getResourceCategory($conditions='') {
@@ -115,7 +115,7 @@ class ResourceCategoryManager {
 //orderBy:sort on which column
 // Author :Gurkeerat Sidhu
 // Created on : (20.5.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -143,7 +143,7 @@ class ResourceCategoryManager {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (20.5.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalResourceCategory($conditions='') {
@@ -168,7 +168,7 @@ class ResourceCategoryManager {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (20.5.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function checkResourceCategory($conditions='') {
@@ -189,7 +189,7 @@ class ResourceCategoryManager {
 //$d :resourceTypeId  
 // Author :Gurkeerat Sidhu 
 // Created on : (28.4.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteResourceCategory($id) {
@@ -208,7 +208,7 @@ class ResourceCategoryManager {
 //$conditions :db clauses
 // Author :Jaineesh
 // Created on : (23.10.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getResourceCategoryExistance($conditions='') {

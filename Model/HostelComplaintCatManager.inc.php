@@ -3,7 +3,7 @@
 //  THIS FILE IS USED FOR DB OPERATION FOR "hostel_complaint_category" table
 // Author :Gurkeerat Sidhu 
 // Created on : (23.4.2009)
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -16,7 +16,7 @@ class ComplaintManager {
 //
 // Author :Gurkeerat Sidhu 
 // Created on : (23.4.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
     private function __construct() {
@@ -27,7 +27,7 @@ class ComplaintManager {
 //
 // Author :Gurkeerat Sidhu 
 // Created on : (23.4.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
     public static function getInstance() {
@@ -44,7 +44,7 @@ class ComplaintManager {
 //
 // Author :Gurkeerat Sidhu
 // Created on : (23.4.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
     public function addComplaintCategory() {
@@ -63,7 +63,7 @@ class ComplaintManager {
 //$id:cityId
 // Author :Gurkeerat Sidhu
 // Created on : (23.4.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------        
     public function editComplaintCategory($id) {
@@ -82,7 +82,7 @@ class ComplaintManager {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (23.4.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getComplaintCategory($conditions='') {
@@ -100,7 +100,7 @@ class ComplaintManager {
 //orderBy:sort on which column
 // Author :Gurkeerat Sidhu
 // Created on : (23.4.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -124,7 +124,7 @@ class ComplaintManager {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (23.4.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalComplaintCategory($conditions='') {
@@ -143,7 +143,7 @@ class ComplaintManager {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (23.4.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function checkComplaintCategory($conditions='') {
@@ -162,7 +162,7 @@ class ComplaintManager {
 //$testtypeId :testTypeCategoryId  of testtypecategory
 // Author :Gurkeerat Sidhu 
 // Created on : (23.4.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteComplaintCategory($id) {
@@ -179,7 +179,7 @@ class ComplaintManager {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (23.4.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function checkExistanceComplaintCategory($conditions='') {

@@ -3,7 +3,7 @@
 //  This File contains consolidated report for the student.
 // Author :Rajeev Aggarwal
 // Created on : 22-04-2009
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;

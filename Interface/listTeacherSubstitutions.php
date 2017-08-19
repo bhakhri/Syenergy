@@ -4,7 +4,7 @@
 //  This File contains the template file and data base file
 // Author :Parveen Sharma
 // Created on : 16-02-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 

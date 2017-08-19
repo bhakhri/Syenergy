@@ -3,7 +3,7 @@
 //  THIS FILE IS USED FOR DB OPERATION FOR "Document" table
 // Author :Jaineesh 
 // Created on : (28.02.2009 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -16,7 +16,7 @@ class SeminarsManager {
 //
 // Author :Jaineesh
 // Created on : (28.02.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
     private function __construct() {
@@ -27,7 +27,7 @@ class SeminarsManager {
 //
 // Author :Jaineesh 
 // Created on : (28.02.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
     public static function getInstance() {
@@ -43,7 +43,7 @@ class SeminarsManager {
 //
 // Author :Jaineesh 
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
     public function addSeminars($employeeId) {
@@ -62,7 +62,7 @@ class SeminarsManager {
 // $id:documentId
 // Author :Jaineesh 
 // Created on : (28.02.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------        
     public function editSeminars($id) {
@@ -86,7 +86,7 @@ class SeminarsManager {
 //$publishId :publishId   of document
 // Author :Jaineesh 
 // Created on : (05.03.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteSeminars($Id) {
@@ -104,7 +104,7 @@ class SeminarsManager {
 //$conditions :db clauses
 // Author :Jaineesh 
 // Created on : (05.3.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getSeminars($conditions='') {
@@ -127,7 +127,7 @@ class SeminarsManager {
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (19.02.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -150,7 +150,7 @@ class SeminarsManager {
 //$conditions :db clauses
 // Author :Jaineesh 
 // Created on : (28.02.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalSeminars($filter='') {
@@ -171,7 +171,7 @@ class SeminarsManager {
 //$conditions :db clauses
 // Author :Jaineesh 
 // Created on : (28.02.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getEmployee($code='') {
@@ -192,7 +192,7 @@ class SeminarsManager {
 //$conditions :db clauses
 // Author :Jaineesh 
 // Created on : (04.03.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getEmployeeDetail($conditions='') {

@@ -3,7 +3,7 @@
 // Purpose: This file returns the array of SMS Details based on Message Type
 // Author : Kavish Manjkhola
 // Created on : (28.03.2011 )
-// Copyright 2010-2011: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2010-2011: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
 	global $FE;

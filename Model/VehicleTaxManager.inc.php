@@ -5,7 +5,7 @@
 //EmployeeManager is used having all the Add, edit, delete function..
 // Author : Jaineesh
 // Created on : 24.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
   include_once(DA_PATH ."/SystemDatabaseManager.inc.php");
@@ -28,7 +28,7 @@
 //addVehicleTyre() is used to add new record in database.
 // Author : Jaineesh
 // Created on : 25.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function addVehicleTax() {
@@ -53,7 +53,7 @@
 //addTyreHistory() is used to add new record in database.
 // Author : Jaineesh
 // Created on : 25.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function addTyreHistory($tyreId) {
@@ -75,7 +75,7 @@
 //editVehicleType() is used to edit the existing record through id.
 //Author : Jaineesh
 // Created on : 25.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function editVehicleTyre($tyreId,$busId) {
@@ -105,7 +105,7 @@
 //editVehicleType() is used to edit the existing record through id.
 //Author : Jaineesh
 // Created on : 25.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function editBus($id) {
@@ -137,7 +137,7 @@
 //deleteTyreHistory() is used to delete the existing record through id.
 //Author : Jaineesh
 // Created on : 01.12.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------  
     public function deleteTyreHistory($tyreId) {
@@ -153,7 +153,7 @@
 //deleteVehicleTyre() is used to delete the existing record through id.
 //Author : Jaineesh
 // Created on : 25.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------  
     public function deleteVehicleTyre($tyreId) {
@@ -170,7 +170,7 @@
 //getVehicleTyre() is used to get the list of data 
 //Author : Jaineesh
 // Created on : 25.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getVehicleTyre($conditions='') {
@@ -202,7 +202,7 @@
 //getVehicleTyreList() is used to get the list of data order by name.
 //Author : Jaineesh
 // Created on : 25.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getVehicleTaxList($conditions='', $limit = '', $orderBy='busId') {
@@ -228,7 +228,7 @@
 //getTotalVehicleTyre() is used to get total no. of records
 //Author : Jaineesh
 // Created on : 25.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     
@@ -254,7 +254,7 @@
 //getVehicleTyreList() is used to get the list of data order by name.
 //Author : Jaineesh
 // Created on : 25.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getVehicleTax($busId='') {

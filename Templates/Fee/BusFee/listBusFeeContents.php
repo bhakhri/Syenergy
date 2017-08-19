@@ -3,7 +3,7 @@
 // THIS FILE IS USED AS TEMPLATE FOR class wise grade template
 // Author :NISHU BINDAL
 // Created on : (20.2.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------
 ?>

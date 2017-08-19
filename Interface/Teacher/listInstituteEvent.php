@@ -4,7 +4,7 @@
 //
 // Author : Dipanjan Bhattacharjee
 // Created on : (22.07.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;
@@ -66,7 +66,7 @@ var flag = false; // for whether the record has been added or not, if flag is tr
 //h:height of the div
 //Author : Dipanjan Bhattacharjee
 // Created on : (16.08.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function showEventDetails(id) {
@@ -79,7 +79,7 @@ function showEventDetails(id) {
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (16.08.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function populateEventValues(id) {
@@ -129,7 +129,7 @@ function populateEventValues(id) {
 //Date:2.09.2008
 //$str=input string,$maxlenght:no of characters to show,$rep:what to display in place of truncated string
 //$mode=1 : no split after 30 chars,mode=2:split after 30 characters
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------------------------------------------------  
 function trim_output($str,$maxlength='250',$rep='...'){

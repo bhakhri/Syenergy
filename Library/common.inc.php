@@ -3,7 +3,7 @@
 // Purpose: This will be included at the top of almost every file (the files in Interface folder and in ajax files). This file contains Global declaration of variables which are being used throught the application such as DB variables (to establish connection with database ), Http Paths, Physical Path, Image Path, Model path, Log file path, Standard Messages, paging controls, GET or POST in REQUEST_DATA array variable etc. In other words, this file controls the functionality of the application.
 // Author : Pushpender Kumar Chauhan
 // Created on : (09.06.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 set_time_limit(0);
 require_once('dbConfig.inc.php');
@@ -16,7 +16,7 @@ require_once('dbConfig.inc.php');
 // define('REG_NO','Registration No.');    //The Database column "regNo" in Student Table will be displayed in all the forms as second parameter(Registration no.)
 
 define("LIB_PATH", $_SERVER['DOCUMENT_ROOT']);
-define("SITE_NAME", "Chalkpad");
+define("SITE_NAME", "syenergy");
 define("HTTP_PATH", 'http://'.$_SERVER['HTTP_HOST']);
 define("BL_PATH", LIB_PATH ."/Library");
 define("HTTP_LIB_PATH", HTTP_PATH ."/Library");
@@ -247,7 +247,7 @@ define(HELP_PERMISSION,0); //Used to make help facility On[1]/Off[other than 1]
 
 
 
-//student chalkpad block status
+//student syenergy block status
 $blockStudentArr=array("1"=>"Blocked","0"=>"Active");
 
 // employee tab publisher Details
@@ -437,7 +437,7 @@ if(MULTI_INSTITUTE == 0) {
   $sessionInstituteId = '';
 }
 
-$isDBName="chalkpad_cietpb";
+$isDBName="syenergy_cietpb";
 if(DB_NAME==$isDBName) {
    $ttSessionId = $sessionHandler->getSessionVariable('SessionId');
    if($ttSessionId>=7) {
@@ -603,7 +603,7 @@ if($instituteCountArray[0]['instituteCount']>CLIENT_INSTITUTES){
     $homePage=HTTP_PATH.'/Interface/index.php';
     require_once(BL_PATH . "/UtilityManager.inc.php");
     //send mail to admin
-    $msgBody="Client ".CLIENT_NAME." has created ".$instituteCountArray[0]['instituteCount']." no. of  institutes, whereas the product 'chalkpad' was bought for ".CLIENT_INSTITUTES." no. of institutes only";
+    $msgBody="Client ".CLIENT_NAME." has created ".$instituteCountArray[0]['instituteCount']." no. of  institutes, whereas the product 'syenergy' was bought for ".CLIENT_INSTITUTES." no. of institutes only";
     $msgSubject="LIVE DATABASE(".DB_HOST.'---'.DB_NAME.") for ".CLIENT_NAME." TAMPERED";
     $headers = 'From: '.ADMIN_MSG_EMAIL.' '. "\r\n" ;
     $headers .= 'Content-type: text/html;';

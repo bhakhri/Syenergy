@@ -3,7 +3,7 @@
 //  THIS FILE IS USED FOR DB OPERATION FOR "supplier" table
 // Author :Gurkeerat Sidhu 
 // Created on : (06.05.2009)
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -16,7 +16,7 @@ class SupplierManager {
 //
 // Author :Gurkeerat Sidhu 
 // Created on : (06.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
     private function __construct() {
@@ -27,7 +27,7 @@ class SupplierManager {
 //
 // Author :Gurkeerat Sidhu 
 // Created on : (06.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
     public static function getInstance() {
@@ -44,7 +44,7 @@ class SupplierManager {
 //
 // Author :Gurkeerat Sidhu
 // Created on : (06.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
     public function addSupplier() {
@@ -66,7 +66,7 @@ class SupplierManager {
 //$id:supplierId
 // Author :Gurkeerat Sidhu
 // Created on : (06.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------        
     public function editSupplier($id) {
@@ -88,7 +88,7 @@ class SupplierManager {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (06.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getSupplier($conditions='') {
@@ -111,7 +111,7 @@ class SupplierManager {
 //orderBy:sort on which column
 // Author :Gurkeerat Sidhu
 // Created on : (06.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -144,7 +144,7 @@ class SupplierManager {
 //orderBy:sort on which column
 // Author :Gurkeerat Sidhu
 // Created on : (06.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -172,7 +172,7 @@ class SupplierManager {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (06.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getSupplierCategory($conditions='') {
@@ -191,7 +191,7 @@ class SupplierManager {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (06.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function checkSupplier($conditions='') {
@@ -210,7 +210,7 @@ class SupplierManager {
 //$supplierId :supplierId of the supplier
 // Author :Gurkeerat Sidhu 
 // Created on : (18.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------             
     public function checkInItemSupplier($supplierId) {
@@ -228,7 +228,7 @@ class SupplierManager {
 //$supplierId :supplierId  of supplier
 // Author :Gurkeerat Sidhu 
 // Created on : (06.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteSupplier($id) {

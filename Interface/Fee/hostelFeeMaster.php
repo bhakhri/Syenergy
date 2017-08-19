@@ -216,7 +216,7 @@ sortOrderBy = 'ASC';
 	//
 	//Author : Nishu Bindal
 	// Created on : (6.Feb.2012)
-	// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 	//
 	//--------------------------------------------------------
 
@@ -256,7 +256,7 @@ sortOrderBy = 'ASC';
 	//
 	//Author : Nishu Bindal
 	// Created on : (6.Feb.2012)
-	// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 	//
 	//--------------------------------------------------------
 
@@ -298,7 +298,7 @@ sortOrderBy = 'ASC';
 	//
 	//Author : Nishu Bindal
 	// Created on : (6.Feb.2012)
-	// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 	//
 	//--------------------------------------------------------
 
@@ -383,7 +383,7 @@ sortOrderBy = 'ASC';
 	//THIS FUNCTION IS USED TO GET Room Type
 	//Author : Nishu Bindal
 	// Created on : (6.Feb.2012)
-	// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 	//
 	//--------------------------------------------------------
 

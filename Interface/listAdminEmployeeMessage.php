@@ -4,7 +4,7 @@
 //
 // Author : Dipanjan Bhattacharjee
 // Created on : (21.07.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------
 global $FE;
@@ -110,7 +110,7 @@ var flag = false; // for whether the record has been added or not, if flag is tr
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (24.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------
 function chkObject(id){
@@ -130,7 +130,7 @@ function chkObject(id){
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------
 function  selectEmps(){
@@ -157,7 +157,7 @@ function  selectEmps(){
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------------
 function checkEmps(){
@@ -190,7 +190,7 @@ function checkEmps(){
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (21.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function hide_div(id,mode){
@@ -456,7 +456,7 @@ function validateEmployeeList(frm) {
 //act:type of operations(Add/Edit)
 //Author : Dipanjan Bhattacharjee
 // Created on : (21.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -571,7 +571,7 @@ function fileUploadError(str){
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (21.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function sendMessage() {
@@ -673,7 +673,7 @@ function sendMessage() {
 //purspose:to show date options when msgmedium is dashboard
 //Author: Dipanjan Bhattacharjee
 //Date: 21.07.2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.  
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.  
 //
 //---------------------------------------------------------------------------------
 function dateDivShow(){
@@ -709,7 +709,7 @@ function dateDivShow(){
 //purspose:to show subject options when msgmedium is email
 //Author: Dipanjan Bhattacharjee
 //Date: 21.07.2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.  
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.  
 //
 //---------------------------------------------------------------------------------
 function subjectDivShow(){
@@ -739,7 +739,7 @@ function subjectDivShow(){
 //Pupose:Delete rollNo from Emp name field upon changing emp category
 //Author: Dipanjan Bhattacharjee
 //Date : 19.07.2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------------------
 function deleteName(){
@@ -751,7 +751,7 @@ function deleteName(){
 //Pupose:Calculates  sms chars and no of smses
 //Author: Dipanjan Bhattacharjee
 //Date : 5.08.2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 
 //----------------------------------------------------------------------------------------------------------------
@@ -782,7 +782,7 @@ document.getElementById(target).value=nos;
 //Pupose:To reset form after data submission
 //Author: Dipanjan Bhattacharjee
 //Date : 5.08.2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------------------
 function resetForm(){
@@ -898,7 +898,7 @@ function getUpdateSms(smsTextMode) {
 //purspose:to show sms div  when msgmedium is sms
 //Author: Dipanjan Bhattacharjee
 //Date: 5.08.2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.  
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.  
 //
 //---------------------------------------------------------------------------------
 function smsDivShow() {

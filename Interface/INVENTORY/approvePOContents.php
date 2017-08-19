@@ -4,7 +4,7 @@
 //
 // Author : Jaineesh
 // Created on : (26 July 10)
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;
@@ -115,7 +115,7 @@ function validateAddForm(frm, act) {
 //THIS FUNCTION IS USED TO CANCELL A GENERATED PO
 //
 // Created on : (9.DEC.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -172,7 +172,7 @@ function validateAddForm(frm, act) {
 //THIS FUNCTION IS USED TO EDIT A GENERATED PO
 //
 // Created on : (9.DEC.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 	function editGeneratedPO(id,dv,w,h) {
@@ -183,7 +183,7 @@ function validateAddForm(frm, act) {
 //THIS FUNCTION IS USED TO POPULATE A GENERATED PO
 //
 // Created on : (10.DEC.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 	function populateValues(id,dv,w,h) {
@@ -211,7 +211,7 @@ function validateAddForm(frm, act) {
 //THIS FUNCTION IS USED TO MAKE A FLOAT
 //
 // Created on : (9.DEC.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function makeFloat(val){
@@ -225,7 +225,7 @@ function makeFloat(val){
 //THIS FUNCTION IS USED TO CALCULATE NET PAYBLE AMOUNT & GRAND TOTAL
 //
 // Created on : (9.DEC.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 	function updateTotal(){
@@ -293,7 +293,7 @@ function makeFloat(val){
 //THIS FUNCTION IS USED TO EDIT GET PARTY NAME
 //
 // Created on : (9.DEC.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 	

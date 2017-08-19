@@ -4,7 +4,7 @@
 //
 // Author : Harpreet
 // Created on : 04-12-2012
-// Copyright : Chalkpad Technologies Pvt. Ltd.
+// Copyright : syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     global $FE;

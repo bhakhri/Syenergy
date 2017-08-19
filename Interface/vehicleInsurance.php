@@ -4,7 +4,7 @@
 // Purpose: This file shows a list of vehicle Insurance that are to be paid
 // Author :Kavish Manjkhola
 // Created on : 22-Oct-2008
-// Copyright 2010-2011: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2010-2011: syenergy Technologies Pvt. Ltd.
 //-----------------------------------------------------
 
 global $FE;

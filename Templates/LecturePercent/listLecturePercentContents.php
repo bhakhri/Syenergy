@@ -3,7 +3,7 @@
 // Purpose: to create time table coursewise.
 // Author : PArveen Sharma
 // Created on : 27.01.09
-// Copyright 2009-2010: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2009-2010: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 ?>
 <form action="" method="POST" name="lecturePercentFrm" id="lecturePercentFrm" onSubmit="return false;">

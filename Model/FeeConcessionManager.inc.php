@@ -3,7 +3,7 @@
 //  This File contains Bussiness Logic of the Fee Concession Master
 // Author :Parveen Sharma
 // Created on : 12-June-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');

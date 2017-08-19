@@ -3,7 +3,7 @@
 //  THIS FILE SHOWS A LIST OF CITIES ALONG WITH ADD,EDIT,DELETE,SEARCH AND PAGING OPTIONS
 // Author : Dipanjan Bhattacharjee
 // Created on : (12.6.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 global $FE;
 require_once($FE . "/Library/common.inc.php");
@@ -79,7 +79,7 @@ function doAll(){
 //THIS FUNCTION IS USED TO fetch previous classes
 //Author : Dipanjan Bhattacharjee
 // Created on : (23.12.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 function getNewMentor(currentMentorId) {
         form = document.listFrm;
@@ -118,7 +118,7 @@ function getNewMentor(currentMentorId) {
 //THIS FUNCTION IS USED TO fetch previous classes
 //Author : Dipanjan Bhattacharjee
 // Created on : (23.12.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 function getCurrentMentor(labelId) {
         
@@ -161,7 +161,7 @@ function getCurrentMentor(labelId) {
 //THIS FUNCTION IS USED TO copy groups
 //Author : Dipanjan Bhattacharjee
 // Created on : (23.12.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
  function newMentorAlloted() {
      

@@ -2,7 +2,7 @@
 //-------------------------------------------------------
 // Purpose: To Generate the List Of Approved Generated Purchase Orders(PO).
 // Created on : (26 Nov 2010 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
     global $FE;

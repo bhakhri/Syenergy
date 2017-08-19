@@ -4,7 +4,7 @@
 //
 // Author : Parveen Sharma
 // Created on : (18.3.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------
 ?>
@@ -61,7 +61,7 @@ var flag = false; // for whether the record has been added or not, if flag is tr
 //h:height of the div
 //Author : Parveen Sharma
 // Created on : (18.3.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function editWindow(id,dv,w,h) {
@@ -84,7 +84,7 @@ function showThoughtsDetails(id,dv,w,h) {
 //act:type of operations(Add/Edit)
 //Author : Parveen Sharma
 // Created on : (18.3.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function validateAddForm(frm, act) {
@@ -117,7 +117,7 @@ function validateAddForm(frm, act) {
 //
 //Author : Parveen Sharma
 // Created on : (18.3.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function addThoughts() {
@@ -161,7 +161,7 @@ function addThoughts() {
 //
 //Author : Parveen Sharma
 // Created on : 16.01.09
-// Copyright 2009-2010 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2009-2010 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function populateThoughtsValues(id) {
@@ -192,7 +192,7 @@ function populateThoughtsValues(id) {
 //  id=busRouteId
 //Author : Parveen Sharma
 // Created on : (18.3.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function deleteThoughts(id) {
@@ -231,7 +231,7 @@ function deleteThoughts(id) {
 //
 //Author : Parveen Sharma
 // Created on : (18.3.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function blankValues() {
@@ -246,7 +246,7 @@ function blankValues() {
 //
 //Author : Parveen Sharma
 // Created on : (18.3.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function editThoughts() {
@@ -286,7 +286,7 @@ function editThoughts() {
 //
 //Author : Parveen Sharma
 // Created on : (18.3.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function populateValues(id) {

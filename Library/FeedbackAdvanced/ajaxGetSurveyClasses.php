@@ -3,7 +3,7 @@
 //  This File is used for fetching time table label for a survey and classes
 // Author :Parveen Sharma
 // Created on : 04-12-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     global $FE;

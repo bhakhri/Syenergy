@@ -4,7 +4,7 @@
 // functionality
 // Author : NISHU BINDAL
 // Created on : (2.07.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     global $FE;

@@ -5,7 +5,7 @@
 //
 // Author : Rajeev Aggarwal
 // Created on : 09-12-2008
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     set_time_limit(0);   

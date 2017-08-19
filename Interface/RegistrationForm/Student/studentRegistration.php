@@ -3,7 +3,7 @@
 //  This File contains Validation and ajax function used in Student Registration Form
 // Author :Ankur Aggarwal
 // Created on : 25-July-2011
-// Copyright 2010-2011: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2010-2011: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;

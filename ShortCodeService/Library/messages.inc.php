@@ -3,7 +3,7 @@
 // Purpose: to centralize all messages of the application and can be altered on need basis
 // Author : Pushpender Kumar Chauhan
 // Created on : (06.08.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
 // Dashboard Welcome message
@@ -99,7 +99,7 @@ define('QUOTA_ALREADY_EXIST','The Quota Abbr. you entered already exists.');
 // Purpose: to centralize all messages of the application and can be altered on need basis
 // Author : Arvind Singh Rawat
 // Created on : (19.08.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
 // COUNTRY Module
@@ -269,7 +269,7 @@ define('OLD_PASSWORD_CHECK',                'Please check your Current Password'
 // Purpose: to centralize all messages of the application and can be altered on need basis
 // Author : Jaineesh
 // Created on : 20.08.08
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------------------------------
 
 // Designation Module
@@ -644,7 +644,7 @@ define('SELECT_OPTION','Select Option');
 // Purpose: to centralize all messages of the application and can be altered on need basis
 // Author : Dipanjan Bhattacharjee
 // Created on : (21.08.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------------------------------
 
 // UNIVERSITY Module
@@ -1452,14 +1452,14 @@ define('SELECT_TEACHER','Select a teacher');
 // Purpose: to centralize all messages of the application and can be altered on need basis
 // Author : Dipanjan Bhattacharjee
 // Created on : (21.08.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------------------------------
 
 //-----------------------------------------------------------------------------------
 // Purpose: to centralize all messages of the application and can be altered on need basis
 // Author : Rajeev Aggarwal
 // Created on : (25.08.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //------------------------------------------------------------------------------------------
 
 // LECTURE TYPE Module
@@ -1614,7 +1614,7 @@ define("FS_CORRECT_DATE","To date cannot be greater than from date");
 // Purpose: to centralize all messages of the application and can be altered on need basis
 // Author : Ajinder
 // Created on : 26.08.08
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------------------------
 
 // Bank Module
@@ -2885,7 +2885,7 @@ define('STUDENT_CONCESSION_GIVEN',SUCCESS);
 //User: Jaineesh     Date: 8/18/09    Time: 7:37p
 //Updated in $/LeapCC/Library
 //Remove administrator role from role type so that no new administrator
-//can be made and Chalkpad will be administrator and Applied time
+//can be made and syenergy will be administrator and Applied time
 //validation so that start time can not be greater than end time.
 //
 //*****************  Version 191  *****************

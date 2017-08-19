@@ -5,7 +5,7 @@
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008 )
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -19,7 +19,7 @@ class FeedBackTeacherMappingManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
 	private function __construct() {
@@ -30,7 +30,7 @@ class FeedBackTeacherMappingManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 	public static function getInstance() {
@@ -45,7 +45,7 @@ class FeedBackTeacherMappingManager {
 // THIS FUNCTION IS USED FOR ADDING An Adv. Feedback category
 // Author :Dipanjan Bhattacharjee 
 // Created on : (09.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------    
     public function doTeacherMapping($insertString) {
         
@@ -128,7 +128,7 @@ class FeedBackTeacherMappingManager {
 // $conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (09.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------------         
     public function getTimeTableClass($conditions='') {
         global $sessionHandler;
@@ -222,7 +222,7 @@ class FeedBackTeacherMappingManager {
 // orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (09.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------       
     public function getMappedTeachersList($conditions='', $limit = '', $orderBy=' className') {
         global $sessionHandler;
@@ -268,7 +268,7 @@ class FeedBackTeacherMappingManager {
 // $conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (09.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------      
     public function getTotalMappedTeachers($conditions='') {
         global $sessionHandler;

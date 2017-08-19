@@ -3,7 +3,7 @@
 //  THIS FILE IS USED FOR DB OPERATION FOR "REQUISTION MAPPING" table
 // Author :Jaineesh
 // Created on : (08.05.2009)
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -16,7 +16,7 @@ class RequisitionManager {
 //
 // Author :Jaineesh
 // Created on : (27 July 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     private function __construct() {
@@ -27,7 +27,7 @@ class RequisitionManager {
 //
 // Author :Jaineesh
 // Created on : (27 July 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public static function getInstance() {
@@ -47,7 +47,7 @@ class RequisitionManager {
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (27 July 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -77,7 +77,7 @@ class RequisitionManager {
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (27 July 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -104,7 +104,7 @@ class RequisitionManager {
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (27 July 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -137,7 +137,7 @@ class RequisitionManager {
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (27 July 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -171,7 +171,7 @@ class RequisitionManager {
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (27 July 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -195,7 +195,7 @@ class RequisitionManager {
 //
 // Author :Jaineesh
 // Created on : (27 July 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------
     public function getUserData($conditions) {
@@ -212,7 +212,7 @@ class RequisitionManager {
 //
 // Author :Jaineesh
 // Created on : (27 July 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------
     public function getRequisition($conditions) {
@@ -249,7 +249,7 @@ class RequisitionManager {
 //
 // Author :Jaineesh
 // Created on : (27 July 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------
     public function getRequisitionData($conditions) {
@@ -265,7 +265,7 @@ class RequisitionManager {
 //
 // Author :Jaineesh
 // Created on : (27 July 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------
     public function getRequisitionEditData($conditions) {
@@ -284,7 +284,7 @@ class RequisitionManager {
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (27 July 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -312,7 +312,7 @@ class RequisitionManager {
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (02 August 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -338,7 +338,7 @@ class RequisitionManager {
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (27 July 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -367,7 +367,7 @@ class RequisitionManager {
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (28 July 10)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -391,7 +391,7 @@ class RequisitionManager {
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (28 July 10)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -433,7 +433,7 @@ class RequisitionManager {
 //
 // Author :Jaineesh
 // Created on : (27 July 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------------------------------
     public function getInventoryRequisition($conditions) {
@@ -452,7 +452,7 @@ class RequisitionManager {
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (04 Aug 10)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -486,7 +486,7 @@ class RequisitionManager {
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (04 Aug 10)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -520,7 +520,7 @@ class RequisitionManager {
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (04 Aug 10)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -550,7 +550,7 @@ class RequisitionManager {
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (04 Aug 10)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -579,7 +579,7 @@ class RequisitionManager {
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (27 July 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -602,7 +602,7 @@ class RequisitionManager {
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (27 July 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -629,7 +629,7 @@ class RequisitionManager {
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (5 Aug 2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 

@@ -3,7 +3,7 @@
 //  This File outputs the Student List report to the Printer
 // Author :Dipanjan Bhattacharjee
 // Created on : 21-04-2009
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 global $FE;
 require_once($FE . "/Library/common.inc.php");

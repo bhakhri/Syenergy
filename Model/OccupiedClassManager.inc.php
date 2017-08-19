@@ -5,7 +5,7 @@
 //
 // Author :Jaineesh 
 // Created on : (02.03.2010 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 ?>
@@ -21,7 +21,7 @@ class OccupiedClassManager {
 //
 // Author :Jaineesh 
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
     private function __construct() {
@@ -32,7 +32,7 @@ class OccupiedClassManager {
 //
 // Author :Jaieesh 
 // Created on : (02.03.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
     public static function getInstance() {
@@ -49,7 +49,7 @@ class OccupiedClassManager {
 //$conditions :db clauses
 // Author :Jaineesh 
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getPeriods($periodSlotId) {
@@ -68,7 +68,7 @@ class OccupiedClassManager {
 //$conditions :db clauses
 // Author :Jaineesh 
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getTimeTableFreeGroups($getWeekDay,$getPeriod,$timeTableGroupId) {
@@ -90,7 +90,7 @@ class OccupiedClassManager {
 //$conditions :db clauses
 // Author :Jaineesh 
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getTimeTableDailyFreeGroups($getDate,$getPeriod,$timeTableGroupId) {
@@ -112,7 +112,7 @@ class OccupiedClassManager {
 //$conditions :db clauses
 // Author :Jaineesh 
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getTimeTableFreeRooms($getWeekDay,$getPeriod,$timeTableRoomId) {
@@ -137,7 +137,7 @@ class OccupiedClassManager {
 //$conditions :db clauses
 // Author :Jaineesh 
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getTimeTableDailyFreeRooms($getDate,$getPeriod,$timeTableRoomId) {
@@ -164,7 +164,7 @@ class OccupiedClassManager {
 //$conditions :db clauses
 // Author :Jaineesh 
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getPeriodName($getPeriod) {
@@ -183,7 +183,7 @@ class OccupiedClassManager {
 //$conditions :db clauses
 // Author :Jaineesh
 // Created on : (01.04.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTimeTableGroups($timeTableLabelId) {
@@ -211,7 +211,7 @@ class OccupiedClassManager {
 //$conditions :db clauses
 // Author :Jaineesh
 // Created on : (01.04.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTimeTableRooms($timeTableLabelId) {
@@ -241,7 +241,7 @@ class OccupiedClassManager {
 //orderBy:sort on which column
 // Author :Jaineesh 
 // Created on : (02.03.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -278,7 +278,7 @@ class OccupiedClassManager {
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (05.03.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -314,7 +314,7 @@ class OccupiedClassManager {
 //orderBy:sort on which column
 // Author :Jaineesh
 // Created on : (03.03.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -344,7 +344,7 @@ class OccupiedClassManager {
 //$conditions :db clauses
 // Author :Jaineesh 
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getTimeTableType($timeTableLabelId) {

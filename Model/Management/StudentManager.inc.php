@@ -5,7 +5,7 @@
 //
 // Author :Rajeev Aggarwal 
 // Created on : (12.07.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------
 ?>
@@ -21,7 +21,7 @@ class StudentManager {
 //
 // Author :Rajeev Aggarwal 
 // Created on : (13.08.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
 	private function __construct() {
@@ -32,7 +32,7 @@ class StudentManager {
 //
 // Author :Rajeev Aggarwal 
 // Created on : (12.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 	public static function getInstance() {
@@ -48,7 +48,7 @@ class StudentManager {
 // $conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (01.09.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------------------------------  
 public function getAllFeesDue($conditions='',$limit = '', $orderBy=' previousDues DESC',$classId){
@@ -85,7 +85,7 @@ public function getAllFeesDue($conditions='',$limit = '', $orderBy=' previousDue
 // $conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (13.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------------  
 public function getNoticeList($conditions='', $limit = '', $orderBy=' n.noticeText'){
@@ -122,7 +122,7 @@ AND			n.departmentId = d.departmentId
 // $conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (13.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------------  
 public function getNoticeMonthWiseList($conditions='', $limit = '', $orderBy=' n.noticeText'){
@@ -152,7 +152,7 @@ public function getNoticeMonthWiseList($conditions='', $limit = '', $orderBy=' n
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (13.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------------------------------  
 public function getEventList($conditions='', $limit = '', $orderBy=' endDate DESC'){
@@ -182,7 +182,7 @@ public function getEventList($conditions='', $limit = '', $orderBy=' endDate DES
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (29.9.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------------   
 public function getEventDetail($eventId){
@@ -200,7 +200,7 @@ public function getEventDetail($eventId){
 
 // Author :Ajinder Singh
 // Created on : 29-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------
 	public function getAllClassMissedAttendanceReport($tillDate, $sortField, $sortOrderBy,$limit) {
@@ -233,7 +233,7 @@ public function getEventDetail($eventId){
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (13.08.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------------------------------  
 public function getTotalNotice($conditions='', $limit = '', $orderBy=' n.noticeText'){
@@ -263,7 +263,7 @@ public function getTotalNotice($conditions='', $limit = '', $orderBy=' n.noticeT
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (13.08.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------------------------------  
 public function getAllCountNotice($conditions='', $limit = '', $orderBy=' n.noticeText'){
@@ -293,7 +293,7 @@ public function getAllCountNotice($conditions='', $limit = '', $orderBy=' n.noti
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (13.04.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------------------  
 public function getTotalEvent($conditions='', $limit = '', $orderBy=' e.eventTitle'){
@@ -317,7 +317,7 @@ public function getTotalEvent($conditions='', $limit = '', $orderBy=' e.eventTit
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (13.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------------------  
 public function getTotalStudent($conditions=''){
@@ -340,7 +340,7 @@ public function getTotalStudent($conditions=''){
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (14.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------------------  
 public function getTotalEmployee($conditions=''){
@@ -367,7 +367,7 @@ public function getTotalEmployee($conditions=''){
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (14.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------------------  
 public function getTotalDegree($conditions=''){
@@ -385,7 +385,7 @@ public function getTotalDegree($conditions=''){
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (14.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------------------  
 public function getTotalBranch($conditions=''){
@@ -403,7 +403,7 @@ public function getTotalBranch($conditions=''){
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (14.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------------------  
 public function getTotalFees($conditions=''){
@@ -431,7 +431,7 @@ public function getTotalFees($conditions=''){
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (04.09.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------------------  
 public function getEvent($conditions='', $limit = '', $orderBy=' e.eventTitle'){
@@ -455,7 +455,7 @@ public function getEvent($conditions='', $limit = '', $orderBy=' e.eventTitle'){
 // $conditions :db clauses
 // Author :Rajeev Aggarwal
 // Created on : (15.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------------   
 public function getNoticeDetail($noticeId){
@@ -477,7 +477,7 @@ public function getNoticeDetail($noticeId){
 //orderBy:sort on which column
 // Author :Rajeev Aggarwal
 // Created on : (15.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -499,7 +499,7 @@ public function getNoticeDetail($noticeId){
 //orderBy:sort on which column
 // Author :Rajeev Aggarwal
 // Created on : (15.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------- 
 public function getBranchList($conditions='', $limit = '', $orderBy=' branchName') {
@@ -517,7 +517,7 @@ public function getBranchList($conditions='', $limit = '', $orderBy=' branchName
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (18.08.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------------         
     public function getAdminMessageList($conditions='', $limit = '', $orderBy=' us.userName') {
@@ -546,7 +546,7 @@ public function getBranchList($conditions='', $limit = '', $orderBy=' branchName
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (22.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------         
     public function getTotalAdminMessage($conditions='') {
@@ -572,7 +572,7 @@ public function getBranchList($conditions='', $limit = '', $orderBy=' branchName
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (15.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------         
     public function getCollectedFeesList($conditions='', $limit = '', $orderBy=' receiptNo ASC') {
@@ -619,7 +619,7 @@ public function getBranchList($conditions='', $limit = '', $orderBy=' branchName
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (15.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------         
     public function getStudentCityList($conditions='') {
@@ -645,7 +645,7 @@ public function getBranchList($conditions='', $limit = '', $orderBy=' branchName
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (15.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------         
     public function getStudentCityWiseList($conditions='',$orderBy='') {
@@ -671,7 +671,7 @@ public function getBranchList($conditions='', $limit = '', $orderBy=' branchName
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (15.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------         
     public function getStudentBranchList($conditions='') {
@@ -697,7 +697,7 @@ public function getBranchList($conditions='', $limit = '', $orderBy=' branchName
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (15.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------         
     public function getStudentBranchWiseList($conditions='',$orderBy='') {
@@ -725,7 +725,7 @@ public function getBranchList($conditions='', $limit = '', $orderBy=' branchName
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (15.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------         
     public function getStudentReportList($conditions='',$orderBy='') {
@@ -755,7 +755,7 @@ public function getBranchList($conditions='', $limit = '', $orderBy=' branchName
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (15.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------         
     public function getStudentDegreeList($conditions='') {
@@ -781,7 +781,7 @@ public function getBranchList($conditions='', $limit = '', $orderBy=' branchName
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (15.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------         
     public function getStudentDegreeWiseList($conditions='',$orderBy='') {
@@ -809,7 +809,7 @@ public function getBranchList($conditions='', $limit = '', $orderBy=' branchName
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (15.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------         
     public function getStudentHostelList($conditions='') {
@@ -832,7 +832,7 @@ public function getBranchList($conditions='', $limit = '', $orderBy=' branchName
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (15.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------         
     public function getStudentHostelWiseList($conditions='',$orderBy='') {
@@ -866,7 +866,7 @@ public function getBranchList($conditions='', $limit = '', $orderBy=' branchName
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (15.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------         
     public function getStudentHostelDetailList($conditions='') {
@@ -892,7 +892,7 @@ public function getBranchList($conditions='', $limit = '', $orderBy=' branchName
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (15.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------         
     public function getStudentHostelDetailWiseList($conditions='',$orderBy='') {
@@ -917,7 +917,7 @@ public function getBranchList($conditions='', $limit = '', $orderBy=' branchName
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (15.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------         
     public function getStudentGenderList($conditions='') {
@@ -942,7 +942,7 @@ public function getBranchList($conditions='', $limit = '', $orderBy=' branchName
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (15.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------         
     public function getStudentGenderWiseList($conditions='',$orderBy='') {
@@ -966,7 +966,7 @@ public function getBranchList($conditions='', $limit = '', $orderBy=' branchName
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (17.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------         
     public function getStudentStateList($conditions='') {
@@ -993,7 +993,7 @@ public function getBranchList($conditions='', $limit = '', $orderBy=' branchName
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (17.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------         
     public function getStudentStateWiseList($conditions='',$orderBy) {
@@ -1019,7 +1019,7 @@ public function getBranchList($conditions='', $limit = '', $orderBy=' branchName
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (17.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------         
     public function getStudentBusStopList($conditions='') {
@@ -1046,7 +1046,7 @@ public function getBranchList($conditions='', $limit = '', $orderBy=' branchName
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (17.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------         
     public function getStudentBusStopWiseList($conditions='',$orderBy) {
@@ -1072,7 +1072,7 @@ public function getBranchList($conditions='', $limit = '', $orderBy=' branchName
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (17.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------         
     public function getStudentBusRouteList($conditions='') {
@@ -1098,7 +1098,7 @@ public function getBranchList($conditions='', $limit = '', $orderBy=' branchName
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (17.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------         
     public function getStudentBusRouteWiseList($conditions='',$orderBy='') {
@@ -1125,7 +1125,7 @@ public function getBranchList($conditions='', $limit = '', $orderBy=' branchName
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (17.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------         
     public function getStudentSectionList($conditions='') {
@@ -1152,7 +1152,7 @@ public function getBranchList($conditions='', $limit = '', $orderBy=' branchName
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (17.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------         
     public function getStudentSectionWiseList($conditions='',$orderBy='') {
@@ -1180,7 +1180,7 @@ public function getBranchList($conditions='', $limit = '', $orderBy=' branchName
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (18.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------         
     public function getStudentQuotaList($conditions='') {
@@ -1207,7 +1207,7 @@ public function getBranchList($conditions='', $limit = '', $orderBy=' branchName
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (18.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------         
     public function getStudentNationalityList($conditions='') {
@@ -1235,7 +1235,7 @@ public function getBranchList($conditions='', $limit = '', $orderBy=' branchName
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (18.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------         
     public function getStudentNationalityWiseList($conditions='',$orderBy='') {
@@ -1261,7 +1261,7 @@ public function getBranchList($conditions='', $limit = '', $orderBy=' branchName
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (18.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------         
     public function getStudentBatchList($conditions='') {
@@ -1287,7 +1287,7 @@ public function getBranchList($conditions='', $limit = '', $orderBy=' branchName
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (18.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------         
     public function getStudentBatchWiseList($conditions='',$orderBy='') {
@@ -1313,7 +1313,7 @@ public function getBranchList($conditions='', $limit = '', $orderBy=' branchName
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (18.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------         
     public function getStudentStudyPeriodList($conditions='') {
@@ -1339,7 +1339,7 @@ public function getBranchList($conditions='', $limit = '', $orderBy=' branchName
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (18.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------         
     public function getStudentStudyPeriodWiseList($conditions='',$orderBy='') {
@@ -1365,7 +1365,7 @@ public function getBranchList($conditions='', $limit = '', $orderBy=' branchName
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (18.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------         
     public function getStudentInstituteList($conditions='') {
@@ -1390,7 +1390,7 @@ public function getBranchList($conditions='', $limit = '', $orderBy=' branchName
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (18.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------         
     public function getStudentInstituteWiseList($conditions='',$orderBy) {
@@ -1416,7 +1416,7 @@ public function getBranchList($conditions='', $limit = '', $orderBy=' branchName
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (23.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------         
     public function getEmployeeRoleWiseList($conditions='',$orderBy='') {
@@ -1445,7 +1445,7 @@ public function getBranchList($conditions='', $limit = '', $orderBy=' branchName
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (18.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------         
     public function getEmployeeTeachingList($conditions='') {
@@ -1470,7 +1470,7 @@ public function getBranchList($conditions='', $limit = '', $orderBy=' branchName
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (18.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------         
     public function getEmployeeTeachList($conditions='',$orderBy='') {
@@ -1493,7 +1493,7 @@ public function getBranchList($conditions='', $limit = '', $orderBy=' branchName
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (18.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------         
     public function getEmployeeMaritalList($conditions='') {
@@ -1516,7 +1516,7 @@ public function getBranchList($conditions='', $limit = '', $orderBy=' branchName
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (18.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------         
     public function getEmployeeCityList($conditions='') {
@@ -1543,7 +1543,7 @@ public function getBranchList($conditions='', $limit = '', $orderBy=' branchName
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (18.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------         
     public function getEmployeeStateList($conditions='') {
@@ -1570,7 +1570,7 @@ public function getBranchList($conditions='', $limit = '', $orderBy=' branchName
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (15.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------         
     public function getEmployeeGenderList($conditions='') {
@@ -1594,7 +1594,7 @@ public function getBranchList($conditions='', $limit = '', $orderBy=' branchName
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (15.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------         
     public function getEmployeeDesignationList($conditions='') {
@@ -1619,7 +1619,7 @@ public function getBranchList($conditions='', $limit = '', $orderBy=' branchName
 //$conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (18.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------         
     public function getEmployeeBranchList($conditions='') {
@@ -1644,7 +1644,7 @@ public function getBranchList($conditions='', $limit = '', $orderBy=' branchName
 // $conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (13.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------------  
 public function getMonthWiseEventList($conditions=''){
@@ -1668,7 +1668,7 @@ public function getMonthWiseEventList($conditions=''){
 // $conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (13.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------------  
 public function getMonthEventList($conditions='', $orderBy=' receiptNo ASC'){
@@ -1695,7 +1695,7 @@ public function getMonthEventList($conditions='', $orderBy=' receiptNo ASC'){
 // $conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (13.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------------  
 public function getMonthWiseNoticeList($conditions='', $limit = '', $orderBy=' n.noticeText'){
@@ -1721,7 +1721,7 @@ public function getMonthWiseNoticeList($conditions='', $limit = '', $orderBy=' n
 // $conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (21.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------------  
 public function getMonthNoticeList($conditions='', $orderBy=' n.noticeText'){
@@ -1752,7 +1752,7 @@ public function getMonthNoticeList($conditions='', $orderBy=' n.noticeText'){
 // $conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (21.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------------  
 public function getClassWiseSubjectList($conditions=''){
@@ -1783,7 +1783,7 @@ public function getClassWiseSubjectList($conditions=''){
 // $conditions :db clauses
 // Author :Rajeev Aggarwal 
 // Created on : (21.10.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------------  
 public function getClassSubjectList($conditions='', $orderBy=' cls.classId'){

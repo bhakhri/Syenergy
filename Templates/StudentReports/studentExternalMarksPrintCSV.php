@@ -3,7 +3,7 @@
 //
 // Author :Parveen Sharma
 // Created on : 29-Apr-2009
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -21,7 +21,7 @@ $studentManager = StudentReportsManager::getInstance();
     //Purpose:To escape any newline or comma present in data
     //Author: Dipanjan Bhattacharee
     //Date: 31.10.2008
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------   
     function parseCSVComments($comments) {

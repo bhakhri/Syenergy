@@ -3,7 +3,7 @@
 // This File contains the teacher load time table 
 // Author :Parveen Sharma
 // Created on : 19-01-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;

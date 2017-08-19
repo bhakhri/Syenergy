@@ -3,7 +3,7 @@
 //
 // Author :Abhay Kant
 // Created on : 15-9-2011
-// Copyright 2010-2011: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2010-2011: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 	set_time_limit(0);

@@ -5,7 +5,7 @@
 //
 // Author : Rajeev Aggarwal
 // Created on : (06.09.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;
@@ -86,7 +86,7 @@ window.onload=function(){
 // h : height of the div
 // Author : Rajeev Aggarwal
 // Created on : (25.11.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function editWindow(id,dv) {

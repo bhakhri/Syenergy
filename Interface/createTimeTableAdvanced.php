@@ -3,7 +3,7 @@
 // Purpose: To generate time table functionality
 // Author : Ajinder Singh
 // Created on : (30.09.2009 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 global $FE;
 require_once($FE . "/Library/common.inc.php");

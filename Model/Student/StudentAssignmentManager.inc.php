@@ -5,7 +5,7 @@
 //
 // Author :Rajeev Aggarwal 
 // Created on : (28.01.2009)
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -36,7 +36,7 @@ class StudentAssignmentManager {
     //
     // Author :Parveen Sharma
     // Created on : (18.03.2009)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //-------------------------------------------------------------------------------      
     public function getUserId($filter='',$conditions='') {
@@ -56,7 +56,7 @@ class StudentAssignmentManager {
     // THIS FUNCTION IS USED TO FETCH TOTAL OF STUDENT TEACHER MESSAGE DATA
     // Author :Rajeev Aggarwal
     // Created on : (28.01.2009)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //-------------------------------------------------------------------------------      
     public function getTotalStudentTeacherAssignment($conditions='') {
     
@@ -83,7 +83,7 @@ class StudentAssignmentManager {
     // THIS FUNCTION IS USED TO FETCH LIST OF STUDENT TEACHER MESSAGE DATA
     // Author :Rajeev Aggarwal
     // Created on : (28.01.2009)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //-------------------------------------------------------------------------------      
     public function getStudentTeacherAssignmentList($conditions='', $limit = '', $orderBy=' assignedOn') {
 
@@ -114,7 +114,7 @@ class StudentAssignmentManager {
     // $conditions :db clauses
     // Author :Rajeev Aggarwal 
     // Created on : (25.11.2008)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //--------------------------------------------------------         
     public function getStudentAssignment($conditions='') {
 
@@ -143,7 +143,7 @@ class StudentAssignmentManager {
     // $conditions :db clauses
     // Author :Rajeev Aggarwal 
     // Created on : (25.11.2008)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //--------------------------------------------------------         
     public function editStudentAssignment($fileDetailId) {
     
@@ -164,7 +164,7 @@ class StudentAssignmentManager {
     //$fileName: name of the file
     // Author :Dipanjan Bhattacharjee 
     // Created on : (04.11.2008)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //----------------------------------------------------------------------------------------------------       
         public function updateTeacherAssignmentFile($id, $fileName) {

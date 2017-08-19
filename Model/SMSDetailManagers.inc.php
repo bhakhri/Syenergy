@@ -3,7 +3,7 @@
 //  This File contains all functions for SMSDetails for Student/Employee
 // Author :Parveen Sharma
 // Created on : 26-11-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -27,7 +27,7 @@ class SMSDetailManagers
 //
 // Author :Vritee Dhall
 // Created on : (05.08.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
        
@@ -53,7 +53,7 @@ class SMSDetailManagers
 //
 // Author :Vritee Dhall
 // Created on : (05.08.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -99,7 +99,7 @@ class SMSDetailManagers
 //
 // Author :Vritee Dhall
 // Created on : (05.08.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -129,7 +129,7 @@ class SMSDetailManagers
     // Purpose: get all message
     // Author :Parveen Sharma
     // Created on : (26.11.2008)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //-------------------------------------------------------------------------------           
      public function getTotalSMSDetailList($condition='') {
@@ -149,7 +149,7 @@ class SMSDetailManagers
     // Purpose: get all total message by sender
     // Author :Parveen Sharma
     // Created on : (26.11.2008)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //-------------------------------------------------------------------------------           
      public function getSMSDetailList($condition='',$orderBy,$limit) {
@@ -178,7 +178,7 @@ class SMSDetailManagers
     // Purpose: get all message sum by Sender
     // Author :Parveen Sharma
     // Created on : (27.11.2008)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //-------------------------------------------------------------------------------           
      public function getTotalSMSFullDetailList($condition='') {
@@ -202,7 +202,7 @@ class SMSDetailManagers
     // Purpose: get all total message by sender
     // Author :Parveen Sharma
     // Created on : (27.11.2008)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //-------------------------------------------------------------------------------           
     
@@ -221,7 +221,7 @@ class SMSDetailManagers
 	     //--------------------------------------------------------------------------------
     // Purpose: get all send messsages receverIds
     // Created on : (30.1.2011)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //-------------------------------------------------------------------------------  
 	 public function sendMessagesIds($messageId){
@@ -233,7 +233,7 @@ class SMSDetailManagers
 	  //--------------------------------------------------------------------------------
     // Purpose: get all undelivered messagesIds
     // Created on : (30.1.2011)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //-------------------------------------------------------------------------------  
 	 public function getUndeliveredMessagesIds($messageId){
@@ -245,7 +245,7 @@ class SMSDetailManagers
 	 	  //--------------------------------------------------------------------------------
     // Purpose: get all delivered  messages details
     // Created on : (30.1.2011)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //-------------------------------------------------------------------------------  
 	 public function getdeliveredMessages($messageId,$dlvrMessagesIdsList,$orderBy,$limit){
@@ -334,7 +334,7 @@ class SMSDetailManagers
 	 	  //--------------------------------------------------------------------------------
     // Purpose: get all undelivered messages details
     // Created on : (30.1.2011)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //-------------------------------------------------------------------------------  
 	 public function getUndeliveredMessages($messageId,$orderBy,$limit){
@@ -416,7 +416,7 @@ class SMSDetailManagers
 	 	  //--------------------------------------------------------------------------------
     // Purpose: get   message details
     // Created on : (30.1.2011)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //------------------------------------------------------------------------------- 
 	 public function getMessageDetails($messageId){
@@ -437,7 +437,7 @@ class SMSDetailManagers
 // Purpose: Change SMS delivery status
 // Author :Abhiraj
 // Created on : (24.03.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------            
     
      public function updateDeliveryStatus() {
@@ -450,7 +450,7 @@ class SMSDetailManagers
             {
                 $msgId=$result[$i]['msgId'];
                $ch = curl_init();
-               curl_setopt($ch, CURLOPT_URL, "http://chalkpad.noesisinfoway.com/rep.php"); //set the url
+               curl_setopt($ch, CURLOPT_URL, "http://syenergy.noesisinfoway.com/rep.php"); //set the url
                curl_setopt($ch, CURLOPT_RETURNTRANSFER,1); //return as a variable
                curl_setopt($ch, CURLOPT_POST, 1); //set POST method
                $postVars = SMS_GATEWAY_USER_VARIABLE.'='.SMS_GATEWAY_USERNAME.'&'.SMS_GATEWAY_PASS_VARIABLE.'='.SMS_GATEWAY_PASSWORD.'&msgid='.$msgId;
@@ -494,7 +494,7 @@ class SMSDetailManagers
     // Purpose: get all message sms_messages table for delivery reports
     // Author :Abhiraj
     // Created on : (24.03.2011)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //-------------------------------------------------------------------------------           
      public function getTotalSMSStatusDetailList($condition='') {   
@@ -509,7 +509,7 @@ class SMSDetailManagers
 // Purpose: Show SMS delivery report
 // Author :Abhiraj
 // Created on : (24.03.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------            
     
      public function getSMSStatusDetailList($filter,$orderBy,$limit) {

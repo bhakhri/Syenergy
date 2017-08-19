@@ -4,7 +4,7 @@
 //
 // Author : Dipanjan Bhattacharjee
 // Created on : (22.07.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------
 ?>
@@ -67,7 +67,7 @@ var flag = false; // for whether the record has been added or not, if flag is tr
 //h:height of the div
 //Author : Dipanjan Bhattacharjee
 // Created on : (12.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function editWindow(id,dv,w,h) {
@@ -82,7 +82,7 @@ function editWindow(id,dv,w,h) {
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (21.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function hide_div(id,mode){
@@ -102,7 +102,7 @@ function hide_div(id,mode){
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (21.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------
 var sclass="";var ssubject="";var sgroup="";
@@ -126,7 +126,7 @@ function getData(){
 //Purpose:to make marks=0 and readonly when present is not checked
 //Author:Dipanjan Bhattacharjee
 //Date:23.07.2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------
 function disableMarks(id){
@@ -143,7 +143,7 @@ function disableMarks(id){
 //Purpose:to validate form inputs
 //Author:Dipanjan Bhattacharjee
 //Date:23.07.2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------
 function validateForm(){
@@ -240,7 +240,7 @@ function validateForm(){
 //Purpose:For entering marks
 //Author:Dipanjan Bhattachaarjee
 //Date : 23.07.2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------
 function enterMarks() {
@@ -361,7 +361,7 @@ function enterMarks() {
 //Purpose:to populate test_type dropdown upon selection of subject dropdown
 //Author:Dipanjan Bhattacharjee
 //Date:23.07.2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------
 function populateTestType(id) {
@@ -408,7 +408,7 @@ if(id==""){
 //Purpose:to populate test dropdown upon selection of test_type dropdown
 //Author:Dipanjan Bhattacharjee
 //Date:23.07.2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------
 function populateTest(id,mode) {
@@ -458,7 +458,7 @@ if(id==""){
 //Purpose:to populate test detail information upon selection of test dropdown
 //Author:Dipanjan Bhattacharjee
 //Date:23.07.2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------
 function populateTestDetails(id) {
@@ -507,7 +507,7 @@ if(id=="NT"){ //for new Test
 //Purpose:To check for numeric entry in maxMarks textbox
 //Author:Dipanjan Bhattacharekee
 //Date:23.07.2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------------------------
 function checkNumber(value,id){

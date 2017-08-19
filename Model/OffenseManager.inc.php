@@ -3,7 +3,7 @@
 //  THIS FILE IS USED FOR DB OPERATION FOR "OFFENSE" TABLE
 // Author :Jaineesh 
 // Created on : (22.12.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------
 
@@ -18,7 +18,7 @@ class OffenseManager {
 //
 // Author : Jaineesh 
 // Created on : (22.12.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
 	private function __construct() {
@@ -29,7 +29,7 @@ class OffenseManager {
 //
 // Author :Jaineesh 
 // Created on : (22.12.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 	public static function getInstance() {
@@ -45,7 +45,7 @@ class OffenseManager {
 //
 // Author : Jaineesh
 // Created on : (22.12.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
 	public function addOffense() {
@@ -63,7 +63,7 @@ class OffenseManager {
 //$id:offenseId
 // Author : Jaineesh 
 // Created on : (22.12.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------        
     public function editOffense($id) {
@@ -80,7 +80,7 @@ class OffenseManager {
 //$conditions :db clauses
 // Author : Jaineesh
 // Created on : (22.12.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getOffense($conditions='') {
@@ -103,7 +103,7 @@ class OffenseManager {
 //$conditions :db clauses
 // Author : Jaineesh
 // Created on : (22.12.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getOffenseExisting($conditions='') {
@@ -129,7 +129,7 @@ $query = "	SELECT	distinct(o.offenseId),
 //$periodSlotId :periodSlotId of the PEROD SLOT
 // Author :Jaineesh
 // Created on : (15.12.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteOffense($offenseId) {
@@ -148,7 +148,7 @@ $query = "	SELECT	distinct(o.offenseId),
 //orderBy:sort on which column
 // Author :Jaineesh 
 // Created on : (22.12.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -227,7 +227,7 @@ $query = "	SELECT
 //$conditions :db clauses
 // Author :Jaineesh
 // Created on : (22.12.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalOffenseDetail($conditions='') {
@@ -244,7 +244,7 @@ $query = "	SELECT
 //$conditions :db clauses
 // Author :Jaineesh
 // Created on : (15.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalOffenseReportDetail($noOfOffenseValue,$instances,$condition='',$filter,$orderBy) {
@@ -304,7 +304,7 @@ $query = "	SELECT
 //$conditions :db clauses
 // Author :Jaineesh
 // Created on : (15.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getOffenseReportDetail($noOfOffenseValue,$instances,$condition='',$filter,$limit,$orderBy) {
@@ -366,7 +366,7 @@ $query = "	SELECT
 //$conditions :db clauses
 // Author :Jaineesh
 // Created on : (15.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getOffenseListPrint($conditions,$orderBy) {

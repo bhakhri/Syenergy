@@ -5,7 +5,7 @@
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (8.7.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 ?>
@@ -21,7 +21,7 @@ class ScAssignSurveyManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
 	private function __construct() {
@@ -32,7 +32,7 @@ class ScAssignSurveyManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 	public static function getInstance() {
@@ -49,7 +49,7 @@ class ScAssignSurveyManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------------
 public function getStudentInfo($studentId){
@@ -65,7 +65,7 @@ public function getStudentInfo($studentId){
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------------
 public function getParentInfo($studentId){
@@ -84,7 +84,7 @@ public function getParentInfo($studentId){
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-----------------------------------------------------------------
 
@@ -100,7 +100,7 @@ public function sendMessage($query){
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------      
 public function getGroup($conditions=''){
@@ -124,7 +124,7 @@ public function getGroup($conditions=''){
 //orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -172,7 +172,7 @@ public function getGroup($conditions=''){
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalStudent($conditions='') {
@@ -215,7 +215,7 @@ public function getGroup($conditions=''){
 //orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -264,7 +264,7 @@ public function getGroup($conditions=''){
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalParent($conditions='') {
@@ -307,7 +307,7 @@ public function getGroup($conditions=''){
 //orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -352,7 +352,7 @@ public function getGroup($conditions=''){
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalEmployee($conditions='') {
@@ -390,7 +390,7 @@ public function getGroup($conditions=''){
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (19.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------------------------------------------------         
     public function deleteAssignedSurvey($surveyId,$userType,$condition) {
@@ -406,7 +406,7 @@ public function getGroup($conditions=''){
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (19.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------------------------------------------------         
     public function assignSurvey($insQuery) {
@@ -419,7 +419,7 @@ public function getGroup($conditions=''){
 //$conditions :db clauses
 // Author :Jaineesh
 // Created on : (19.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------------------------------------------------         
     public function checkStudentExistence($condition) {
@@ -437,7 +437,7 @@ public function getGroup($conditions=''){
 //$conditions :db clauses
 // Author :Jaineesh 
 // Created on : (19.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------------------------------------------------         
     public function checkParentExistence($condition) {
@@ -454,7 +454,7 @@ public function getGroup($conditions=''){
 //$conditions :db clauses
 // Author :Jaineesh 
 // Created on : (19.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------------------------------------------------         
     public function checkEmployeeExistence($condition) {

@@ -4,7 +4,7 @@
 //  This File contains Bussiness Logic of the "FEE HEAD VALUES" Module
 // Author :Nishu Bindal
 // Created on : 16-April-2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -29,7 +29,7 @@ class GenerateFeeManager {
 //  This function is used to fetch all branches
 // Author :Nishu Bindal
 // Created on : 21-Mar-2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     
@@ -51,7 +51,7 @@ class GenerateFeeManager {
 //  This function is used to fetch all batches
 // Author :Nishu Bindal
 // Created on : 21-Mar-2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     public function fetchAllBatches($condition){
@@ -71,7 +71,7 @@ class GenerateFeeManager {
 //  This function is used to fetch all Classes
 // Author :Nishu Bindal
 // Created on : 21-Mar-2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     public function fetchClases($condition = ''){
@@ -87,7 +87,7 @@ class GenerateFeeManager {
 // THIS FUNCTION IS used to fetch student Fee Class
 // Author :Nishu Bindal
 // Created on : (27.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //----------------------------------------------------------------------------------
     public function getClass($feeClassId){
         
@@ -207,7 +207,7 @@ class GenerateFeeManager {
 // THIS FUNCTION IS used to Get Bank Name 
 // Author :Nishu Bindal
 // Created on : (4.Mar.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------
    public function getInstituteBankName($bankId){
    	  
@@ -220,7 +220,7 @@ class GenerateFeeManager {
 // THIS FUNCTION IS used to fetch student Fee Concession
 // Author :Nishu Bindal
 // Created on : (27.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------
    public function getStudentAdhocConcession($condition='') {  
         
@@ -263,7 +263,7 @@ class GenerateFeeManager {
 // THIS FUNCTION IS used to fetch student Fee Head wise
 // Author :Nishu Bindal
 // Created on : (27.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------
     public function getStudentFeeHeadDetail($classId,$quotaId,$isLeet,$studentId,$isMigrated) {  
         
@@ -315,7 +315,7 @@ class GenerateFeeManager {
 // THIS FUNCTION IS used to fetch student Hostel Fees
 // Author :Nishu Bindal
 // Created on : (27.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //----------------------------------------------------------------------------------
     public function getStudentHostelFee($studentId,$classId){
     	$query = "	SELECT 	
@@ -337,7 +337,7 @@ class GenerateFeeManager {
 // THIS FUNCTION IS used to GET STUDENT TRANSPORTAION FEES
 // Author :Nishu Bindal
 // Created on : (27.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------
     public function getStudentTransportFee($studentId,$feeClassId,$busRouteStopMappingId){
     	$query ="SELECT 	bf.amount AS transportFee,brsm.busStopId, bf.busRouteId
@@ -441,7 +441,7 @@ class GenerateFeeManager {
 // THIS FUNCTION IS used to INSERT INTO FEE RECEIPT MASTER
 // Author :Nishu Bindal
 // Created on : (28.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------  
     public function insertIntoFeeReceiptMaster($values){
     	$query = "INSERT INTO `fee_receipt_master` 
@@ -456,7 +456,7 @@ class GenerateFeeManager {
 // THIS FUNCTION IS used to INSERT INTO FEE RECEIPT INSTRUMENT
 // Author :Nishu Bindal
 // Created on : (27.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------------------------------------- 
     public function insertIntoReceiptInstrument($values){
     	
@@ -471,7 +471,7 @@ class GenerateFeeManager {
 // THIS FUNCTION IS used to CHECK IF FEE IS ALREADY DEFINED FOR THIS CLASS
 // Author :Nishu Bindal
 // Created on : (27.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------------------------------------- 
     public function checkForAlreadyGenerated($feeClassId,$currentClass,$feeCycleId){
     	global $sessionHandler;
@@ -491,7 +491,7 @@ class GenerateFeeManager {
 // THIS FUNCTION IS USED TO Check If Student has Generated Fee
 // Author :Nishu Bindal
 // Created on : (27.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------   
     
     public function checkForReceiptGenerated($feeClassId,$currentClass,$feeCycleId){
@@ -512,7 +512,7 @@ class GenerateFeeManager {
 // THIS FUNCTION IS USED TO Check If Student has Paid Fee
 // Author :Nishu Bindal
 // Created on : (27.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------     
     public function checkForPaidFee($feeClassId,$currentClass,$feeCycleId){
     		$query = "SELECT COUNT(frd.feeReceiptDetailId) AS cnt
@@ -532,7 +532,7 @@ class GenerateFeeManager {
 // THIS FUNCTION IS USED TO LOGICALLY DELETE FEE CLASS
 // Author :Nishu Bindal
 // Created on : (27.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------------------------------------- 
     public function deleteClassFee($feeClassId,$currentClass,$feeCycleId){
     	global $sessionHandler;

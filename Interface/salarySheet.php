@@ -3,7 +3,7 @@
 //  This File contains ajax function used in generate salary sheet
 // Author :Abhiraj
 // Created on : 01.05.09
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 

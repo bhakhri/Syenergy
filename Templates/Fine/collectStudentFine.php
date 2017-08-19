@@ -4,7 +4,7 @@
 //
 // Author : Saurabh Thukral
 // Created on : (13.8.2012 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 

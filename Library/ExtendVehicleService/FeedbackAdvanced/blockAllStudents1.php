@@ -3,7 +3,7 @@
 // THIS FILE IS USED TO send message to students by admin
 // Author : Dipanjan Bhattacharjee
 // Created on : (21.7.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 set_time_limit(0); //to 
 global $FE;

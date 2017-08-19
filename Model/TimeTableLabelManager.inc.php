@@ -5,7 +5,7 @@
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (30.09.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -19,7 +19,7 @@ class TimeTableLabelManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (30.09.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
     private function __construct() {
@@ -30,7 +30,7 @@ class TimeTableLabelManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (30.09.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
     public static function getInstance() {
@@ -46,7 +46,7 @@ class TimeTableLabelManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (30.09.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
     public function addTimeTableLabel() {
@@ -73,7 +73,7 @@ class TimeTableLabelManager {
 //$id:busRouteId
 // Author :Dipanjan Bhattacharjee 
 // Created on : (30.09.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------        
     public function editTimeTableLabel($id) {
@@ -96,7 +96,7 @@ class TimeTableLabelManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (30.09.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getTimeTableLabel($conditions='') {
@@ -123,7 +123,7 @@ class TimeTableLabelManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (21.07.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------------------------------------------------
     public function checkInTimeTable($conditions='') {
         
@@ -159,7 +159,7 @@ class TimeTableLabelManager {
 //$busRouteId :busRouteId of the BusStop
 // Author :Dipanjan Bhattacharjee 
 // Created on : (30.09.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteTimeTableLabel($timeTableLabelId) {
@@ -184,7 +184,7 @@ class TimeTableLabelManager {
 //orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (30.09.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -211,7 +211,7 @@ class TimeTableLabelManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (30.09.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalTimeTableLabel($conditions='') {
@@ -237,7 +237,7 @@ class TimeTableLabelManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (30.09.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function makeAllTimeTableLabelInActive($conditions='') {

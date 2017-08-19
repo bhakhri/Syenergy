@@ -5,7 +5,7 @@
 //
 // Author :Parveen Sharma
 // Created on : 06-03-2009
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(BL_PATH.'/HtmlFunctions.inc.php');

@@ -4,7 +4,7 @@
 //
 // Author :Parveen Sharma
 // Created on : 03-01-2009
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 ?>
@@ -688,7 +688,7 @@ function empPrintReport() {
 //THIS FUNCTION IS USED TO DELETE employee Photo
 //Author : Parveen Sharma
 // Created on : (20.08.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function deleteEmployeeImage(id) {
@@ -1436,7 +1436,7 @@ function sdaEmployee(state){
 //act:type of operations(Add/Edit)
 //Author : Parveen Sharma
 // Created on : (21.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -1547,7 +1547,7 @@ function doAll(){
 //THIS FUNCTION IS USED TO DELETE Student Photo
 //Author : Parveen Sharma
 // Created on : (20.08.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function deleteStudentImage(id) {

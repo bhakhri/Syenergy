@@ -4,7 +4,7 @@
 //  This File contains Bussiness Logic of the Fee Head Module
 // Author :Nishu Bindal
 // Created on : 2-feb-2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;

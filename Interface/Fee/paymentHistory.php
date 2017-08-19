@@ -3,7 +3,7 @@
 // Purpose: To generate student payment history listfunctionality 
 // Author : Nishu Bindal
 // Created on : (08-may-2012 )
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 global $FE;
 global $sessionHandler;

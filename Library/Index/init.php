@@ -223,7 +223,7 @@ if(isset($REQUEST_DATA['imgSubmit_x']) ) {
                         // ====================== START (Block Student) ======================== 
                         $returnStatus1 = $loginManager->blockedUser($studentRet[0]['studentId']);
                         if(is_array($returnStatus1) && count($returnStatus1)>0) {
-                           $errorMessageBlockStudent = "Chalkpad Blocked due to : ".$returnStatus1[0]['message'];
+                           $errorMessageBlockStudent = "syenergy Blocked due to : ".$returnStatus1[0]['message'];
                            $sessionHandler->destroySession();
                            logError("$errorMessageBlockStudent : Username " . $REQUEST_DATA['username']." Trying to login" );
                            return false;

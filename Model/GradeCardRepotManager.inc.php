@@ -3,7 +3,7 @@
 //  THIS FILE IS USED FOR DB OPERATION FOR "Document" table
 // Author :Jaineesh 
 // Created on : (28.02.2009 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -16,7 +16,7 @@ class GradeCardRepotManager {
 //
 // Author :Jaineesh
 // Created on : (28.02.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
     private function __construct() {
@@ -27,7 +27,7 @@ class GradeCardRepotManager {
 //
 // Author :Jaineesh 
 // Created on : (28.02.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
     public static function getInstance() {
@@ -44,7 +44,7 @@ class GradeCardRepotManager {
     //
     // Author :Parveen Sharma
     // Created on : (05.03.2009)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------
     public function getStudentPeriodData($conditions='') {
@@ -85,7 +85,7 @@ class GradeCardRepotManager {
     //function created for fetching students matching conditions
     // Author :Parveen Sharma
     // Created on : 23-Sep-2008
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //----------------------------------------------------------------------------------------------------
     public function getAllDetailsStudentList($conditions='', $order=' rollNo', $limit='') {
@@ -134,7 +134,7 @@ class GradeCardRepotManager {
 
     // Author :Ajinder Singh
     // Created on : 13-Sep-2008
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //----------------------------------------------------------------------------------------------------
     public function countRecords($conditions='') {
@@ -165,7 +165,7 @@ class GradeCardRepotManager {
     //
     // Author :Parveen Sharma
     // Created on : (05.03.2009)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //-----------------------------------------------------------------------------
     public function getStudentStudyPeriodWiseInfo($conditions='') {
@@ -241,7 +241,7 @@ class GradeCardRepotManager {
     //
     // Author :Parveen Sharma
     // Created on : (05.03.2009)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------
     public function getStudentGradeCardInfo($conditions) {
@@ -438,7 +438,7 @@ class GradeCardRepotManager {
 //                                                           
 // Author :Parveen Sharma
 // Created on : (22.12.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------------
       public function getStudentClasswiseCGPA($condition='') {
@@ -470,7 +470,7 @@ class GradeCardRepotManager {
     //
     // Author :Parveen Sharma
     // Created on : (22.12.2008)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //----------------------------------------------------------------------------------------------------------
       public function getStudentClasswiseGPA($condition='') {

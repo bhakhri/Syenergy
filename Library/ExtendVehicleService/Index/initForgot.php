@@ -4,7 +4,7 @@
 //
 // Author:Parveen Sharma
 // Created on : 15.12.2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------      
 
 $userCheckVariable='0';
@@ -43,7 +43,7 @@ if(isset($REQUEST_DATA['imgSubmit_x']) ) {
             $body .= "To retrieve your new password, please click the below link <br><br>";
             $body .= "<a href=$urlLink>$urlLink</a><br><br>OR<br><br>";
             $body .= "alternatively you could also copy the above link and paste it in the address bar of a new browser window.<br><br><br>";
-            $body .= "Regards<br><br>Team<br>Customer Care, ChalkPad";
+            $body .= "Regards<br><br>Team<br>Customer Care, syenergy";
        */
             
             $subject="Verification Code ";

@@ -3,7 +3,7 @@
 //  This File contains code for transferring marks
 // Author :Ajinder Singh
 // Created on : 28-Dec-2009
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
     set_time_limit(0);
 	ini_set('memory_limit','200M');

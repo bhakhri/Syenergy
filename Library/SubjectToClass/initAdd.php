@@ -4,7 +4,7 @@
 //
 // Author : Rajeev Aggarwal
 // Created on : (09.08.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 ini_set('MEMORY_LIMIT','5000M'); 

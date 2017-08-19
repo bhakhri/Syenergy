@@ -2,7 +2,7 @@
 //This file is used to export generatedPO to excel sheet.
 //
 // Created on : 19.Nov.10
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
  

@@ -3,7 +3,7 @@
 // Purpose: To disply adv. question list
 // Author : Dipanjan Bbhattacharjee
 // Created on : (11.01.2010 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------
 
     global $FE;

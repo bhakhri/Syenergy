@@ -3,7 +3,7 @@
 //  THIS FILE IS USED FOR DB OPERATION FOR BUS FEES
 // Author :Nishu Bindal
 // Created on : (8.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
 require_once($FE . "/Library/common.inc.php"); //for sessionId
@@ -16,7 +16,7 @@ class BusFeeManager {
 //
 // Author :Nishu Bindal
 // Created on : (8.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
 	private function __construct(){
@@ -27,7 +27,7 @@ class BusFeeManager {
 //
 // Author :Nishu Bindal
 // Created on : (8.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 	public static function getInstance() {
@@ -44,7 +44,7 @@ class BusFeeManager {
 //
 // Author :Nishu Bindal
 // Created on : (17.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     
@@ -66,7 +66,7 @@ class BusFeeManager {
 //
 // Author :Nishu Bindal
 // Created on : (17.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
  	public function getBusStopHeadsList($conditions='',$classId,$limit,$orderBy='routeCode') {
@@ -89,7 +89,7 @@ class BusFeeManager {
 // THIS FUNCTION IS USED TO INSERT FEE OF BUS ROUTE CITY
 // Author :Nishu Bindal
 // Created on : (17.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     	public function insertIntoFeeValues($values){
@@ -102,7 +102,7 @@ class BusFeeManager {
 // THIS FUNCTION IS USED TO DELETE Bus FEES
 // Author :Nishu Bindal
 // Created on : (17.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     	
@@ -114,7 +114,7 @@ class BusFeeManager {
 // THIS FUNCTION IS USED TO FETCH CLASSES
 // Author :Nishu Bindal
 // Created on : (17.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     	public function fetchClases($batchId,$studyPeriodId){
@@ -180,7 +180,7 @@ class BusFeeManager {
 // THIS FUNCTION IS USED TO Check if fee is generated for this class
 // Author :Nishu Bindal
 // Created on : (17.Feb.2012)
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     	public function checkForFeeGeneration($classId='0'){

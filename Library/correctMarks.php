@@ -2,7 +2,7 @@
 //Purpose: To find the inconsistemcy in b/w test_marks_table1 and total_marks_table
 //Author: Kavish Manjkhola
 //Date: 16-March-2011
-//Chalkpad Technologies 2010-2011
+//syenergy Technologies 2010-2011
 
 global $FE;
 require_once($FE . "/Library/common.inc.php");

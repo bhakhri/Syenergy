@@ -4,7 +4,7 @@
 //EmployeeManager is used having all the Add, edit, delete function..
 // Author : Jaineesh
 // Created on : 14.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -30,7 +30,7 @@ class EmployeeManager {
 // addBusPass() is used to add new record in database.
 // Author : Parveen Sharma
 // Created on : 12.06.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function addBusPass($strValue='') {
@@ -47,7 +47,7 @@ class EmployeeManager {
 // editBusPass() is used to edit new record in database.
 // Author : Parveen Sharma
 // Created on : 12.06.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -69,7 +69,7 @@ class EmployeeManager {
 //addUser() function is used for adding new user into the user table....
 // Author : Jaineesh
 // Created on : 14.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function addUser() {
@@ -91,7 +91,7 @@ class EmployeeManager {
 //addEmployee() function is used for adding new employee into the employee table....
 // Author : Jaineesh
 // Created on : 14.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function addEmployee($userId) {
@@ -289,7 +289,7 @@ class EmployeeManager {
 // addEmployee() function is used for adding new employee into the employee table....
 // Author : Jaineesh
 // Created on : 14.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------
 
   public function getTotalPublication($conditions='') {
@@ -318,7 +318,7 @@ class EmployeeManager {
 // addEmployee() function is used for adding new employee into the employee table....
 // Author : Jaineesh
 // Created on : 14.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function addShortEmployee($userId) {
@@ -399,7 +399,7 @@ class EmployeeManager {
 //addEmployee() function is used for adding new employee into the employee table....
 // Author : Jaineesh
 // Created on : 14.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function addEmployeeWithoutUser() {
@@ -593,7 +593,7 @@ class EmployeeManager {
 // $userid is used as the unique identification of the existing user data
 // Author : Jaineesh
 // Created on : 14.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
    public function editUser($userid){
@@ -627,7 +627,7 @@ class EmployeeManager {
 // $userid is used as the unique identification of the existing user data
 // Author : Jaineesh
 // Created on : 14.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
    public function editShortEmployeeUser($userid){
@@ -659,7 +659,7 @@ class EmployeeManager {
 // $id is used as the unique identification of the existing employee data
 // Author : Jaineesh
 // Created on : 14.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function editEmployee($id,$conditions='') {
@@ -814,7 +814,7 @@ class EmployeeManager {
 // $id is used as the unique identification of the existing employee data
 // Author : Jaineesh
 // Created on : 14.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function editShortEmployee($id,$conditions='') {
@@ -884,7 +884,7 @@ class EmployeeManager {
 //
 // Author : Jaineesh
 // Created on : 14.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getEmployee($conditions='') {
@@ -961,7 +961,7 @@ class EmployeeManager {
 //
 //getPreviousRoleArray() function is used for getting the previous roleId
 // Created on : 17.02.11
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function getPreviousRoleArray($userId,$teachingininstitutes){
@@ -976,7 +976,7 @@ class EmployeeManager {
 //
 //selectUserRoleExistance() function is used for checking whether the role exists or not
 // Created on : 17.02.11
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function selectUserRoleExistance($employeeRoleId,$teachingininstitutes,$userId){
@@ -1000,7 +1000,7 @@ class EmployeeManager {
 //
 //selectInsituteId() function is used for geting the insitute ID
 // Created on : 17.02.11
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function selectInsituteId($userId,$employeeRoleId,$instituteId){
@@ -1017,7 +1017,7 @@ class EmployeeManager {
 //
 //insertUserRole() function is used for inserting the user role
 // Created on : 17.02.11
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function insertIntoUserRole($employeeId,$employeeRoleId,$teachingininstitutes,$userId){
@@ -1034,7 +1034,7 @@ class EmployeeManager {
 //
 //deleteFromUserRole() function is used for deleting the user role
 // Created on : 17.02.11
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function deleteFromUserRole($teachingininstitutes,$userId){
@@ -1047,7 +1047,7 @@ class EmployeeManager {
 //
 //updateUserRole() function is used for updating the user role
 // Created on : 17.02.11
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -1066,7 +1066,7 @@ class EmployeeManager {
 //
 //updateDefaultRoleId() function is used for updating the defaultRole ID
 // Created on : 17.02.11
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function updateDefaultRoleId($employeeId,$employeeRoleId,$userId,$previousRoleId){
@@ -1084,7 +1084,7 @@ class EmployeeManager {
 //
 // Author : Jaineesh
 // Created on : 14.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getShortEmployee($conditions='') {
@@ -1138,7 +1138,7 @@ class EmployeeManager {
 // $employeeId - used to generate the unique id of the table
 // Author : Jaineesh
 // Created on : 14.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -1157,7 +1157,7 @@ class EmployeeManager {
 // $userId - used to generate the unique id of the table
 // Author : Jaineesh
 // Created on : 14.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -1175,7 +1175,7 @@ class EmployeeManager {
 //
 // Author : Jaineesh
 // Created on : 15.12.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -1196,7 +1196,7 @@ class EmployeeManager {
 //
 // Author : Jaineesh
 // Created on : 10.08.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -1214,7 +1214,7 @@ class EmployeeManager {
 //
 // Author : Jaineesh
 // Created on : 10.08.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -1232,7 +1232,7 @@ class EmployeeManager {
 //
 // Author : Jaineesh
 // Created on : 10.09.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -1250,7 +1250,7 @@ class EmployeeManager {
 //
 // Author : Jaineesh
 // Created on : 10.08.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -1269,7 +1269,7 @@ class EmployeeManager {
 // $limit - used to check the limit of showing records in list
 // Author : Jaineesh
 // Created on : 14.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //IF(br.branchCode=\" \",'---', br.branchCode) as branchCode,
 //-------------------------------------------------------------------------------
 
@@ -1348,7 +1348,7 @@ class EmployeeManager {
 // $condition - used to check the condition of the table
 // Author : Jaineesh
 // Created on : 14.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -1378,7 +1378,7 @@ class EmployeeManager {
 // $limit - used to check the limit of showing records in list
 // Author : Jaineesh
 // Created on : 14.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -1437,7 +1437,7 @@ class EmployeeManager {
 // $condition - used to check the condition of the table
 // Author : Jaineesh
 // Created on : 14.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -1464,7 +1464,7 @@ class EmployeeManager {
 // $condition :  used to check the condition of the table
 // Author : Jaineesh
 // Created on : 14.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -1482,7 +1482,7 @@ class EmployeeManager {
 // $condition :  used to check the condition of the table
 // Author : Jaineesh
 // Created on : 28.06.10
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -1500,7 +1500,7 @@ class EmployeeManager {
 // $condition :  used to check the condition of the table
 // Author : Jaineesh
 // Created on : 28.06.10
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -1529,7 +1529,7 @@ class EmployeeManager {
 // $condition :  used to check the condition of the table
 // Author : Jaineesh
 // Created on : 15.12.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -1560,7 +1560,7 @@ class EmployeeManager {
 // $condition :  used to check the condition of the table
 // Author : Jaineesh
 // Created on : 15.12.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -1581,7 +1581,7 @@ class EmployeeManager {
 // $condition :  used to check the condition of the table
 // Author : Jaineesh
 // Created on : 15.12.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -1602,7 +1602,7 @@ class EmployeeManager {
 // $condition :  used to check the condition of the table
 // Author : Jaineesh
 // Created on : 15.12.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -1620,7 +1620,7 @@ public function updateEmployee($employeeCanTeachId) {
 // $condition :  used to check the condition of the table
 // Author : Jaineesh
 // Created on : 15.12.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -1638,7 +1638,7 @@ public function updateUser($userId) {
 // $condition :  used to check the condition of the table
 // Author : Jaineesh
 // Created on : 21.07.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -1656,7 +1656,7 @@ public function updateUserStatus($userId) {
 // $condition :  used to check the condition of the table
 // Author : Jaineesh
 // Created on : 15.12.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -1676,7 +1676,7 @@ public function updateEmployeeActive($employeeCanTeachId) {
 // $condition :  used to check the condition of the table
 // Author : Jaineesh
 // Created on : 21.07.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -1696,7 +1696,7 @@ public function updateUserActive($userId) {
 //$conditions :db clauses
 // Author :Jaineesh
 // Created on : (24.06.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------
 
@@ -1722,7 +1722,7 @@ public function updateUserActive($userId) {
 //$conditions :db clauses
 // Author :Jaineesh
 // Created on : (24.06.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------
 
@@ -1743,7 +1743,7 @@ public function updateUserActive($userId) {
 //$conditions :db clauses
 // Author :Jaineesh
 // Created on : (24.06.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------
 
@@ -1762,7 +1762,7 @@ public function updateUserActive($userId) {
 //$conditions :db clauses
 // Author :Jaineesh
 // Created on : (24.06.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------
 
@@ -1781,7 +1781,7 @@ public function updateUserActive($userId) {
 //
 // Author :Parveen Sharma
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     public function addPublishing($employeeId) {
@@ -1822,7 +1822,7 @@ public function updateUserActive($userId) {
     // THIS FUNCTION IS USED FOR delete deletePublisherFailedUpload when file not upload
     // Author :Parveen Sharma
     // Created on : (17.08.2009)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //---------------------------------------------------------------------------------------------------------------
     public function deletePublisherFailedUpload($id) {
         global $REQUEST_DATA;
@@ -1837,7 +1837,7 @@ public function updateUserActive($userId) {
 //
 // Author :Parveen Sharma
 // Created on : (28.02.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     public function editPublishing($id) {
@@ -1859,7 +1859,7 @@ public function updateUserActive($userId) {
 //
 // Author :Parveen Sharma
 // Created on : (05.03.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------
     public function deletePublishing($Id) {
@@ -1876,7 +1876,7 @@ public function updateUserActive($userId) {
 //
 // Author :Parveen Sharma
 // Created on : (05.3.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     public function getPublishing($conditions='') {
@@ -1900,7 +1900,7 @@ public function updateUserActive($userId) {
 //
 // Author :Parveen Sharma
 // Created on : (19.02.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -1925,7 +1925,7 @@ public function updateUserActive($userId) {
 //
 // Author :Parveen Sharma
 // Created on : (28.02.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------
     public function getTotalPublishing($filter='') {
@@ -1946,7 +1946,7 @@ public function updateUserActive($userId) {
 //
 // Author :Parveen Sharma
 // Created on : (04.03.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------
     public function getEmployeeDetail($conditions='') {
@@ -1973,7 +1973,7 @@ public function updateUserActive($userId) {
 // THIS FUNCTION IS USED FOR ADDING A Consulting
 //
 // Author :Parveen Sharma
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     public function addConsulting($employeeId) {
@@ -1991,7 +1991,7 @@ public function updateUserActive($userId) {
 //
 // Author :Parveen Sharma
 // Created on : (28.02.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     public function editConsulting($id) {
@@ -2013,7 +2013,7 @@ public function updateUserActive($userId) {
 //
 // Author :Parveen Sharma
 // Created on : (05.3.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------
     public function deleteConsulting($Id) {
@@ -2030,7 +2030,7 @@ public function updateUserActive($userId) {
 //
 // Author :Parveen Sharma
 // Created on : (05.3.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     public function getConsulting($conditions='') {
@@ -2050,7 +2050,7 @@ public function updateUserActive($userId) {
 //
 // Author :Parveen Sharma
 // Created on : (19.02.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -2072,7 +2072,7 @@ public function updateUserActive($userId) {
 //
 // Author :Parveen Sharma
 // Created on : (28.02.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------
     public function getTotalConsulting($filter='') {
@@ -2096,7 +2096,7 @@ public function updateUserActive($userId) {
 //
 // Author :Parveen Sharma
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     public function addSeminars($employeeId) {
@@ -2114,7 +2114,7 @@ public function updateUserActive($userId) {
 //
 // Author :Parveen Sharma
 // Created on : (28.02.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     public function editSeminars($id) {
@@ -2139,7 +2139,7 @@ public function updateUserActive($userId) {
 //
 // Author :Parveen Sharma
 // Created on : (05.03.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------
     public function deleteSeminars($Id) {
@@ -2156,7 +2156,7 @@ public function updateUserActive($userId) {
 //
 // Author :Parveen Sharma
 // Created on : (05.3.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     public function getSeminars($conditions='') {
@@ -2179,7 +2179,7 @@ public function updateUserActive($userId) {
 //
 // Author :Parveen Sharma
 // Created on : (19.02.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -2203,7 +2203,7 @@ public function updateUserActive($userId) {
 //
 // Author :Parveen Sharma
 // Created on : (28.02.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------
     public function getTotalSeminars($filter='') {
@@ -2231,7 +2231,7 @@ public function updateUserActive($userId) {
 //
 // Author :Parveen Sharma
 // Created on : (19.02.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -2266,7 +2266,7 @@ public function updateUserActive($userId) {
 // THIS FUNCTION IS USED FOR GETTING TOTAL NUMBER OF Mdp
 // Author :Gagan Gill
 // Created on : (28.02.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //----------------------------------------------------------------------------------------
    public function getTotalMdp($filter='') {
 
@@ -2285,7 +2285,7 @@ public function updateUserActive($userId) {
 // THIS FUNCTION IS USED FOR ADDING A Mdp DOCUMENT
 // Author :Jaineesh
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
      public function addMdp($employeeId)  {
 	    global $REQUEST_DATA;
@@ -2301,7 +2301,7 @@ public function updateUserActive($userId) {
 // THIS FUNCTION IS USED FOR EDITING A Mdp
 // Author :Parveen Sharma
 // Created on : (28.02.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
    public function editMdp($id) {
         global $REQUEST_DATA;
@@ -2326,7 +2326,7 @@ public function updateUserActive($userId) {
 //
 // Author :Gagan Gill
 // Created on : (05.3.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
    public function getMdp($conditions='') {
@@ -2351,7 +2351,7 @@ public function updateUserActive($userId) {
 //
 // Author :Gagan Gill
 // Created on : (05.03.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------------------------------------------------------
     public function deleteMdp($Id) {
 
@@ -2373,7 +2373,7 @@ public function updateUserActive($userId) {
 //
 // Author :Parveen Sharma
 // Created on : (14.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     public function addWorkshop($employeeId) {
@@ -2391,7 +2391,7 @@ public function updateUserActive($userId) {
 //
 // Author :Parveen Sharma
 // Created on : (28.02.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     public function editWorkshop($id) {
@@ -2417,7 +2417,7 @@ public function updateUserActive($userId) {
 //
 // Author :Parveen Sharma
 // Created on : (05.03.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------
     public function deleteWorkshop($Id) {
@@ -2434,7 +2434,7 @@ public function updateUserActive($userId) {
 //
 // Author :Parveen Sharma
 // Created on : (05.3.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     public function getWorkshop($conditions='') {
@@ -2457,7 +2457,7 @@ public function updateUserActive($userId) {
 //
 // Author :Parveen Sharma
 // Created on : (19.02.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -2482,7 +2482,7 @@ public function updateUserActive($userId) {
 //
 // Author :Parveen Sharma
 // Created on : (28.02.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------
     public function getTotalWorkshop($filter='') {
@@ -2504,7 +2504,7 @@ public function updateUserActive($userId) {
 //
 // Author :Jaineesh
 // Created on : (20.08.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------
 	public function updateEmployeeImage($id, $fileName) {
@@ -2523,7 +2523,7 @@ public function updateUserActive($userId) {
 //
 // Author :Jaineesh
 // Created on : (20.08.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------
 	public function updateThumbImage($id, $fileName1) {
@@ -2542,7 +2542,7 @@ public function updateUserActive($userId) {
 //
 // Author :Jaineesh
 // Created on : (20.08.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------
 	public function getEmployeeImageDetail($condition) {
@@ -2557,7 +2557,7 @@ public function updateUserActive($userId) {
 //
 // Author :Jaineesh
 // Created on : (20.08.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------
 	public function getEmployeeThumbImageDetail($condition) {
@@ -2571,7 +2571,7 @@ public function updateUserActive($userId) {
 //
 // Author :Jaineesh
 // Created on : (20.08.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------
 	public function deleteEmployeeImage($id) {
@@ -2585,7 +2585,7 @@ public function updateUserActive($userId) {
 //
 // Author :Jaineesh
 // Created on : (20.08.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------
 	public function deleteEmployeeThumbImage($id) {
@@ -2602,7 +2602,7 @@ public function updateUserActive($userId) {
 //
 // Author : Gurkeerat Sidhu
 // Created on : 16.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getEmployeeInfo($conditions='') {
@@ -2673,7 +2673,7 @@ public function updateUserActive($userId) {
 //
 // Author : Gurkeerat Sidhu
 // Created on : 16.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function updateEmployeeInfoInTransaction($title,$lastName,$employeeName,$middleName,$employeeCode,$employeeAbbreviation,$isTeaching,$designationId,$gender,$departmentId,$branchId,$qualification,$isMarried,$spouseName,$fatherName,$motherName,$contactNumber,$emailAddress,$mobileNumber,$address1,$address2,$cityId,$stateId,$countryId,$pinCode,$dateOfBirth,$dateOfMarriage,$dateOfJoining,$dateOfLeaving,$panNo,$religion,$caste,$pfNo,$bankName,$bankAccountNo,$bankBranchName,$ESINo,$bloodGroup,$checkCondition='') {
@@ -2763,7 +2763,7 @@ public function updateUserActive($userId) {
 //
 // Author : Gurkeerat Sidhu
 // Created on : 16.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function updateEmployeeWithUserInTransaction($title,$lastName,$employeeName,$middleName,$employeeCode,$employeeAbbreviation,$isTeaching,$designationId,$gender,$departmentId,$branchId,$qualification,$isMarried,$spouseName,$fatherName,$motherName,$contactNumber,$emailAddress,$mobileNumber,$address1,$address2,$cityId,$stateId,$countryId,$pinCode,$dateOfBirth,$dateOfMarriage,$dateOfJoining,$dateOfLeaving,$panNo,$religion,$caste,$pfNo,$bankName,$bankAccountNo,$bankBranchName,$ESINo,$bloodGroup,$checkCondition='') {
@@ -2853,7 +2853,7 @@ public function updateUserActive($userId) {
 //
 // Author : Gurkeerat Sidhu
 // Created on : 16.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function updateEmployeeWithUserNameInTransaction($title,$lastName,$employeeName,$middleName,$employeeCode,$employeeAbbreviation,$isTeaching,$designationId,$gender,$departmentId,$branchId,$qualification,$isMarried,$spouseName,$fatherName,$motherName,$contactNumber,$emailAddress,$mobileNumber,$address1,$address2,$cityId,$stateId,$countryId,$pinCode,$dateOfBirth,$dateOfMarriage,$dateOfJoining,$dateOfLeaving,$panNo,$religion,$caste,$pfNo,$bankName,$bankAccountNo,$bankBranchName,$ESINo,$bloodGroup,$userId,$checkCondition='') {
@@ -2944,7 +2944,7 @@ public function updateUserActive($userId) {
 //
 // Author : Gurkeerat Sidhu
 // Created on : 16.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function updateUserInTransaction($userName,$userId,$roleId) {
@@ -2963,7 +2963,7 @@ public function updateUserActive($userId) {
 //
 // Author : Gurkeerat Sidhu
 // Created on : 16.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function addEmployeeInfoInTransaction($title,$lastName,$employeeName,$middleName,$employeeCode,$employeeAbbreviation,$isTeaching,$designationId,$gender,$departmentId,$branchId,$qualification,$isMarried,$spouseName,$fatherName,$motherName,$contactNumber,$emailAddress,$mobileNumber,$address1,$address2,$cityId,$stateId,$countryId,$pinCode,$dateOfBirth,$dateOfMarriage,$dateOfJoining,$dateOfLeaving,$userId,$panNo,$religion,$caste,$pfNo,$bankName,$bankAccountNo,$bankBranchName,$ESINo,$bloodGroup) {
@@ -3016,7 +3016,7 @@ public function updateUserActive($userId) {
 //
 // Author : Gurkeerat Sidhu
 // Created on : 16.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function addEmployeeWithoutUserInTransaction($title,$lastName,$employeeName,$middleName,$employeeCode,$employeeAbbreviation,$isTeaching,$designationId,$gender,$departmentId,$branchId,$qualification,$isMarried,$spouseName,$fatherName,$motherName,$contactNumber,$emailAddress,$mobileNumber,$address1,$address2,$cityId,$stateId,$countryId,$pinCode,$dateOfBirth,$dateOfMarriage,$dateOfJoining,$dateOfLeaving,$panNo,$religion,$caste,$pfNo,$bankName,$bankAccountNo,$bankBranchName,$ESINo,$bloodGroup) {
@@ -3066,7 +3066,7 @@ public function updateUserActive($userId) {
 // $condition - used to check the condition of the table
 // Author : Gurkeerat Sidhu
 // Created on : 14.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -3082,7 +3082,7 @@ public function updateUserActive($userId) {
 // $condition - used to check the condition of the table
 // Author : Gurkeerat Sidhu
 // Created on : 14.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -3098,7 +3098,7 @@ public function updateUserActive($userId) {
 // $condition - used to check the condition of the table
 // Author : Gurkeerat Sidhu
 // Created on : 14.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -3114,7 +3114,7 @@ public function updateUserActive($userId) {
 // $condition - used to check the condition of the table
 // Author : Gurkeerat Sidhu
 // Created on : 14.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -3129,7 +3129,7 @@ public function updateUserActive($userId) {
 // $condition - used to check the condition of the table
 // Author : Gurkeerat Sidhu
 // Created on : 14.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -3144,7 +3144,7 @@ public function updateUserActive($userId) {
 // $condition - used to check the condition of the table
 // Author : Gurkeerat Sidhu
 // Created on : 14.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -3160,7 +3160,7 @@ public function updateUserActive($userId) {
 // $condition - used to check the condition of the table
 // Author : Jaineesh
 // Created on : 23.07.10
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -3176,7 +3176,7 @@ public function updateUserActive($userId) {
 // $condition - used to check the condition of the table
 // Author : Gurkeerat Sidhu
 // Created on : 14.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -3191,7 +3191,7 @@ public function updateUserActive($userId) {
 // $condition - used to check the condition of the table
 // Author : Gurkeerat Sidhu
 // Created on : 14.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -3205,7 +3205,7 @@ public function updateUserActive($userId) {
     //
     // Author :Gurkeerat Sidhu
     // Created on : (29-May-2009)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------
     public function insertUserData($roleId,$userName,$pass) {
@@ -3222,7 +3222,7 @@ public function updateUserActive($userId) {
 //$conditions :db clauses
 // Author : Gurkeerat Sidhu
 // Created on : 16.11.09
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------
     public function getEmployeeTeachingList($conditions='') {
@@ -3246,7 +3246,7 @@ public function updateUserActive($userId) {
 //$conditions :db clauses
 // Author : Gurkeerat Sidhu
 // Created on : 16.11.09
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------
     public function getEmployeeCityList($conditions='') {
@@ -3272,7 +3272,7 @@ public function updateUserActive($userId) {
 //$conditions :db clauses
 // Author : Gurkeerat Sidhu
 // Created on : 16.11.09
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------
     public function getEmployeeDesignationList($conditions='') {
@@ -3296,7 +3296,7 @@ public function updateUserActive($userId) {
 //$conditions :db clauses
 // Author : Gurkeerat Sidhu
 // Created on : 16.11.09
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------
     public function getEmployeeBranchList($conditions='') {
@@ -3320,7 +3320,7 @@ public function updateUserActive($userId) {
 //$conditions :db clauses
 // Author : Gurkeerat Sidhu
 // Created on : 16.11.09
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------
     public function getEmployeeGenderList($conditions='') {
@@ -3343,7 +3343,7 @@ public function updateUserActive($userId) {
 //$conditions :db clauses
 // Author : Gurkeerat Sidhu
 // Created on : 16.11.09
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------
     public function getEmployeeRoleList($conditions='') {
@@ -3367,7 +3367,7 @@ public function updateUserActive($userId) {
 //$conditions :db clauses
 // Author : Gurkeerat Sidhu
 // Created on : 16.11.09
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------
     public function getEmployeeMaritalList($conditions='') {
@@ -3389,7 +3389,7 @@ public function updateUserActive($userId) {
 //$conditions :db clauses
 // Author : Gurkeerat Sidhu
 // Created on : 16.11.09
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------------
     public function getEmployeeStateList($conditions='') {
@@ -3414,7 +3414,7 @@ public function updateUserActive($userId) {
 // editIcardIssueDate() is used to edit new record in database.
 // Author : Parveen Sharma
 // Created on : 12.06.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -3432,7 +3432,7 @@ public function updateUserActive($userId) {
 // used to check condition while selecting the employee records
 // Author : Parveen Sharma
 // Created on : 09.09.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getIcardEmployeeList($conditions='', $limit = '', $orderBy='emp.employeeName') {
@@ -3481,7 +3481,7 @@ public function updateUserActive($userId) {
 // used to check condition while selecting the employee records count
 // Author : Parveen Sharma
 // Created on : 09.09.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getTotalIcardEmployeeList($conditions='') {
@@ -3511,7 +3511,7 @@ public function updateUserActive($userId) {
 // used to check condition while selecting the employee records
 // Author : Parveen Sharma
 // Created on : 09.09.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getEmployeeBusPassList($conditions='', $limit = '', $orderBy='emp.employeeName',$conditions1='') {
@@ -3568,7 +3568,7 @@ public function updateUserActive($userId) {
 // used to check condition while selecting the employee records count
 // Author : Parveen Sharma
 // Created on : 09.09.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getCountEmployeeBusPassList($conditions='',$conditions1='') {
@@ -3620,7 +3620,7 @@ public function updateUserActive($userId) {
 // used to Add Qualification of an employee
 // Author : Jaineesh
 // Created on : 25.03.10
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -3637,7 +3637,7 @@ public function updateUserActive($userId) {
 // used to Add Qualification of an employee
 // Author : Jaineesh
 // Created on : 25.03.10
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -3656,7 +3656,7 @@ public function updateUserActive($userId) {
 // used to Delete Qualification of an employee
 // Author : Jaineesh
 // Created on : 25.03.10
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -3675,7 +3675,7 @@ public function updateUserActive($userId) {
 // used to Delete Qualification of an employee
 // Author : Jaineesh
 // Created on : 25.03.10
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -3694,7 +3694,7 @@ public function updateUserActive($userId) {
 // used to Add Qualification of an employee
 // Author : Jaineesh
 // Created on : 25.03.10
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -3711,7 +3711,7 @@ public function updateUserActive($userId) {
 // used to Add Qualification of an employee
 // Author : Jaineesh
 // Created on : 25.03.10
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -3730,7 +3730,7 @@ public function updateUserActive($userId) {
 // used to Add Qualification of an employee
 // Author : Jaineesh
 // Created on : 25.03.10
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -3753,7 +3753,7 @@ public function updateUserActive($userId) {
 // used to Get User Name of an employee
 // Author : Jaineesh
 // Created on : 11.05.10
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -3774,7 +3774,7 @@ public function updateUserActive($userId) {
 // used to get financial info of an employee
 // Author : Abhiraj
 // Created on : 29.04.10
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getEmployeeFinancialInfo($employeeId) {
@@ -3794,7 +3794,7 @@ public function updateUserActive($userId) {
 //
 // Author :Jaineesh
 // Created on : (16.06.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------
     public function getTimeTableLabel() {
@@ -3842,7 +3842,7 @@ public function updateUserActive($userId) {
 // used to Delete Classes visible to role
 // Author : Jaineesh
 // Created on : 16 Aug 2010
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -3864,7 +3864,7 @@ public function updateUserActive($userId) {
 //$conditions :db clauses
 // Author :Jaineesh
 // Created on : (24.06.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------
 

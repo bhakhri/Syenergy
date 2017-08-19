@@ -4,7 +4,7 @@
 //  This File contains Validation and ajax function used in "Fee Head" Form
 // Author :Nishu Bindal 
 // Created on : 2-feb-2011
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 

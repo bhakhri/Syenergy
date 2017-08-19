@@ -6,7 +6,7 @@
 //
 // Author :Arvind Singh Rawat
 // Created on : 5-july-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -270,7 +270,7 @@ class EventManager {
     //$conditions :db clauses
     // Author :Dipanjan Bhattacharjee
     // Created on : (05.11.2008)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //---------------------------------------------------------------------------------------------------------------
     public function checkEventExists($eventId){
@@ -287,7 +287,7 @@ class EventManager {
 	// Purpose : This Function fetches list of all the notifications
 	// Author :Kavish Manjkhola
 	// Created on : 05.04.2011
-	// Copyright 2010-2011: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2010-2011: syenergy Technologies Pvt. Ltd.
 	//-----------------------------------------------------
 	public function getNotificationsList($filter, $orderBy, $limit) {
 			$query = "
@@ -306,7 +306,7 @@ class EventManager {
     // Purpose : This Function fetches list of all the notifications
     // Author :Kavish Manjkhola
     // Created on : 05.04.2011
-    // Copyright 2010-2011: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2010-2011: syenergy Technologies Pvt. Ltd.
     //-----------------------------------------------------
     public function getEvenetCheck($condition='') {
             

@@ -4,7 +4,7 @@
 //
 // Author :Parveen Sharma
 // Created on : 04-04-2009
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 set_time_limit(0); 
@@ -23,7 +23,7 @@ UtilityManager::headerNoCache();
 //
 // Author :Rajeev Aggarwal
 // Created on : 07-08-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------   
 

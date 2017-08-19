@@ -5,7 +5,7 @@
 // It contains the contents send to printer
 // Author :Nishu Bindal
 // Created on : 8-May-2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 

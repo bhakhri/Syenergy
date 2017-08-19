@@ -4,7 +4,7 @@
 //
 // Author :Parveen Sharma   
 // Created on : 19-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;
@@ -19,7 +19,7 @@ class ClassUpdateManager {
 //
 // Author :Ajinder Singh 
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------     
     private function __construct() {
@@ -30,7 +30,7 @@ class ClassUpdateManager {
 //
 // Author :Ajinder Singh 
 // Created on : 19-July-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
     public static function getInstance() {
@@ -48,7 +48,7 @@ class ClassUpdateManager {
 //
 // Author :Abhay Kant
 // Created on : 26-July-2011
-// Copyright 2010-2011 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2010-2011 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
      
@@ -81,7 +81,7 @@ class ClassUpdateManager {
 //
 // Author :Abhay Kant
 // Created on : 26-July-2011
-// Copyright 2010-2011 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2010-2011 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
      
@@ -108,7 +108,7 @@ class ClassUpdateManager {
 //
 // Author :Abhay Kant
 // Created on : 26-July-2011
-// Copyright 2010-2011 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2010-2011 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
      
@@ -137,7 +137,7 @@ class ClassUpdateManager {
 //
 // Author :Parveen Sharma
 // Created on : (29-May-2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------      
     public function getSessionClasses($batchId='',$branchId='',$degreeId='',$condition='', $orderBy='className', $limits='') {

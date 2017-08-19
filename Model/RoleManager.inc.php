@@ -5,7 +5,7 @@
 //
 // Author :Dipanjan Bhattacharjee
 // Created on : (10.7.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -19,7 +19,7 @@ class UserRoleManager {
 //
 // Author :Dipanjan Bhattacharjee
 // Created on : (10.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	private function __construct() {
@@ -30,7 +30,7 @@ class UserRoleManager {
 //
 // Author :Dipanjan Bhattacharjee
 // Created on : (10.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public static function getInstance() {
@@ -46,7 +46,7 @@ class UserRoleManager {
 //
 // Author :Dipanjan Bhattacharjee
 // Created on : (10.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 	public function addRole() {
@@ -62,7 +62,7 @@ class UserRoleManager {
 //$id:busRouteId
 // Author :Dipanjan Bhattacharjee
 // Created on : (10.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     public function editRole($id) {
@@ -77,7 +77,7 @@ class UserRoleManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (10.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     public function getRole($conditions='') {
@@ -97,7 +97,7 @@ class UserRoleManager {
 //$busRouteId :busRouteId of the BusStop
 // Author :Dipanjan Bhattacharjee
 // Created on : (10.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------
     public function deleteRole($roleId) {
@@ -116,7 +116,7 @@ class UserRoleManager {
 //orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee
 // Created on : (10.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -143,7 +143,7 @@ class UserRoleManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee
 // Created on : (10.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------
     public function getTotalRole($conditions='') {

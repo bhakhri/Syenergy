@@ -3,7 +3,7 @@
 //Purpose: This file stores the current List of the notifications from the database
 //Author: Kavish Manjkhola
 //Created On: 31/04/2011
-//Copyright 2010-2011: Chalkpad Technologies Pvt. Ltd.
+//Copyright 2010-2011: syenergy Technologies Pvt. Ltd.
 //----------------------------------------------------
 ?>
 <?php

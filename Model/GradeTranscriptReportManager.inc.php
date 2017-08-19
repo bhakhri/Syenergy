@@ -4,7 +4,7 @@
 //StudentReportsManager .
 // Author : Jaineesh
 // Created on : 07.07.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -28,7 +28,7 @@ class GradeTranscriptReportManager {
     //function created for fetching students matching conditions
     // Author :Parveen Sharma
     // Created on : 23-Sep-2008
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //----------------------------------------------------------------------------------------------------
     public function getAllDetailsStudentList($conditions='', $order=' rollNo', $limit='') {
@@ -78,7 +78,7 @@ class GradeTranscriptReportManager {
 
 	// Author :Ajinder Singh
 	// Created on : 13-Sep-2008
-	// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------------------
 	public function countRecords($conditions='') {
@@ -202,7 +202,7 @@ class GradeTranscriptReportManager {
     // function created for fetching records for students for transferred marks
     // Author :Rajeev Aggarwal
     // Created on : 21-04-2009
-    // Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
     //
     //--------------------------------------------------------------------------------------------
     public function getSubjectTransferredDetails($condition='') {

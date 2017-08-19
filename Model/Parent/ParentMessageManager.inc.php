@@ -5,7 +5,7 @@
 //
 // Author :Parveen Sharma
 // Created on : (04.02.2009)
-// Copyright 2009-2010: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2009-2010: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -32,7 +32,7 @@ class ParentTeacherManager {
 	//
 	// Author :Rajeev Aggarwal
 	// Created on : (28.01.2009)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//-------------------------------------------------------------------------------  	
 	public function getTotalParentTeacherMessage($conditions='') {
@@ -56,7 +56,7 @@ class ParentTeacherManager {
 	//
 	// Author :Rajeev Aggarwal
 	// Created on : (28.01.2009)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//-------------------------------------------------------------------------------  	
 	public function getParentTeacherMessageList($conditions='', $limit = '', $orderBy=' messageDate') {
@@ -87,7 +87,7 @@ class ParentTeacherManager {
 	//
 	// Author :Rajeev Aggarwal
 	// Created on : (28.01.2009)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//-------------------------------------------------------------------------------  	
 	public function getTotalSentItemMessage($conditions='') {
@@ -112,7 +112,7 @@ class ParentTeacherManager {
 	//
 	// Author :Rajeev Aggarwal
 	// Created on : (28.01.2009)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//-------------------------------------------------------------------------------  	
 	public function getSentItemMessageList($conditions='', $limit = '', $orderBy=' messageDate') {
@@ -141,7 +141,7 @@ class ParentTeacherManager {
 	//
 	// Author :Rajeev Aggarwal
 	// Created on : (28.01.2009)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//-------------------------------------------------------------------------------  	
 	public function addParentTeacherMessage() {
@@ -196,7 +196,7 @@ class ParentTeacherManager {
 	//$LeaveTypeId :LeaveTypeId of the feedback label
 	// Author :Rajeev Aggarwal 
 	// Created on : (25.11.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//--------------------------------------------------------------------------------------------------------      
     public function deleteParentMessage($messageId) {
@@ -237,7 +237,7 @@ class ParentTeacherManager {
 	//$conditions :db clauses
 	// Author :Rajeev Aggarwal 
 	// Created on : (25.11.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//--------------------------------------------------------         
     public function getParentMessage($conditions='', $limit = '', $orderBy=' messageDate') {
@@ -272,7 +272,7 @@ class ParentTeacherManager {
 	//$conditions :db clauses
 	// Author :Rajeev Aggarwal 
 	// Created on : (25.11.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//--------------------------------------------------------         
     public function getParentMessage1($conditions='', $limit = '', $orderBy=' messageDate') {
@@ -303,7 +303,7 @@ class ParentTeacherManager {
 	//$conditions :db clauses
 	// Author :Rajeev Aggarwal 
 	// Created on : (25.11.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//--------------------------------------------------------         
     public function getParentMessageAndReply($conditions='') {
@@ -331,7 +331,7 @@ class ParentTeacherManager {
 	//$id:busRouteId
 	// Author :Rajeev Aggarwal 
 	// Created on : (25.11.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//--------------------------------------------------------------------        
     public function editParentMessage($id) {
@@ -354,7 +354,7 @@ class ParentTeacherManager {
 	//
 	// Author :Rajeev Aggarwal
 	// Created on : (28.01.2009)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//-------------------------------------------------------------------------------  	
 	public function getTotalTeacherParentMessage($conditions='') {
@@ -378,7 +378,7 @@ class ParentTeacherManager {
 	//
 	// Author :Rajeev Aggarwal
 	// Created on : (28.01.2009)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//-------------------------------------------------------------------------------  	
 	public function getTeacherParentMessageList($conditions='', $limit = '', $orderBy=' messageDate') {
@@ -412,7 +412,7 @@ class ParentTeacherManager {
 	//
 	// Author :Rajeev Aggarwal
 	// Created on : (28.01.2009)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//-------------------------------------------------------------------------------  	
 	public function getTotalTeacherSentItemMessage($conditions='') {
@@ -436,7 +436,7 @@ class ParentTeacherManager {
 	//
 	// Author :Rajeev Aggarwal
 	// Created on : (28.01.2009)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//-------------------------------------------------------------------------------  	
 	public function getTeacherSentItemList($conditions='', $limit = '', $orderBy=' messageDate') {
@@ -467,7 +467,7 @@ class ParentTeacherManager {
 	//
 	// Author :Rajeev Aggarwal
 	// Created on : (28.01.2009)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//-------------------------------------------------------------------------------  	
 	public function getParentMessageDetail1($conditions='', $limit = '', $orderBy=' messageDate') {
@@ -519,7 +519,7 @@ class ParentTeacherManager {
 	//
 	// Author :Rajeev Aggarwal
 	// Created on : (28.01.2009)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//-------------------------------------------------------------------------------  	
 	public function addTeacherMessageParent() {
@@ -559,7 +559,7 @@ class ParentTeacherManager {
 	//$id:busRouteId
 	// Author :Rajeev Aggarwal 
 	// Created on : (25.11.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//--------------------------------------------------------------------        
     public function changeMessageStatus($id) {
@@ -580,7 +580,7 @@ class ParentTeacherManager {
     //$fileName: name of the file
     // Author :Parveen Sharma
     // Created on : (17.08.2009)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //---------------------------------------------------------------------------------------------------------------       
     public function deleteTeacherAttachementOnFailedUpload($id) {
         global $sessionHandler;

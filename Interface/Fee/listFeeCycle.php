@@ -5,7 +5,7 @@
 //
 // Author :Nishu Bindal
 // Created on : (3.feb.2012 )
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;
@@ -61,7 +61,7 @@ sortOrderBy    = 'ASC';
 //h:height of the div
 //Author : Nishu Bindal
 // Created on : (3.Feb.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 var flag = false; // for whether the record has been added or not, if flag is true then refresh your page when user clicks on cancel button
@@ -76,7 +76,7 @@ function editWindow(id,dv,w,h) {
 //act : action value of the button (add/edit)
 //Author : Nishu Bindal
 // Created on : (3.feb.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function validateAddForm(frm, act) {
@@ -168,7 +168,7 @@ function validateAddForm(frm, act) {
 //
 //Author : Nishu bindal
 // Created on : (3.feb.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function addFeeCycle() {
@@ -234,7 +234,7 @@ function addFeeCycle() {
 //
 //Author : Nishu Bindal
 // Created on : (3.feb.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function deleteFeeCycle(id) {
@@ -274,7 +274,7 @@ function deleteFeeCycle(id) {
 //
 //Author : Nishu bindal
 // Created on : (3.feb.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -297,7 +297,7 @@ function blankValues() {
 // 
 //Author :Nishu Bindal
 // Created on : (3.feb.2012)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function editFeeCycle() {
@@ -360,7 +360,7 @@ function editFeeCycle() {
 // 
 //Author : Nishu Bindal
 // Created on : (3.feb.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function populateValues(id) {

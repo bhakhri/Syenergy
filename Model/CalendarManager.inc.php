@@ -3,7 +3,7 @@
 // THIS FILE IS USED FOR DB OPERATION FOR "event" TABLE
 // Author :Dipanjan Bhattacharjee 
 // Created on : (4.7.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
 require_once($FE . "/Library/common.inc.php"); //for sessionId
@@ -16,7 +16,7 @@ class CalendarManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (4.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
 	private function __construct() {
@@ -27,7 +27,7 @@ class CalendarManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (4.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 	public static function getInstance() {
@@ -43,7 +43,7 @@ class CalendarManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (4.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
 	public function addEvent() {
@@ -61,7 +61,7 @@ class CalendarManager {
 //$id:cityId
 // Author :Dipanjan Bhattacharjee 
 // Created on : (4.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------        
     public function editEvent($id) {
@@ -78,7 +78,7 @@ class CalendarManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (4.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getEvent($conditions='') {
@@ -102,7 +102,7 @@ class CalendarManager {
 //$cityId :cityid of the City
 // Author :Dipanjan Bhattacharjee 
 // Created on : (4.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteEvent($eventId) {
@@ -121,7 +121,7 @@ class CalendarManager {
 //orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (4.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -153,7 +153,7 @@ class CalendarManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (4.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalEvent($conditions='') {

@@ -3,7 +3,7 @@
 // THIS FILE IS USED TO POPULATE Parent Categories
 // Author : Gurkeerat Sidhu
 // Created on : (15.02.2010)
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 set_time_limit(0);
 global $FE;

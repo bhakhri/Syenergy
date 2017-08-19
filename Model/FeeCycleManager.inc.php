@@ -4,7 +4,7 @@
 //FeeCycleManager is used having all the Add, edit, delete function..
 // Author : Jaineesh
 // Created on : 14.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -28,7 +28,7 @@ class FeeCycleManager {
 //addFeeCycle() is used to add new record in database.
 // Author : Jaineesh
 // Created on : 27.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function addFeeCycle() {
@@ -44,7 +44,7 @@ class FeeCycleManager {
 //editFeeCycle() is used to edit the existing record through id.
 //Author : Jaineesh
 // Created on : 27.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -53,7 +53,7 @@ class FeeCycleManager {
 //modified the name of date fields 
 //Author : Arvind Singh Rawat
 // Created on : 24.07.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function editFeeCycle($id) {
@@ -68,7 +68,7 @@ class FeeCycleManager {
 //getFeeCycle() is used to get the data.
 //Author : Jaineesh
 // Created on : 27.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getFeeCycle($conditions='') {
@@ -84,7 +84,7 @@ class FeeCycleManager {
 //deleteFeeCycle() is used to delete the existing record through id.
 //Author : Jaineesh
 // Created on : 27.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------   
     public function deleteFeeCycle($feeCycleId) {
@@ -100,7 +100,7 @@ class FeeCycleManager {
 //getFeeCycleList() is used to get the list of data order by name.
 //Author : Jaineesh
 // Created on : 27.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -118,7 +118,7 @@ class FeeCycleManager {
 //getTotalFeeCycle() is used to get total no. of records
 //Author : Jaineesh
 // Created on : 27.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getTotalFeeCycle($conditions='') {
@@ -135,7 +135,7 @@ class FeeCycleManager {
 //checkFeeCycle() is used to get total no. of records
 //Author : Jaineesh
 // Created on : 13.08.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function checkFeeCycle($feeCycleId) {
@@ -151,7 +151,7 @@ class FeeCycleManager {
 //checkFeeCycle() is used to get total no. of records
 //Author : Jaineesh
 // Created on : 13.08.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function checkFeeHeadValues($feeCycleId) {
@@ -168,7 +168,7 @@ class FeeCycleManager {
 //checkFeeCycle() is used to get total no. of records
 //Author : Jaineesh
 // Created on : 13.08.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function checkFeeReceiptValues($feeCycleId) {

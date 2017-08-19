@@ -3,7 +3,7 @@
 // THIS FILE IS USED FOR DB OPERATION FOR "city" TABLE
 // Author :Dipanjan Bhattacharjee 
 // Created on : (01.09.2009)
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
 
@@ -15,7 +15,7 @@ class RequestManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (01.09.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
 	private function __construct() {
@@ -26,7 +26,7 @@ class RequestManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (01.09.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 	public static function getInstance() {
@@ -43,7 +43,7 @@ class RequestManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (01.09.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getItemName($conditions) {
@@ -114,7 +114,7 @@ public function addIndentDetails($str){
 //$cityId :cityid of the City
 // Author :Dipanjan Bhattacharjee 
 // Created on : (01.09.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteIndentDetails($indentId) {
@@ -156,7 +156,7 @@ public function addIndentDetails($str){
 //orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (01.09.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -184,7 +184,7 @@ public function addIndentDetails($str){
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (01.09.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalIndent($conditions='') {

@@ -3,7 +3,7 @@
 // Purpose: To generate Quota Seat Intake functionality
 // Author : Parveen Sharma
 // Created on : 27-01-09
-// Copyright 2009-2010: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2009-2010: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
 global $FE;

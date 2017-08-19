@@ -6,7 +6,7 @@
 //
 // Author :Arvind Singh Rawat
 // Created on : 14-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------
 global $FE;
@@ -35,7 +35,7 @@ class ParentManager {
 //
 // Author :Arvind Singh Rawat
 // Created on : 14-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------------------- 
    
@@ -61,7 +61,7 @@ AND n.instituteId='".$sessionHandler->getSessionVariable('InstituteId')."'
 //
 // Author :Arvind Singh Rawat
 // Created on : 14-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------------------- 
       
@@ -86,7 +86,7 @@ AND n.instituteId='".$sessionHandler->getSessionVariable('InstituteId')."'
 //
 // Author :Arvind Singh Rawat
 // Created on : 14-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------------------- 
       
@@ -116,7 +116,7 @@ AND n.instituteId='".$sessionHandler->getSessionVariable('InstituteId')."'
 //
 // Author : Arvind Singh Rawat
 // Created on : 14-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------ 
 	
@@ -140,7 +140,7 @@ AND n.instituteId='".$sessionHandler->getSessionVariable('InstituteId')."'
 //
 // Author : Arvind Singh Rawat
 // Created on : 14-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------ 
 	 
@@ -165,7 +165,7 @@ AND n.instituteId='".$sessionHandler->getSessionVariable('InstituteId')."'
 //
 // Author : Arvind Singh Rawat
 // Created on : 14-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------ 
 
@@ -195,7 +195,7 @@ AND n.instituteId='".$sessionHandler->getSessionVariable('InstituteId')."'
 //
 // Author : Arvind Singh Rawat
 // Created on : 14-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------ 
 		public function getSubjectClass() {
@@ -216,7 +216,7 @@ AND n.instituteId='".$sessionHandler->getSessionVariable('InstituteId')."'
 //
 // Author : Arvind Singh Rawat
 // Created on : 14-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------ 
 
@@ -247,7 +247,7 @@ AND n.instituteId='".$sessionHandler->getSessionVariable('InstituteId')."'
 //
 // Author : Arvind Singh Rawat
 // Created on : 14-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------ 
 	
@@ -276,7 +276,7 @@ AND n.instituteId='".$sessionHandler->getSessionVariable('InstituteId')."'
 //
 // Author : Arvind Singh Rawat
 // Created on : 14-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------ 
 	
@@ -309,7 +309,7 @@ AND n.instituteId='".$sessionHandler->getSessionVariable('InstituteId')."'
 //
 // Author : Arvind Singh Rawat
 // Created on : 14-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------
 
@@ -342,7 +342,7 @@ AND n.instituteId='".$sessionHandler->getSessionVariable('InstituteId')."'
 //
 // Author : Arvind Singh Rawat
 // Created on : 14-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------
 	
@@ -379,7 +379,7 @@ AND n.instituteId='".$sessionHandler->getSessionVariable('InstituteId')."'
 //
 // Author : Arvind Singh Rawat
 // Created on : 15-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------
 
@@ -422,7 +422,7 @@ AND n.instituteId='".$sessionHandler->getSessionVariable('InstituteId')."'
 //
 // Author : Arvind Singh Rawat
 // Created on : 15-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------
 
@@ -451,7 +451,7 @@ AND n.instituteId='".$sessionHandler->getSessionVariable('InstituteId')."'
 //
 // Author : Arvind Singh Rawat
 // Created on : 15-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------
 
@@ -480,7 +480,7 @@ AND n.instituteId='".$sessionHandler->getSessionVariable('InstituteId')."'
 //
 // Author : Arvind Singh Rawat
 // Created on : 15-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------
 	
@@ -519,7 +519,7 @@ public function getFeeStatus()
 //
 // Author : Arvind Singh Rawat
 // Created on : 16-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------
 
@@ -541,7 +541,7 @@ public function getFeeStatus()
 //
 // Author : Arvind Singh Rawat
 // Created on : 16-July-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------
 	
@@ -578,7 +578,7 @@ public function getFeeStatus()
 //
 // Author : Arvind Singh Rawat
 // Created on : 25.07.08
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------    
       

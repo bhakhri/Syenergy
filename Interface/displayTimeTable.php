@@ -3,7 +3,7 @@
 // This File contains the time table Reports 
 // Author :Parveen Sharma
 // Created on : 04-04-2009
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;
@@ -27,7 +27,7 @@ require_once(TEMPLATES_PATH .'/jsCssHeader.php');
 //
 // Author : Dipanjan Bhattacharjee
 // Created on : 31.07.08
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------   
 function createBlankTD($i,$str='<td  valign="middle" align="center" class="timtd">---</td>'){
@@ -41,7 +41,7 @@ function createBlankTD($i,$str='<td  valign="middle" align="center" class="timtd
 //THIS FUNCTION IS USED TO GET count value from multiselect control
 // Author : Parveen Sharma
 // Created on : 24-Sep-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 // elmentName: id of the multiselect control
 //----------------------------------------------------------------------------------------------------
  

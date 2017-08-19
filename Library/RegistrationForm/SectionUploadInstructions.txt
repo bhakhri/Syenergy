@@ -1,7 +1,7 @@
 1. Please upload the format provided.
 2. [Sr.No] to be replaced with row counter e.g. 1,2 and so on. for every row.
-3. [Student Name] to be replaced with student name as it exists in chalkpad.
-4. [Student Roll No.] to be replaced with student roll no. as it exists in chalkpad
+3. [Student Name] to be replaced with student name as it exists in syenergy.
+4. [Student Roll No.] to be replaced with student roll no. as it exists in syenergy
 5. [Section Name] to be replaced with section abbreviation and section type. kindly do not provide space between section abbreviation and section type.
 6. [More Sections] to be replaced with next section. Please use next cell in same row to allocate next section to same student.
 7. Please use different worksheet [of same file] for every course.

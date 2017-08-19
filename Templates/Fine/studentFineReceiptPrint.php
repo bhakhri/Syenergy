@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-		<title>Chalkpad: Student Fine Slip </title>
+		<title>syenergy: Student Fine Slip </title>
 		<link rel="stylesheet" type="text/css" media="screen" title="" id="css0" href="http://localhost/LeapCC/CSS/css.css" />
 		<link rel="stylesheet" type="text/css" media="print" title="" href="http://localhost/LeapCC/CSS/css.css" />
 		

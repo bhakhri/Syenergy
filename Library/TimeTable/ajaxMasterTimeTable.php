@@ -4,7 +4,7 @@
 //
 // Author :Rajeev Aggarwal
 // Created on : 05-09-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;
@@ -17,7 +17,7 @@ UtilityManager::headerNoCache();
 //
 // Author :Rajeev Aggarwal
 // Created on : 07-08-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------------------------   
 function createBlankTD($i,$str='<td  valign="middle" align="center" class="timtd">---</td>'){

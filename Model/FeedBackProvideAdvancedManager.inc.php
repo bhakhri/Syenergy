@@ -5,7 +5,7 @@
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008 )
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -19,7 +19,7 @@ class FeedBackProvideAdvancedManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
 	private function __construct() {
@@ -30,7 +30,7 @@ class FeedBackProvideAdvancedManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 	public static function getInstance() {
@@ -46,7 +46,7 @@ class FeedBackProvideAdvancedManager {
 // $conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------         
     public function getMappedCategoriesForUsers($labelId=-1,$roleId=-1,$userId=-1) {
     global $sessionHandler;
@@ -945,7 +945,7 @@ public function insertFeedbackAnswers($insertAnswerString) {
 // $conditions :db clauses
 // Author :Abhay kant
 // Created on : (9.8.2011)
-// Copyright 2010-2011 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2010-2011 - syenergy Technologies Pvt. Ltd.
   public function getStudentId($condition=''){
   	$query="SELECT 
   			studentId,classId
@@ -961,7 +961,7 @@ public function insertFeedbackAnswers($insertAnswerString) {
 // $conditions :db clauses
 // Author :Abhay kant
 // Created on : (9.8.2011)
-// Copyright 2010-2011 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2010-2011 - syenergy Technologies Pvt. Ltd.
     public function insertStudentReport($surveyId,$classId,$studentId,$isStatus,$totalWeightage,$final='',$feedbackToQuestionId='',$employeeId='',$groupId='',$subjectId='',$answerSetOptionId=''){
   	
         $query="INSERT INTO feedback_student_status
@@ -979,7 +979,7 @@ public function insertFeedbackAnswers($insertAnswerString) {
 // $conditions :db clauses
 // Author :Abhay kant
 // Created on : (9.8.2011)
-// Copyright 2010-2011 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2010-2011 - syenergy Technologies Pvt. Ltd.
       public function deleteStudentReport($studentId='',$labelId='',$classId='') {
   	     
           $query="DELETE FROM feedback_student_status
@@ -993,7 +993,7 @@ public function insertFeedbackAnswers($insertAnswerString) {
 // $conditions :db clauses
 // Author :Abhay kant
 // Created on : (9.8.2011)
-// Copyright 2010-2011 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2010-2011 - syenergy Technologies Pvt. Ltd.
       public function getStudentWeightage($answerId){
   	
   	$query="SELECT 
@@ -1009,7 +1009,7 @@ public function insertFeedbackAnswers($insertAnswerString) {
 // $conditions :db clauses
 // Author :Abhay kant
 // Created on : (9.8.2011)
-// Copyright 2010-2011 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2010-2011 - syenergy Technologies Pvt. Ltd.
       public function getTeacherId($surveyId){
   	
   	$query="SELECT 
@@ -1028,7 +1028,7 @@ public function insertFeedbackAnswers($insertAnswerString) {
 // $conditions :db clauses
 // Author :Abhay kant
 // Created on : (9.8.2011)
-// Copyright 2010-2011 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2010-2011 - syenergy Technologies Pvt. Ltd.
       public function getSubjectCode($subjectId){
   
   	$query="SELECT 
@@ -1045,7 +1045,7 @@ public function insertFeedbackAnswers($insertAnswerString) {
 // $conditions :db clauses
 // Author :Abhay kant
 // Created on : (9.8.2011)
-// Copyright 2010-2011 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2010-2011 - syenergy Technologies Pvt. Ltd.
       public function getblockStudent($condition=''){
   
   	$query="SELECT

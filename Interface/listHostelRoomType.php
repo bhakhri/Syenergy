@@ -4,7 +4,7 @@
 //
 // Author : Jaineesh
 // Created on : (21.04.2009)
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 global $FE;
@@ -66,7 +66,7 @@ function getHostelRoomTypeData(){
 //h:height of the div
 //Author : Jaineesh
 // Created on : (21.04.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -84,7 +84,7 @@ function editWindow(id,dv,w,h) {
 //act : action value of the button (add/edit)
 //Author : Jaineesh
 // Created on : (21.04.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function validateAddForm(frm, act) {   
@@ -132,7 +132,7 @@ function validateAddForm(frm, act) {
 //
 //Author : Jaineesh
 // Created on : (21.04.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function addHostelRoomType() {
@@ -182,7 +182,7 @@ function addHostelRoomType() {
 //  id=documentId
 //Author : Jaineesh
 // Created on : (21.04.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function deleteHostelRoomType(id) {
@@ -219,7 +219,7 @@ function deleteHostelRoomType(id) {
 //
 //Author : Jaineesh
 // Created on : (21.04.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------
 
@@ -236,7 +236,7 @@ function blankValues() {
 //
 //Author : Jaineesh
 // Created on : (21.04.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function editHostelRoomType() {
@@ -278,7 +278,7 @@ function editHostelRoomType() {
 //
 //Author : Jaineesh
 // Created on : (21.04.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function populateValues(id) {

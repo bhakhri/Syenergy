@@ -5,7 +5,7 @@
 //ReportComplaintsManager is used having all the Add, edit, delete function..
 // Author : Jaineesh
 // Created on : 14.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -27,7 +27,7 @@ class ReportComplaintsManager {
 //addReportComplaints() is used to add new record in database.
 // Author : Jaineesh
 // Created on : 27.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function addReportComplaints() {
@@ -42,7 +42,7 @@ class ReportComplaintsManager {
 //addReportEscalateComplaints() is used to add new record in database.
 // Author : Jaineesh
 // Created on : 27.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function addReportEscalateComplaints($complaintStatus) {
@@ -56,7 +56,7 @@ class ReportComplaintsManager {
 //editHostelRoom() is used to edit the existing record through id.
 //Author : Jaineesh
 // Created on : 27.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function editReportComplaints($id) {
@@ -69,7 +69,7 @@ class ReportComplaintsManager {
 //getHostelRoom() is used to get the data.
 //Author : Jaineesh
 // Created on : 27.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getReportComplaintDetail($conditions='') {
@@ -107,7 +107,7 @@ class ReportComplaintsManager {
 //getHostelRoom() is used to check duplicate tracking number
 //Author : Jaineesh
 // Created on : 27.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function checkDuplicateTrackDetail($conditions='') {
@@ -124,7 +124,7 @@ class ReportComplaintsManager {
 //getHostelRoom() is used to get the data.
 //Author : Jaineesh
 // Created on : 27.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getReportTrackingComplaintDetail($conditions='') {
@@ -162,7 +162,7 @@ class ReportComplaintsManager {
 //deleteHostelRoom() is used to delete the existing record through id.
 //Author : Jaineesh
 // Created on : 27.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------   
     public function deleteReportComplaint($id) {
@@ -178,7 +178,7 @@ class ReportComplaintsManager {
 //getHostelRoomList() is used to get the list of data order by name.
 //Author : Jaineesh
 // Created on : 27.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getReportComplaintDetailList($conditions='', $limit = '', $orderBy=' hr.roomName') {
@@ -215,7 +215,7 @@ class ReportComplaintsManager {
 //getTotalHostelRoom() is used to get total no. of records
 //Author : Jaineesh
 // Created on : 27.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------  
     public function getTotalReportComplaintDetail($conditions='') {
@@ -239,7 +239,7 @@ class ReportComplaintsManager {
 //getTotalHostelRoom() is used to get total no. of records
 //Author : Jaineesh
 // Created on : 27.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------  
     public function getTotalAllHandleComplaintDetail($conditions,$orderBy) {
@@ -264,7 +264,7 @@ class ReportComplaintsManager {
 //getHostelRoomList() is used to get the list of data order by name.
 //Author : Jaineesh
 // Created on : 27.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getHandleAllComplaintDetailList($conditions,$orderBy,$limit) {
@@ -308,7 +308,7 @@ $query = "	SELECT
 //getHostelRoomList() is used to get the list of data order by name.
 //Author : Jaineesh
 // Created on : 27.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getReportComplaint($complaintId) {
@@ -339,7 +339,7 @@ $query = "	SELECT
 //getHostelRoomList() is used to get the list of data order by name.
 //Author : Jaineesh
 // Created on : 27.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function updateHandleComplaints($complaintId,$complaintStatus,$completionDate,$remarks) {
@@ -360,7 +360,7 @@ $query = "	SELECT
 //UpdateReportComplaints() is used to update complaintsStatus
 //Author : Jaineesh
 // Created on : 04.05.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function UpdateReportComplaints($conditions) {
@@ -377,7 +377,7 @@ $query = "	SELECT
 //getTotalHostelRoom() is used to get room name
 //Author : Jaineesh
 // Created on : 27.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------  
     public function getRoomData($hostelId) {
@@ -397,7 +397,7 @@ $query = "	SELECT
 //getTotalHostelRoom() is used to get room name
 //Author : Jaineesh
 // Created on : 27.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------  
     public function getStudent($roomId) {
@@ -422,7 +422,7 @@ $query = "	SELECT
 //getTotalHostelRoom() is used to get total no. of records
 //Author : Jaineesh
 // Created on : 27.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------  
     public function getStudentHostelData($hostelId) {

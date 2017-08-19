@@ -3,7 +3,7 @@
 // THIS FILE IS USED TO upload student photo for subject centric
 // Author : Jaineesh
 // Created on : 05-Feb-2010
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 	
     ob_start();

@@ -3,7 +3,7 @@
 // Purpose: To disply adv. category list with pagination and search , edit & delete 
 // Author : Dipanjan Bbhattacharjee
 // Created on : (09.01.2010 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------
     ini_set('MEMORY_LIMIT','5000M'); 
     set_time_limit(0);  

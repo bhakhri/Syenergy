@@ -5,7 +5,7 @@
 //
 // Author :Rajeev Aggarwal 
 // Created on : (13.06.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -18,7 +18,7 @@ class LectureTypeManager{
 	//
 	// Author :Rajeev Aggarwal 
 	// Created on : (12.06.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//-------------------------------------------------------------------------------     
 	private function __construct() {
@@ -28,7 +28,7 @@ class LectureTypeManager{
 	//
 	// Author :Rajeev Aggarwal 
 	// Created on : (12.06.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//-------------------------------------------------------------------------------       
 	public static function getInstance() {
@@ -43,7 +43,7 @@ class LectureTypeManager{
 	//
 	// Author :Rajeev Aggarwal 
 	// Created on : (12.06.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//--------------------------------------------------------    
 	public function addLectureType() {
@@ -57,7 +57,7 @@ class LectureTypeManager{
 	//$id:cityId
 	// Author :Rajeev Aggarwal 
 	// Created on : (12.06.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//--------------------------------------------------------     
     public function editLectureType($id) {
@@ -71,7 +71,7 @@ class LectureTypeManager{
 	//$conditions :db clauses
 	// Author :Rajeev Aggarwal 
 	// Created on : (12.06.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//--------------------------------------------------------         
     public function getLectureType($conditions='') {
@@ -87,7 +87,7 @@ class LectureTypeManager{
 	//$cityId :cityid of the City
 	// Author :Rajeev Aggarwal 
 	// Created on : (12.06.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//--------------------------------------------------------------------------------------------------------  
    public function deleteLectureType($lectureTypeId) {
@@ -106,7 +106,7 @@ class LectureTypeManager{
 	//orderBy:sort on which column
 	// Author :Rajeev Aggarwal 
 	// Created on : (12.06.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//--------------------------------------------------------       
     public function getLectureTypeList($conditions='', $limit = '', $orderBy=' lectureTypeId') {
@@ -125,7 +125,7 @@ class LectureTypeManager{
 	//$conditions :db clauses
 	// Author :Rajeev Aggarwal 
 	// Created on : (12.06.2008)
-	// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+	// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 	//
 	//----------------------------------------------------------------------------------------     
     public function getTotalLectureType($conditions='') {

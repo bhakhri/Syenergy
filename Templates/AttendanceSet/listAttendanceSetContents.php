@@ -3,7 +3,7 @@
 // THIS FILE IS USED AS TEMPLATE FOR AttendanceSet LISTING
 // Author :Dipanjan Bhattacharjee
 // Created on : (28.12.2009)
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
 

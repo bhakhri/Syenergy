@@ -3,7 +3,7 @@
 // THIS FILE IS USED AS TEMPLATE FOR MEDICAL LEAVE UPLOAD 
 // Author : Aditi Miglani
 // Created on : 20 Sept 2011
-// Copyright 2011-2012: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2011-2012: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 ?>
     <table width="100%" border="0" cellspacing="0" cellpadding="0">

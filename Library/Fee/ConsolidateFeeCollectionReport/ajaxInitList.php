@@ -2,7 +2,7 @@
 //  This File IS USED TO LIST FEE COLLECTION REPORT
 // Author :Nishu Bindal
 // Created on : 25-April-2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 

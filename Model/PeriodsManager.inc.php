@@ -4,7 +4,7 @@
 //PeriodsManager is used having all the Add, edit, delete function..
 // Author : Jaineesh
 // Created on : 14.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -28,7 +28,7 @@ class PeriodsManager {
 //addPeriods() function is used for adding new periods into the period table....
 // Author : Jaineesh
 // Created on : 14.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function addPeriods() {
@@ -43,7 +43,7 @@ class PeriodsManager {
 //editPeriods() function is used for edit the existing period into the period table....
 // Author : Jaineesh
 // Created on : 14.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function editPeriods($id) {
@@ -59,7 +59,7 @@ class PeriodsManager {
 // 
 // Author : Jaineesh
 // Created on : 14.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------  
     public function getPeriods($conditions='') {
@@ -90,7 +90,7 @@ class PeriodsManager {
 // $periodId - used to generate the unique id of the table
 // Author : Jaineesh
 // Created on : 14.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------- 
     public function checkPeriodWithTimeTable($periodId) {
@@ -108,7 +108,7 @@ class PeriodsManager {
 // $periodId - used to generate the unique id of the table
 // Author : Jaineesh
 // Created on : 14.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------- 
     public function deletePeriods($periodId) {
@@ -126,7 +126,7 @@ class PeriodsManager {
 // $limit - used to check the limit of showing records in list
 // Author : Jaineesh
 // Created on : 14.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------- 
     public function getPeriodsList($conditions='', $limit = '', $orderBy=' pr.periodNumber') {
@@ -153,7 +153,7 @@ class PeriodsManager {
 // $condition - used to check the condition of the table
 // Author : Jaineesh
 // Created on : 14.06.08
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //------------------------------------------------------------------------------- 
     public function getTotalPeriods($conditions='') {

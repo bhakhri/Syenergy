@@ -3,7 +3,7 @@
 //  THIS FILE IS USED FOR DB OPERATION FOR "student and teacher_comment" TABLE
 // Author :Dipanjan Bhattacharjee 
 // Created on : (8.7.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
 require_once($FE . "/Library/common.inc.php"); //for sessionId
@@ -16,7 +16,7 @@ class StudentMiscChargesManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
 	private function __construct() {
@@ -27,7 +27,7 @@ class StudentMiscChargesManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (8.7.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 	public static function getInstance() {
@@ -43,7 +43,7 @@ class StudentMiscChargesManager {
 // THIS FUNCTION IS used to delete student concession data
 // Author :Dipanjan Bhattacharjee
 // Created on : (07.05.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------
     public function deleteStudentMiscCharges($condition) {
          
@@ -55,7 +55,7 @@ class StudentMiscChargesManager {
 // THIS FUNCTION IS used to insert student concession data
 // Author :Dipanjan Bhattacharjee
 // Created on : (07.05.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------
     public function insertStudentMiscCharges($insertString) {
          
@@ -71,7 +71,7 @@ class StudentMiscChargesManager {
 //
 // Author :Rajeev Aggarwal
 // Created on : (05.08.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 

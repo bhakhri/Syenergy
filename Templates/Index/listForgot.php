@@ -4,7 +4,7 @@
 //
 // Author:Parveen Sharma
 // Created on : 15.12.2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------      
 
 require_once(BL_PATH . '/HtmlFunctions.inc.php');
@@ -103,7 +103,7 @@ require_once(BL_PATH . '/HtmlFunctions.inc.php');
 	      <table width="800px">
 		<tr>	
 	           <td align="right">
-		   <span class="text_menu_login">&laquo; Powered By ChalkPad Technologies Pvt Ltd &raquo;</span>
+		   <span class="text_menu_login">&laquo; Powered By syenergy Technologies Pvt Ltd &raquo;</span>
 	           </td>
 	        </tr>
 	     </table>

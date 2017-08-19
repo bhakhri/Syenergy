@@ -3,7 +3,7 @@
 // THIS FILE IS USED FOR DB OPERATION FOR MEDICAL LEAVE
 // Author : Aditi Miglani
 // Created on : 20 Sept 2011
-// Copyright 2011-2012: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2011-2012: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -15,7 +15,7 @@ class MedicalLeaveManager {
 // THIS FUNCTION IS USED FOR CREATING AN OBJECT OF "MedicalLeaveManager" CLASS
 // Author : Aditi Miglani
 // Created on : 20 Sept 2011
-// Copyright 2011-2012: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2011-2012: syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------
 	private function __construct() {
 	}
@@ -24,7 +24,7 @@ class MedicalLeaveManager {
 // THIS FUNCTION IS USED FOR GETTING AN INSTANCE OF "MedicalLeaveManager" CLASS
 // Author : Aditi Miglani
 // Created on : 20 Sept 2011
-// Copyright 2011-2012: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2011-2012: syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------
 	public static function getInstance() {
 		if (self::$instance === null) {

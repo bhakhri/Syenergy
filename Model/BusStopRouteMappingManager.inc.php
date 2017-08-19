@@ -3,7 +3,7 @@
 //  THIS FILE IS USED FOR DB OPERATION FOR "busstopRouteMapping" 
 // Author :Nishu Bindal
 // Created on : (22.Feb.2012 )
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 ?>
@@ -19,7 +19,7 @@ class BusStopRouteMappingManager{
 //
 // Author :Nishu Bindal 
 // Created on : (29.Feb.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
 	private function __construct() {
@@ -31,7 +31,7 @@ class BusStopRouteMappingManager{
 //
 // Author :Nishu Bindal 
 // Created on : (29.Feb.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------        
 	public static function getInstance() {
@@ -49,7 +49,7 @@ class BusStopRouteMappingManager{
 //$conditions :db clauses
 // Author :Nishu Bindal 
 // Created on : (29.Feb.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function checkForAlreadyMapped($conditions='') {
@@ -67,7 +67,7 @@ class BusStopRouteMappingManager{
 // THIS FUNCTION IS USED FOR DELETING A BUS STOP Route Mapping
 // Author :Nishu Bindal
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteBusStopRouteMapping($busRouteStopMappingId) {
@@ -86,7 +86,7 @@ class BusStopRouteMappingManager{
 //orderBy:sort on which column
 // Author :Dipanjan Bhattacharjee 
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -109,7 +109,7 @@ class BusStopRouteMappingManager{
 //$conditions :db clauses
 // Author :NISHU BINDAL
 // Created on : (26.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalBusStopMapping($conditions='') {
@@ -130,7 +130,7 @@ class BusStopRouteMappingManager{
 // THIS FUNCTION IS USED FOR GETTING BUS STOP CITY
 // Author :NISHU BINDAL
 // Created on : (14.Feb.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------    
 	public function fetchBusStopCity($conditions =''){
@@ -141,7 +141,7 @@ class BusStopRouteMappingManager{
 // THIS FUNCTION IS USED FOR CHECKING IF ROUTE IS ALREADY MAPPED WITH STUDENT
 // Author :NISHU BINDAL
 // Created on : (14.Feb.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------  	
 	public function checkForBusStopRouteMapping($busRouteStopMappingId){
@@ -152,7 +152,7 @@ class BusStopRouteMappingManager{
 // THIS FUNCTION IS USED FOR FETCHING STOP NAMES CORRESPONG TO CITY 
 // Author :NISHU BINDAL
 // Created on : (14.Feb.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------  
 	public function fetchStopNames($cityId){
@@ -163,7 +163,7 @@ class BusStopRouteMappingManager{
 // THIS FUNCTION IS USED FOR FETCHING BUS STOP ROUTE MAPPING 
 // Author :NISHU BINDAL
 // Created on : (14.Feb.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------
 	public function getBusStopRouteMapping($busRouteStopMappingId){
@@ -178,7 +178,7 @@ class BusStopRouteMappingManager{
 // THIS FUNCTION IS USED FOR EDITING  BUS STOP ROUTE MAPPING 
 // Author :NISHU BINDAL
 // Created on : (14.Feb.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------
 	public function editBusStopRouteMapping($busRouteStopMappingId,$busStopId,$busRouteId,$scheduledTime){
@@ -196,7 +196,7 @@ class BusStopRouteMappingManager{
 // THIS FUNCTION IS USED FOR ADDING BUS STOP ROUTE MAPPING 
 // Author :NISHU BINDAL
 // Created on : (14.Feb.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------
 	

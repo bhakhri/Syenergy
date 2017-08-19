@@ -5,7 +5,7 @@
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (22.07.2008)
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 ?>
@@ -109,7 +109,7 @@
  //THIS Code IS USED TO DISPLAY Events Div     
  // Author :Dipanjan Bhattacharjee 
 // Created on : (22.07.2008)
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
  ?>
@@ -164,7 +164,7 @@
 //
 // Author :Arvind Singh Rawat 
 // Created on : (18.10.2008)
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
  ?>

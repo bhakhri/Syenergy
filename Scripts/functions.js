@@ -1626,7 +1626,7 @@ function generateQueryString(frmName) {
 //                                                                   any restriction)
 //Author : Dipanjan Bhattacharjee
 // Created on : (26.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------------------
 
@@ -1641,7 +1641,7 @@ obj.value=obj.value.substring(0,mlength)
 //THIS FUNCTION IS USED TO MAKING PAGING 
 // Author : Ajinder Singh
 // Created on : 25-oct-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 // elmentName: id of the multiselect control
 //----------------------------------------------------------------------------------------------------
 function pagination2(page,totalRecords,recordsPerPage,linksPerPage) {
@@ -1757,7 +1757,7 @@ function dateEqual(date1,date2,delim){
 //THIS FUNCTION IS USED FORMAT DATE
 //Author : Dipanjan Bhattacharjee
 // Created on : (08.08.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //value: date value,seperator: as usual
 //----------------------------------------------------------------------------------------------------
 function customParseDate(value,seperator){
@@ -1819,7 +1819,7 @@ else{
 //THIS FUNCTION IS USED TO SELECT/UNSELECT ALL VALUES IN A SELECT BOX WHOSE TYPE IS ARRAY
 //Author : Ajinder Singh
 // Created on : 13-Sep-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //value: element Id, "All" or "None"
 //----------------------------------------------------------------------------------------------------
 function makeSelection(ele, selType,selectionForm) {
@@ -1844,7 +1844,7 @@ function makeSelection(ele, selType,selectionForm) {
 //THIS FUNCTION IS USED TO SELECT/UNSELECT ALL VALUES IN A SELECT BOX
 //Author : Dipanjan Bhattacharjee
 // Created on : 17-Sep-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //value: element Id, "All" or "None"
 //----------------------------------------------------------------------------------------------------
 function makeSelectDeselect(ele, selType) {
@@ -2071,7 +2071,7 @@ function adjustMultipleDropDownsInEmployeeFeedBackFilterForAddress(){
 //THIS FUNCTION IS USED TO TOGGLE ROW DISPLAY
 //Author : Ajinder Singh
 // Created on : 13-Sep-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //value: element Id
 //----------------------------------------------------------------------------------------------------
 function showHide(ele,mode) {
@@ -2308,7 +2308,7 @@ function showHide(ele,mode) {
 //THIS FUNCTION IS USED TO TOGGLE ROW DISPLAY
 //Author : Ajinder Singh9+Dipanjan Bhattacharjee
 // Created on : 13-Sep-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //value: element Id
 //----------------------------------------------------------------------------------------------------
 function showHideParent(ele,mode) {
@@ -2540,7 +2540,7 @@ function showHideAdvanced(preFix,f1,f2,f3){
 //THIS FUNCTION IS USED TO CHANGE LINK TEXT
 //Author : Ajinder Singh
 // Created on : 13-Sep-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //value: element Id
 //----------------------------------------------------------------------------------------------------
 function hideLabel(ele) {
@@ -2551,7 +2551,7 @@ function hideLabel(ele) {
 //THIS FUNCTION IS USED TO CHANGE LINK TEXT
 //Author : Ajinder Singh
 // Created on : 13-Sep-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //value: element Id
 //----------------------------------------------------------------------------------------------------
 function showLabel(ele) {
@@ -2563,7 +2563,7 @@ function showLabel(ele) {
 //THIS FUNCTION IS USED TO CHECK AND CHANGE LINK TEXT
 //Author : Ajinder Singh
 // Created on : 13-Sep-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //value: element Id
 //----------------------------------------------------------------------------------------------------
 function showHideLabel(ele) {
@@ -2579,7 +2579,7 @@ function showHideLabel(ele) {
 //THIS FUNCTION IS USED TO CHECK AND SHOW/HIDE ROW
 //Author : Ajinder Singh
 // Created on : 13-Sep-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //value: element Id
 //----------------------------------------------------------------------------------------------------
 function checkAndDisplay(ele) {
@@ -2597,7 +2597,7 @@ function checkAndDisplay(ele) {
 //THIS FUNCTION IS USED TO SHOW ELEMENT
 //Author : Ajinder Singh
 // Created on : 13-Sep-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //value: element Id
 //----------------------------------------------------------------------------------------------------
 function show(ele) {
@@ -2608,7 +2608,7 @@ function show(ele) {
 //THIS FUNCTION IS USED TO HIDE ELEMENT
 //Author : Ajinder Singh
 // Created on : 13-Sep-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //value: element Id
 //----------------------------------------------------------------------------------------------------
 function hide(ele) {
@@ -2619,7 +2619,7 @@ function hide(ele) {
 //THIS FUNCTION IS USED TO GET comma seprated value from multiselect control
 // Author : Rajeev Aggarwal
 // Created on : 24-Sep-2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 // elmentName: id of the multiselect control
 //----------------------------------------------------------------------------------------------------
 function getCommaSepratedResource(elmentName,formName)

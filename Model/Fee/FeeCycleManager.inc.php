@@ -4,7 +4,7 @@
 //FeeCycleManager is used having all the Add, edit, delete function..
 // Author : Nishu Bindal
 // Created on : 3.feb.12
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 require_once(DA_PATH . '/SystemDatabaseManager.inc.php');
@@ -28,7 +28,7 @@ class FeeCycleManager {
 //addFeeCycle() is used to add new record in database.
 // Author : Nishu
 // Created on : 3.feb.12
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 	public function addFeeCycle() {
@@ -62,7 +62,7 @@ class FeeCycleManager {
 //editFeeCycle() is used to edit the existing record through id.
 //Author : Nishu Bindal
 // Created on : 3.feb.12
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -104,7 +104,7 @@ class FeeCycleManager {
 //getFeeCycle() is used to get the data.
 //Author : Nishu Bindal
 // Created on : 3.feb.12
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getFeeCycle($conditions='') {
@@ -127,7 +127,7 @@ class FeeCycleManager {
 //deleteFeeCycle() is used to delete the existing record through id.
 //Author : Nishu bindal
 // Created on : 3.feb.2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------   
     public function deleteFeeCycle($feeCycleId) {
@@ -143,7 +143,7 @@ class FeeCycleManager {
 //getFeeCycleList() is used to get the list of data order by name.
 //Author : Nishu Bindal
 // Created on : 13.feb.12
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
 
@@ -165,7 +165,7 @@ class FeeCycleManager {
 //getTotalFeeCycle() is used to get total no. of records
 //Author : Nishu Bindal
 // Created on : 13.feb.12
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getTotalFeeCycle($conditions='') {
@@ -184,7 +184,7 @@ class FeeCycleManager {
 //checkFeeCycle() is used to get total no. of records
 //Author : Nishu Bindal
 // Created on : 13.feb.12
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function checkFeeCycle($feeCycleId) {
@@ -200,7 +200,7 @@ class FeeCycleManager {
 //checkFeeCycle() is used to get total no. of records
 //Author : Nishu Bindal
 // Created on : 13.feb.12
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function checkFeeHeadValues($feeCycleId) {
@@ -217,7 +217,7 @@ class FeeCycleManager {
 //checkFeeCycle() is used to get total no. of records
 //Author : Nishu Bindal
 // Created on : 13.feb.12
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------
     public function checkFeeReceiptValues($feeCycleId) {
     global $sessionHandler;

@@ -3,7 +3,7 @@
 // Purpose: To store the records of Fee Ledger  functionality
 // Author : Nishu Bindal
 // Created on : (28.Mar.2012 )
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 	

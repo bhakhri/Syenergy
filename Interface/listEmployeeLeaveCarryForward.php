@@ -3,7 +3,7 @@
 // THIS FILE SHOWS A LIST OF FeedBackGrades
 // Author : Dipanjan Bhattacharjee
 // Created on : (19.05.2010 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 global $FE;
 require_once($FE . "/Library/common.inc.php");
@@ -559,7 +559,7 @@ function showReport(page) {
 // THIS FUNCTION IS USED TO ADD A NEW DEGREE
 // Author : Dipanjan Bhattacharjee
 // Created on : (19.05.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function addEmployeeCarryLeave(frm) {

@@ -4,7 +4,7 @@
 // functionality
 // Author : Parveen Sharma
 // Created on : (11.06.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     set_time_limit(0);  

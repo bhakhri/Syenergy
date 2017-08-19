@@ -3,7 +3,7 @@
 //
 // Author :Jaineesh
 // Created on : 22-07-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 require_once(TEMPLATES_PATH . "/breadCrumb.php");
@@ -174,7 +174,7 @@ require_once(TEMPLATES_PATH . "/breadCrumb.php");
 //User: Jaineesh     Date: 8/18/09    Time: 7:37p
 //Updated in $/LeapCC/Templates/Student
 //Remove administrator role from role type so that no new administrator
-//can be made and Chalkpad will be administrator and Applied time
+//can be made and syenergy will be administrator and Applied time
 //validation so that start time can not be greater than end time.
 //
 //*****************  Version 7  *****************

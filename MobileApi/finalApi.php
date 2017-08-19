@@ -21,7 +21,7 @@ mysql_select_db(DB_NAME,$conn) or die(mysql_error());
 //Authorisation Key is a unique LoginKey which will be used as a parameter in all further calls 
 // Author :Vritee Dhall
 // Created on : 28-11-2011
-// Copyright 2011-2012 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2011-2012 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
 function removePHPJS($input,$rep='',$other=''){
@@ -165,7 +165,7 @@ if($_REQUEST['fn']== "login") {
 //Returns 1 if user is logged in else returns 0
 // Author :Vritee Dhall
 // Created on : 28-11-2011
-// Copyright 2011-2012 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2011-2012 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
 else if($_REQUEST['fn']== "checklogin"){   
@@ -200,7 +200,7 @@ else if($_REQUEST['fn']== "checklogin"){
 //deletes authkey from mobile_user table
 // Author :Vritee Dhall
 // Created on : 28-11-2011
-// Copyright 2011-2012 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2011-2012 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
 else if($_REQUEST['fn']== "logout"){    
@@ -232,7 +232,7 @@ else if($_REQUEST['fn']== "logout"){
 //to get timetable details i.e coursecode,roomno,periodno,teacher name
 // Author :Vritee Dhall
 // Created on : 28-11-2011
-// Copyright 2011-2012 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2011-2012 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 else if($_REQUEST['fn']== "timetable"){    
 
@@ -443,7 +443,7 @@ ORDER BY
 //to get timetable details i.e coursecode,roomno,periodno,teacher name
 // Author :Vritee Dhall
 // Created on : 28-11-2011
-// Copyright 2011-2012 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2011-2012 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
 else if($_REQUEST['fn']== "studentlist"){  
@@ -555,7 +555,7 @@ else if($_REQUEST['fn']== "studentlist"){
 //to get timetable details i.e coursecode,roomno,periodno,teacher name
 // Author :Vritee Dhall
 // Created on : 28-11-2011
-// Copyright 2011-2012 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2011-2012 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
 else if($_REQUEST['fn']== "studentlist"){  
@@ -639,7 +639,7 @@ ORDER BY LENGTH( rollNo ) +0, rollNo ASC $limit";
 //to get timetable details i.e coursecode,roomno,periodno,teacher name
 // Author :Vritee Dhall
 // Created on : 28-11-2011
-// Copyright 2011-2012 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2011-2012 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 else if($_REQUEST['fn']== "displayattendance"){ 
 
@@ -796,7 +796,7 @@ else if($_REQUEST['fn']== "displayattendance"){
 //to mark the attendance of the student
 // Author :Vritee Dhall
 // Created on : 28-11-2011
-// Copyright 2011-2012 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2011-2012 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 else if($_REQUEST['fn']== "markattendance"){  
 

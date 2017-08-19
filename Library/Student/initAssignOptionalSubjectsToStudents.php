@@ -4,7 +4,7 @@
 // THIS FILE IS USED TO SAVE OPTIONAL SUBJECTS GROUPS ALLOCATED STUDENTS OF A PARTICULAR CLASS
 // Author : Kavish Manjkhola
 // Created on : (14 Feb 2011)
-// Copyright 2011-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2011-2000: syenergy Technologies Pvt. Ltd.
 //---------------------------------------------------------------------------------------------
 
 global $FE;

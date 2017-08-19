@@ -6,7 +6,7 @@
 //
 // Author :Nishu Bindal
 // Created on : 16-April-2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -31,7 +31,7 @@ class FeeCollectionReportManager {
 //  This function is used to fetch all branches
 // Author :Nishu Bindal
 // Created on : 21-Mar-2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     
@@ -52,7 +52,7 @@ class FeeCollectionReportManager {
 //  This function is used to fetch all batches
 // Author :Nishu Bindal
 // Created on : 21-Mar-2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     public function fetchAllBatches($condition){
@@ -71,7 +71,7 @@ class FeeCollectionReportManager {
 //  This function is used to fetch all Classes
 // Author :Nishu Bindal
 // Created on : 21-Mar-2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
     public function fetchClases($condition = ''){
@@ -87,7 +87,7 @@ class FeeCollectionReportManager {
 //  This function is used to fetch Payment Details Count Of Student Fee
 // Author :Nishu Bindal
 // Created on : 16-April-2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -165,7 +165,7 @@ class FeeCollectionReportManager {
 //  This function is used to fetch Payment Details Of Student Fee
 // Author :Nishu Bindal
 // Created on : 16-April-2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 
@@ -245,7 +245,7 @@ class FeeCollectionReportManager {
 //  This function is used to fetch Payment Details Of Student Fee for print
 // Author :Nishu Bindal
 // Created on : 16-April-2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 	public function getFeeDetailsPrint($classId,$fromDate,$toDate,$orderBy){	
@@ -393,7 +393,7 @@ class FeeCollectionReportManager {
 //  This function is used to fetch Payment Details Of Student Fee
 // Author :Nishu Bindal
 // Created on : 16-April-2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 

@@ -3,7 +3,7 @@
 // THIS FILE IS USED TO upload student photo from student login 
 // Author : Aditi Miglani
 // Created on : 23 Sept 2011
-// Copyright 2011-2012: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2011-2012: syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------
 
     set_time_limit(0);

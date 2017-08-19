@@ -3,7 +3,7 @@
 //This file returns the array of total lecture deliver attendance 
 // Author : Parveen Sharma
 // Created on : (23.07.2008 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------------
 set_time_limit(0); 

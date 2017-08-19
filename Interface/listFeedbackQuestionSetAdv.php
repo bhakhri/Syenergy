@@ -3,7 +3,7 @@
 // THIS FILE SHOWS A LIST OF FEED BACK Question Sets(ADV)
 // Author : Dipanjan Bhattacharjee
 // Created on : (12.01.2010 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 global $FE;
 require_once($FE . "/Library/common.inc.php");
@@ -59,7 +59,7 @@ var flag = false; // for whether the record has been added or not, if flag is tr
 //h:height of the div
 //Author : Dipanjan Bhattacharjee
 // Created on : (08.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 function editWindow(id) {
     displayWindow('AddQuestionSet',315,250);
@@ -74,7 +74,7 @@ function editWindow(id) {
 //act:type of operations(Add/Edit)
 //Author : Dipanjan Bhattacharjee
 // Created on : (08.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function validateAddForm(frm, act) {
@@ -131,7 +131,7 @@ function checkDuplicateValues(val){
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (08.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function addQuestionSet() {
@@ -213,7 +213,7 @@ function addQuestionSet() {
 //id=cityId
 //Author : Dipanjan Bhattacharjee
 // Created on : (25.6.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function deleteQuestionSet(id) {
@@ -254,7 +254,7 @@ function deleteQuestionSet(id) {
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (08.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function blankValues() {
@@ -276,7 +276,7 @@ function blankValues() {
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (08.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function editQuestionSet() {
@@ -318,7 +318,7 @@ function editQuestionSet() {
 // THIS FUNCTION IS USED TO POPULATE "editCity" DIV
 // Author : Dipanjan Bhattacharjee
 // Created on : (08.01.2010)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 function populateValues(id) {
          document.getElementById('multiRow').style.display='none';

@@ -5,7 +5,7 @@
 //
 // Author :Gurkeerat Sidhu 
 // Created on : (20.4.2009 )
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 ?>
@@ -21,7 +21,7 @@ class HostelVisitorManager {
 //
 // Author :Gurkeerat Sidhu 
 // Created on : (20.4.2009 )
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------      
 	private function __construct() {
@@ -32,7 +32,7 @@ class HostelVisitorManager {
 //
 // Author :Gurkeerat Sidhu  
 // Created on : (20.4.2009 )
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
 	public static function getInstance() {
@@ -48,7 +48,7 @@ class HostelVisitorManager {
 //
 // Author :Gurkeerat Sidhu  
 // Created on : (20.4.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
 	public function addHostelVisitor() {
@@ -65,7 +65,7 @@ class HostelVisitorManager {
 //$id:visitorId
 // Author :Gurkeerat Sidhu
 // Created on : (20.4.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------        
     public function editHostelVisitor($id) {
@@ -83,7 +83,7 @@ class HostelVisitorManager {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu 
 // Created on : (20.4.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getHostelVisitor($conditions='') {
@@ -101,7 +101,7 @@ class HostelVisitorManager {
 //
 // Author :Gurkeerat Sidhu 
 // Created on : (20.4.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------------------------------------------------------      
     public function deleteHostelVisitor($visitorid) {
@@ -120,7 +120,7 @@ class HostelVisitorManager {
 //orderBy:sort on which column
 // Author :Gurkeerat Sidhu 
 // Created on : (20.4.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     
@@ -143,7 +143,7 @@ class HostelVisitorManager {
 //$conditions :db clauses
 // Author :Gurkeerat Sidhu  
 // Created on : (20.4.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getTotalHostelVisitor($conditions='') {

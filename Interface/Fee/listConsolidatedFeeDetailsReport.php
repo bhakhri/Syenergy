@@ -3,7 +3,7 @@
 // Purpose: To List Fee Collection 
 // Author : Nishu Bindal
 // Created on : 16-April-2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 global $FE;
 require_once($FE . "/Library/common.inc.php");
@@ -110,7 +110,7 @@ function validateAddForm(frm){
 //THIS FUNCTION IS USED TO GET STUDYPERIOD
 //Author : Nishu Bindal
 // Created on : (6.Feb.2012)
-// Copyright 2012-2013 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 function getStudyPeriod(){
 	form = document.allDetailsForm;

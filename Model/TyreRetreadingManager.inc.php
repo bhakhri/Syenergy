@@ -5,7 +5,7 @@
 //EmployeeManager is used having all the Add, edit, delete function..
 // Author : Jaineesh
 // Created on : 24.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
   include_once(DA_PATH ."/SystemDatabaseManager.inc.php");
@@ -28,7 +28,7 @@
 //addVehicleType() is used to add new record in database.
 // Author : Jaineesh
 // Created on : 24.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function addTyreRetreading($tyreId,$busId) {
@@ -51,7 +51,7 @@
 //editVehicleType() is used to edit the existing record through id.
 //Author : Jaineesh
 // Created on : 24.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function updateTyreRetreading($tyreId,$busId) {
@@ -76,7 +76,7 @@
 //deleteVehicleType() is used to delete the existing record through id.
 //Author : Jaineesh
 // Created on : 24.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------  
     public function deleteTyreRetreading($retreadingId) {
@@ -92,7 +92,7 @@
 //getVehicleTypeList() is used to get the list of data order by name.
 //Author : Jaineesh
 // Created on : 24.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getTyreRetreadingList($conditions='', $limit = '', $orderBy='tyreNumber') {
@@ -122,7 +122,7 @@
 //getVehicleTypeList() is used to get the list of data order by name.
 //Author : Jaineesh
 // Created on : 24.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getRetreading($conditions='', $limit = '', $orderBy='vehicleType') {
@@ -148,7 +148,7 @@
 //getTotalVehicleType() is used to get total no. of records
 //Author : Jaineesh
 // Created on : 24.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     
@@ -171,7 +171,7 @@
 //getTyreHistoryBus() is used to get the list of data order by name.
 //Author : Jaineesh
 // Created on : 25.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getTyreHistoryBus($tyreNo) {
@@ -211,7 +211,7 @@
 //getTyreHistoryBus() is used to get the list of data order by name.
 //Author : Jaineesh
 // Created on : 25.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getTyreRetreading($tyreNo) {
@@ -235,7 +235,7 @@
 //getTyreHistoryBus() is used to get the list of data order by name.
 //Author : Jaineesh
 // Created on : 25.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getTyreRetreadingReport($conditions='',$limit='',$orderBy='') {
@@ -263,7 +263,7 @@
 //getTyreHistoryBus() is used to get the list of data order by name.
 //Author : Jaineesh
 // Created on : 25.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getTyreList($tyreNo) {
@@ -288,7 +288,7 @@
 //getTyreRetreadingReason() is used to get the list of data order by name.
 //Author : Jaineesh
 // Created on : 25.11.09
-// Copyright 2008-2000: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2000: syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------
     public function getTyreRetreadingReason($retreadingId) {

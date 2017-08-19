@@ -4,7 +4,7 @@
 
 // Author :Ajinder Singh
 // Created on : 05-Sep-2008
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
  
@@ -23,7 +23,7 @@ class CropImagesManager {
     //
     // Author :Dipanjan Bhattacharjee 
     // Created on : (12.06.2008)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //-------------------------------------------------------------------------------      
         private function __construct() {
@@ -34,7 +34,7 @@ class CropImagesManager {
     //
     // Author :Dipanjan Bhattacharjee 
     // Created on : (12.06.2008)
-    // Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+    // Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
     //
     //-------------------------------------------------------------------------------       
       public static function getInstance() {

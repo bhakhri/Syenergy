@@ -3,7 +3,7 @@
 //  This File contains Student Internal Final Marks Report
 // Author :Parveen Sharma
 // Created on : 28-04-2009
-// Copyright 2008-2009: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009: syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------
 

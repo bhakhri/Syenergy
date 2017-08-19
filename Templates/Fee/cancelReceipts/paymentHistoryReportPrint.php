@@ -2,7 +2,7 @@
 //This file is used as printing version for payment status.
 // Author :Nishu Bindal
 // Created on : 11-05-2012
-// Copyright 2012-2013: Chalkpad Technologies Pvt. Ltd.
+// Copyright 2012-2013: syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 
     set_time_limit(0); 

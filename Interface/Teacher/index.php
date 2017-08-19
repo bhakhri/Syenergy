@@ -54,7 +54,7 @@ function smsDivShow() {
 //purspose:to show subject options when msgmedium is email
 //Author: Dipanjan Bhattacharjee
 //Date: 21.07.2008
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------------------
 function subjectDivShow()
@@ -157,7 +157,7 @@ var flag = false; // for whe
 //h:height of the div
 //Author : Dipanjan Bhattacharjee
 // Created on : (16.08.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function showAttendanceDetails(id) {
@@ -170,7 +170,7 @@ function showAttendanceDetails(id) {
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (16.08.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function populateAttendanceValues(id) {
@@ -210,7 +210,7 @@ function populateAttendanceValues(id) {
 //h:height of the div
 //Author : Dipanjan Bhattacharjee
 // Created on : (16.08.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function showNoticeDetails(id) {
@@ -223,7 +223,7 @@ function showNoticeDetails(id) {
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (16.08.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function populateNoticeValues(id) {
@@ -266,7 +266,7 @@ function populateNoticeValues(id) {
 //h:height of the div
 //Author : Dipanjan Bhattacharjee
 // Created on : (16.08.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function showEventDetails(id) {
@@ -279,7 +279,7 @@ function showEventDetails(id) {
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (16.08.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function populateEventValues(id) {
@@ -314,7 +314,7 @@ function populateEventValues(id) {
 //h:height of the div
 //Author : Dipanjan Bhattacharjee
 // Created on : (16.08.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function showMessageDetails(id) {
@@ -327,7 +327,7 @@ function showMessageDetails(id) {
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (16.08.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function populateMessageValues(id) {
@@ -370,7 +370,7 @@ function populateMessageValues(id) {
 //THIS FUNCTION IS USED TO check time table cookie
 // Author : Dipanjan Bhattacharjee
 // Created on : (04.09.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------
 function checkTimeTableAlert() {
          var url = '<?php echo HTTP_LIB_PATH;?>/Teacher/ajaxCheckTimeTableAlertCookie.php';
@@ -625,7 +625,7 @@ function checkStudents(){
 //
 //Author : Dipanjan Bhattacharjee
 // Created on : (21.07.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------
 function hide_div(id,mode){
@@ -773,7 +773,7 @@ function toggleWidgets(id,value,checked){
 //Date:26.07.2008
 //$str=input string,$maxlenght:no of characters to show,$rep:what to display in place of truncated string
 //$mode=1 : no split after 30 chars,mode=2:split after 30 characters
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //---------------------------------------------------------------------------------------------------------------
 function trim_output($str,$maxlength,$mode=1,$rep='...'){

@@ -1,7 +1,7 @@
 <?php 
 //Author : Usheer Fotedar
 // Created on : (20.03.2014)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //Edited on : 04/04/2014
 ?>
 

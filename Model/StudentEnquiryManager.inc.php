@@ -21,7 +21,7 @@ class StudentEnquiryManager {
 //
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
     public function addCity($cityCode,$cityName,$stateId) {
@@ -45,7 +45,7 @@ class StudentEnquiryManager {
 //$conditions :db clauses
 // Author :Dipanjan Bhattacharjee 
 // Created on : (12.06.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------         
     public function getCity($conditions='') {
@@ -62,7 +62,7 @@ class StudentEnquiryManager {
 //
 // Author :Dipanjan Bhattacharjee
 // Created on : (29.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------   	
 
 	public function addStudentEnquiry($cityId, $instituteId, $sessionId, $studentDomicile1, $studentCategory1,$stateId,$countryId,$studentNationality1) {
@@ -157,7 +157,7 @@ class StudentEnquiryManager {
 //
 // Author :Dipanjan Bhattacharjee
 // Created on : (29.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------       
 
     public function addCounseler($studentId, $startDate, $endDate, $counselingId,$verificationId ) {
@@ -178,7 +178,7 @@ class StudentEnquiryManager {
 //
 // Author :Dipanjan Bhattacharjee
 // Created on : (29.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------       
 
     public function editStudentEnquiry($studentId,$cityId, $instituteId, $sessionId, $studentDomicile1, $studentCategory1,$stateId,$countryId,$studentNationality1) {
@@ -276,7 +276,7 @@ class StudentEnquiryManager {
 //
 // Author :Rajeev Aggarwal
 // Created on : (05.08.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------   		
 	public function getStudentData($studentId) {
@@ -294,7 +294,7 @@ class StudentEnquiryManager {
 // THIS FUNCTION IS USED TO GET states corresponding to a country
 // Author :Dipanjan Bhattacharjee
 // Created on : (29.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------           
     public function getStudentStates($countyId) {
      
@@ -311,7 +311,7 @@ class StudentEnquiryManager {
 // THIS FUNCTION IS USED TO GET cities corresponding to a state
 // Author :Dipanjan Bhattacharjee
 // Created on : (29.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //-------------------------------------------------------------------------------           
     public function getStudentCities($stateId) {
      
@@ -332,7 +332,7 @@ class StudentEnquiryManager {
 //
 // Author :Rajeev Aggarwal
 // Created on : (05.08.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
     public function getStudentList($conditions='', $limit = '', $orderBy=' studentName') {
@@ -390,7 +390,7 @@ class StudentEnquiryManager {
 //
 // Author :Parveen Sharma
 // Created on : 29-05-09
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------       
         
@@ -449,7 +449,7 @@ class StudentEnquiryManager {
 //
 // Author :Rajeev Aggarwal
 // Created on : (05.08.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------   	
 
@@ -473,7 +473,7 @@ class StudentEnquiryManager {
 //$studentId :studentId of the student_enquiry
 // Author :Dipanjan Bhattacharjee 
 // Created on : (29.05.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------------------------------------------------------     
    public function deleteStudentEnquiry($studentId){
        global $sessionHandler;
@@ -496,7 +496,7 @@ class StudentEnquiryManager {
 //
 // Author :Parveen Sharma
 // Created on : (05.02.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
     public function addCandidate($insertValues) {
@@ -512,7 +512,7 @@ class StudentEnquiryManager {
 //
 // Author :Parveen Sharma
 // Created on : (05.02.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------    
     public function updateCandidate($insertValues) {
@@ -527,7 +527,7 @@ class StudentEnquiryManager {
 //
 // Author :Rajeev Aggarwal
 // Created on : (05.08.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------           
     public function getStudentEnquiryData($condition='',$orderBy='',$limit='') {
@@ -546,7 +546,7 @@ class StudentEnquiryManager {
 //
 // Author :Parveen Sharma
 // Created on : (07.06.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------     
     public function insertFeeDetailsInTransaction($insertValues) {
@@ -562,7 +562,7 @@ class StudentEnquiryManager {
 //
 // Author :Parveen Sharma
 // Created on : (07.06.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------     
     public function insertFeeCancellationDetailsInTransaction($insertValues) {
@@ -578,7 +578,7 @@ class StudentEnquiryManager {
 //
 // Author :Parveen Sharma
 // Created on : (07.06.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------     
     public function updateStudentStatus($tableName,$insertValues,$condition) {
@@ -594,7 +594,7 @@ class StudentEnquiryManager {
 //$candidateId : unique id of Candidate
 // Author :Parveen Sharma
 // Created on : (15.04.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //----------------------------------------------------------------------------------------      
     public function getReceiptNo() {
@@ -609,7 +609,7 @@ class StudentEnquiryManager {
 //$conditions :db clauses
 // Author :Vimal Sharma 
 // Created on : (05.02.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //--------------------------------------------------------                
    public function getCandidateAllDetail($conditions='') {
      
@@ -646,7 +646,7 @@ class StudentEnquiryManager {
 //
 // Author :Rajeev Aggarwal
 // Created on : (05.08.2008)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //-------------------------------------------------------------------------------           
     public function getStudentEnquiryFeeData($condition1='',$condition='',$orderBy='',$limit='') {
@@ -674,7 +674,7 @@ class StudentEnquiryManager {
 //
 // Author :Parveen Sharma
 // Created on : (20.02.2009)
-// Copyright 2008-2009 - Chalkpad Technologies Pvt. Ltd.
+// Copyright 2008-2009 - syenergy Technologies Pvt. Ltd.
 //
 //--------------------------------------------------------       
     public function getProgramAllotmentStatusList($conditions='', $limit = '', $orderBy=' c.className') {
