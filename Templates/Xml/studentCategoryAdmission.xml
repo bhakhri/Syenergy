@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<chart>
+<series>
+	<value xid='2008'>2008</value>
+	<value xid='2007'>2007</value>
+	<value xid='2006'>2006</value>
+	<value xid='2005'>2005</value>
+	<value xid='2004'>2004</value>
+</series>
+<graphs>
+
+	<graph gid='AIEEE' title='AIEEE'>
+		<value xid='2008' url='javascript:showData("2008~AIEEE~category")'>48</value>
+		<value xid='2007' url='javascript:showData("2007~AIEEE~category")'>101</value>
+		<value xid='2006' url='javascript:showData("2006~AIEEE~category")'>37</value>
+		<value xid='2005' url='javascript:showData("2005~AIEEE~category")'>52</value>
+		<value xid='2004' url='javascript:showData("2004~AIEEE~category")'>9</value>
+	</graph>
+	<graph gid='AIEEE-NONP' title='AIEEE-NONP'>
+		<value xid='2008' url='javascript:showData("2008~AIEEE-NONP~category")'>20</value>
+		<value xid='2007' url='javascript:showData("2007~AIEEE-NONP~category")'>8</value>
+		<value xid='2006' url='javascript:showData("2006~AIEEE-NONP~category")'>28</value>
+		<value xid='2005' url='javascript:showData("2005~AIEEE-NONP~category")'></value>
+		<value xid='2004' url='javascript:showData("2004~AIEEE-NONP~category")'></value>
+	</graph>
+	<graph gid='GEN' title='GEN'>
+		<value xid='2008' url='javascript:showData("2008~GEN~category")'>139</value>
+		<value xid='2007' url='javascript:showData("2007~GEN~category")'></value>
+		<value xid='2006' url='javascript:showData("2006~GEN~category")'></value>
+		<value xid='2005' url='javascript:showData("2005~GEN~category")'>31</value>
+		<value xid='2004' url='javascript:showData("2004~GEN~category")'></value>
+	</graph>
+	<graph gid='LEET' title='LEET'>
+		<value xid='2008' url='javascript:showData("2008~LEET~category")'>8</value>
+		<value xid='2007' url='javascript:showData("2007~LEET~category")'></value>
+		<value xid='2006' url='javascript:showData("2006~LEET~category")'></value>
+		<value xid='2005' url='javascript:showData("2005~LEET~category")'></value>
+		<value xid='2004' url='javascript:showData("2004~LEET~category")'></value>
+	</graph>
+	<graph gid='MET' title='MET'>
+		<value xid='2008' url='javascript:showData("2008~MET~category")'>116</value>
+		<value xid='2007' url='javascript:showData("2007~MET~category")'></value>
+		<value xid='2006' url='javascript:showData("2006~MET~category")'></value>
+		<value xid='2005' url='javascript:showData("2005~MET~category")'></value>
+		<value xid='2004' url='javascript:showData("2004~MET~category")'></value>
+	</graph>
+	<graph gid='MGMT' title='MGMT'>
+		<value xid='2008' url='javascript:showData("2008~MGMT~category")'>352</value>
+		<value xid='2007' url='javascript:showData("2007~MGMT~category")'>455</value>
+		<value xid='2006' url='javascript:showData("2006~MGMT~category")'>427</value>
+		<value xid='2005' url='javascript:showData("2005~MGMT~category")'>159</value>
+		<value xid='2004' url='javascript:showData("2004~MGMT~category")'>2</value>
+	</graph>
+	<graph gid='MGMT-CET' title='MGMT-CET'>
+		<value xid='2008' url='javascript:showData("2008~MGMT-CET~category")'>7</value>
+		<value xid='2007' url='javascript:showData("2007~MGMT-CET~category")'></value>
+		<value xid='2006' url='javascript:showData("2006~MGMT-CET~category")'></value>
+		<value xid='2005' url='javascript:showData("2005~MGMT-CET~category")'></value>
+		<value xid='2004' url='javascript:showData("2004~MGMT-CET~category")'></value>
+	</graph>
+	<graph gid='NATA' title='NATA'>
+		<value xid='2008' url='javascript:showData("2008~NATA~category")'>40</value>
+		<value xid='2007' url='javascript:showData("2007~NATA~category")'></value>
+		<value xid='2006' url='javascript:showData("2006~NATA~category")'></value>
+		<value xid='2005' url='javascript:showData("2005~NATA~category")'></value>
+		<value xid='2004' url='javascript:showData("2004~NATA~category")'></value>
+	</graph>
+	<graph gid='NON-MGMT' title='NON-MGMT'>
+		<value xid='2008' url='javascript:showData("2008~NON-MGMT~category")'>48</value>
+		<value xid='2007' url='javascript:showData("2007~NON-MGMT~category")'>55</value>
+		<value xid='2006' url='javascript:showData("2006~NON-MGMT~category")'>121</value>
+		<value xid='2005' url='javascript:showData("2005~NON-MGMT~category")'></value>
+		<value xid='2004' url='javascript:showData("2004~NON-MGMT~category")'></value>
+	</graph>
+	<graph gid='PUNJABST' title='PUNJABST'>
+		<value xid='2008' url='javascript:showData("2008~PUNJABST~category")'>43</value>
+		<value xid='2007' url='javascript:showData("2007~PUNJABST~category")'></value>
+		<value xid='2006' url='javascript:showData("2006~PUNJABST~category")'></value>
+		<value xid='2005' url='javascript:showData("2005~PUNJABST~category")'></value>
+		<value xid='2004' url='javascript:showData("2004~PUNJABST~category")'></value>
+	</graph>
+	<graph gid='PUNST-CET' title='PUNST-CET'>
+		<value xid='2008' url='javascript:showData("2008~PUNST-CET~category")'>381</value>
+		<value xid='2007' url='javascript:showData("2007~PUNST-CET~category")'>494</value>
+		<value xid='2006' url='javascript:showData("2006~PUNST-CET~category")'>247</value>
+		<value xid='2005' url='javascript:showData("2005~PUNST-CET~category")'>139</value>
+		<value xid='2004' url='javascript:showData("2004~PUNST-CET~category")'>9</value>
+	</graph>
+</graphs>
+</chart>

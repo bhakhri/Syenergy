@@ -1,0 +1,53 @@
+Kindly follow these instructions strictly before uploading the file:
+
+A. Upload Candidate List 
+   =====================
+   
+    1. Columns must be in following series:
+       SERIAL NO.
+       FIRST NAME* 
+       LAST NAME*
+       RELATION NAME
+       RELATION [F/M/G]  -->[F: Father, M: Mother, G: Guardian]
+       GENDER [M/F]  -->[M: Male, F: Female]
+       DOB [DD.MM.YY]    
+       COMPETITION ROLL NO.
+       STUDENT MOBILE NO.    
+       FATHER'S MOBILE NO.    
+       HOSTEL [Y/N] -->[Y: Yes, N:No]
+       STUDENT EMAIL ID    
+       COMPETITION EXAM BY   
+       COMPETITION EXAM RANK
+     
+    2. Not even a single column should be removed or added.
+
+    3. File extension should be .xls
+
+    4. Date field should be in format DD.MM.YY  
+
+    5. Below mentioned fields are mandatory and must not be left blank:
+       FIRST NAME  
+       COMPETITION ROLL NO.
+       STUDENT MOBILE NO.    
+
+    *. First Name & Last Name is represented as "Name" in listing. 
+   
+     
+
+B. Upload Candidate Rank 
+   =====================
+   
+    1. Columns must be in following series:
+       SERIAL NO.
+       COMPETITION ROLL NO.    
+       COMPETITION EXAM RANK
+     
+    2. Not even a single column should be removed or added.
+
+    3. File extension should be .xls
+
+    4. Below mentioned fields are mandatory and must not be left blank:
+       COMPETITION ROLL NO. 
+       COMPETITION EXAM RANK  
+
+      

@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<chart>
+<series>
+	<value xid='0'>0-25</value>
+	<value xid='1'>26-30</value>
+	<value xid='2'>31-35</value>
+	<value xid='3'>36-40</value>
+	<value xid='4'>41-45</value>
+	<value xid='5'>46-50</value>
+	<value xid='6'>51-55</value>
+	<value xid='7'>56-60</value>
+	<value xid='8'>61-65</value>
+	<value xid='9'>66-70</value>
+	<value xid='10'>71-75</value>
+	<value xid='11'>76-80</value>
+	<value xid='12'>81-85</value>
+	<value xid='13'>86-90</value>
+	<value xid='14'>91-95</value>
+	<value xid='15'>96-100</value>
+	
+</series><graphs>
+	<graph gid='CS-202' title='CS-202'>
+		<value xid='0' url='javascript:showData("0-25","129","38","1")'>23</value>
+		<value xid='1' url='javascript:showData("26-30","129","38","1")'>8</value>
+		<value xid='2' url='javascript:showData("31-35","129","38","1")'>8</value>
+		<value xid='3' url='javascript:showData("36-40","129","38","1")'>10</value>
+		<value xid='4' url='javascript:showData("41-45","129","38","1")'>7</value>
+		<value xid='5' url='javascript:showData("46-50","129","38","1")'>10</value>
+		<value xid='6' url='javascript:showData("51-55","129","38","1")'>5</value>
+		<value xid='7' url='javascript:showData("56-60","129","38","1")'>7</value>
+		<value xid='8' url='javascript:showData("61-65","129","38","1")'>11</value>
+		<value xid='9' url='javascript:showData("66-70","129","38","1")'>8</value>
+		<value xid='10' url='javascript:showData("71-75","129","38","1")'>8</value>
+		<value xid='11' url='javascript:showData("76-80","129","38","1")'>11</value>
+		<value xid='12' url='javascript:showData("81-85","129","38","1")'>8</value>
+		<value xid='13' url='javascript:showData("86-90","129","38","1")'>4</value>
+		<value xid='14' url='javascript:showData("91-95","129","38","1")'>2</value>
+		<value xid='15' url='javascript:showData("96-100","129","38","1")'>1</value>
+	</graph>
+
+</graphs>
+</chart>

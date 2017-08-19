@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pie>
+<slice title='SEC 8-17' description='2~busstop'>1</slice>
+<slice title='PGI' description='3~busstop'>9</slice>
+<slice title='SEC26-19' description='4~busstop'>1</slice>
+<slice title='SEC 25' description='7~busstop'>1</slice>
+<slice title='SEC7-18' description='10~busstop'>1</slice>
+<slice title='SEC16-24' description='16~busstop'>1</slice>
+<slice title='SEC 18-19-' description='18~busstop'>1</slice>
+<slice title='SEC 15-25' description='19~busstop'>4</slice>
+<slice title='SEC 28-30' description='26~busstop'>1</slice>
+<slice title='SEC 24' description='29~busstop'>2</slice>
+<slice title='S 21' description='30~busstop'>2</slice>
+<slice title='29 MKT' description='31~busstop'>1</slice>
+<slice title='SEC 23' description='32~busstop'>1</slice>
+<slice title='SEC 20 MKT' description='33~busstop'>1</slice>
+<slice title='SEC 22-34' description='39~busstop'>3</slice>
+<slice title='SEC23' description='41~busstop'>2</slice>
+<slice title='KB' description='44~busstop'>1</slice>
+<slice title='SEC 20-32' description='45~busstop'>6</slice>
+<slice title='SEC 32-45' description='46~busstop'>3</slice>
+<slice title='SEC 35-42' description='47~busstop'>1</slice>
+<slice title='SEC 38' description='48~busstop'>1</slice>
+<slice title='SEC 33-44' description='49~busstop'>1</slice>
+<slice title='SEC 36-41' description='50~busstop'>2</slice>
+<slice title='SEC 34-43' description='52~busstop'>1</slice>
+<slice title='SEC 37-40' description='53~busstop'>2</slice>
+<slice title='SEC 44-51' description='55~busstop'>1</slice>
+<slice title='SEC 40-56' description='59~busstop'>1</slice>
+<slice title='SEC 46-50' description='63~busstop'>3</slice>
+<slice title='YPS' description='65~busstop'>4</slice>
+<slice title='SEC 61' description='66~busstop'>2</slice>
+<slice title='MADANPUR' description='67~busstop'>8</slice>
+<slice title='PH 3-5 L' description='68~busstop'>10</slice>
+<slice title='PH 7 CNH' description='69~busstop'>9</slice>
+<slice title='SEC 70' description='70~busstop'>2</slice>
+<slice title='SEC 70 HOS' description='71~busstop'>1</slice>
+<slice title='SEC 51' description='72~busstop'>1</slice>
+<slice title='YPS CHOWK' description='73~busstop'>2</slice>
+<slice title='PH 7 L' description='74~busstop'>1</slice>
+<slice title='PH 8-9' description='75~busstop'>3</slice>
+<slice title='PH 9' description='76~busstop'>2</slice>
+<slice title='KL' description='77~busstop'>3</slice>
+<slice title='BSR' description='87~busstop'>1</slice>
+<slice title='PRTC' description='89~busstop'>2</slice>
+<slice title='24 NO P' description='90~busstop'>4</slice>
+<slice title='23 NO P' description='91~busstop'>5</slice>
+<slice title='BANDRUGAR' description='93~busstop'>2</slice>
+<slice title='SRBP' description='94~busstop'>2</slice>
+<slice title='HPP' description='95~busstop'>6</slice>
+<slice title='DLFC' description='97~busstop'>3</slice>
+<slice title='KS' description='98~busstop'>4</slice>
+<slice title='TWT' description='99~busstop'>8</slice>
+<slice title='GDN' description='101~busstop'>8</slice>
+<slice title='UE' description='102~busstop'>2</slice>
+<slice title='ITI' description='103~busstop'>1</slice>
+<slice title='GGS' description='105~busstop'>1</slice>
+<slice title='KKS' description='106~busstop'>1</slice>
+<slice title='PH X MKT ' description='116~busstop'>7</slice>
+<slice title='GODREJ' description='120~busstop'>1</slice>
+<slice title='LANDRANCHK' description='123~busstop'>2</slice>
+<slice title='JANDLI R' description='133~busstop'>2</slice>
+<slice title='INKO A' description='134~busstop'>2</slice>
+<slice title='PN A' description='135~busstop'>1</slice>
+<slice title='MCA' description='137~busstop'>2</slice>
+<slice title='P C A' description='138~busstop'>1</slice>
+<slice title='MNBS' description='142~busstop'>6</slice>
+<slice title='ZIRAKPUR' description='151~busstop'>3</slice>
+<slice title='ZIRAKPUR' description='158~busstop'>2</slice>
+<slice title='PH 10-11LG' description='283~busstop'>3</slice>
+<slice title='MOHALI CLU' description='284~busstop'>1</slice>
+<slice title='PH XI AKSI' description='285~busstop'>2</slice>
+<slice title='PH XI POLI' description='286~busstop'>1</slice>
+<slice title='SECTIOR 66' description='287~busstop'>4</slice>
+<slice title='MB' description='289~busstop'>4</slice>
+<slice title='A L I 68' description='290~busstop'>3</slice>
+<slice title='PH 6' description='291~busstop'>6</slice>
+<slice title='PH 1 G M' description='292~busstop'>7</slice>
+<slice title='PH 1 LBS' description='293~busstop'>1</slice>
+<slice title='DC' description='294~busstop'>6</slice>
+<slice title='PH 5 MKT B' description='295~busstop'>2</slice>
+<slice title='PCL' description='297~busstop'>2</slice>
+<slice title='69-70' description='300~busstop'>8</slice>
+<slice title='SEC 70 P' description='301~busstop'>9</slice>
+<slice title='SEC 71' description='302~busstop'>2</slice>
+<slice title='FR' description='304~busstop'>4</slice>
+<slice title='SEC 6-7' description='305~busstop'>1</slice>
+<slice title='SEC 5-8' description='306~busstop'>4</slice>
+<slice title='SEC 2-4' description='308~busstop'>11</slice>
+<slice title='BARRIE' description='309~busstop'>3</slice>
+<slice title='DHAKOL' description='310~busstop'>2</slice>
+<slice title='MHC' description='312~busstop'>15</slice>
+<slice title='SEC 7-18' description='313~busstop'>1</slice>
+<slice title='SEC 11-15' description='314~busstop'>3</slice>
+<slice title='SEC 14-12 ' description='315~busstop'>10</slice>
+<slice title='MDC' description='318~busstop'>9</slice>
+<slice title='CH' description='319~busstop'>1</slice>
+<slice title='MC' description='322~busstop'>1</slice>
+<slice title='SEC 21' description='323~busstop'>10</slice>
+<slice title='SEC 20' description='324~busstop'>11</slice>
+<slice title='SEC 10-16' description='326~busstop'>4</slice>
+<slice title='SEC 16-15' description='327~busstop'>7</slice>
+<slice title='SEC 15 IND' description='328~busstop'>2</slice>
+<slice title='AMARTE' description='329~busstop'>6</slice>
+<slice title='BAL' description='330~busstop'>5</slice>
+<slice title='SEC 7-8' description='331~busstop'>10</slice>
+<slice title='SEC 8-18' description='332~busstop'>1</slice>
+<slice title='SEC 9-17' description='333~busstop'>5</slice>
+<slice title='SEC 10 16C' description='334~busstop'>5</slice>
+<slice title='SEC11-15' description='335~busstop'>2</slice>
+<slice title='BSC' description='337~busstop'>4</slice>
+<slice title='SEC 12-4' description='338~busstop'>5</slice>
+<slice title='T' description='341~busstop'>1</slice>
+<slice title='AH' description='345~busstop'>6</slice>
+<slice title='GS LB' description='346~busstop'>6</slice>
+<slice title='BSGC' description='347~busstop'>4</slice>
+<slice title='PG' description='350~busstop'>2</slice>
+<slice title='YPS C' description='351~busstop'>2</slice>
+<slice title='OCT' description='352~busstop'>11</slice>
+<slice title='MWC' description='353~busstop'>2</slice>
+<slice title='MB C' description='354~busstop'>1</slice>
+<slice title='NIS P' description='355~busstop'>4</slice>
+<slice title='RMC' description='356~busstop'>4</slice>
+<slice title='MCP' description='357~busstop'>5</slice>
+<slice title='UNIV P' description='361~busstop'>3</slice>
+<slice title='GCP' description='363~busstop'>4</slice>
+<slice title='BC' description='364~busstop'>19</slice>
+<slice title='THAPAR COL' description='365~busstop'>1</slice>
+<slice title='CP' description='366~busstop'>1</slice>
+<slice title='PB' description='367~busstop'>12</slice>
+<slice title='LCP' description='368~busstop'>1</slice>
+<slice title='MM' description='370~busstop'>1</slice>
+<slice title='TU' description='371~busstop'>2</slice>
+<slice title='AP' description='372~busstop'>1</slice>
+<slice title='BSP' description='373~busstop'>11</slice>
+<slice title='SHG' description='374~busstop'>13</slice>
+<slice title='UEP' description='375~busstop'>9</slice>
+<slice title='IC' description='393~busstop'>4</slice>
+<slice title='RSA' description='394~busstop'>2</slice>
+<slice title='KCA' description='395~busstop'>4</slice>
+<slice title='37 MKT' description='398~busstop'>2</slice>
+<slice title='SEC 36' description='399~busstop'>1</slice>
+<slice title='SEC 42' description='410~busstop'>1</slice>
+<slice title='SEC 44' description='412~busstop'>3</slice>
+<slice title='SEC 45' description='413~busstop'>1</slice>
+<slice title='SEC 46' description='414~busstop'>1</slice>
+<slice title='S11' description='420~busstop'>5</slice>
+<slice title='S10' description='421~busstop'>1</slice>
+<slice title='S41' description='422~busstop'>3</slice>
+<slice title='S51' description='425~busstop'>10</slice>
+<slice title='S49' description='427~busstop'>8</slice>
+<slice title='S48' description='428~busstop'>3</slice>
+<slice title='S 43' description='430~busstop'>3</slice>
+<slice title='S44' description='431~busstop'>6</slice>
+<slice title='S45' description='432~busstop'>5</slice>
+<slice title='S46' description='433~busstop'>7</slice>
+<slice title='S47' description='434~busstop'>3</slice>
+<slice title='S38' description='436~busstop'>6</slice>
+<slice title='S39' description='438~busstop'>5</slice>
+<slice title='S40' description='439~busstop'>3</slice>
+<slice title='S41' description='440~busstop'>2</slice>
+<slice title='S42' description='441~busstop'>3</slice>
+<slice title='BC' description='444~busstop'>1</slice>
+<slice title='S23' description='445~busstop'>2</slice>
+<slice title='KB' description='446~busstop'>2</slice>
+<slice title='PC' description='447~busstop'>2</slice>
+<slice title='S20' description='448~busstop'>1</slice>
+<slice title='S24' description='450~busstop'>4</slice>
+<slice title='S23' description='451~busstop'>4</slice>
+<slice title='S22' description='452~busstop'>3</slice>
+<slice title='S21' description='453~busstop'>7</slice>
+<slice title='S20' description='454~busstop'>3</slice>
+<slice title='S18' description='459~busstop'>1</slice>
+<slice title='S18-' description='460~busstop'>1</slice>
+<slice title='S19' description='461~busstop'>3</slice>
+<slice title='S27' description='462~busstop'>9</slice>
+<slice title='S38-' description='464~busstop'>1</slice>
+<slice title='S37-' description='465~busstop'>5</slice>
+<slice title='S35' description='467~busstop'>4</slice>
+<slice title='S31' description='471~busstop'>1</slice>
+<slice title='S3840' description='473~busstop'>5</slice>
+<slice title='S41' description='474~busstop'>13</slice>
+<slice title='AC' description='476~busstop'>1</slice>
+<slice title='S35-' description='478~busstop'>11</slice>
+<slice title='S34' description='479~busstop'>8</slice>
+<slice title='S45' description='480~busstop'>4</slice>
+<slice title='S32-' description='481~busstop'>2</slice>
+<slice title='S8' description='485~busstop'>2</slice>
+<slice title='S7' description='486~busstop'>9</slice>
+<slice title='S26' description='487~busstop'>1</slice>
+<slice title='S29' description='489~busstop'>1</slice>
+<slice title='S30' description='490~busstop'>2</slice>
+<slice title='UNI' description='492~busstop'>3</slice>
+<slice title='S15' description='493~busstop'>18</slice>
+<slice title='S16' description='494~busstop'>7</slice>
+<slice title='S9' description='495~busstop'>2</slice>
+<slice title='S19-' description='499~busstop'>3</slice>
+<slice title='S1927' description='500~busstop'>5</slice>
+<slice title='S20' description='501~busstop'>2</slice>
+<slice title='KNGF' description='504~busstop'>2</slice>
+<slice title='B CHOWK' description='505~busstop'>3</slice>
+<slice title='DB CHOWK' description='506~busstop'>1</slice>
+<slice title='SEC 23 HOS' description='507~busstop'>1</slice>
+<slice title='P CHOWK' description='508~busstop'>3</slice>
+<slice title='SEC 34' description='511~busstop'>1</slice>
+<slice title='SEC 32' description='513~busstop'>2</slice>
+<slice title='SEC 35' description='515~busstop'>7</slice>
+<slice title='SEC 37' description='517~busstop'>5</slice>
+<slice title='SEC 38' description='518~busstop'>7</slice>
+<slice title='SEC 19' description='519~busstop'>1</slice>
+<slice title='SEC 19' description='520~busstop'>1</slice>
+<slice title='AP JAIN' description='532~busstop'>1</slice>
+<slice title='GURU DWARA' description='533~busstop'>3</slice>
+<slice title='BPGC' description='536~busstop'>1</slice>
+<slice title='VN' description='540~busstop'>2</slice>
+<slice title='OB' description='543~busstop'>1</slice>
+<slice title='RS' description='544~busstop'>1</slice>
+<slice title='ZRK' description='547~busstop'>1</slice>
+<slice title='ZRK' description='549~busstop'>1</slice>
+<slice title='ZRK' description='550~busstop'>3</slice>
+<slice title='ATEJKJ' description='552~busstop'>1</slice>
+<slice title='BUS' description='553~busstop'>2</slice>
+<slice title='TRUCK' description='557~busstop'>1</slice>
+</pie>

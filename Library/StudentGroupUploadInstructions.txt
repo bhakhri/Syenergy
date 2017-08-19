@@ -1,0 +1,13 @@
+1. Please upload the file in the format provided.
+
+2. [Sr.No] This is the serial number of the record.
+
+3. [Student Name] to be replaced with Name of Student as it exists in College Record.
+
+4. [Roll No.] to be replaced with Roll No. of student as it exists in College Record.
+
+5. [Group Short] to be replaced with Name of Group Short.
+
+6. [Next Group Short] to be replaced with Next Group Short (if any).
+
+7. The file should contain only one sheet.

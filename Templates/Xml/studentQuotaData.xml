@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pie>
+<slice title='General-GEN' description='1~quota'>378</slice>
+<slice title='Punjab State-PUNJABST' description='2~quota'>1</slice>
+<slice title='Management-MGMT' description='4~quota'>309</slice>
+<slice title='AIEEE Non Punjab-AIEEE-NONP' description='7~quota'>57</slice>
+<slice title='Punjab State CET-PUNST-CET' description='8~quota'>89</slice>
+<slice title='MANAGEMENT MET-MGMT-MET' description='10~quota'>2</slice>
+<slice title='Punjab State CET-PUNST-CET' description='11~quota'>807</slice>
+<slice title='AIEEE-AIEEE' description='12~quota'>164</slice>
+<slice title='MET-MET' description='13~quota'>112</slice>
+<slice title='LEET_Non Mgt-LEET_NMGT' description='14~quota'>2</slice>
+<slice title='Managment-MGMT' description='16~quota'>2</slice>
+<slice title='Non-Management-NON-MGMT' description='17~quota'>44</slice>
+<slice title='SC ST-SC ST' description='18~quota'>95</slice>
+<slice title='BACKWARD CLASS-BC' description='19~quota'>21</slice>
+<slice title='OBC-OBC' description='20~quota'>2</slice>
+<slice title='B Area-BA' description='21~quota'>7</slice>
+<slice title='Sports-SPT' description='22~quota'>4</slice>
+<slice title='SC ST-SC' description='23~quota'>10</slice>
+<slice title='General-GN' description='25~quota'>6</slice>
+<slice title='Economically Weeker-WS' description='26~quota'>26</slice>
+<slice title='Woman Quota-WQ' description='27~quota'>14</slice>
+</pie>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<chart>
+<series>
+</series>
+<graphs>
+	<graph gid='1' title='Assignment'>
+	</graph>
+	<graph gid='2' title='M.S.T'>
+	</graph>
+	<graph gid='3' title='Viva'>
+	</graph>
+	<graph gid='4' title='AttendanceT'>
+	</graph>
+	<graph gid='5' title='AttendanceP'>
+	</graph>
+	<graph gid='6' title='Final Marks'>
+	</graph>
+	<graph gid='7' title='Practical'>
+	</graph>
+	<graph gid='8' title='Snap Test'>
+	</graph>
+	<graph gid='9' title='Class Presentation'>
+	</graph>
+	<graph gid='10' title='MST-P'>
+	</graph>
+	<graph gid='11' title='Snap test-p'>
+	</graph>
+	<graph gid='12' title='Assignment-P'>
+	</graph>
+	<graph gid='13' title='Presentation-P'>
+	</graph>
+	<graph gid='14' title='Case Study/App-illus'>
+	</graph>
+</graphs>
+</chart>

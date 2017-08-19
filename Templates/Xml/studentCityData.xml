@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pie>
+<slice title='AMRITSAR' description='7~city'>3</slice>
+<slice title='BANGA' description='15~city'>2</slice>
+<slice title='CHAMBA' description='30~city'>1</slice>
+<slice title='FATEHGARH SAHIB' description='50~city'>1</slice>
+<slice title='GURDASPUR' description='58~city'>1</slice>
+<slice title='HAMIRPUR' description='62~city'>3</slice>
+<slice title='HANUMANGARH' description='63~city'>1</slice>
+<slice title='HOSHIARPUR' description='66~city'>110</slice>
+<slice title='JALANDAR' description='70~city'>12</slice>
+<slice title='JALANDHAR CANTT' description='71~city'>15</slice>
+<slice title='JAMMU' description='72~city'>1</slice>
+<slice title='KAITHAL' description='77~city'>1</slice>
+<slice title='KANGRA' description='79~city'>1</slice>
+<slice title='KAPURTHALA' description='81~city'>41</slice>
+<slice title='LUDHIANA' description='94~city'>19</slice>
+<slice title='MANDI' description='97~city'>1</slice>
+<slice title='MOGA' description='103~city'>1</slice>
+<slice title='NAWAN SHAHR' description='113~city'>108</slice>
+<slice title='NEW DELHI' description='115~city'>1</slice>
+<slice title='PATHANKOT' description='125~city'>3</slice>
+<slice title='PHAGWARA' description='130~city'>982</slice>
+<slice title='ROPAR' description='139~city'>1</slice>
+<slice title='SRIGANGANAGAR' description='154~city'>2</slice>
+<slice title='SRINAGAR' description='155~city'>1</slice>
+<slice title='TARN TARAN' description='157~city'>1</slice>
+<slice title='UNA' description='160~city'>4</slice>
+<slice title='YAMUNA NAGAR' description='162~city'>1</slice>
+<slice title='Phillaur' description='174~city'>13</slice>
+<slice title='Jamshedpur' description='241~city'>1</slice>
+<slice title='MEWAT' description='274~city'>1</slice>
+<slice title='kangda' description='327~city'>1</slice>
+<slice title='Goraya' description='332~city'>10</slice>
+<slice title='JALANDHAR' description='354~city'>206</slice>
+<slice title='Nathuke' description='379~city'>1</slice>
+<slice title='Nakodar' description='402~city'>1</slice>
+<slice title='Udhampur' description='403~city'>1</slice>
+<slice title='Kashipur' description='423~city'>1</slice>
+<slice title='Rudrapur' description='441~city'>1</slice>
+</pie>

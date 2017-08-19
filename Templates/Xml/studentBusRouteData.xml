@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pie>
+<slice title='Route No1(1 CHD)' description='1~busroute'>33</slice>
+<slice title='RouteNo2(2 CHD)' description='2~busroute'>8</slice>
+<slice title='RouteNo3(3 CHD)' description='3~busroute'>8</slice>
+<slice title='RouteNo4(4 CHD)' description='4~busroute'>12</slice>
+<slice title='RouteNo5(5 CHD)' description='5~busroute'>22</slice>
+<slice title='RouteNo6(6 CHD)' description='6~busroute'>27</slice>
+<slice title='RN 23(23 MOHALI)' description='7~busroute'>36</slice>
+<slice title='RN 24(24 MOHALI)' description='8~busroute'>31</slice>
+<slice title='RN 42(42 PATIALA)' description='10~busroute'>29</slice>
+<slice title='RN 41(41 PATIALA)' description='11~busroute'>34</slice>
+<slice title='RN 43(43 PATIALA)' description='12~busroute'>34</slice>
+<slice title='RN 44(44 PATIALA)' description='13~busroute'>42</slice>
+<slice title='RN45(45 PATIALA)' description='14~busroute'>33</slice>
+<slice title='RouteNo31(31 PKL)' description='16~busroute'>25</slice>
+<slice title='RouteNo32(32 PKL)' description='17~busroute'>29</slice>
+<slice title='RouteNo33(33 PKL)' description='18~busroute'>32</slice>
+<slice title='RouteNo34(34 PKL)' description='19~busroute'>24</slice>
+<slice title='RouteNo35(35 PKL)' description='20~busroute'>32</slice>
+<slice title='RN 52(52 RAJPURA)' description='21~busroute'>3</slice>
+<slice title='RN 21(21 MOHALI)' description='22~busroute'>26</slice>
+<slice title='RN 22(22 MOHALI)' description='23~busroute'>26</slice>
+<slice title='RouteNo54(54 AMBALA)' description='24~busroute'>8</slice>
+<slice title='RouteNo55(55 AMBALA)' description='25~busroute'>16</slice>
+<slice title='RN7(7 CHD)' description='26~busroute'>3</slice>
+<slice title='RN 8(8 CHD)' description='27~busroute'>6</slice>
+<slice title='2 RN(CHD 2)' description='29~busroute'>41</slice>
+<slice title='RN 3(CHD 3)' description='30~busroute'>18</slice>
+<slice title='RN 4(CHD 4)' description='31~busroute'>24</slice>
+<slice title='RN 5(CHD 5)' description='32~busroute'>10</slice>
+<slice title='RN 6(CHD 6)' description='33~busroute'>11</slice>
+<slice title='RN 7(CHD 7)' description='34~busroute'>20</slice>
+<slice title='RN 8(CHD 8)' description='35~busroute'>25</slice>
+<slice title='RN 9(CHD 9)' description='36~busroute'>19</slice>
+<slice title='RN 10(CHD 10)' description='37~busroute'>24</slice>
+<slice title='RN 11(CHD 11)' description='38~busroute'>24</slice>
+<slice title='Route no 52 (R52 NEW)' description='39~busroute'>9</slice>
+<slice title='Route No 46(R46)' description='40~busroute'>4</slice>
+</pie>

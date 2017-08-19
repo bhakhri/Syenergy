@@ -1,0 +1,27 @@
+Kindly follow these instructions strictly before uploading the file:
+
+A. Import Student Fee
+   =====================
+   
+    1. Columns must be in following series:
+       Sno	
+       Roll No	
+       Receipt no
+       Paid Date	
+       Paid Fee	
+       Trans_id	
+       Student Name	
+       Class	
+       Semester
+     
+    2. Not even a single column should be removed or added.
+
+    3. File extension should be .xls
+
+    4. Date field should be in format MM.DD.YYYY  
+
+    5. Below mentioned fields are mandatory and must not be left blank:
+       Sno	
+       Roll No	
+       Paid Date	
+       Paid Fee

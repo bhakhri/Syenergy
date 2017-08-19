@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings> 
+  <type>bar</type>                    
+  <data_type>xml</data_type>          
+  <font>Tahoma</font>                 
+  <depth>10</depth>                                 
+  <angle>45</angle>                                 
+
+  <column>
+    <type>stacked</type>                            
+    <width>50</width>                               
+    <spacing>0</spacing>                            
+    <grow_time>1</grow_time>                        
+    <grow_effect>regular</grow_effect>                  
+    <data_labels>
+
+      <![CDATA[<b>{value}</b>]]>                    
+    </data_labels>
+    <balloon_text>                                                    
+        <![CDATA[{title}: {value} mln]]>            
+    </balloon_text>    
+  </column>
+  
+  <background>
+    <alpha>100</alpha>
+  </background>
+  
+  <plot_area>                                       
+    <margins>                                       
+      <left>20</left>                                
+      <top>60</top>                                  
+      <right>10</right>                             
+      <bottom>120</bottom>                          
+    </margins>
+
+  </plot_area>
+  
+  <grid>                     
+    <category>                                                                    
+      <alpha>5</alpha>       
+    </category>
+    <value>                        
+      <alpha>5</alpha>       
+    </value>
+  </grid>
+  
+  <values>                   
+    <category>               
+      <rotate>90</rotate>          
+    </category>
+
+    <value>                  
+      <enabled>true</enabled>   
+      <min>0</min>           
+    </value>
+  </values>
+  
+  <axes>                     
+    <category>               
+      <width>1</width>       
+    </category>
+    <value>                  
+      <alpha>100</alpha>     
+      <width>1</width>       
+    </value>
+
+  </axes>  
+  
+  <legend>                          
+    <enabled>true</enabled>         
+    <spacing>4</spacing>            
+  </legend>  
+
+  <labels>                          
+    <label>
+      <x>0</x>                      
+      <y>25</y>                     
+      <align>center</align>           
+      <text>                        
+      </text>        
+    </label>
+    
+    <label>
+      <x>20</x>                        
+      <y>370</y>                       
+      <align>left</align>                
+      <text_color>7e7e7e</text_color>  
+      <text>                           
+      </text>        
+    </label>    
+  </labels>
+</settings>

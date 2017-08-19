@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pie>
+<slice title='Cash' description='1~feeInstrument'>162000.00</slice>
+<slice title='Cheque' description='2~feeInstrument'>162000.00</slice>
+<slice title='Draft' description='3~feeInstrument'>107000.00</slice>
+</pie>

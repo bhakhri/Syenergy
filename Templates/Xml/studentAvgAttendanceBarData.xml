@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<chart>
+<series>
+<value xid='0'>CE-216</value>
+<value xid='1'>DE-1.1</value>
+<value xid='2'>EC-302</value>
+<value xid='3'>EC-304</value>
+<value xid='4'>EC-306</value>
+<value xid='5'>EC-308</value>
+<value xid='6'>EC-310</value>
+<value xid='7'>EC-312</value>
+<value xid='8'>EC-314</value>
+<value xid='9'>EC-316</value>
+<value xid='10'>GFS</value>
+</series><graphs>
+<graph gid='1'>
+<value xid='0' title='100.00'>100.00</value>
+<value xid='0' bullet='round'>100.00</value>
+<value xid='1' title='94.44'>94.44</value>
+<value xid='1' bullet='round'>94.44</value>
+<value xid='2' title='93.75'>93.75</value>
+<value xid='2' bullet='round'>93.75</value>
+<value xid='3' title='94.12'>94.12</value>
+<value xid='3' bullet='round'>94.12</value>
+<value xid='4' title='92.31'>92.31</value>
+<value xid='4' bullet='round'>92.31</value>
+<value xid='5' title='95.65'>95.65</value>
+<value xid='5' bullet='round'>95.65</value>
+<value xid='6' title='100.00'>100.00</value>
+<value xid='6' bullet='round'>100.00</value>
+<value xid='7' title='100.00'>100.00</value>
+<value xid='7' bullet='round'>100.00</value>
+<value xid='8' title='100.00'>100.00</value>
+<value xid='8' bullet='round'>100.00</value>
+<value xid='9' title='100.00'>100.00</value>
+<value xid='9' bullet='round'>100.00</value>
+<value xid='10' title='0'>0</value>
+<value xid='10' bullet='round'>0</value>
+</graph>
+<graph gid='2'>
+<value xid='0' title='100.00'>100.00</value>
+<value xid='0' bullet='round'>100.00</value>
+<value xid='1' title='94.44'>94.44</value>
+<value xid='1' bullet='round'>94.44</value>
+<value xid='2' title='93.75'>93.75</value>
+<value xid='2' bullet='round'>93.75</value>
+<value xid='3' title='94.12'>94.12</value>
+<value xid='3' bullet='round'>94.12</value>
+<value xid='4' title='92.31'>92.31</value>
+<value xid='4' bullet='round'>92.31</value>
+<value xid='5' title='95.65'>95.65</value>
+<value xid='5' bullet='round'>95.65</value>
+<value xid='6' title='100.00'>100.00</value>
+<value xid='6' bullet='round'>100.00</value>
+<value xid='7' title='100.00'>100.00</value>
+<value xid='7' bullet='round'>100.00</value>
+<value xid='8' title='100.00'>100.00</value>
+<value xid='8' bullet='round'>100.00</value>
+<value xid='9' title='100.00'>100.00</value>
+<value xid='9' bullet='round'>100.00</value>
+<value xid='10' title='0'>0</value>
+<value xid='10' bullet='round'>0</value>
+</graph>
+</graphs>
+</chart>

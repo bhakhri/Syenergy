@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pie>
+<slice title='1 SEM' description='1~studyperiod'>389</slice>
+<slice title='2 SEM' description='2~studyperiod'>3</slice>
+<slice title='3 SEM' description='3~studyperiod'>418</slice>
+<slice title='5 SEM' description='5~studyperiod'>361</slice>
+<slice title='1 YR' description='17~studyperiod'>86</slice>
+<slice title='1 6-MONTH' description='19~studyperiod'>18</slice>
+<slice title='1 6 WEEKS' description='23~studyperiod'>1</slice>
+<slice title='Alumni' description='37~studyperiod'>312</slice>
+</pie>

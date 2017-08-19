@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<chart>
+<series>
+	<value xid='2008'>2008</value>
+	<value xid='2007'>2007</value>
+	<value xid='2006'>2006</value>
+	<value xid='2005'>2005</value>
+	<value xid='2004'>2004</value>
+</series>
+<graphs>
+
+	<graph gid='B.Ed' title='B.Ed'>
+		<value xid='2008' url='javascript:showData("2008~B.Ed~degree")'>43</value>
+		<value xid='2007' url='javascript:showData("2007~B.Ed~degree")'></value>
+		<value xid='2006' url='javascript:showData("2006~B.Ed~degree")'></value>
+		<value xid='2005' url='javascript:showData("2005~B.Ed~degree")'></value>
+		<value xid='2004' url='javascript:showData("2004~B.Ed~degree")'></value>
+	</graph>
+	<graph gid='BScHMCTGBC' title='BScHMCTGBC'>
+		<value xid='2008' url='javascript:showData("2008~BScHMCTGBC~degree")'>35</value>
+		<value xid='2007' url='javascript:showData("2007~BScHMCTGBC~degree")'></value>
+		<value xid='2006' url='javascript:showData("2006~BScHMCTGBC~degree")'></value>
+		<value xid='2005' url='javascript:showData("2005~BScHMCTGBC~degree")'></value>
+		<value xid='2004' url='javascript:showData("2004~BScHMCTGBC~degree")'></value>
+	</graph>
+	<graph gid='IHM' title='IHM'>
+		<value xid='2008' url='javascript:showData("2008~IHM~degree")'>122</value>
+		<value xid='2007' url='javascript:showData("2007~IHM~degree")'></value>
+		<value xid='2006' url='javascript:showData("2006~IHM~degree")'></value>
+		<value xid='2005' url='javascript:showData("2005~IHM~degree")'></value>
+		<value xid='2004' url='javascript:showData("2004~IHM~degree")'></value>
+	</graph>
+	<graph gid='DFP' title='DFP'>
+		<value xid='2008' url='javascript:showData("2008~DFP~degree")'>12</value>
+		<value xid='2007' url='javascript:showData("2007~DFP~degree")'></value>
+		<value xid='2006' url='javascript:showData("2006~DFP~degree")'></value>
+		<value xid='2005' url='javascript:showData("2005~DFP~degree")'></value>
+		<value xid='2004' url='javascript:showData("2004~DFP~degree")'></value>
+	</graph>
+	<graph gid='DBC' title='DBC'>
+		<value xid='2008' url='javascript:showData("2008~DBC~degree")'>3</value>
+		<value xid='2007' url='javascript:showData("2007~DBC~degree")'></value>
+		<value xid='2006' url='javascript:showData("2006~DBC~degree")'></value>
+		<value xid='2005' url='javascript:showData("2005~DBC~degree")'></value>
+		<value xid='2004' url='javascript:showData("2004~DBC~degree")'></value>
+	</graph>
+	<graph gid='MBA' title='MBA'>
+		<value xid='2008' url='javascript:showData("2008~MBA~degree")'>62</value>
+		<value xid='2007' url='javascript:showData("2007~MBA~degree")'>60</value>
+		<value xid='2006' url='javascript:showData("2006~MBA~degree")'></value>
+		<value xid='2005' url='javascript:showData("2005~MBA~degree")'></value>
+		<value xid='2004' url='javascript:showData("2004~MBA~degree")'></value>
+	</graph>
+	<graph gid='BCAGBC' title='BCAGBC'>
+		<value xid='2008' url='javascript:showData("2008~BCAGBC~degree")'>39</value>
+		<value xid='2007' url='javascript:showData("2007~BCAGBC~degree")'>40</value>
+		<value xid='2006' url='javascript:showData("2006~BCAGBC~degree")'></value>
+		<value xid='2005' url='javascript:showData("2005~BCAGBC~degree")'></value>
+		<value xid='2004' url='javascript:showData("2004~BCAGBC~degree")'></value>
+	</graph>
+	<graph gid='BScHMCTG' title='BScHMCTG'>
+		<value xid='2008' url='javascript:showData("2008~BScHMCTG~degree")'>34</value>
+		<value xid='2007' url='javascript:showData("2007~BScHMCTG~degree")'>38</value>
+		<value xid='2006' url='javascript:showData("2006~BScHMCTG~degree")'></value>
+		<value xid='2005' url='javascript:showData("2005~BScHMCTG~degree")'></value>
+		<value xid='2004' url='javascript:showData("2004~BScHMCTG~degree")'></value>
+	</graph>
+	<graph gid='BBA' title='BBA'>
+		<value xid='2008' url='javascript:showData("2008~BBA~degree")'>80</value>
+		<value xid='2007' url='javascript:showData("2007~BBA~degree")'>64</value>
+		<value xid='2006' url='javascript:showData("2006~BBA~degree")'>20</value>
+		<value xid='2005' url='javascript:showData("2005~BBA~degree")'></value>
+		<value xid='2004' url='javascript:showData("2004~BBA~degree")'></value>
+	</graph>
+	<graph gid='MCA' title='MCA'>
+		<value xid='2008' url='javascript:showData("2008~MCA~degree")'>54</value>
+		<value xid='2007' url='javascript:showData("2007~MCA~degree")'>61</value>
+		<value xid='2006' url='javascript:showData("2006~MCA~degree")'>59</value>
+		<value xid='2005' url='javascript:showData("2005~MCA~degree")'></value>
+		<value xid='2004' url='javascript:showData("2004~MCA~degree")'></value>
+	</graph>
+	<graph gid='BCA' title='BCA'>
+		<value xid='2008' url='javascript:showData("2008~BCA~degree")'>163</value>
+		<value xid='2007' url='javascript:showData("2007~BCA~degree")'>162</value>
+		<value xid='2006' url='javascript:showData("2006~BCA~degree")'>109</value>
+		<value xid='2005' url='javascript:showData("2005~BCA~degree")'></value>
+		<value xid='2004' url='javascript:showData("2004~BCA~degree")'></value>
+	</graph>
+	<graph gid='BScHMCT' title='BScHMCT'>
+		<value xid='2008' url='javascript:showData("2008~BScHMCT~degree")'></value>
+		<value xid='2007' url='javascript:showData("2007~BScHMCT~degree")'>117</value>
+		<value xid='2006' url='javascript:showData("2006~BScHMCT~degree")'>66</value>
+		<value xid='2005' url='javascript:showData("2005~BScHMCT~degree")'></value>
+		<value xid='2004' url='javascript:showData("2004~BScHMCT~degree")'></value>
+	</graph>
+	<graph gid='BARC' title='BARC'>
+		<value xid='2008' url='javascript:showData("2008~BARC~degree")'>40</value>
+		<value xid='2007' url='javascript:showData("2007~BARC~degree")'>40</value>
+		<value xid='2006' url='javascript:showData("2006~BARC~degree")'>34</value>
+		<value xid='2005' url='javascript:showData("2005~BARC~degree")'>28</value>
+		<value xid='2004' url='javascript:showData("2004~BARC~degree")'>20</value>
+	</graph>
+	<graph gid='BPHARMA' title='BPHARMA'>
+		<value xid='2008' url='javascript:showData("2008~BPHARMA~degree")'>54</value>
+		<value xid='2007' url='javascript:showData("2007~BPHARMA~degree")'>63</value>
+		<value xid='2006' url='javascript:showData("2006~BPHARMA~degree")'>67</value>
+		<value xid='2005' url='javascript:showData("2005~BPHARMA~degree")'>58</value>
+		<value xid='2004' url='javascript:showData("2004~BPHARMA~degree")'></value>
+	</graph>
+	<graph gid='BTECH' title='BTECH'>
+		<value xid='2008' url='javascript:showData("2008~BTECH~degree")'>461</value>
+		<value xid='2007' url='javascript:showData("2007~BTECH~degree")'>468</value>
+		<value xid='2006' url='javascript:showData("2006~BTECH~degree")'>505</value>
+		<value xid='2005' url='javascript:showData("2005~BTECH~degree")'>295</value>
+		<value xid='2004' url='javascript:showData("2004~BTECH~degree")'></value>
+	</graph>
+</graphs>
+</chart>

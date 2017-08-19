@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<chart>
+<series>
+<value xid='0'>CS-202</value>
+<value xid='1'>CS-204</value>
+<value xid='2'>CS-206</value>
+<value xid='3'>CS-208</value>
+<value xid='4'>CS-214</value>
+<value xid='5'>MB-201</value>
+<value xid='6'>MB-202</value>
+<value xid='7'>MB-203</value>
+<value xid='8'>MB-204</value>
+<value xid='9'>MB-205</value>
+<value xid='10'>MB-401</value>
+<value xid='11'>MB-402</value>
+<value xid='12'>MB-406</value>
+<value xid='13'>MB-904</value>
+<value xid='14'>MB-907</value>
+<value xid='15'>MB-924</value>
+<value xid='16'>MB-926</value>
+<value xid='17'>MB-964</value>
+<value xid='18'>MB-965</value>
+</series>
+<graphs>
+<graph gid='1'>
+<value xid='0' bullet='round'>50.78</value>
+<value xid='1' bullet='round'>41.35</value>
+<value xid='2' bullet='round'>53.63</value>
+<value xid='3' bullet='round'>53.42</value>
+<value xid='4' bullet='round'>61.56</value>
+<value xid='5' bullet='round'>59.33</value>
+<value xid='6' bullet='round'>61.75</value>
+<value xid='7' bullet='round'>60.08</value>
+<value xid='8' bullet='round'>67.85</value>
+<value xid='9' bullet='round'>70.02</value>
+<value xid='10' bullet='round'>73.19</value>
+<value xid='11' bullet='round'>83.49</value>
+<value xid='12' bullet='round'>85.29</value>
+<value xid='13' bullet='round'>65.49</value>
+<value xid='14' bullet='round'>63.10</value>
+<value xid='15' bullet='round'>74.90</value>
+<value xid='16' bullet='round'>80.90</value>
+<value xid='17' bullet='round'>83.44</value>
+<value xid='18' bullet='round'>83.75</value>
+</graph>
+<graph gid='2'>
+<value xid='0' bullet='round'>50.78</value>
+<value xid='1' bullet='round'>41.35</value>
+<value xid='2' bullet='round'>53.63</value>
+<value xid='3' bullet='round'>53.42</value>
+<value xid='4' bullet='round'>61.56</value>
+<value xid='5' bullet='round'>59.33</value>
+<value xid='6' bullet='round'>61.75</value>
+<value xid='7' bullet='round'>60.08</value>
+<value xid='8' bullet='round'>67.85</value>
+<value xid='9' bullet='round'>70.02</value>
+<value xid='10' bullet='round'>73.19</value>
+<value xid='11' bullet='round'>83.49</value>
+<value xid='12' bullet='round'>85.29</value>
+<value xid='13' bullet='round'>65.49</value>
+<value xid='14' bullet='round'>63.10</value>
+<value xid='15' bullet='round'>74.90</value>
+<value xid='16' bullet='round'>80.90</value>
+<value xid='17' bullet='round'>83.44</value>
+<value xid='18' bullet='round'>83.75</value>
+</graph>
+</graphs>
+</chart>

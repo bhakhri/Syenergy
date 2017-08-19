@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pie>
+<slice title='Asstt Professor ' description='3~designation'>40</slice>
+<slice title='Lecturer in Math' description='5~designation'>1</slice>
+<slice title='Lecturer' description='17~designation'>67</slice>
+<slice title='Asstt. Prof' description='22~designation'>2</slice>
+<slice title='Training Coordinator' description='25~designation'>6</slice>
+<slice title='Principal' description='27~designation'>1</slice>
+<slice title='Lecturer in IT' description='32~designation'>10</slice>
+<slice title='Lecturer in MBA' description='33~designation'>5</slice>
+<slice title='Accountant ' description='36~designation'>3</slice>
+<slice title='Instructor Workshop' description='38~designation'>1</slice>
+<slice title='Assitant Librarian' description='39~designation'>1</slice>
+<slice title='Network Administrator' description='41~designation'>1</slice>
+<slice title='Electrician' description='47~designation'>1</slice>
+<slice title='Librarian' description='57~designation'>1</slice>
+<slice title='Office Assistant' description='58~designation'>1</slice>
+<slice title='Store keeper' description='62~designation'>1</slice>
+<slice title='Asst Accountant' description='67~designation'>2</slice>
+<slice title='Receptionist' description='69~designation'>1</slice>
+<slice title=' Asstt Admin' description='71~designation'>3</slice>
+<slice title='Sr. Lecturer cum Coordinator' description='83~designation'>2</slice>
+<slice title='Professor' description='85~designation'>2</slice>
+<slice title='Head of Department' description='88~designation'>8</slice>
+<slice title='Lab Attendant' description='93~designation'>2</slice>
+<slice title='Technical Assistant' description='95~designation'>1</slice>
+<slice title='MARKETING EXECUTIVE' description='98~designation'>1</slice>
+<slice title='ERP ADMINISTRTOR' description='100~designation'>1</slice>
+<slice title='Admin Co-ordinator' description='108~designation'>2</slice>
+<slice title='controller' description='109~designation'>3</slice>
+<slice title='DIRECTOR ' description='110~designation'>2</slice>
+<slice title='Head HR' description='111~designation'>1</slice>
+<slice title='Executive' description='112~designation'>13</slice>
+<slice title='Sweeper' description='113~designation'>2</slice>
+<slice title='Gardener' description='114~designation'>1</slice>
+<slice title='Asstt. Instructor' description='115~designation'>1</slice>
+<slice title='ExecutiveTrainee' description='116~designation'>5</slice>
+<slice title='General Manager' description='117~designation'>1</slice>
+</pie>

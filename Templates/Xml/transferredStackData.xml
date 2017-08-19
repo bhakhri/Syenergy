@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<chart>
+<series>
+	<value xid='0'>0-9</value>
+	<value xid='1'>10-13</value>
+	<value xid='2'>14-16</value>
+	<value xid='3'>17-24</value>
+	<value xid='4'>25-30</value>
+	<value xid='5'>31-35</value>
+	<value xid='6'>36-40</value>
+	
+</series><graphs>
+	<graph gid='CS-301' title='CS-301'>
+		<value xid='0' url='javascript:showData("0-9","24","5","1")'>10</value>
+		<value xid='1' url='javascript:showData("10-13","24","5","1")'>2</value>
+		<value xid='2' url='javascript:showData("14-16","24","5","1")'>2</value>
+		<value xid='3' url='javascript:showData("17-24","24","5","1")'>16</value>
+		<value xid='4' url='javascript:showData("25-30","24","5","1")'>45</value>
+		<value xid='5' url='javascript:showData("31-35","24","5","1")'>46</value>
+		<value xid='6' url='javascript:showData("36-40","24","5","1")'>17</value>
+	</graph>
+
+	<graph gid='CS-303' title='CS-303'>
+		<value xid='0' url='javascript:showData("0-9","25","5","1")'>3</value>
+		<value xid='1' url='javascript:showData("10-13","25","5","1")'>1</value>
+		<value xid='2' url='javascript:showData("14-16","25","5","1")'>3</value>
+		<value xid='3' url='javascript:showData("17-24","25","5","1")'>23</value>
+		<value xid='4' url='javascript:showData("25-30","25","5","1")'>36</value>
+		<value xid='5' url='javascript:showData("31-35","25","5","1")'>48</value>
+		<value xid='6' url='javascript:showData("36-40","25","5","1")'>24</value>
+	</graph>
+
+	<graph gid='CS-305' title='CS-305'>
+		<value xid='0' url='javascript:showData("0-9","26","5","1")'>9</value>
+		<value xid='1' url='javascript:showData("10-13","26","5","1")'>4</value>
+		<value xid='2' url='javascript:showData("14-16","26","5","1")'>2</value>
+		<value xid='3' url='javascript:showData("17-24","26","5","1")'>26</value>
+		<value xid='4' url='javascript:showData("25-30","26","5","1")'>38</value>
+		<value xid='5' url='javascript:showData("31-35","26","5","1")'>38</value>
+		<value xid='6' url='javascript:showData("36-40","26","5","1")'>21</value>
+	</graph>
+
+	<graph gid='CS-307' title='CS-307'>
+		<value xid='0' url='javascript:showData("0-9","27","5","1")'>11</value>
+		<value xid='1' url='javascript:showData("10-13","27","5","1")'>5</value>
+		<value xid='2' url='javascript:showData("14-16","27","5","1")'>4</value>
+		<value xid='3' url='javascript:showData("17-24","27","5","1")'>30</value>
+		<value xid='4' url='javascript:showData("25-30","27","5","1")'>35</value>
+		<value xid='5' url='javascript:showData("31-35","27","5","1")'>38</value>
+		<value xid='6' url='javascript:showData("36-40","27","5","1")'>15</value>
+	</graph>
+
+	<graph gid='CS-309' title='CS-309'>
+		<value xid='0' url='javascript:showData("0-9","28","5","1")'>7</value>
+		<value xid='1' url='javascript:showData("10-13","28","5","1")'>1</value>
+		<value xid='2' url='javascript:showData("14-16","28","5","1")'>5</value>
+		<value xid='3' url='javascript:showData("17-24","28","5","1")'>26</value>
+		<value xid='4' url='javascript:showData("25-30","28","5","1")'>33</value>
+		<value xid='5' url='javascript:showData("31-35","28","5","1")'>42</value>
+		<value xid='6' url='javascript:showData("36-40","28","5","1")'>24</value>
+	</graph>
+
+	<graph gid='CS-311' title='CS-311'>
+		<value xid='0' url='javascript:showData("0-9","29","5","1")'>4</value>
+		<value xid='1' url='javascript:showData("10-13","29","5","1")'>1</value>
+		<value xid='2' url='javascript:showData("14-16","29","5","1")'>7</value>
+		<value xid='3' url='javascript:showData("17-24","29","5","1")'>13</value>
+		<value xid='4' url='javascript:showData("25-30","29","5","1")'>37</value>
+		<value xid='5' url='javascript:showData("31-35","29","5","1")'>58</value>
+		<value xid='6' url='javascript:showData("36-40","29","5","1")'>18</value>
+	</graph>
+
+</graphs>
+</chart>

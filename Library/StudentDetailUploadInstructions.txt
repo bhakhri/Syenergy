@@ -1,0 +1,31 @@
+1. Please upload the file in the format provided.
+
+2. [Sr.No] This is the serial number of the record.
+
+3. [Roll No.] to be replaced with Roll No of Student.This is mandatory field.
+
+4. [Univ. Roll No.] to be replaced with Univ Roll No of Student.This is mandatory field.
+
+5. [First Name] to be replaced with First Name of Student. This is mandatory field.
+
+6. [Last Name] to be replaced with Last Name of Student.
+
+7. [Father Name] to be replaced with Father Name of Student. This is mandatory field.
+
+8. [Father Country] to be replaced with Father's Country of student.This is mandatory field if user has entered the father's state and city.
+
+9. [Father State] to be replaced with Father's State of student.This is mandatory field if user has entered the father's city.
+
+10. [Mother Name] to be replaced with Mother Name of Student.
+
+11. [Date of Birth] to be replaced with Date of Birth of Student. The format of Date of Birth should be YYYY.MM.DD. 
+
+12. [Gender] to be replaced with Gender of Student. This is mandatory field.
+
+13. [Nationality] to be replaced with Nationality of Student. This is mandatory field.
+
+14. [Quota] to be replaced with Quota of Student. This is mandatory field.
+
+15. Save the export file in excel format.
+
+16. Browse the excel file and upload it.

@@ -1,0 +1,11 @@
+1. Please upload the file in the format provided.
+
+2. [Sr.No] This is the serial number of the record.
+
+3. [University RollNo] to be replaced with University RollNo of Student. This is mandatory field.
+
+4. [Scholar Type (D/H)] to be replaced with Scholar Type of Student. Use "D" for day scholar and "H" for hostler.This is mandatory field.
+
+5. Save the export file in excel format.
+
+6. Browse the excel file and upload it.

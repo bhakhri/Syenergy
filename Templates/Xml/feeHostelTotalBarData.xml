@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<chart>
+<series>
+<value xid='0'>Gargi</value>
+<value xid='1'>Aryabhatta</value>
+</series>
+<graphs>
+<graph gid='1'>
+<value xid='0' bullet='round'>2000</value>
+<value xid='1' bullet='round'>1000</value>
+</graph>
+<graph gid='2'>
+<value xid='0' bullet='round'>2000</value>
+<value xid='1' bullet='round'>1000</value>
+</graph>
+</graphs>
+</chart>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<chart>
+<series>
+	<value xid='0 - 9'>0 - 9</value>
+	<value xid='10 - 19'>10 - 19</value>
+	<value xid='20 - 29'>20 - 29</value>
+	<value xid='30 - 39'>30 - 39</value>
+	<value xid='40 - 49'>40 - 49</value>
+	<value xid='50 - 59'>50 - 59</value>
+	<value xid='60 - 69'>60 - 69</value>
+	<value xid='70 - 79'>70 - 79</value>
+	<value xid='80 - 89'>80 - 89</value>
+	<value xid='90 - 100'>90 - 100</value>
+	
+</series><graphs>
+	<graph gid='MST-1 (TH-BBA2)' title='MST-1 (TH-BBA2)'>
+		<value xid='0 - 9' url='javascript:showData("0 - 9","5233")'>21</value>
+		<value xid='10 - 19' url='javascript:showData("10 - 19","5233")'>3</value>
+		<value xid='20 - 29' url='javascript:showData("20 - 29","5233")'>4</value>
+		<value xid='30 - 39' url='javascript:showData("30 - 39","5233")'>0</value>
+		<value xid='40 - 49' url='javascript:showData("40 - 49","5233")'>9</value>
+		<value xid='50 - 59' url='javascript:showData("50 - 59","5233")'>3</value>
+		<value xid='60 - 69' url='javascript:showData("60 - 69","5233")'>5</value>
+		<value xid='70 - 79' url='javascript:showData("70 - 79","5233")'>2</value>
+		<value xid='80 - 89' url='javascript:showData("80 - 89","5233")'>0</value>
+		<value xid='90 - 100' url='javascript:showData("90 - 100","5233")'>0</value>
+	</graph>
+
+</graphs>
+</chart>

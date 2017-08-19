@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<chart>
+<series>
+<value xid='0'>06-May-16</value>
+<value xid='1'>05-May-16</value>
+<value xid='2'>04-May-16</value>
+<value xid='3'>03-May-16</value>
+<value xid='4'>02-May-16</value>
+<value xid='5'>01-May-16</value>
+<value xid='6'>30-Apr-16</value>
+<value xid='7'>29-Apr-16</value>
+<value xid='8'>28-Apr-16</value>
+<value xid='9'>27-Apr-16</value>
+<value xid='10'>26-Apr-16</value>
+<value xid='11'>25-Apr-16</value>
+<value xid='12'>24-Apr-16</value>
+<value xid='13'>23-Apr-16</value>
+<value xid='14'>22-Apr-16</value>
+<value xid='15'>21-Apr-16</value>
+<value xid='16'>20-Apr-16</value>
+<value xid='17'>19-Apr-16</value>
+<value xid='18'>18-Apr-16</value>
+<value xid='19'>17-Apr-16</value>
+<value xid='20'>16-Apr-16</value>
+<value xid='21'>15-Apr-16</value>
+<value xid='22'>14-Apr-16</value>
+<value xid='23'>13-Apr-16</value>
+<value xid='24'>12-Apr-16</value>
+<value xid='25'>11-Apr-16</value>
+<value xid='26'>10-Apr-16</value>
+<value xid='27'>09-Apr-16</value>
+<value xid='28'>08-Apr-16</value>
+<value xid='29'>07-Apr-16</value>
+<value xid='30'>06-Apr-16</value>
+</series>
+<graphs>
+<graph gid='2'>
+<value xid='0' bullet='round' url='javascript:showData("2016-05-06")'>6</value>
+<value xid='1' bullet='round' url='javascript:showData("2016-05-05")'>21</value>
+<value xid='2' bullet='round' url='javascript:showData("2016-05-04")'>17</value>
+<value xid='3' bullet='round' url='javascript:showData("2016-05-03")'>22</value>
+<value xid='4' bullet='round' url='javascript:showData("2016-05-02")'>26</value>
+<value xid='5' bullet='round' url='javascript:showData("2016-05-01")'>20</value>
+<value xid='6' bullet='round' url='javascript:showData("2016-04-30")'>17</value>
+<value xid='7' bullet='round' url='javascript:showData("2016-04-29")'>18</value>
+<value xid='8' bullet='round' url='javascript:showData("2016-04-28")'>22</value>
+<value xid='9' bullet='round' url='javascript:showData("2016-04-27")'>25</value>
+<value xid='10' bullet='round' url='javascript:showData("2016-04-26")'>49</value>
+<value xid='11' bullet='round' url='javascript:showData("2016-04-25")'>66</value>
+<value xid='12' bullet='round' url='javascript:showData("2016-04-24")'>61</value>
+<value xid='13' bullet='round' url='javascript:showData("2016-04-23")'>31</value>
+<value xid='14' bullet='round' url='javascript:showData("2016-04-22")'>45</value>
+<value xid='15' bullet='round' url='javascript:showData("2016-04-21")'>48</value>
+<value xid='16' bullet='round' url='javascript:showData("2016-04-20")'>36</value>
+<value xid='17' bullet='round' url='javascript:showData("2016-04-19")'>36</value>
+<value xid='18' bullet='round' url='javascript:showData("2016-04-18")'>52</value>
+<value xid='19' bullet='round' url='javascript:showData("2016-04-17")'>37</value>
+<value xid='20' bullet='round' url='javascript:showData("2016-04-16")'>47</value>
+<value xid='21' bullet='round' url='javascript:showData("2016-04-15")'>41</value>
+<value xid='22' bullet='round' url='javascript:showData("2016-04-14")'>56</value>
+<value xid='23' bullet='round' url='javascript:showData("2016-04-13")'>54</value>
+<value xid='24' bullet='round' url='javascript:showData("2016-04-12")'>59</value>
+<value xid='25' bullet='round' url='javascript:showData("2016-04-11")'>73</value>
+<value xid='26' bullet='round' url='javascript:showData("2016-04-10")'>61</value>
+<value xid='27' bullet='round' url='javascript:showData("2016-04-09")'>60</value>
+<value xid='28' bullet='round' url='javascript:showData("2016-04-08")'>64</value>
+<value xid='29' bullet='round' url='javascript:showData("2016-04-07")'>103</value>
+<value xid='30' bullet='round' url='javascript:showData("2016-04-06")'>120</value>
+</graph>
+</graphs>
+</chart>

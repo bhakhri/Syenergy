@@ -1,0 +1,5 @@
+1. Save the export file in excel format.
+2. Browse the excel file and upload it.
+3. Roll No. & University Roll No. will be changed for those student whose Upload Roll No. status will be yes.
+4. Always export the fresh excel file and then update the university roll no.
+5. Do not change the data in column no 1,2,4,5,6.  

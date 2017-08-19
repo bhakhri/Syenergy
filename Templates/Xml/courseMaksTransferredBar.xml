@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<chart>
+<series>
+<value xid="0">0 - 10</value>
+<value xid="1">11 - 20</value>
+<value xid="2">21 - 30</value>
+<value xid="3">31 - 40</value>
+<value xid="4">41 - 50</value>
+<value xid="5">51 - 60</value>
+<value xid="6">61 - 70</value>
+<value xid="7">71 - 80</value>
+<value xid="8">81 - 90</value>
+<value xid="9">91 - 100</value>
+</series>
+<graphs><graph gid='1'>
+<value xid="0">2</value>
+<value xid="1">1</value>
+<value xid="2">0</value>
+<value xid="3">3</value>
+<value xid="4">19</value>
+<value xid="5">9</value>
+<value xid="6">6</value>
+<value xid="7">3</value>
+<value xid="8">1</value>
+<value xid="9">0</value>
+</graph></graphs>
+</chart>

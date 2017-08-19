@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<chart>
+<series>
+	<value xid='2008'>2008</value>
+	<value xid='2007'>2007</value>
+	<value xid='2006'>2006</value>
+	<value xid='2005'>2005</value>
+	<value xid='2004'>2004</value>
+</series>
+<graphs>
+
+	<graph gid='BEd' title='BEd'>
+		<value xid='2008' url='javascript:showData("2008~BEd~branch")'>43</value>
+		<value xid='2007' url='javascript:showData("2007~BEd~branch")'></value>
+		<value xid='2006' url='javascript:showData("2006~BEd~branch")'></value>
+		<value xid='2005' url='javascript:showData("2005~BEd~branch")'></value>
+		<value xid='2004' url='javascript:showData("2004~BEd~branch")'></value>
+	</graph>
+	<graph gid='IHM' title='IHM'>
+		<value xid='2008' url='javascript:showData("2008~IHM~branch")'>122</value>
+		<value xid='2007' url='javascript:showData("2007~IHM~branch")'></value>
+		<value xid='2006' url='javascript:showData("2006~IHM~branch")'></value>
+		<value xid='2005' url='javascript:showData("2005~IHM~branch")'></value>
+		<value xid='2004' url='javascript:showData("2004~IHM~branch")'></value>
+	</graph>
+	<graph gid='DFP' title='DFP'>
+		<value xid='2008' url='javascript:showData("2008~DFP~branch")'>12</value>
+		<value xid='2007' url='javascript:showData("2007~DFP~branch")'></value>
+		<value xid='2006' url='javascript:showData("2006~DFP~branch")'></value>
+		<value xid='2005' url='javascript:showData("2005~DFP~branch")'></value>
+		<value xid='2004' url='javascript:showData("2004~DFP~branch")'></value>
+	</graph>
+	<graph gid='DBC' title='DBC'>
+		<value xid='2008' url='javascript:showData("2008~DBC~branch")'>3</value>
+		<value xid='2007' url='javascript:showData("2007~DBC~branch")'></value>
+		<value xid='2006' url='javascript:showData("2006~DBC~branch")'></value>
+		<value xid='2005' url='javascript:showData("2005~DBC~branch")'></value>
+		<value xid='2004' url='javascript:showData("2004~DBC~branch")'></value>
+	</graph>
+	<graph gid='MBA' title='MBA'>
+		<value xid='2008' url='javascript:showData("2008~MBA~branch")'>62</value>
+		<value xid='2007' url='javascript:showData("2007~MBA~branch")'>60</value>
+		<value xid='2006' url='javascript:showData("2006~MBA~branch")'></value>
+		<value xid='2005' url='javascript:showData("2005~MBA~branch")'></value>
+		<value xid='2004' url='javascript:showData("2004~MBA~branch")'></value>
+	</graph>
+	<graph gid='BCAGBC' title='BCAGBC'>
+		<value xid='2008' url='javascript:showData("2008~BCAGBC~branch")'>39</value>
+		<value xid='2007' url='javascript:showData("2007~BCAGBC~branch")'>40</value>
+		<value xid='2006' url='javascript:showData("2006~BCAGBC~branch")'></value>
+		<value xid='2005' url='javascript:showData("2005~BCAGBC~branch")'></value>
+		<value xid='2004' url='javascript:showData("2004~BCAGBC~branch")'></value>
+	</graph>
+	<graph gid='BScHMCTGBC' title='BScHMCTGBC'>
+		<value xid='2008' url='javascript:showData("2008~BScHMCTGBC~branch")'>35</value>
+		<value xid='2007' url='javascript:showData("2007~BScHMCTGBC~branch")'>38</value>
+		<value xid='2006' url='javascript:showData("2006~BScHMCTGBC~branch")'></value>
+		<value xid='2005' url='javascript:showData("2005~BScHMCTGBC~branch")'></value>
+		<value xid='2004' url='javascript:showData("2004~BScHMCTGBC~branch")'></value>
+	</graph>
+	<graph gid='BCA' title='BCA'>
+		<value xid='2008' url='javascript:showData("2008~BCA~branch")'>163</value>
+		<value xid='2007' url='javascript:showData("2007~BCA~branch")'>162</value>
+		<value xid='2006' url='javascript:showData("2006~BCA~branch")'>109</value>
+		<value xid='2005' url='javascript:showData("2005~BCA~branch")'></value>
+		<value xid='2004' url='javascript:showData("2004~BCA~branch")'></value>
+	</graph>
+	<graph gid='HOSP' title='HOSP'>
+		<value xid='2008' url='javascript:showData("2008~HOSP~branch")'></value>
+		<value xid='2007' url='javascript:showData("2007~HOSP~branch")'>117</value>
+		<value xid='2006' url='javascript:showData("2006~HOSP~branch")'>66</value>
+		<value xid='2005' url='javascript:showData("2005~HOSP~branch")'></value>
+		<value xid='2004' url='javascript:showData("2004~HOSP~branch")'></value>
+	</graph>
+	<graph gid='BBA' title='BBA'>
+		<value xid='2008' url='javascript:showData("2008~BBA~branch")'>80</value>
+		<value xid='2007' url='javascript:showData("2007~BBA~branch")'>64</value>
+		<value xid='2006' url='javascript:showData("2006~BBA~branch")'>20</value>
+		<value xid='2005' url='javascript:showData("2005~BBA~branch")'></value>
+		<value xid='2004' url='javascript:showData("2004~BBA~branch")'></value>
+	</graph>
+	<graph gid='MCA' title='MCA'>
+		<value xid='2008' url='javascript:showData("2008~MCA~branch")'>54</value>
+		<value xid='2007' url='javascript:showData("2007~MCA~branch")'>61</value>
+		<value xid='2006' url='javascript:showData("2006~MCA~branch")'>59</value>
+		<value xid='2005' url='javascript:showData("2005~MCA~branch")'></value>
+		<value xid='2004' url='javascript:showData("2004~MCA~branch")'></value>
+	</graph>
+	<graph gid='BARC' title='BARC'>
+		<value xid='2008' url='javascript:showData("2008~BARC~branch")'>40</value>
+		<value xid='2007' url='javascript:showData("2007~BARC~branch")'>40</value>
+		<value xid='2006' url='javascript:showData("2006~BARC~branch")'>34</value>
+		<value xid='2005' url='javascript:showData("2005~BARC~branch")'>28</value>
+		<value xid='2004' url='javascript:showData("2004~BARC~branch")'>20</value>
+	</graph>
+	<graph gid='BPHARMA' title='BPHARMA'>
+		<value xid='2008' url='javascript:showData("2008~BPHARMA~branch")'>54</value>
+		<value xid='2007' url='javascript:showData("2007~BPHARMA~branch")'>63</value>
+		<value xid='2006' url='javascript:showData("2006~BPHARMA~branch")'>67</value>
+		<value xid='2005' url='javascript:showData("2005~BPHARMA~branch")'>58</value>
+		<value xid='2004' url='javascript:showData("2004~BPHARMA~branch")'></value>
+	</graph>
+	<graph gid='EE' title='EE'>
+		<value xid='2008' url='javascript:showData("2008~EE~branch")'>53</value>
+		<value xid='2007' url='javascript:showData("2007~EE~branch")'>70</value>
+		<value xid='2006' url='javascript:showData("2006~EE~branch")'>86</value>
+		<value xid='2005' url='javascript:showData("2005~EE~branch")'>29</value>
+		<value xid='2004' url='javascript:showData("2004~EE~branch")'></value>
+	</graph>
+	<graph gid='ME' title='ME'>
+		<value xid='2008' url='javascript:showData("2008~ME~branch")'>138</value>
+		<value xid='2007' url='javascript:showData("2007~ME~branch")'>131</value>
+		<value xid='2006' url='javascript:showData("2006~ME~branch")'>161</value>
+		<value xid='2005' url='javascript:showData("2005~ME~branch")'>85</value>
+		<value xid='2004' url='javascript:showData("2004~ME~branch")'></value>
+	</graph>
+	<graph gid='CSE' title='CSE'>
+		<value xid='2008' url='javascript:showData("2008~CSE~branch")'>137</value>
+		<value xid='2007' url='javascript:showData("2007~CSE~branch")'>135</value>
+		<value xid='2006' url='javascript:showData("2006~CSE~branch")'>126</value>
+		<value xid='2005' url='javascript:showData("2005~CSE~branch")'>61</value>
+		<value xid='2004' url='javascript:showData("2004~CSE~branch")'></value>
+	</graph>
+	<graph gid='ECE' title='ECE'>
+		<value xid='2008' url='javascript:showData("2008~ECE~branch")'>133</value>
+		<value xid='2007' url='javascript:showData("2007~ECE~branch")'>132</value>
+		<value xid='2006' url='javascript:showData("2006~ECE~branch")'>132</value>
+		<value xid='2005' url='javascript:showData("2005~ECE~branch")'>120</value>
+		<value xid='2004' url='javascript:showData("2004~ECE~branch")'></value>
+	</graph>
+</graphs>
+</chart>

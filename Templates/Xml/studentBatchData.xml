@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pie>
+<slice title='BTECH2007' description='1~batch'>46</slice>
+<slice title='BTECH2008' description='2~batch'>718</slice>
+<slice title='MTECHBTECH2008' description='3~batch'>29</slice>
+<slice title='MBABTECH2008' description='4~batch'>57</slice>
+<slice title='MCA2008' description='5~batch'>42</slice>
+<slice title='BCA2008' description='6~batch'>31</slice>
+<slice title='MCABCA2008' description='7~batch'>10</slice>
+<slice title='MBA2008' description='8~batch'>61</slice>
+<slice title='BBA2008' description='9~batch'>31</slice>
+</pie>

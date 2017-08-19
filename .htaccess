@@ -1,0 +1,6 @@
+php_value auto_prepend_file "/var/www/leapcc/prepandOnce.php"
+<IfModule mod_expires.c>
+	ExpiresActive On
+	ExpiresByType text/css "now plus 1 year"
+	ExpiresByType text/javascript "now plus 1 year"
+</IfModule>

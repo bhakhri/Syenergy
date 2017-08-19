@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<chart>
+<series>
+	<value xid='0'>MST 1-1</value>
+	<value xid='1'></value>
+	
+</series><graphs>
+	<graph gid='1' title='Max. Marks' type='line' balloon_text='Max. Marks'>
+		<value xid='0'>23</value>
+		<value xid='1'>0</value>
+	</graph>
+
+	<graph gid='2' title='Avg. Marks' type='line' balloon_text='Avg. Marks'>
+		<value xid='0'>10.29</value>
+		<value xid='1'>0</value>
+	</graph>
+
+	<graph gid='3' type='column' balloon_text="ALL" title="ALL">
+		<value xid='0'>0</value>
+		<value xid='1'>0</value>
+	</graph>
+
+</graphs>
+</chart>

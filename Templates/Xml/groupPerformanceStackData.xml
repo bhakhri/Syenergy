@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<chart>
+<series>
+	<value xid='0'>PR-13-BAMT</value>
+	
+</series><graphs>
+	<graph gid='Sessional-P' title='Sessional-P'>
+		<value xid='0' url='javascript:showData(249,571,365,10);'>56.18</value>
+	</graph>
+
+	<graph gid='Assignment-P' title='Assignment-P'>
+		<value xid='0' url='javascript:showData(249,571,365,12);'>43.54</value>
+	</graph>
+
+</graphs>
+</chart>

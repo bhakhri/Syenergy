@@ -1,0 +1,24 @@
+Kindly follow these instructions strictly before uploading the file:
+
+A. Import Employee Appraisal
+   =====================
+   
+    1. Columns must be in following series:
+	[Sr.No.]	
+	[EmployeeCode]	
+	[ScoreGained]	
+	[DutiesWeekend]	
+	[ExtSupreintendent] 	
+	[CopyChecked] 	
+	[DutiesExternal]	
+	[DutiesInternal] 
+
+
+     
+    2. Not even a single column should be removed or added.
+
+    3. File extension should be .xls
+
+    4. All fields are mandatory and must not be left blank
+
+    5. Uploading will overwrite previous record for the current session.

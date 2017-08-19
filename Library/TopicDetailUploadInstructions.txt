@@ -1,0 +1,13 @@
+1. Please upload the file in the format provided.
+
+2. [Sr.No] This is the serial number of the record.
+
+3. [topic] to be replaced with Topic of Particular Subject
+
+4. [topicAbbr] to be replaced with Abbrevation of respective Topic of subject. This is mandatory field.
+
+5. Excel Sheet Tab Should be renamed to respective Subject code.
+
+5. Save the export file in excel format.
+
+7. Browse the excel file and upload it.

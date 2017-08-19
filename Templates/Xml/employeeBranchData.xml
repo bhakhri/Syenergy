@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pie>
+<slice title='BA-Business Administration' description='1~branch'>114</slice>
+<slice title='CA-Computer Applications' description='2~branch'>4</slice>
+<slice title='CAD-CAM-CAD-CAM' description='3~branch'>1</slice>
+<slice title='IT-IT' description='8~branch'>16</slice>
+<slice title='MULTIMEDIA-MULTIMEDIA' description='9~branch'>18</slice>
+<slice title='HMCT-HMCT' description='10~branch'>14</slice>
+<slice title='CAD/CAM-CAD/CAM' description='11~branch'>13</slice>
+<slice title='COM-Commerce' description='23~branch'>1</slice>
+<slice title='PO-PO' description='24~branch'>1</slice>
+<slice title='cynosure-cynosure' description='25~branch'>2</slice>
+<slice title='C.S.E-C.S.E' description='27~branch'>1</slice>
+<slice title='I.T.-I.T.' description='29~branch'>2</slice>
+<slice title='Try-Temp' description='33~branch'>1</slice>
+<slice title='BSC-HMCT-BSC-HMCT' description='36~branch'>8</slice>
+</pie>

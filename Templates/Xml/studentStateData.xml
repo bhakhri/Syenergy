@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pie>
+<slice title='Almora' description='1~state'>2</slice>
+<slice title='Arunachal Pradesh' description='2~state'>1</slice>
+<slice title='Chandigarh' description='5~state'>287</slice>
+<slice title='Gujarat' description='7~state'>1</slice>
+<slice title='Haryana' description='8~state'>226</slice>
+<slice title='Himachal Pradesh' description='9~state'>137</slice>
+<slice title='Hyderabad' description='10~state'>1</slice>
+<slice title='Jammu & Kashmir' description='11~state'>10</slice>
+<slice title='Kanpur' description='12~state'>2</slice>
+<slice title='New Delhi' description='16~state'>17</slice>
+<slice title='Punjab' description='19~state'>285</slice>
+<slice title='Rajasthan' description='20~state'>8</slice>
+<slice title='Utter Pardesh' description='23~state'>24</slice>
+<slice title='West Bangal' description='24~state'>1</slice>
+</pie>

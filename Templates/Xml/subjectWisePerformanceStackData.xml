@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<chart>
+<series>
+	<value xid='0'>1 to 9</value>
+	<value xid='1'>10 to 19</value>
+	<value xid='2'>20 to 29</value>
+	<value xid='3'>30 to 39</value>
+	<value xid='4'>40 to 49</value>
+	<value xid='5'>50 to 59</value>
+	<value xid='6'>60 to 69</value>
+	<value xid='7'>70 to 79</value>
+	<value xid='8'>80 to 89</value>
+	<value xid='9'>90 to 100</value>
+	
+</series><graphs>
+	<graph gid='BCOP302' title='BCOP302'>
+		<value xid='0' url='javascript:showData("1 - 9",275,479)'>10</value>
+		<value xid='1' url='javascript:showData("10 - 19",275,479)'>1</value>
+		<value xid='2' url='javascript:showData("20 - 29",275,479)'>4</value>
+		<value xid='3' url='javascript:showData("30 - 39",275,479)'>6</value>
+		<value xid='4' url='javascript:showData("40 - 49",275,479)'>6</value>
+		<value xid='5' url='javascript:showData("50 - 59",275,479)'>6</value>
+		<value xid='6' url='javascript:showData("60 - 69",275,479)'>7</value>
+		<value xid='7' url='javascript:showData("70 - 79",275,479)'>0</value>
+		<value xid='8' url='javascript:showData("80 - 89",275,479)'>1</value>
+		<value xid='9' url='javascript:showData("90 - 100",275,479)'>0</value>
+	</graph>
+
+</graphs>
+</chart>

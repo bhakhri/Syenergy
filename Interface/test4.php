@@ -1,0 +1,4 @@
+<?php
+// hello
+echo 'hello';
+?>

@@ -1,0 +1,293 @@
+ALTER TABLE `city`
+  ADD FOREIGN KEY (`stateId`) REFERENCES `states` (`stateId`)
+ON DELETE RESTRICT;
+
+ALTER TABLE `employee`
+  ADD FOREIGN KEY (`stateId`) REFERENCES `states` (`stateId`),
+  ADD FOREIGN KEY (`cityId`) REFERENCES `city` (`cityId`),
+  ADD FOREIGN KEY (`countryId`) REFERENCES `countries` (`countryId`),
+  ADD FOREIGN KEY (`designationId`) REFERENCES `designation` (`designationId`),
+  ADD FOREIGN KEY (`branchId`) REFERENCES `branch` (`branchId`),
+  ADD FOREIGN KEY (`userId`) REFERENCES `user` (`userId`)
+ON DELETE RESTRICT;
+	
+ALTER TABLE `states`
+  ADD FOREIGN KEY (`countryId`) REFERENCES `countries` (`countryId`)
+ON DELETE RESTRICT;
+
+ALTER TABLE `bank_branch`
+  ADD FOREIGN KEY (`bankId`) REFERENCES `bank` (`bankId`)
+ON DELETE RESTRICT;
+
+ALTER TABLE `block`
+  ADD FOREIGN KEY (`buildingId`) REFERENCES `building` (`buildingId`)
+ON DELETE RESTRICT;
+
+ALTER TABLE `batch`
+  ADD FOREIGN KEY (`instituteId`) REFERENCES `institute` (`instituteId`)
+ON DELETE RESTRICT;
+
+ALTER TABLE `attendance_bulk`
+  ADD FOREIGN KEY (`classId`) REFERENCES `class` (`classId`),
+  ADD FOREIGN KEY (`subjectId`) REFERENCES `subject` (`subjectId`),
+  ADD FOREIGN KEY (`employeeId`) REFERENCES `employee` (`employeeId`),
+  ADD FOREIGN KEY (`userId`) REFERENCES `user` (`userId`)
+ON DELETE RESTRICT;
+
+ALTER TABLE `attendance_daily`  
+ADD FOREIGN KEY ( `classId` ) REFERENCES `class` ( `classId` ) ,
+ADD FOREIGN KEY ( `subjectId` ) REFERENCES `subject` ( `subjectId` ) ,
+ADD FOREIGN KEY ( `employeeId` ) REFERENCES `employee` ( `employeeId` ) ,
+ADD FOREIGN KEY ( `studentId` ) REFERENCES `student` ( `studentId` ) ,
+ADD FOREIGN KEY ( `periodId` ) REFERENCES `period` ( `periodId` ) ,
+ADD FOREIGN KEY ( `userId` ) REFERENCES `user` ( `userId` ) 
+ON DELETE RESTRICT ;
+
+ALTER TABLE `bus_stop`
+  ADD FOREIGN KEY (`instituteId`) REFERENCES `institute` (`instituteId`)
+ON DELETE RESTRICT;
+
+ALTER TABLE `class`
+  ADD FOREIGN KEY (`universityId`) REFERENCES `university` (`universityId`),
+  ADD FOREIGN KEY (`batchId`) REFERENCES `batch` (`batchId`),
+  ADD FOREIGN KEY (`degreeId`) REFERENCES `degree` (`degreeId`),
+  ADD FOREIGN KEY (`sessionId`) REFERENCES `session` (`sessionId`),
+  ADD FOREIGN KEY (`branchId`) REFERENCES `branch` (`branchId`),
+  ADD FOREIGN KEY (`studyPeriodId`) REFERENCES `study_period` (`studyPeriodId`),
+  ADD FOREIGN KEY (`instituteId`) REFERENCES `institute` (`instituteId`)
+ON DELETE RESTRICT;
+
+ALTER TABLE `employee_can_teach_in`
+  ADD FOREIGN KEY (`instituteId`) REFERENCES `institute` (`instituteId`),
+  ADD FOREIGN KEY ( `employeeId` ) REFERENCES `employee` ( `employeeId` )
+ON DELETE RESTRICT;
+
+ALTER TABLE `employee_subject`
+  ADD FOREIGN KEY (`classId`) REFERENCES `class` (`classId`),
+  ADD FOREIGN KEY (`subjectId`) REFERENCES `subject` (`subjectId`),
+  ADD FOREIGN KEY ( `employeeId` ) REFERENCES `employee` ( `employeeId` )
+ON DELETE RESTRICT;
+
+
+ALTER TABLE `event`
+  ADD FOREIGN KEY (`instituteId`) REFERENCES `institute` (`instituteId`),
+  ADD FOREIGN KEY (`sessionId`) REFERENCES `session` (`sessionId`)
+
+ON DELETE RESTRICT;
+
+ALTER TABLE `fee_cycle`
+  ADD FOREIGN KEY (`instituteId`) REFERENCES `institute` (`instituteId`)
+ON DELETE RESTRICT;
+
+ALTER TABLE `fee_cycle_fines`
+  ADD FOREIGN KEY (`feeHeadId`) REFERENCES `fee_head` (`feeHeadId`),
+  ADD FOREIGN KEY ( `feeCycleId` ) REFERENCES `fee_cycle` ( `feeCycleId` )
+ON DELETE RESTRICT;
+
+ALTER TABLE `fee_fund_allocation`
+  ADD FOREIGN KEY (`instituteId`) REFERENCES `institute` (`instituteId`)
+ON DELETE RESTRICT;
+
+ALTER TABLE `fee_head`
+  ADD FOREIGN KEY (`instituteId`) REFERENCES `institute` (`instituteId`)
+ON DELETE RESTRICT;
+
+
+ALTER TABLE `fee_head_student`
+  ADD FOREIGN KEY (`studentId`) REFERENCES `student` (`studentId`),
+  ADD FOREIGN KEY (`feeHeadValueId`) REFERENCES `fee_head_values` (`feeHeadValueId`),
+  ADD FOREIGN KEY (`feeCycleId`) REFERENCES `fee_cycle` (`feeCycleId`)
+ON DELETE RESTRICT;
+
+ALTER TABLE `fee_head_values`
+  ADD FOREIGN KEY (`feeHeadId`) REFERENCES `fee_head` (`feeHeadId`),
+  ADD FOREIGN KEY (`feeCycleId`) REFERENCES `fee_cycle` (`feeCycleId`),
+  ADD FOREIGN KEY (`feeFundAllocationId`) REFERENCES `fee_fund_allocation` (`feeFundAllocationId`),
+  ADD FOREIGN KEY (`quotaId`) REFERENCES `quota` (`quotaId`)
+ON DELETE RESTRICT;
+
+ALTER TABLE `fee_receipt`
+  ADD FOREIGN KEY (`studentId`) REFERENCES `student` (`studentId`),
+  ADD FOREIGN KEY (`feeCycleId`) REFERENCES `fee_cycle` (`feeCycleId`),
+  ADD FOREIGN KEY (`instituteId`) REFERENCES `institute` (`instituteId`)
+ON DELETE RESTRICT;
+
+ALTER TABLE `grading_scale`
+  ADD FOREIGN KEY (`universityId`) REFERENCES `university` (`universityId`),
+  ADD FOREIGN KEY (`instituteId`) REFERENCES `institute` (`instituteId`),
+  ADD FOREIGN KEY (`degreeId`) REFERENCES `degree` (`degreeId`),
+  ADD FOREIGN KEY (`branchId`) REFERENCES `branch` (`branchId`),
+  ADD FOREIGN KEY (`studyPeriodId`) REFERENCES `study_period` (`studyPeriodId`)
+ON DELETE RESTRICT;
+
+ALTER TABLE `group`
+  ADD FOREIGN KEY (`groupTypeId`) REFERENCES `group_type` (`groupTypeId`)
+ON DELETE RESTRICT;
+
+ALTER TABLE `hostel_room`
+  ADD FOREIGN KEY (`hostelId`) REFERENCES `hostel` (`hostelId`)
+ON DELETE RESTRICT;
+
+ALTER TABLE `institute`
+  ADD FOREIGN KEY (`stateId`) REFERENCES `states` (`stateId`),
+  ADD FOREIGN KEY (`cityId`) REFERENCES `city` (`cityId`),
+  ADD FOREIGN KEY (`countryId`) REFERENCES `countries` (`countryId`),
+  ADD FOREIGN KEY (`designationId`) REFERENCES `designation` (`designationId`),
+  ADD FOREIGN KEY (`employeeId`) REFERENCES `employee` (`employeeId`)
+ON DELETE RESTRICT;
+
+ALTER TABLE `notice_visible_to_role`
+  ADD FOREIGN KEY (`noticeId`) REFERENCES `notice` (`noticeId`),
+  ADD FOREIGN KEY (`roleId`) REFERENCES `role` (`roleId`),
+  ADD FOREIGN KEY (`instituteId`) REFERENCES `institute` (`instituteId`),
+  ADD FOREIGN KEY (`sessionId`) REFERENCES `session` (`sessionId`),
+  ADD FOREIGN KEY (`universityId`) REFERENCES `university` (`universityId`),
+  ADD FOREIGN KEY (`degreeId`) REFERENCES `degree` (`degreeId`),
+  ADD FOREIGN KEY (`branchId`) REFERENCES `branch` (`branchId`)
+ON DELETE RESTRICT;
+
+ALTER TABLE `period`
+  ADD FOREIGN KEY (`instituteId`) REFERENCES `institute` (`instituteId`)
+ON DELETE RESTRICT;
+
+ALTER TABLE `role_permission`
+  ADD FOREIGN KEY (`roleId`) REFERENCES `role` (`roleId`),
+  ADD FOREIGN KEY (`moduleId`) REFERENCES `module` (`moduleId`)
+ON DELETE RESTRICT;
+
+ALTER TABLE `room`
+  ADD FOREIGN KEY (`blockId`) REFERENCES `block` (`blockId`)
+
+ON DELETE RESTRICT;
+
+ALTER TABLE `student`
+  ADD FOREIGN KEY (`classId`) REFERENCES `class` (`classId`),
+  ADD FOREIGN KEY (`groupId`) REFERENCES `group` (`groupId`),
+  ADD FOREIGN KEY (`parentGroupId`) REFERENCES `group` (`groupId`),
+  ADD FOREIGN KEY (`hostelId`) REFERENCES `hostel` (`hostelId`),
+  ADD FOREIGN KEY (`hostelRoomId`) REFERENCES `hostel_room` (`hostelRoomId`),
+  ADD FOREIGN KEY (`quotaId`) REFERENCES `quota` (`quotaId`),
+  ADD FOREIGN KEY (`busStopId`) REFERENCES `bus_stop` (`busStopId`),
+  ADD FOREIGN KEY (`busRouteId`) REFERENCES `bus_route` (`busRouteId`),
+  ADD FOREIGN KEY (`nationalityId`) REFERENCES `countries` (`countryId`),
+  ADD FOREIGN KEY (`domicileId`) REFERENCES `states` (`stateId`),
+  ADD FOREIGN KEY ( `permStateId`) REFERENCES `states` ( `stateId` ),  
+  ADD FOREIGN KEY ( `corrStateId`) REFERENCES `states` ( `stateId` ),  
+  ADD FOREIGN KEY ( `guardianStateId`) REFERENCES `states` ( `stateId` ),
+  ADD FOREIGN KEY ( `fatherStateId`) REFERENCES `states` ( `stateId` ),  
+  ADD FOREIGN KEY ( `motherStateId`) REFERENCES `states` ( `stateId` ),
+  ADD FOREIGN KEY (`fatherCityId`) REFERENCES `city` (`cityId`),
+  ADD FOREIGN KEY (`motherCityId`) REFERENCES `city` (`cityId`),
+  ADD FOREIGN KEY (`corrCityId`) REFERENCES `city` (`cityId`),
+  ADD FOREIGN KEY (`permCityId`) REFERENCES `city` (`cityId`),
+  ADD FOREIGN KEY (`guardianCityId`) REFERENCES `city` (`cityId`),
+  ADD FOREIGN KEY (`fatherCountryId`) REFERENCES `countries` (`countryId`),
+  ADD FOREIGN KEY (`motherCountryId`) REFERENCES `countries` (`countryId`),
+  ADD FOREIGN KEY (`corrCountryId`) REFERENCES `countries` (`countryId`),
+  ADD FOREIGN KEY (`permCountryId`) REFERENCES `countries` (`countryId`),
+  ADD FOREIGN KEY (`guardianCountryId`) REFERENCES `countries` (`countryId`),
+  ADD FOREIGN KEY (`userId`) REFERENCES `user` (`userId`),
+  ADD FOREIGN KEY (`fatherUserId`) REFERENCES `user` (`userId`),
+  ADD FOREIGN KEY (`motherUserId`) REFERENCES `user` (`userId`),
+  ADD FOREIGN KEY (`guardianUserId`) REFERENCES `user` (`userId`)		
+
+ON DELETE RESTRICT;
+
+ALTER TABLE `student_optional_subject`
+  ADD FOREIGN KEY (`studentId`) REFERENCES `student` (`studentId`),
+  ADD FOREIGN KEY (`subjectId`) REFERENCES `subject` (`subjectId`),
+  ADD FOREIGN KEY (`classId`) REFERENCES `class` (`classId`)
+ON DELETE RESTRICT;
+
+ALTER TABLE `study_period`
+  ADD FOREIGN KEY (`periodicityId`) REFERENCES `periodicity` (`periodicityId`)
+ON DELETE RESTRICT;
+
+ALTER TABLE `subject`
+  ADD FOREIGN KEY (`subjectTypeId`) REFERENCES `subject_type` (`subjectTypeId`)
+ON DELETE RESTRICT;
+
+ALTER TABLE `subject_to_class`
+  ADD FOREIGN KEY (`subjectId`) REFERENCES `subject` (`subjectId`),
+  ADD FOREIGN KEY (`classId`) REFERENCES `class` (`classId`)
+ON DELETE RESTRICT;
+
+ALTER TABLE `subject_type`
+  ADD FOREIGN KEY (`universityId`) REFERENCES `university` (`universityId`)
+ON DELETE RESTRICT;
+
+ALTER TABLE `teacher_comment`
+  ADD FOREIGN KEY (`studentId`) REFERENCES `student` (`studentId`),
+  ADD FOREIGN KEY (`teacherId`) REFERENCES `employee` (`employeeId`)
+ON DELETE RESTRICT;
+
+ALTER TABLE `test`
+	ADD FOREIGN KEY (`groupId`) REFERENCES `group` (`groupId`),
+	ADD FOREIGN KEY (`subjectId`) REFERENCES `subject` (`subjectId`),
+	ADD FOREIGN KEY (`classId`) REFERENCES `class` (`classId`),
+	ADD FOREIGN KEY (`testTypeId`) REFERENCES `test_type` (`testTypeId`)
+ON DELETE RESTRICT;
+
+ALTER TABLE `test_employee`
+	ADD FOREIGN KEY (`groupId`) REFERENCES `group` (`groupId`),
+	ADD FOREIGN KEY (`employeeId`) REFERENCES `employee` (`employeeId`),
+	ADD FOREIGN KEY (`testId`) REFERENCES `test` (`testId`)
+ON DELETE RESTRICT;
+
+ALTER TABLE `test_grace_marks`
+  ADD FOREIGN KEY (`studentId`) REFERENCES `student` (`studentId`)
+ON DELETE RESTRICT;
+
+ALTER TABLE `test_marks`
+  ADD FOREIGN KEY (`studentId`) REFERENCES `student` (`studentId`),
+  ADD FOREIGN KEY (`testId`) REFERENCES `test` (`testId`),
+  ADD FOREIGN KEY (`subjectId`) REFERENCES `subject` (`subjectId`)
+  
+ON DELETE RESTRICT;
+
+ALTER TABLE `test_transferred_marks`
+  ADD FOREIGN KEY (`universityId`) REFERENCES `university` (`universityId`),
+  ADD FOREIGN KEY (`instituteId`) REFERENCES `institute` (`instituteId`),
+  ADD FOREIGN KEY (`degreeId`) REFERENCES `degree` (`degreeId`),
+  ADD FOREIGN KEY (`branchId`) REFERENCES `branch` (`branchId`),
+  ADD FOREIGN KEY (`studyPeriodId`) REFERENCES `study_period` (`studyPeriodId`),
+  ADD FOREIGN KEY (`subjectId`) REFERENCES `subject` (`subjectId`),
+  ADD FOREIGN KEY (`studentId`) REFERENCES `student` (`studentId`),
+  ADD FOREIGN KEY (`testTypeId`) REFERENCES `test_type` (`testTypeId`)
+  
+
+ON DELETE RESTRICT;
+
+
+ALTER TABLE `test_type`
+  ADD FOREIGN KEY (`universityId`) REFERENCES `university` (`universityId`),
+  ADD FOREIGN KEY (`degreeId`) REFERENCES `degree` (`degreeId`),
+  ADD FOREIGN KEY (`branchId`) REFERENCES `branch` (`branchId`),
+  ADD FOREIGN KEY (`studyPeriodId`) REFERENCES `study_period` (`studyPeriodId`),
+  ADD FOREIGN KEY (`subjectId`) REFERENCES `subject` (`subjectId`),
+  ADD FOREIGN KEY (`evaluationCriteriaId`) REFERENCES `evaluation_criteria` (`evaluationCriteriaId`)    
+
+ON DELETE RESTRICT;
+
+ALTER TABLE `time_table`
+  ADD FOREIGN KEY (`lectureTypeId`) REFERENCES `lecture_type` (`lectureTypeId`),
+  ADD FOREIGN KEY (`groupTypeId`) REFERENCES `group_type` (`groupTypeId`),
+  ADD FOREIGN KEY (`groupId`) REFERENCES `group` (`groupId`),
+  ADD FOREIGN KEY (`employeeId`) REFERENCES `employee` (`employeeId`),
+  ADD FOREIGN KEY (`subjectId`) REFERENCES `subject` (`subjectId`),
+  ADD FOREIGN KEY (`roomId`) REFERENCES `room` (`roomId`),
+  ADD FOREIGN KEY (`periodId`) REFERENCES `period` (`periodId`)
+
+ON DELETE RESTRICT;
+
+ALTER TABLE `university`
+  ADD FOREIGN KEY (`stateId`) REFERENCES `states` (`stateId`),
+  ADD FOREIGN KEY (`cityId`) REFERENCES `city` (`cityId`),
+  ADD FOREIGN KEY (`countryId`) REFERENCES `countries` (`countryId`),
+  ADD FOREIGN KEY (`designationId`) REFERENCES `designation` (`designationId`)
+ON DELETE RESTRICT;
+
+ALTER TABLE `user`
+  ADD FOREIGN KEY (`roleId`) REFERENCES `role` (`roleId`)
+ON DELETE RESTRICT;
+		

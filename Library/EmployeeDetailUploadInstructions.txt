@@ -1,0 +1,87 @@
+Kindly follow these instructions strictly before uploading the file:
+
+1. Status field must be mentioned as 'yes' corresponding to the rows newly added or updated by you, else no change will occur in database.
+
+2. Columns must be in following series:
+	Sr.No.
+	Employee Id
+	User Name
+	Title
+	Last Name
+	First Name
+	Middle Name
+	Employee Code
+	Employee Abbr.
+	Teaching Employee (Yes/No)
+	Designation
+	Gender (M/F)
+	Department
+	Pan No.
+	Religion
+	Caste
+	PF No.
+	Bank Name
+	Bank Account No.
+	Bank Branch Name
+	ESI Number
+	Branch
+	Role Name
+	Marital Status (Yes/No)
+	Spouse Name
+	Father Name
+	Mother Name
+	Contact Number
+	Email
+	Mobile Number
+	Address1
+	Address2
+	City
+	State
+	Country
+	Pincode
+	Date of Birth(yyyy.mm.dd)
+	Date of Marriage(yyyy.mm.dd)
+	Date of Joining(yyyy.mm.dd)
+	Date of Leaving(yyyy.mm.dd)
+	Blood Group
+	Status (Yes/No)
+
+3. Not even a single column should be removed or added.
+
+4. File extension should be .xls
+
+5. Date field should be in format yyyy.mm.dd
+
+6. Fields 'Teaching Employee','Marital Status' and 'Status' must have value either as 'yes' or 'no'.
+
+7. 'Gender' field must have value either as 'M' or 'F'.
+
+8. Kindly enter abbreviation of Branch for 'Branch' field.
+
+9. Kindly enter name of Designation for 'Designation' field.
+
+10. Below mentioned fields are mandatory and must not be left blank:
+	Sr.No.
+	Title
+	First Name
+	Employee Code
+	Employee Abbr.
+	Teaching Employee
+	Designation
+	Gender
+	Branch
+	Marital Status
+
+	Role Name is mandatory if User enters the User Name
+
+11. Values of the following fields can not be duplicated :
+	Sr.No.
+	User Name
+	Employee Code
+	Employee Abbr.
+	Pan No.
+	
+12. Title Should be Mr,Mrs,Miss,Dr.
+	
+
+      

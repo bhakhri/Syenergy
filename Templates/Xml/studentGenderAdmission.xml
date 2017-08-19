@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<chart>
+<series>
+	<value xid='2008'>2008</value>
+	<value xid='2007'>2007</value>
+	<value xid='2006'>2006</value>
+	<value xid='2005'>2005</value>
+	<value xid='2004'>2004</value>
+</series>
+<graphs>
+
+	<graph gid='Male' title='Male'>
+		<value xid='2008' url='javascript:showData("2008~M~gender")'>829</value>
+		<value xid='2007' url='javascript:showData("2007~M~gender")'>781</value>
+		<value xid='2006' url='javascript:showData("2006~M~gender")'>628</value>
+		<value xid='2005' url='javascript:showData("2005~M~gender")'>244</value>
+		<value xid='2004' url='javascript:showData("2004~M~gender")'>11</value>
+	</graph>
+	<graph gid='Female' title='Female'>
+		<value xid='2008' url='javascript:showData("2008~F~gender")'>373</value>
+		<value xid='2007' url='javascript:showData("2007~F~gender")'>332</value>
+		<value xid='2006' url='javascript:showData("2006~F~gender")'>232</value>
+		<value xid='2005' url='javascript:showData("2005~F~gender")'>137</value>
+		<value xid='2004' url='javascript:showData("2004~F~gender")'>9</value>
+	</graph>
+</graphs>
+</chart>

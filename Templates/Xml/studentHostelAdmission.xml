@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<chart>
+<series>
+	<value xid='2008'>2008</value>
+	<value xid='2007'>2007</value>
+	<value xid='2006'>2006</value>
+	<value xid='2005'>2005</value>
+	<value xid='2004'>2004</value>
+</series>
+<graphs>
+
+	<graph gid='Hostel' title='Hostel'>
+		<value xid='2008' url='javascript:showData("2008~hostel~hostel")'>1200</value>
+		<value xid='2007' url='javascript:showData("2007~hostel~hostel")'>1113</value>
+		<value xid='2006' url='javascript:showData("2006~hostel~hostel")'>860</value>
+		<value xid='2005' url='javascript:showData("2005~hostel~hostel")'>381</value>
+		<value xid='2004' url='javascript:showData("2004~hostel~hostel")'>20</value>
+	</graph>
+	<graph gid='Day Scholar' title='Day Scholar'>
+		<value xid='2008' url='javascript:showData("2008~day scholar~hostel")'>2</value>
+		<value xid='2007' url='javascript:showData("2007~day scholar~hostel")'></value>
+		<value xid='2006' url='javascript:showData("2006~day scholar~hostel")'></value>
+		<value xid='2005' url='javascript:showData("2005~day scholar~hostel")'></value>
+		<value xid='2004' url='javascript:showData("2004~day scholar~hostel")'></value>
+	</graph>
+</graphs>
+</chart>

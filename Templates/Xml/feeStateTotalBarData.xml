@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<chart>
+<series>
+<value xid='0'>HR</value>
+<value xid='1'>ND</value>
+<value xid='2'>PB</value>
+</series>
+<graphs>
+<graph gid='1'>
+<value xid='0' bullet='round'>243000</value>
+<value xid='1' bullet='round'>51000</value>
+<value xid='2' bullet='round'>137000</value>
+</graph>
+<graph gid='2'>
+<value xid='0' bullet='round'>243000</value>
+<value xid='1' bullet='round'>51000</value>
+<value xid='2' bullet='round'>137000</value>
+</graph>
+</graphs>
+</chart>
