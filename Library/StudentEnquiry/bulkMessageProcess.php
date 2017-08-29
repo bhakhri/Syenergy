@@ -121,8 +121,8 @@ $msgBody = "<html>
             </html>";      
     
 
-    $connection=mysql_connect($argv[9],$argv[10],$argv[11]);
-    $selDb=mysql_select_db($argv[12],$connection);
+    $connection=mysqli_connect($argv[9],$argv[10],$argv[11]);
+    $selDb=mysqli_select_db($connection,$argv[12]);
 
     // SMS variables & max length detail 
     $userId      =$argv[1];  
@@ -221,9 +221,9 @@ $msgBody = "<html>
                     student_enquiry 
                 $conditions ";
         
-        $result = mysql_query($query, $connection);
+        $result = mysqli_query($connection,$query);
         $rows = Array();
-        while ($row = mysql_fetch_assoc($result)) {            
+        while ($row = mysqli_fetch_assoc($result)) {            
                $rows[] = $row;
         }
         return $rows;        
@@ -241,7 +241,7 @@ $msgBody = "<html>
      function adminMessageEmailSMSRecord($conditions='') {
          global $connection;
          $query= "UPDATE `student_enquiry` SET ".$conditions;
-         $result= mysql_query($query, $connection); 
+         $result= mysqli_query($connection,$query); 
      }         
         
     //-------------------------------------------------------------------------------------

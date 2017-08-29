@@ -49,7 +49,7 @@ class CalendarManager {
 	public function addEvent() {
 		global $REQUEST_DATA;
         global $sessionHandler;
-        
+
 		return SystemDatabaseManager::getInstance()->runAutoInsert('event', array('instituteId','sessionId','eventTitle','shortDescription','longDescription','startDate','endDate','roleIds'), 
         array($sessionHandler->getSessionVariable('InstituteId'),$sessionHandler->getSessionVariable('SessionId'),$REQUEST_DATA['eventTitle'],$REQUEST_DATA['shortDescription'],$REQUEST_DATA['longDescription'],$REQUEST_DATA['startDate'],$REQUEST_DATA['endDate'],$REQUEST_DATA['roleIds']) );
 	}

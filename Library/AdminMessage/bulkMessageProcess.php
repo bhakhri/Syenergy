@@ -45,8 +45,8 @@ if($argc < 24 ){ //if number of arguments is less than 24
 
 
 
-$connection=mysql_connect($argv[9],$argv[10],$argv[11]);
-$selDb=mysql_select_db($argv[12],$connection);
+$connection=mysqli_connect($argv[9],$argv[10],$argv[11]);
+$selDb=mysqli_select_db($connection,$argv[12]);
 
 // SMS variables & max length detail
 
@@ -112,9 +112,9 @@ function getStudentEmailMobileNoList($conditions){
             FROM student
             $conditions
             ";
-    $result = mysql_query($query, $connection);
+    $result = mysqli_query($connection,$query);
     $rows = Array();
-    while ($row = mysql_fetch_assoc($result)) {
+    while ($row = mysqli_fetch_assoc($result)) {
            $rows[] = $row;
     }
     return $rows;
@@ -125,19 +125,19 @@ function getStudentId($mobNo){
 				FROM		student
 				WHERE		studentMobileNo IN ($mobNo)";
 
-		$result= mysql_query($query, $connection);
+		$result= mysqli_query($connection,$query);
 }
 //this function is uded to fetch the last messageId from admin_message
 function getLastDataFrmAdminMessages(){
 		$query ="SELECT	messageId FROM admin_messages ORDER BY messageId DESC LIMIT 1";
-		$result= mysql_query($query, $connection);
+		$result= mysqli_query($connection,$query);
 	}
 //this function is used to insert the detail's of msg which is not send to the student
 function insertIntoAdminMsgsFailed($lastMsgId,$curDate,$smsNotSendStudentId){
 		$query="INSERT INTO
 						admin_messages_failed (messageId,receiverType,dated,receiverIds,messageSubject,message,messageType,senderId,instituteId,sessionId)
 										VALUES('$lastMsgId','Student','$curDate','$smsNotSendStudentId','".htmlentities($argv[7])."','".htmlentities($argv[6])."','SMS','$userId','$instituteId','$sessionId')";
-		$result= mysql_query($query, $connection);
+		$result= mysqli_query($connection,$query);
 }
 
 //--------------------------------------------------------------------------------------------------------------
@@ -155,7 +155,7 @@ function insertIntoAdminMsgsFailed($lastMsgId,$curDate,$smsNotSendStudentId){
     $query="INSERT INTO admin_messages (receiverIds,receiverType,dated,subject,message,messageType,visibleFromDate,visibleToDate,senderId,instituteId,
     sessionId) VALUES
     $conditions ";
-    $result= mysql_query($query, $connection);
+    $result= mysqli_query($connection,$query);
  }
 
 //-------------------------------------------------------------------------------------

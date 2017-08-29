@@ -191,16 +191,16 @@ class Logger {
                     
                     if($level=='1') {
                         SystemDatabaseManager::getInstance()->executeLogQuery($q);
-                       //mysql_query($q);
+                       //mysql-query($q);
                     }
                     else {
                         if($level=='2' && $queryType=='S') {
                           SystemDatabaseManager::getInstance()->executeLogQuery($q);
-                         //mysql_query($q);                    
+                         //mysql-query($q);                    
                         }
                         elseif($level=='3' && $queryType!='S' ) {
                           SystemDatabaseManager::getInstance()->executeLogQuery($q);
-                          //mysql_query($q);
+                          //mysql-query($q);
                         }
                     }
                 }

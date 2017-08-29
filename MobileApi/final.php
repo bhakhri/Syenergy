@@ -10,8 +10,8 @@ require_once("$url"); //includes and evaluates the specified file during the exe
 
 
 //connection to database
-$conn =mysql_connect(DB_HOST,DB_USER,DB_PASS) or die('Could not connect:' . mysql_error());
-mysql_select_db(DB_NAME,$conn) or die(mysql_error());
+$conn =mysqli_connect(DB_HOST,DB_USER,DB_PASS) or die('Could not connect:' . mysqli_error($conn));
+mysqli_select_db($conn,DB_NAME) or die(mysqli_error($conn));
 
 
  function removePHPJS($input,$rep='',$other=''){
@@ -47,10 +47,10 @@ if($_REQUEST['fn']== "login") {
         $userName = htmlentities(trim($_REQUEST['uname']));
         $userPassword = htmlentities(trim($_REQUEST['pw']));
         $condition = " u.instituteId = i.instituteId AND u.userName='".$userName."' and u.userPassword='".$userPassword."'";
-        $res = mysql_query("SELECT $fieldName FROM `user` u, institute i WHERE $condition");
-        $countres=mysql_num_rows($res);
+        $res = mysqli_query($conn,"SELECT $fieldName FROM `user` u, institute i WHERE $condition");
+        $countres=mysqli_num_rows($res);
         if($countres>0){
-            if($row=mysql_fetch_array($res)){ 
+            if($row=mysqli_fetch_array($res)){ 
                 $userId = $row['userId'];
              }
            
@@ -58,33 +58,33 @@ if($_REQUEST['fn']== "login") {
             $auth_key="";
             while($count==1) {  //to generate unique Loginkey(authKey) each time   
                 $auth_key= rand();
-                $key= mysql_query("SELECT authKey FROM nfc_user where authKey='".md5($auth_key)."'");
+                $key= mysqli_query($conn,"SELECT authKey FROM nfc_user where authKey='".md5($auth_key)."'");
                
-	        $count=mysql_num_rows($key);
+	        $count=mysqli_num_rows($key);
 	     
             }
 		
 
             if($count==0) {
    		
-               $query=mysql_query("SELECT * FROM nfc_user where userId='".$userId."'");
-                $countrows=mysql_num_rows($query);
+               $query=mysqli_query($conn,"SELECT * FROM nfc_user where userId='".$userId."'");
+                $countrows=mysqli_num_rows($query);
 
 	
                 if($countrows>0){ //to delete authkey from table if already exists for logged in user
 
-                    mysql_query("DELETE FROM nfc_user where userId='".$userId."'");
+                    mysqli_query($conn,"DELETE FROM nfc_user where userId='".$userId."'");
                 }
 
-                   mysql_query("INSERT INTO nfc_user(userId,authKey) VALUES(".$userId.",md5('".$auth_key."'))");
+                   mysqli_query($conn,"INSERT INTO nfc_user(userId,authKey) VALUES(".$userId.",md5('".$auth_key."'))");
 	
             } 
             else{
   
-                echo mysql_error(); 
+                echo mysqli_error($conn); 
              }
            
-            $akey=mysql_query("SELECT e.employeeName AS teacherName,mu.authKey  
+            $akey=mysqli_query($conn,"SELECT e.employeeName AS teacherName,mu.authKey  
                      FROM 
                            `employee`e ,nfc_user mu
 
@@ -94,7 +94,7 @@ if($_REQUEST['fn']== "login") {
                            ");
 
             $i=0;
-            if($rows =mysql_fetch_array($akey)){ //extract data from resultant array , returning associative array( unique authorisation key & student name)
+            if($rows =mysqli_fetch_array($akey)){ //extract data from resultant array , returning associative array( unique authorisation key & student name)
                 $output[$i]= array("authkey"=>$rows['authKey'],
                 "firstname"=>$rows['teacherName']
                 );
@@ -102,7 +102,7 @@ if($_REQUEST['fn']== "login") {
             }
 
             echo json_encode($output);
-            mysql_close($conn);
+            mysqli_close($conn);
 
         } 
         else echo "Invalid username or password"; 
@@ -123,8 +123,8 @@ if($_REQUEST['fn']== "login") {
 
 else if($_REQUEST['fn']== "checklogin"){   
         if($_REQUEST['authkey']!=""){ 
-            $res = mysql_query("SELECT * FROM nfc_user where authKey='".$_REQUEST['authkey']."'");
-            $count= mysql_num_rows($res); 
+            $res = mysqli_query($conn,"SELECT * FROM nfc_user where authKey='".$_REQUEST['authkey']."'");
+            $count= mysqli_num_rows($res); 
                 
                 if($count>0){    
                     $out= array("checklogin"=>1);
@@ -136,7 +136,7 @@ else if($_REQUEST['fn']== "checklogin"){
                     echo json_encode($output); //else returns 0
                 }  
 
-                mysql_close($conn);
+                mysqli_close($conn);
         }
         else{
              echo "ERROR : Enter authorisation key"; 
@@ -154,14 +154,14 @@ else if($_REQUEST['fn']== "checklogin"){
 
 else if($_REQUEST['fn']== "logout"){    
         if($_REQUEST['authkey']!=""){
-            $res = mysql_query("SELECT * FROM nfc_user where authKey='".$_REQUEST['authkey']."'");
-            $count= mysql_num_rows($res);
+            $res = mysqli_query($conn,"SELECT * FROM nfc_user where authKey='".$_REQUEST['authkey']."'");
+            $count= mysqli_num_rows($res);
             if($count>0){    //deletes authorisation key from the table 
-                $out=mysql_query("DELETE FROM nfc_user where authKey='".$_REQUEST['authkey']."'");
+                $out=mysqli_query($conn,"DELETE FROM nfc_user where authKey='".$_REQUEST['authkey']."'");
                 echo json_encode("logged out successfully");
             }
 
-            mysql_close($conn);
+            mysqli_close($conn);
         }
        else{
              echo "ERROR : Enter authorisation key";
@@ -180,15 +180,15 @@ else if($_REQUEST['fn']== "logout"){
 else if($_REQUEST['fn']== "timetable"){    
 
         if($_REQUEST['authkey']!=""){  
-                   $res = mysql_query("SELECT * FROM nfc_user where authKey='".$_REQUEST['authkey']."'");
-                        $count= mysql_num_rows($res);
+                   $res = mysqli_query($conn,"SELECT * FROM nfc_user where authKey='".$_REQUEST['authkey']."'");
+                        $count= mysqli_num_rows($res);
 
              if($count>0){  
-                if($row=mysql_fetch_array($res)) 
+                if($row=mysqli_fetch_array($res)) 
                        $userId = $row['userId'];
             }
-            $res1 = mysql_query("SELECT employeeId FROM employee WHERE userId = '$userId'");
-            if($rows=mysql_fetch_array($res1)){
+            $res1 = mysqli_query($conn,"SELECT employeeId FROM employee WHERE userId = '$userId'");
+            if($rows=mysqli_fetch_array($res1)){
                $employeeId = $rows['employeeId'];   
 			   $startDate = date('Y-m-d');
    			   $endDate = date('Y-m-d');
@@ -276,15 +276,15 @@ WHERE           ses.sessionId = cl.sessionId
 ORDER BY 
 		periodSlotId, daysOfWeek, LENGTH( periodNumber ) +0, periodNumber, groupShort, subjectCode";
 		
-                 $query1 =mysql_query($query);
-                 $countTimeTable=mysql_num_rows($query1);
+                 $query1 =mysqli_query($conn,$query);
+                 $countTimeTable=mysqli_num_rows($query1);
         if($countTimeTable>0){
                  $uniqueClassId = array();
                  $uniquePeriodId      = array();
                  $uniqueSubjectId     = array();
                  $uniqueGroupId = array();
                 $i=0;
-                while($rows =mysql_fetch_array($query1)){ 
+                while($rows =mysqli_fetch_array($query1)){ 
 				  $result[$i]=array("day"=>$rows['daysOfWeek'],
 				  					
 									"coursecode"=>$rows['subjectCode'],    
@@ -358,7 +358,7 @@ ORDER BY
                                  'uniqueSubjectId'=>$uniqueSubjectId, 'uniqueClassId'=>$uniqueClassId, 
                                  'result' => $result);
              echo json_encode($resultData); //returns student's current resource details
-             mysql_close($conn);
+             mysqli_close($conn);
         }
     
     else{
@@ -390,14 +390,14 @@ else if($_REQUEST['fn']== "studentlist"){
                    $groupId = htmlentities(trim($_REQUEST['groupId'])); 
   		           $classId = htmlentities(trim($_REQUEST['classId']));
  
-                   $res = mysql_query("SELECT * FROM nfc_user where authKey='".$_REQUEST['authkey']."'");
-                   $count= mysql_num_rows($res);
+                   $res = mysqli_query($conn,"SELECT * FROM nfc_user where authKey='".$_REQUEST['authkey']."'");
+                   $count= mysqli_num_rows($res);
                    if($count>0){  
-                     if($row=mysql_fetch_array($res)) 
+                     if($row=mysqli_fetch_array($res)) 
                         $userId = $row['userId'];
                         }
-                        $res1 = mysql_query("SELECT employeeId FROM employee WHERE userId = '$userId'");
-                        if($rows=mysql_fetch_array($res1)){
+                        $res1 = mysqli_query($conn,"SELECT employeeId FROM employee WHERE userId = '$userId'");
+                        if($rows=mysqli_fetch_array($res1)){
                           $employeeId = $rows['employeeId'];    
                         }
 
@@ -426,10 +426,10 @@ else if($_REQUEST['fn']== "studentlist"){
                                         s.studentId
                                     ORDER BY 
                                         LENGTH( rollNo ) +0, rollNo ASC";
-                        $query1 =mysql_query($query);
+                        $query1 =mysqli_query($conn,$query);
                   
                         $i=0;
-                        while($rows =mysql_fetch_array($query1)) { 
+                        while($rows =mysqli_fetch_array($query1)) { 
                             $studentPhoto="";
                             if(trim($rows['studentPhoto'])!='') {
                               $studentPhoto = STUDENT_PHOTO_PATH."/".$rows['studentPhoto'];   
@@ -444,7 +444,7 @@ else if($_REQUEST['fn']== "studentlist"){
                         }
                           
                         echo json_encode($result); //returns student's current resource details
-                        mysql_close($conn);
+                        mysqli_close($conn);
                    } 
                    else {
                      echo "ERROR : Enter groupId";
@@ -487,16 +487,16 @@ else if($_REQUEST['fn']== "studentlist"){
 		if($records=='') {
 		  $records='5';	
 		}
-                   $res = mysql_query("SELECT * FROM nfc_user where authKey='".$_REQUEST['authkey']."'");
-                        $count= mysql_num_rows($res);
+                   $res = mysqli_query($conn,"SELECT * FROM nfc_user where authKey='".$_REQUEST['authkey']."'");
+                        $count= mysqli_num_rows($res);
          if($count>0){  
-                if($row=mysql_fetch_array($res)) 
+                if($row=mysqli_fetch_array($res)) 
                        $userId = $row['userId'];
             }
-                           $res1 = mysql_query("SELECT employeeId FROM employee WHERE userId = '$userId'");
+                           $res1 = mysqli_query($conn,"SELECT employeeId FROM employee WHERE userId = '$userId'");
 
 
-                         if($rows=mysql_fetch_array($res1))
+                         if($rows=mysqli_fetch_array($res1))
 {
                         
                         $employeeId = $rows['employeeId'];    
@@ -521,11 +521,11 @@ AND g.groupId =$groupId
 AND c.classId =$classId
 GROUP BY s.studentId
 ORDER BY LENGTH( rollNo ) +0, rollNo ASC $limit";
- $query1 =mysql_query($query);
+ $query1 =mysqli_query($conn,$query);
 
 
                 $i=0;
-                  while($rows =mysql_fetch_array($query1))
+                  while($rows =mysqli_fetch_array($query1))
 { 
                       $result[$i]=array("studentId"=>$rows['studentId'],
 				 "studentName"=>$rows['studentName'],
@@ -543,7 +543,7 @@ ORDER BY LENGTH( rollNo ) +0, rollNo ASC $limit";
                
             
                   echo json_encode($result); //returns student's current resource details
-                      mysql_close($conn);
+                      mysqli_close($conn);
         }
         else{
              echo "null";
@@ -581,8 +581,8 @@ else if($_REQUEST['fn']== "displayattendance") {
                         class c
                   WHERE 
                         c.classId = '$classId' "; 
-         $query1 =mysql_query($query);
-         if($rows =mysql_fetch_array($query1)){ 
+         $query1 =mysqli_query($conn,$query);
+         if($rows =mysqli_fetch_array($query1)){ 
            $instituteId=$rows['instituteId'];   
 	    $holdAttendance = $rows['holdAttendance'];
          }
@@ -595,16 +595,16 @@ else if($_REQUEST['fn']== "displayattendance") {
 		  $enddate=date('Y-m-d');
 		}
 		
-        $res = mysql_query("SELECT * FROM nfc_user where authKey='".$_REQUEST['authkey']."'");
-        $count= mysql_num_rows($res);
+        $res = mysqli_query($conn,"SELECT * FROM nfc_user where authKey='".$_REQUEST['authkey']."'");
+        $count= mysqli_num_rows($res);
                       
         if($count>0){  
-          if($row=mysql_fetch_array($res)) 
+          if($row=mysqli_fetch_array($res)) 
             $userId = $row['userId'];   
         }
            
-        $res1 = mysql_query("SELECT employeeId FROM employee WHERE userId = '$userId'");
-        if($rows=mysql_fetch_array($res1)){
+        $res1 = mysqli_query($conn,"SELECT employeeId FROM employee WHERE userId = '$userId'");
+        if($rows=mysqli_fetch_array($res1)){
           $employeeId = $rows['employeeId'];    
         }
   			
@@ -654,11 +654,11 @@ else if($_REQUEST['fn']== "displayattendance") {
            ORDER BY  
                   LENGTH(rollNo)+0,rollNo ASC"; 
                  
-           $query1 =mysql_query($query);
-           $countDisplayatt=mysql_num_rows($query1);
+           $query1 =mysqli_query($conn,$query);
+           $countDisplayatt=mysqli_num_rows($query1);
            if($countDisplayatt>0){
                 $i=0;
-                  while($rows =mysql_fetch_array($query1)){ 
+                  while($rows =mysqli_fetch_array($query1)){ 
                       $result[$i]=array("studentName"=>$rows['studentName'],
                       			"studentId"=>$rows['studentId'],
 				                "universityRollNo"=>$rows['universityRollNo'],
@@ -673,7 +673,7 @@ else if($_REQUEST['fn']== "displayattendance") {
                     $i++;
                  }
                   echo json_encode($result); //returns student's current resource details
-                      mysql_close($conn);
+                      mysqli_close($conn);
             }
             else {
               echo "ERROR : No data found";
@@ -701,16 +701,16 @@ else if($_REQUEST['fn']== "displayattendance") {
 //--------------------------------------------------------
 else if($_REQUEST['fn']== "markattendance"){  
 
- 	      $res = mysql_query("SELECT * FROM nfc_user where authKey='".$_REQUEST['authkey']."'");
-          $count= mysql_num_rows($res);
+ 	      $res = mysqli_query($conn,"SELECT * FROM nfc_user where authKey='".$_REQUEST['authkey']."'");
+          $count= mysqli_num_rows($res);
          
           if($count>0){  
-           if($row=mysql_fetch_array($res)) 
+           if($row=mysqli_fetch_array($res)) 
               $userId = $row['userId'];
           }
           
-           $res1 = mysql_query("SELECT employeeId FROM employee WHERE userId = '$userId'");
-           if($rows=mysql_fetch_array($res1)){
+           $res1 = mysqli_query($conn,"SELECT employeeId FROM employee WHERE userId = '$userId'");
+           if($rows=mysqli_fetch_array($res1)){
 	         $employeeId = $rows['employeeId'];    
            }
 
@@ -732,8 +732,8 @@ else if($_REQUEST['fn']== "markattendance"){
                   WHERE 
                         c.classId = '$classId1' "; 
                         
-                 $query1 =mysql_query($query);
-                 if($rows =mysql_fetch_array($query1)){ 
+                 $query1 =mysqli_query($conn,$query);
+                 if($rows =mysqli_fetch_array($query1)){ 
                    $instituteId=$rows['instituteId'];   
                  }
                  $attendanceTableName = "attendance".$instituteId;
@@ -758,10 +758,10 @@ AND c.classId =$classId1
 GROUP BY s.studentId
 ORDER BY LENGTH( rollNo ) +0, rollNo ASC"; 
 
- $query1 =mysql_query($query);
+ $query1 =mysqli_query($conn,$query);
 
 		$i=0;
-                  while($rows =mysql_fetch_array($query1)){ 
+                  while($rows =mysqli_fetch_array($query1)){ 
                       $result[$i]=array("studentId"=>$rows['studentId'],
                                   );
                     $i++;
@@ -781,9 +781,9 @@ ORDER BY LENGTH( rollNo ) +0, rollNo ASC";
                     AND    classId=$classId1 
                     AND    subjectId=$subjectId1 
                     AND    groupId=$groupId1";
-            $query2 =mysql_query($query);
+            $query2 =mysqli_query($conn,$query);
            $i=0;
-                  while($rows =mysql_fetch_array($query2)){ 
+                  while($rows =mysqli_fetch_array($query2)){ 
                       $result1[$i]=array("COUNT"=>$rows['COUNT'],
                                   );               
                       $i++;
@@ -799,7 +799,7 @@ ORDER BY LENGTH( rollNo ) +0, rollNo ASC";
                          VALUES  
                          ($REQUEST_DATA[classId],$REQUEST_DATA[groupId],$studentId,$REQUEST_DATA[subjectId],
                           $employeeId,2,'2',$periodId1,'".$date."','".$date."',1,1,0,$userId,1)";
-                 $query1 =mysql_query($query);
+                 $query1 =mysqli_query($conn,$query);
                }
              }
          
@@ -827,7 +827,7 @@ ORDER BY LENGTH( rollNo ) +0, rollNo ASC";
                              AND    userId=$userId
                                                       ";
                //check date check comp
-                    $query1 =mysql_query($query);
+                    $query1 =mysqli_query($conn,$query);
                     echo "Attendance Marked.";
 		    $check=0;
               }
@@ -840,7 +840,7 @@ ORDER BY LENGTH( rollNo ) +0, rollNo ASC";
                   die;   
 		}            
                  // echo json_encode($result); //returns student's current resource details
-                 //   mysql_close($conn);
+                 //   mysqli_close($conn);
         }
         else{
              echo "null";
@@ -848,16 +848,16 @@ ORDER BY LENGTH( rollNo ) +0, rollNo ASC";
 
 }
 else if($_REQUEST['fn']== "updateattendance"){ 
- $res = mysql_query("SELECT * FROM nfc_user where authKey='".$_REQUEST['authkey']."'");
-          $count= mysql_num_rows($res);
+ $res = mysqli_query($conn,"SELECT * FROM nfc_user where authKey='".$_REQUEST['authkey']."'");
+          $count= mysqli_num_rows($res);
          
           if($count>0){  
-           if($row=mysql_fetch_array($res)) 
+           if($row=mysqli_fetch_array($res)) 
               $userId = $row['userId'];
           }
           
-           $res1 = mysql_query("SELECT employeeId FROM employee WHERE userId = '$userId'");
-           if($rows=mysql_fetch_array($res1)){
+           $res1 = mysqli_query($conn,"SELECT employeeId FROM employee WHERE userId = '$userId'");
+           if($rows=mysqli_fetch_array($res1)){
 	      $employeeId = $rows['employeeId'];    
            }
  	   $checkout=0;
@@ -883,8 +883,8 @@ else if($_REQUEST['fn']== "updateattendance"){
                   WHERE 
                         c.classId = '$classId1' "; 
                         
-                 $query1 =mysql_query($query);
-                 if($rows =mysql_fetch_array($query1)){ 
+                 $query1 =mysqli_query($conn,$query);
+                 if($rows =mysqli_fetch_array($query1)){ 
                    $instituteId=$rows['instituteId'];   
                  }
                  $attendanceTableName = "attendance".$instituteId;
@@ -905,10 +905,10 @@ AND c.classId =$classId1
 GROUP BY s.studentId
 ORDER BY LENGTH( rollNo ) +0, rollNo ASC"; 
 
- $query1 =mysql_query($query);
+ $query1 =mysqli_query($conn,$query);
 
 		$i=0;
-                  while($rows =mysql_fetch_array($query1)){ 
+                  while($rows =mysqli_fetch_array($query1)){ 
                       $result[$i]=array("studentId"=>$rows['studentId'],
                                   );
                     $i++;
@@ -924,9 +924,9 @@ ORDER BY LENGTH( rollNo ) +0, rollNo ASC";
                     WHERE 
                           studentId=$studentId AND fromDate='$date' AND toDate='$date' AND classId=$classId1 AND 
                           subjectId=$subjectId1 AND groupId=$groupId1";
-            $query2 =mysql_query($query);
+            $query2 =mysqli_query($conn,$query);
            $i=0;
-                  while($rows =mysql_fetch_array($query2)){ 
+                  while($rows =mysqli_fetch_array($query2)){ 
                       $result1[$i]=array("COUNT"=>$rows['COUNT'],
                                   );               
                       $i++;
@@ -992,7 +992,7 @@ ORDER BY LENGTH( rollNo ) +0, rollNo ASC";
 			die;
 			      }
                     //check date check comp
-                    $query1 =mysql_query($query);
+                    $query1 =mysqli_query($conn,$query);
                     echo "Attendance Modified.";
 		    $check=0;
               }
@@ -1008,7 +1008,7 @@ else{
                   die;   
 		}            
                  // echo json_encode($result); //returns student's current resource details
-                 //   mysql_close($conn);
+                 //   mysqli_close($conn);
 }
 
 else if($_REQUEST['fn']== "notices") {
@@ -1018,19 +1018,19 @@ else if($_REQUEST['fn']== "notices") {
       $studentId = ""; 
       $classId = ""; 
                   
-      $res = mysql_query("SELECT 
+      $res = mysqli_query($conn,"SELECT 
                                DISTINCT u.roleId
                           FROM 
                                `user` u, nfc_user nu
                           WHERE
                               nu.userId = u.userId AND nu.authKey='".$authKey."'");
-      if($row=mysql_fetch_array($res)) {
+      if($row=mysqli_fetch_array($res)) {
         $roleId= $row['roleId'];
       }
       
       
       if($roleId==2) {  // Teacher Role
-          $res = mysql_query("SELECT 
+          $res = mysqli_query($conn,"SELECT 
                                    e.employeeId, e.userId, nu.authKey,
                                    e.employeeName, e.employeeCode
                               FROM 
@@ -1039,7 +1039,7 @@ else if($_REQUEST['fn']== "notices") {
                                   e.userId = nu.userId AND nu.authKey='".$authKey."'");
       } 
       else {   // Student Role
-          $res = mysql_query("SELECT 
+          $res = mysqli_query($conn,"SELECT 
                                    s.studentId, s.classId, s.userId, nu.authKey,
                                    c.sessionId, c.instituteId, c.branchId, c.degreeId, 
                                    c.batchId, c.universityId, c.className
@@ -1049,10 +1049,10 @@ else if($_REQUEST['fn']== "notices") {
                                   c.classId = s.classId AND nu.userId =  s.userId AND nu.authKey='".$authKey."'");
       }
       
-      $count= mysql_num_rows($res);
+      $count= mysqli_num_rows($res);
       if($count>0) {  
         if($roleId==2) {
-           if($row=mysql_fetch_array($res)) {
+           if($row=mysqli_fetch_array($res)) {
               $userId = $row['userId'];
               $employeeId = $row['employeeId'];   
               $employeeName = $row['employeeName'];   
@@ -1064,7 +1064,7 @@ else if($_REQUEST['fn']== "notices") {
            }
         }
         else {  
-            if($row=mysql_fetch_array($res)) {
+            if($row=mysqli_fetch_array($res)) {
                   $userId = $row['userId'];
                   $studentId = $row['studentId']; 
                   $classId = $row['classId']; 
@@ -1087,7 +1087,7 @@ else if($_REQUEST['fn']== "notices") {
       // AND ('$curDate' BETWEEN n.visibleFromDate AND n.visibleToDate)        
     
       if($roleId==2) { 
-          $query=mysql_query("SELECT 
+          $query=mysqli_query($conn,"SELECT 
                                     DISTINCT n.noticeId,IF(IFNULL(n.noticeSubject,'')='','0',n.noticeSubject) AS noticeSubject, 
                                     n.noticeText, n.visibleFromDate,n.visibleToDate, nr.roleId,
                                     IF(IFNULL(n.noticeAttachment,'')='','',CONCAT('".STORAGE_HTTP_PATH."/Images/Notice/',n.noticeAttachment)) AS noticeAttachment
@@ -1100,7 +1100,7 @@ else if($_REQUEST['fn']== "notices") {
                                     n.visibleFromDate DESC  LIMIT 0,20");
       }
       else {
-          $query=mysql_query("SELECT
+          $query=mysqli_query($conn,"SELECT
                                  tt.noticeId, tt.noticeSubject, tt.noticeText, tt.visibleFromDate, tt.visibleToDate, tt.noticeAttachment
                               FROM               
                                 (SELECT 
@@ -1129,7 +1129,7 @@ else if($_REQUEST['fn']== "notices") {
 
       $result = array();                  
       $i=0;   
-      while($rows =mysql_fetch_array($query)){
+      while($rows =mysqli_fetch_array($query)){
             $result[] = array("noticeid"=>$rows['noticeId'],
                               "subject"=>removePHPJS($rows['noticeSubject'],"",1),
                               "description"=>removePHPJS($rows['noticeText'],"",1),
@@ -1142,11 +1142,11 @@ else if($_REQUEST['fn']== "notices") {
 
         if($i==0) {
           echo "Notice not found";
-          mysql_close($conn);     
+          mysqli_close($conn);     
           die;
        }
        echo json_encode($result); //returns student's current resource details
-       mysql_close($conn);     
+       mysqli_close($conn);     
        die;
 }
 
@@ -1160,10 +1160,10 @@ else if($_REQUEST['fn']== "studentMarks") {
       $classId = ""; 
       $instituteId = "";
              
-      $res = mysql_query("SELECT * FROM nfc_user WHERE authKey LIKE '".$authKey."'");               
-      $count= mysql_num_rows($res);
+      $res = mysqli_query($conn,"SELECT * FROM nfc_user WHERE authKey LIKE '".$authKey."'");               
+      $count= mysqli_num_rows($res);
       if($count>0) {  
-        if($row=mysql_fetch_array($res)) 
+        if($row=mysqli_fetch_array($res)) 
            $userId = $row['userId'];   
       }
       else {
@@ -1178,11 +1178,11 @@ else if($_REQUEST['fn']== "studentMarks") {
                    student s,  class c
               WHERE
                    c.classId = s.classId AND s.studentId = '".$studentId."'";            
-      $res = mysql_query($tt);
+      $res = mysqli_query($conn,$tt);
     
-      $count= mysql_num_rows($res);
+      $count= mysqli_num_rows($res);
       if($count>0) {  
-        if($row=mysql_fetch_array($res)) {
+        if($row=mysqli_fetch_array($res)) {
           $userId = $row['userId'];
           $studentId = $row['studentId']; 
           $classId = $row['classId']; 
@@ -1205,7 +1205,7 @@ else if($_REQUEST['fn']== "studentMarks") {
       $tableName1 = "test_marks".$instituteId;
       $tableName2 = "test".$instituteId;
       
-      $query=mysql_query("SELECT
+      $query=mysqli_query($conn,"SELECT
                                 s.studentId, gr.groupName, ttc.colorCode, cl.classId,
                                 CONCAT(su.subjectName,' (',su.subjectCode,')') AS subjectName,
                                 CONCAT(IF( ttc.examType = 'PC', 'Internal', 'External' ), ' (' , ttc.testTypeName, ')' ) AS examType,
@@ -1233,7 +1233,7 @@ else if($_REQUEST['fn']== "studentMarks") {
                           LIMIT 0,2000 "); 
                                                                     
         $i=0;   
-        while($rows =mysql_fetch_array($query)){
+        while($rows =mysqli_fetch_array($query)){
             $result[$i]=array("studentId"=>$rows['studentId'],
                               "subjectName"=>$rows['subjectName'],
                               "subjectCode"=>$rows['subjectCode'], 
@@ -1257,21 +1257,21 @@ else if($_REQUEST['fn']== "studentMarks") {
            die;
         }
         echo json_encode($result);        
-        mysql_close($conn);                 
+        mysqli_close($conn);                 
 }
 
 else if($_REQUEST['fn']== "attPresent" || $_REQUEST['fn']== "attAbsent"){  
     
-          $res = mysql_query("SELECT * FROM nfc_user where authKey='".$_REQUEST['authkey']."'");
-          $count= mysql_num_rows($res);
+          $res = mysqli_query($conn,"SELECT * FROM nfc_user where authKey='".$_REQUEST['authkey']."'");
+          $count= mysqli_num_rows($res);
          
           if($count>0){  
-            if($row=mysql_fetch_array($res)) 
+            if($row=mysqli_fetch_array($res)) 
               $userId = $row['userId'];
           }
           
-          $res1 = mysql_query("SELECT employeeId FROM employee WHERE userId = '$userId'");
-          if($rows=mysql_fetch_array($res1)){
+          $res1 = mysqli_query($conn,"SELECT employeeId FROM employee WHERE userId = '$userId'");
+          if($rows=mysqli_fetch_array($res1)){
               $employeeId = $rows['employeeId'];    
           }
 
@@ -1311,8 +1311,8 @@ else if($_REQUEST['fn']== "attPresent" || $_REQUEST['fn']== "attAbsent"){
                                             class c
                                       WHERE 
                                             c.classId = '$classId1' "; 
-                             $query1 =mysql_query($query);
-                             if($rows =mysql_fetch_array($query1)){ 
+                             $query1 =mysqli_query($conn,$query);
+                             if($rows =mysqli_fetch_array($query1)){ 
                                $instituteId=$rows['instituteId'];   
                              }
                              
@@ -1323,10 +1323,10 @@ else if($_REQUEST['fn']== "attPresent" || $_REQUEST['fn']== "attAbsent"){
                                             attendance_code 
                                       WHERE 
                                             instituteId = '$instituteId' "; 
-                             $query1 =mysql_query($query);
+                             $query1 =mysqli_query($conn,$query);
                  
                  
-                             while($rows =mysql_fetch_array($query1)) { 
+                             while($rows =mysqli_fetch_array($query1)) { 
                                 if($rows['attendanceCodePercentage'] == '0') {
                                   $attendanceCodeAId = $rows['attendanceCodeId'];   
                                 }
@@ -1366,11 +1366,11 @@ else if($_REQUEST['fn']== "attPresent" || $_REQUEST['fn']== "attAbsent"){
                                             AND groupId='$groupId1'
                                      GROUP BY
                                             studentId";
-                              $query2 =mysql_query($query);   
+                              $query2 =mysqli_query($conn,$query);   
                               
                               $result = array();
                               $i=0;
-                              while($rows =mysql_fetch_array($query2)){ 
+                              while($rows =mysqli_fetch_array($query2)){ 
                                  $result[$i]['studentId'] = $rows['studentId'];
                                  $result[$i]['cnt'] = $rows['cnt'];
                                  $i++;
@@ -1399,10 +1399,10 @@ else if($_REQUEST['fn']== "attPresent" || $_REQUEST['fn']== "attAbsent"){
                                                     AND c.classId =$classId1
                                                     GROUP BY s.studentId
                                                     ORDER BY LENGTH( rollNo ) +0, rollNo ASC";
-                          $queryStudentList =mysql_query($queryStudent);
+                          $queryStudentList =mysqli_query($conn,$queryStudent);
                          
                           $allStudentArray = array(); 
-                          while($rowsStudent =mysql_fetch_array($queryStudentList)) { 
+                          while($rowsStudent =mysqli_fetch_array($queryStudentList)) { 
                             $allStudentId =  $rowsStudent['studentId']; 
                             $allStudentArray[$allStudentId]['resultStatus'] = 'N';
                           } 
@@ -1447,7 +1447,7 @@ else if($_REQUEST['fn']== "attPresent" || $_REQUEST['fn']== "attAbsent"){
                                                  AND  userId=$userId";
                                   $allStudentArray[$studentId]['resultStatus'] = 'Y';                          
                              }
-                             $query1 =mysql_query($query);       
+                             $query1 =mysqli_query($conn,$query);       
                              $msg = "Attendance Marked.";
                           }
                   
@@ -1499,7 +1499,7 @@ else if($_REQUEST['fn']== "attPresent" || $_REQUEST['fn']== "attAbsent"){
                                           $allStudentArray[$studentId]['resultStatus'] = 'Y';                          
                                      } 
                                      
-                                     $query1 =mysql_query($query);    
+                                     $query1 =mysqli_query($conn,$query);    
                                  }   
                                  $msg = "Attendance Marked.";
                               }

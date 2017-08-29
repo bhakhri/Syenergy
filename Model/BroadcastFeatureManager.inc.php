@@ -3,14 +3,14 @@
 		
 		function  selectAttachment($featureId) {
 			 $query ="select attachment from broadcast_feature where featureId = '$featureId'";
-			 $result = mysql_query($query) or die('Error while executing following query. <br>'.$query);
+			 $result = mysqli_query($connection,$query) or die('Error while executing following query. <br>'.$query);
 			 return $result;
 		}
 		
 		
 		function updateAttachmentBroadcastFeature($featureId) {
 			$query ="update broadcast_feature set attachment = '' where featureId = '$featureId'";
-			return  mysql_query($query);  
+			return  mysqli_query($connection,$query);  
 		}
 
 		
@@ -23,7 +23,7 @@
 								roleId=$roleId
 					  AND 
 								visibleToDate >= CURDATE()";
-			$result = mysql_query($query) or die('Error while executing following query. <br>'.$query);
+			$result = mysqli_query($connection,$query) or die('Error while executing following query. <br>'.$query);
 			return $result;
 	   }
 	 
@@ -36,7 +36,7 @@
 					  WHERE
 								visibleToDate >= CURDATE()";
 		
-			$result = mysql_query($query) or die('Error while executing following query. <br>'.$query);
+			$result = mysqli_query($connection,$query) or die('Error while executing following query. <br>'.$query);
 		    return $result;
 				
 		}
@@ -51,7 +51,7 @@
 						where 
 								featureId = '$featureId'
 					";
-			 $res = mysql_query($query) or die('Error while executing following query. <br>'.$query);
+			 $res = mysqli_query($connection,$query) or die('Error while executing following query. <br>'.$query);
 			 return $res;
 										
 	}
@@ -63,7 +63,7 @@
 						WHERE 
 							    visibleToDate = CURDATE()";
 								  
-				 $res = mysql_query($query) or die('Error while executing following query. <br>'.$query);
+				 $res = mysqli_query($connection,$query) or die('Error while executing following query. <br>'.$query);
 				 return $res;
 
 	}

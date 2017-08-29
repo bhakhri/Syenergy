@@ -3,7 +3,7 @@ ob_start();
 if(isset($_GET['id']) && $_GET['task']=='downloadAttachment' ) {	
 	 $id= $_GET['id'];
 	 $retval= selectAttachment($id);
-		while($row = mysql_fetch_array($retval)) {
+		while($row = mysqli_fetch_array($retval)) {
 			$attachment = $row['attachment'];
 			if($attachment!= '') {
 				$livePath = $fileDownloadPath.$attachment;
@@ -55,12 +55,12 @@ if(isset($_GET['id']) && $_GET['task']=='downloadAttachment' ) {
 										$loginRoleId =  $sessionHandler->getSessionVariable('RoleId');
 										$id = $_GET['id'];
 										$descArray = selectDescription($id);
-										$recordsFound = mysql_num_rows($descArray);
+										$recordsFound = mysqli_num_rows($descArray);
 										if ($recordsFound == 0) {
 											$f=1;
 										}
 										else {
-											while($row = mysql_fetch_Array($descArray)) {
+											while($row = mysqli_fetch_Array($descArray)) {
 											  
 											  $roleId = $row['roleId'];
 											  $featureTitle = $row['featureTitle'];

@@ -43,7 +43,7 @@
 													$id = $_GET['id'];
 												
 													$retval= selectAttachment($id);
-													while($row = mysql_fetch_array($retval)) {
+													while($row = mysqli_fetch_array($retval)) {
 														$attachment = $row['attachment'];
 														if($attachment!= '') {
 															
@@ -88,7 +88,7 @@
 											<?php
 												$srNo=0;
 												
-												while($row = mysql_fetch_array($retval)) {
+												while($row = mysqli_fetch_array($retval)) {
 													$featureId = $row['featureId'];
 													$featureTitle = $row['featureTitle'];
 													$featureDescription = $row['featureDescription'];

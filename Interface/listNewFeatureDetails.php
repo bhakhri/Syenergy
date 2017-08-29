@@ -9,8 +9,8 @@ UtilityManager::ifNotLoggedIn();
 $host = "192.168.1.8";
 
 $fileDownloadPath = 'http://'.$host . '/testing/coder/upload/';
-$conn = mysql_connect('192.168.1.11','trainee','trainee') or die('could not find host');
-mysql_select_db('trainee_broadcast_feature') or die('could not connect to database');
+$conn = mysqli_connect('192.168.1.11','trainee','trainee') or die('could not find host');
+mysqli_select_db($conn,'trainee_broadcast_feature') or die('could not connect to database');
 require_once(MODEL_PATH . "/BroadcastFeatureManager.inc.php");
 
 	?> 

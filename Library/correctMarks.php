@@ -20,17 +20,17 @@ $query="SELECT
 							 FROM	total_transferred_marks1)
 		GROUP BY	a.studentId, a.classId, a.subjectId,b.conductingAuthority
 		ORDER BY	a.studentId,a.classId,a.subjectId,b.conductingAuthority";
-$result = mysql_query($query);
+$result = mysqli_query($connection,$query);
 if ($result == false) {
 	echo FAILURE;
 	die;
 }
-$num_rows = mysql_num_rows($result);
+$num_rows = mysqli_num_rows($result);
 if($num_rows == 0) {
 	echo NO_INCONSISTENCY_FOUND;
 	die;
 }
-while($data=mysql_fetch_array($result)) {
+while($data=mysqli_fetch_array($result)) {
 	$studentId = $data['studentId'];
 	$classId = $data['classId'];
 	$subjectId = $data['subjectId'];
@@ -45,7 +45,7 @@ while($data=mysql_fetch_array($result)) {
 if (count($insertArray)) {
 	$insertStr = implode(',', $insertArray);
 	$query = "INSERT INTO total_transferred_marks1(conductingAuthority, studentId, classId, subjectId, maxMarks, marksScored, holdResult, marksScoredStatus, isActive) VALUES $insertStr";
-	$result = mysql_query($query);
+	$result = mysqli_query($connection,$query);
 	if($result == false) {
 		echo FAILURE;
 		die;

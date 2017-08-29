@@ -16,8 +16,8 @@ define("DEBUG_SEVERITY",'');
 
 define("DB_HOST", "localhost");
 define("DB_USER", "root");
-define("DB_PASS", "root");
-define("DB_NAME", "iiu");
+define("DB_PASS", "");
+define("DB_NAME", "tnu");
 define("CLIENT_NAME", '' ); //Client name for SMS Services  
 
 define('ADMIN_MSG_EMAIL','webmaster@chalkpad.in'); // this email is used to send messages to employees and student in admin_messages
@@ -110,8 +110,8 @@ define('COLUMN_REG_NO','Reg No.');// On clicking showlist find student page colu
 define("LOG_FILE_NAME", 'log.txt');        // The name of the log file
 // query log
 define("DB_QUERY_LOG", 1); // 0 = off, 1 = on
-define("DB_QUERY_LEVEL", 3); //  1 = All, 2= read (SELECT only), 3= write (INSERT, UPDATE, DELETE)
-define("DB_QUERY_LOG_DESTINATION", 1); //  1 = Database, 2= File
+define("DB_QUERY_LEVEL", 1); //  1 = All, 2= read (SELECT only), 3= write (INSERT, UPDATE, DELETE)
+define("DB_QUERY_LOG_DESTINATION", 2); //  1 = Database, 2= File
 
 
 

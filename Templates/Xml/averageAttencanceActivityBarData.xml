@@ -1,10 +1,60 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <chart>
 <series>
+<value xid='0'>BTCS213</value>
+<value xid='1'>BTCS220</value>
+<value xid='2'>BTCS220L</value>
+<value xid='3'>BTCS222</value>
+<value xid='4'>BTCS223</value>
+<value xid='5'>BTCS223L</value>
+<value xid='6'>BTCS224</value>
+<value xid='7'>BTCS225</value>
+<value xid='8'>BTCS225L</value>
+<value xid='9'>UEN003</value>
 </series><graphs>
 <graph gid='1'>
+<value xid='0' title='2'>2</value>
+<value xid='0' bullet='round' url='javascript:showStudentAttendanceThresholdData(644,723)'>2</value>
+<value xid='1' title='1'>1</value>
+<value xid='1' bullet='round' url='javascript:showStudentAttendanceThresholdData(644,284)'>1</value>
+<value xid='2' title='1'>1</value>
+<value xid='2' bullet='round' url='javascript:showStudentAttendanceThresholdData(644,720)'>1</value>
+<value xid='3' title='1'>1</value>
+<value xid='3' bullet='round' url='javascript:showStudentAttendanceThresholdData(644,286)'>1</value>
+<value xid='4' title='1'>1</value>
+<value xid='4' bullet='round' url='javascript:showStudentAttendanceThresholdData(644,287)'>1</value>
+<value xid='5' title='0'>0</value>
+<value xid='5' bullet='round' url='javascript:showStudentAttendanceThresholdData(644,721)'>0</value>
+<value xid='6' title='1'>1</value>
+<value xid='6' bullet='round' url='javascript:showStudentAttendanceThresholdData(644,724)'>1</value>
+<value xid='7' title='1'>1</value>
+<value xid='7' bullet='round' url='javascript:showStudentAttendanceThresholdData(644,289)'>1</value>
+<value xid='8' title='1'>1</value>
+<value xid='8' bullet='round' url='javascript:showStudentAttendanceThresholdData(644,722)'>1</value>
+<value xid='9' title='8'>8</value>
+<value xid='9' bullet='round' url='javascript:showStudentAttendanceThresholdData(644,1224)'>8</value>
 </graph>
 <graph gid='2'>
+<value xid='0' title='2'>2</value>
+<value xid='0' bullet='round' url='javascript:showStudentAttendanceThresholdData(644,723)'>2</value>
+<value xid='1' title='1'>1</value>
+<value xid='1' bullet='round' url='javascript:showStudentAttendanceThresholdData(644,284)'>1</value>
+<value xid='2' title='1'>1</value>
+<value xid='2' bullet='round' url='javascript:showStudentAttendanceThresholdData(644,720)'>1</value>
+<value xid='3' title='1'>1</value>
+<value xid='3' bullet='round' url='javascript:showStudentAttendanceThresholdData(644,286)'>1</value>
+<value xid='4' title='1'>1</value>
+<value xid='4' bullet='round' url='javascript:showStudentAttendanceThresholdData(644,287)'>1</value>
+<value xid='5' title='0'>0</value>
+<value xid='5' bullet='round' url='javascript:showStudentAttendanceThresholdData(644,721)'>0</value>
+<value xid='6' title='1'>1</value>
+<value xid='6' bullet='round' url='javascript:showStudentAttendanceThresholdData(644,724)'>1</value>
+<value xid='7' title='1'>1</value>
+<value xid='7' bullet='round' url='javascript:showStudentAttendanceThresholdData(644,289)'>1</value>
+<value xid='8' title='1'>1</value>
+<value xid='8' bullet='round' url='javascript:showStudentAttendanceThresholdData(644,722)'>1</value>
+<value xid='9' title='8'>8</value>
+<value xid='9' bullet='round' url='javascript:showStudentAttendanceThresholdData(644,1224)'>8</value>
 </graph>
 </graphs>
 </chart>

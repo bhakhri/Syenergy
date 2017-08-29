@@ -34,8 +34,8 @@ abstract class DatabaseManager {
 
 
     private static function connectToServer($DBHost, $DBUsername, $DBPassword) {
-
-        $connection = @mysql_connect($DBHost, $DBUsername, $DBPassword,false,MYSQL_CLIENT_INTERACTIVE);
+		$connection = mysqli_connect($DBHost, $DBUsername, $DBPassword);
+        //$connection = @mysql-connect($DBHost, $DBUsername, $DBPassword,false,MYSQL-CLIENT_INTERACTIVE);
 
         if ($connection === false) {
             logError("Unable to connect to the database on $DBHost with username $DBUsername", ERROR_SEVERITY);
@@ -70,7 +70,7 @@ abstract class DatabaseManager {
      * @return true if database selected successfully, false otherwise
      */
     public static function selectDatabase($database, $connection) {
-        $success = mysql_select_db($database, $connection);
+        $success = mysqli_select_db( $connection,$database);
         if ($success === false) {
             logError("Failed to select database '$database'", ERROR_SEVERITY);
             return false;
@@ -146,7 +146,7 @@ abstract class DatabaseManager {
      * closes the connection to the MySQL server on a specific connection.
      */
     private static function closeConnection($connection) {
-        $result = mysql_close($connection);
+        $result = mysqli_close($connection);
         if ($result === false) {
             exit;
         }
@@ -175,10 +175,10 @@ abstract class DatabaseManager {
         //quickLog($update);
         queryLog($update);
         //start transaction code added on 23/9/2008
-        if(mysql_query('START TRANSACTION', $connection)) {
-            $result = mysql_query($update, $connection);
+        if(mysqli_query($connection,'START TRANSACTION')) {
+            $result = mysqli_query($connection,$update);
             if ($result === false) {
-                logError("Error in database " . $databaseName . ", executing update: " . $update . "\r\n".mysql_errno($connection)."\r\n". mysql_error($connection), ERROR_SEVERITY);
+                logError("Error in database " . $databaseName . ", executing update: " . $update . "\r\n".mysqli_errno($connection)."\r\n". mysqli_error($connection), ERROR_SEVERITY);
                 //send error mail
                 DatabaseManager::queryErrorMail($connection, $update);
                 //DatabaseManager::closeConnection($connection);
@@ -186,7 +186,7 @@ abstract class DatabaseManager {
                 return $result;
             }
             else {
-                if(mysql_query('COMMIT', $connection)) {
+                if(mysqli_query($connection,'COMMIT')) {
                     return true;
                 }
                 else {
@@ -210,9 +210,9 @@ abstract class DatabaseManager {
 
         //TODO: remove these
         //quickLog($update);
-        $result = mysql_query($update, $connection);
+        $result = mysqli_query($connection,$update);
         if ($result === false) {
-            logError("Error in database " . $databaseName . ", executing update: " . $update . "\r\n" . mysql_error($connection), ERROR_SEVERITY);
+            logError("Error in database " . $databaseName . ", executing update: " . $update . "\r\n" . mysqli_error($connection), ERROR_SEVERITY);
             // send error mail
             DatabaseManager::queryErrorMail($connection, $update);
             DatabaseManager::closeConnection($connection);
@@ -238,10 +238,10 @@ abstract class DatabaseManager {
         //quickLog($update);
          queryLog($delete);
         //start transaction code added on 23/9/2008
-        if(mysql_query('START TRANSACTION', $connection)) {
-            $result = mysql_query($delete, $connection);
+        if(mysqli_query($connection,'START TRANSACTION')) {
+            $result = mysqli_query($connection,$delete);
             if ($result === false) {
-                logError( "Error in database " . $databaseName . ", executing delete: " . $delete . "\r\n".mysql_errno($connection)."\r\n". mysql_error($connection) , ERROR_SEVERITY );
+                logError( "Error in database " . $databaseName . ", executing delete: " . $delete . "\r\n".mysqli_errno($connection)."\r\n". mysqli_error($connection) , ERROR_SEVERITY );
                 // send error mail
                 DatabaseManager::queryErrorMail($connection, $delete);
                 //DatabaseManager::closeConnection($connection);
@@ -249,7 +249,7 @@ abstract class DatabaseManager {
                 //exit;
             }
             else {
-                if(mysql_query('COMMIT', $connection)) {
+                if(mysqli_query($connection,'COMMIT')) {
                     return true;
                 }
                 else {
@@ -268,9 +268,9 @@ abstract class DatabaseManager {
      * get last insert id.
      */
     public static function getLastInsertId($connection) {
-        // i had to write this code as mysql_insert_id does not return last insert id if Start Transaction action is performed
-        $result = mysql_query('SELECT LAST_INSERT_ID() as lid',$connection);
-        $row    = mysql_fetch_array($result);
+        // i had to write this code as mysql-insert_id does not return last insert id if Start Transaction action is performed
+        $result = mysqli_query($connection,'SELECT LAST_INSERT_ID() as lid');
+        $row    = mysqli_fetch_array($result);
         return $row['lid'];
     }
 
@@ -296,9 +296,9 @@ abstract class DatabaseManager {
         //TODO: remove these
         //quickLog($query);
         queryLog($query);
-        $result = mysql_query($query, $connection);
+        $result = mysqli_query($connection,$query);
         if ($result === false) {
-            logError("Error in database executing query:\n" . $query . "\r\n" . mysql_error($connection), ERROR_SEVERITY);
+            logError("Error in database executing query:\n" . $query . "\r\n" . mysqli_error($connection), ERROR_SEVERITY);
             // send error mail
             DatabaseManager::queryErrorMail($connection, $query);
             DatabaseManager::closeConnection($connection);
@@ -307,7 +307,7 @@ abstract class DatabaseManager {
 
         // extract data from results, returning an associative array
         $rows = Array();
-        while ($row = mysql_fetch_assoc($result)) {
+        while ($row = mysqli_fetch_assoc($result)) {
             $rows[] = $row;
         }
 
@@ -319,16 +319,16 @@ abstract class DatabaseManager {
     }
 
     private static function startTransactionOnConnection($connection) {
-        $result = mysql_query('SET AUTOCOMMIT=0', $connection);
+        $result = mysqli_query($connection,'SET AUTOCOMMIT=0');
         if ($result === false) {
-            logError("Error in database executing query:\n SET AUTOCOMMIT\r\n" . mysql_error($connection), ERROR_SEVERITY);
+            logError("Error in database executing query:\n SET AUTOCOMMIT\r\n" . mysqli_error($connection), ERROR_SEVERITY);
             //DatabaseManager::closeConnection($connection);
             //exit;
         }
         else {
-            $result = mysql_query('START TRANSACTION', $connection);
+            $result = mysqli_query($connection,'START TRANSACTION');
             if ($result === false) {
-                logError("Error in database executing query:\n START TRANSACTION\r\n" . mysql_error($connection), ERROR_SEVERITY);
+                logError("Error in database executing query:\n START TRANSACTION\r\n" . mysqli_error($connection), ERROR_SEVERITY);
                 //DatabaseManager::closeConnection($connection);
                 //exit;
             }
@@ -341,9 +341,9 @@ abstract class DatabaseManager {
     }
 
     private static function commitTransactionOnConnection($connection) {
-        $result = mysql_query('COMMIT', $connection);
+        $result = mysqli_query($connection,'COMMIT');
         if ($result === false) {
-            logError("Error in database executing query:\n COMMIT\r\n" . mysql_error($connection), ERROR_SEVERITY);
+            logError("Error in database executing query:\n COMMIT\r\n" . mysqli_error($connection), ERROR_SEVERITY);
             //DatabaseManager::closeConnection($connection);
             //exit;
         }
@@ -355,9 +355,9 @@ abstract class DatabaseManager {
     }
 
     private static function rollbackTransactionOnConnection($connection) {
-        $result = mysql_query('ROLLBACK', $connection);
+        $result = mysqli_query($connection,'ROLLBACK');
         if ($result === false) {
-            logError("Error in database executing query:\n ROLLBACK\r\n" . mysql_error($connection), ERROR_SEVERITY);
+            logError("Error in database executing query:\n ROLLBACK\r\n" . mysqli_error($connection), ERROR_SEVERITY);
             //DatabaseManager::closeConnection($connection);
             //exit;
         }
@@ -374,9 +374,9 @@ abstract class DatabaseManager {
 
         //TODO: remove these
         queryLog($update);
-        $result = mysql_query($update, $connection);
+        $result = mysqli_query($connection,$update);
         if ($result === false) {
-            logError("Error in database " . $databaseName . ", executing update: " . $update . "\r\n".mysql_errno($connection)."\r\n". mysql_error($connection), ERROR_SEVERITY);
+            logError("Error in database " . $databaseName . ", executing update: " . $update . "\r\n".mysqli_errno($connection)."\r\n". mysqli_error($connection), ERROR_SEVERITY);
             // send error mail
             DatabaseManager::queryErrorMail($connection, $update);
             //DatabaseManager::closeConnection($connection);
@@ -387,11 +387,11 @@ abstract class DatabaseManager {
     //on error send mail
     public static function queryErrorMail($connection, $query) {
         global $sessionHandler;
-        $body ="<b>Username: </b>".$sessionHandler->getSessionVariable('UserName')."<br><br><b>Server:</b>".HTTP_PATH."<br><br><b>File:</b> ".$_SERVER['PHP_SELF']."<br><br><b>Query:</b> $query"."<br><br><b>Error:</b> ".mysql_error($connection);
+        $body ="<b>Username: </b>".$sessionHandler->getSessionVariable('UserName')."<br><br><b>Server:</b>".HTTP_PATH."<br><br><b>File:</b> ".$_SERVER['PHP_SELF']."<br><br><b>Query:</b> $query"."<br><br><b>Error:</b> ".mysqli_error($connection);
         $from = "From: ".ADMIN_MSG_EMAIL.";\nContent-type: text/html;";
         $qERefNo = date('dMy-His');
 
-       $body = $body . "<br><br><br><table border=\"1\" cellpadding=\"5\" cellspacing=\"0\"> <tr><th>QERefNo.</th><th>Server</th><th>Account</th><th>Version</th><th>UserName</th><th>Role</th><th>Path</th><th>File</th><th>Query</th><th>QueryError</th></tr><tr><td nowrap>$qERefNo</td><td>".$_SERVER['HTTP_HOST']."</td><td>".substr(HTTP_PATH,strrpos(HTTP_PATH,'/')+1)."</td><td>Leap".strtoupper(CURRENT_PROCESS_FOR)."</td><td>".$sessionHandler->getSessionVariable('UserName')."</td><td>".$sessionHandler->getSessionVariable('RoleName')."</td><td>".substr($_SERVER['PHP_SELF'],0,strrpos($_SERVER['PHP_SELF'],'/'))."</td><td>".substr($_SERVER['PHP_SELF'],strrpos($_SERVER['PHP_SELF'],'/')+1)."</td><td nowrap>$query</td><td nowrap>".mysql_error($connection)."</td></tr></table>";
+       $body = $body . "<br><br><br><table border=\"1\" cellpadding=\"5\" cellspacing=\"0\"> <tr><th>QERefNo.</th><th>Server</th><th>Account</th><th>Version</th><th>UserName</th><th>Role</th><th>Path</th><th>File</th><th>Query</th><th>QueryError</th></tr><tr><td nowrap>$qERefNo</td><td>".$_SERVER['HTTP_HOST']."</td><td>".substr(HTTP_PATH,strrpos(HTTP_PATH,'/')+1)."</td><td>Leap".strtoupper(CURRENT_PROCESS_FOR)."</td><td>".$sessionHandler->getSessionVariable('UserName')."</td><td>".$sessionHandler->getSessionVariable('RoleName')."</td><td>".substr($_SERVER['PHP_SELF'],0,strrpos($_SERVER['PHP_SELF'],'/'))."</td><td>".substr($_SERVER['PHP_SELF'],strrpos($_SERVER['PHP_SELF'],'/')+1)."</td><td nowrap>$query</td><td nowrap>".mysqli_error($connection)."</td></tr></table>";
 
         return UtilityManager::sendMail(ERROR_MAIL_TO, 'Query Error at '.HTTP_PATH.' RefNo : '.$qERefNo, $body, $from );
     }
@@ -417,9 +417,9 @@ abstract class DatabaseManager {
         //TODO: remove these
         //quickLog($query);
         queryLog($query);
-        $result = mysql_query($query, $connection);
+        $result = mysqli_query($connection,$query);
         if ($result === false) {
-            logError("Error in database executing query:\n" . $query . "\r\n" . mysql_error($connection), ERROR_SEVERITY);
+            logError("Error in database executing query:\n" . $query . "\r\n" . mysqli_error($connection), ERROR_SEVERITY);
             // send error mail
             DatabaseManager::queryErrorMail($connection, $query);
             DatabaseManager::closeConnection($connection);
@@ -428,9 +428,9 @@ abstract class DatabaseManager {
 
         // extract data from results, returning an associative array
         $rows = Array();
-        $cnt = mysql_num_fields($result);
+        $cnt = mysqli_num_fields($result);
         for($i=0; $i<$cnt; $i++) {
-           $rows[] = mysql_field_name($result,$i);
+           $rows[] = mysqli_fetch_field_direct($result, $i)->name;
         }
 
         return $rows;

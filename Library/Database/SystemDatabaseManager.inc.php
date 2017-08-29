@@ -107,7 +107,6 @@ class SystemDatabaseManager extends DatabaseManager {
 			logError("Failed to select system database while executing $query", ERROR_SEVERITY);
 			return false;
 		}		
-
 		SystemDatabaseManager::$readQueries[] = $query;
 		SystemDatabaseManager::$readQueryComments[] = $comment;
 		return parent::executeQuery($query);
@@ -264,7 +263,7 @@ class SystemDatabaseManager extends DatabaseManager {
 			$count = count($fields);
             for ($i=0;$i<$count;$i++){
 				$update.="`".$fields[$i]."`='".add_slashes($values[$i])."'".(($i==$count-1)?"":" , ");
-			}
+			} 
 			if (!SystemDatabaseManager::selectDatabaseIfNecessary()) {
 			logError("Failed to select system database while executing $update", ERROR_SEVERITY);
 			return false;

@@ -1,4 +1,4 @@
-php_value auto_prepend_file "/var/www/leapcc/prepandOnce.php"
+php_value auto_prepend_file "E:/sites/LeapMySqli/prepandOnce.php"
 <IfModule mod_expires.c>
 	ExpiresActive On
 	ExpiresByType text/css "now plus 1 year"

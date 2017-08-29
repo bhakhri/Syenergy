@@ -542,11 +542,11 @@ function floatingDiv_Close()
 			require_once($FE . "/Library/common.inc.php");
 			require_once(MODEL_PATH . "/BroadcastFeatureManager.inc.php");
 
-			$conn = mysql_connect(BROADCAST_DB_HOST,BROADCAST_DB_USER,BROADCAST_DB_PASS) or die('could not find host');
-			mysql_select_db(BROADCAST_DB_NAME) or die('could not connect to database');
+			$conn = mysqli_connect(BROADCAST_DB_HOST,BROADCAST_DB_USER,BROADCAST_DB_PASS) or die('could not find host');
+			mysqli_select_db($conn,BROADCAST_DB_NAME) or die('could not connect to database');
 			$recordArray = selectNewBroadcast();
 			$cnt=0;
-			if($row = mysql_fetch_Array($recordArray)) {
+			if($row = mysqli_fetch_Array($recordArray)) {
 			  $cnt = $row['cnt'];
 			}
 			if($cnt == 0) {

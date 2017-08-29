@@ -4,8 +4,8 @@
 	$userName = "trainee";
 	$password = "trainee";
 	$dbName = "trainee_broadcast_feature";
-	$conn = mysql_connect('192.168.1.11','trainee','trainee') or die('could not find host');
-	mysql_select_db('trainee_broadcast_feature') or die('could not connect to database');
+	$conn = mysqli_connect('192.168.1.11','trainee','trainee') or die('could not find host');
+	mysqli_select_db($conn,'trainee_broadcast_feature') or die('could not connect to database');
 	function  selectDescription($featureId) {
 																	
 										  $query ="select
@@ -15,13 +15,13 @@
 												where 
 													featureId = '$featureId'
 											";
-										$result = mysql_query($query); 
+										$result = mysqli_query($conn,$query); 
 										return $result;
 	}
 		if(isset($_GET['id'])) {
 			$id = $_GET['id'];
 			$descArray = selectDescription($id);
-			while($row = mysql_fetch_Array($descArray)) {
+			while($row = mysqli_fetch_Array($descArray)) {
 			  $featureTitle = $row['featureTitle'];
 			  $featureDescription = $row['featureDescription'];
 			}

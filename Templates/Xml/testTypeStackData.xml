@@ -3,33 +3,103 @@
 <series>
 </series>
 <graphs>
-	<graph gid='1' title='Assignment'>
+	<graph gid='1' title='Assignments'>
 	</graph>
-	<graph gid='2' title='M.S.T'>
+	<graph gid='2' title='MID-SESSION TEST-MST'>
 	</graph>
-	<graph gid='3' title='Viva'>
+	<graph gid='3' title='Attendance-Th'>
 	</graph>
-	<graph gid='4' title='AttendanceT'>
+	<graph gid='4' title='Compre'>
 	</graph>
-	<graph gid='5' title='AttendanceP'>
+	<graph gid='5' title='MST Lab Performance'>
 	</graph>
-	<graph gid='6' title='Final Marks'>
+	<graph gid='6' title='Viva Voce'>
 	</graph>
-	<graph gid='7' title='Practical'>
+	<graph gid='7' title='Attendance-P'>
 	</graph>
-	<graph gid='8' title='Snap Test'>
+	<graph gid='10' title='Proj Report'>
 	</graph>
-	<graph gid='9' title='Class Presentation'>
+	<graph gid='11' title='Attendance-Trg'>
 	</graph>
-	<graph gid='10' title='MST-P'>
+	<graph gid='12' title='Quiz'>
 	</graph>
-	<graph gid='11' title='Snap test-p'>
+	<graph gid='13' title='FST'>
 	</graph>
-	<graph gid='12' title='Assignment-P'>
+	<graph gid='14' title='Attendance Marks'>
 	</graph>
-	<graph gid='13' title='Presentation-P'>
+	<graph gid='15' title='Final LabPerformance'>
 	</graph>
-	<graph gid='14' title='Case Study/App-illus'>
+	<graph gid='16' title='Attendance Th Direct'>
+	</graph>
+	<graph gid='18' title='Practical Note Book'>
+	</graph>
+	<graph gid='19' title='AttendanceDME'>
+	</graph>
+	<graph gid='21' title='Internal Assessment'>
+	</graph>
+	<graph gid='22' title='External'>
+	</graph>
+	<graph gid='23' title='PRESENTATION'>
+	</graph>
+	<graph gid='24' title='VIVA-VOCE'>
+	</graph>
+	<graph gid='25' title='TRAINING REPORT'>
+	</graph>
+	<graph gid='26' title='REPORT'>
+	</graph>
+	<graph gid='27' title='DESIGN & EXECUTION'>
+	</graph>
+	<graph gid='28' title='DES.'>
+	</graph>
+	<graph gid='29' title='EXE.'>
+	</graph>
+	<graph gid='30' title='E.A.R.'>
+	</graph>
+	<graph gid='31' title='I.A.R.'>
+	</graph>
+	<graph gid='32' title='DES.& EXE.'>
+	</graph>
+	<graph gid='33' title='PRE. & VIVA'>
+	</graph>
+	<graph gid='34' title='PROJECT REPORT'>
+	</graph>
+	<graph gid='35' title='PRE. DES.& EXE.'>
+	</graph>
+	<graph gid='36' title='Industrial Assesment'>
+	</graph>
+	<graph gid='37' title='Lab Project'>
+	</graph>
+	<graph gid='38' title='PROJECT-REPORT'>
+	</graph>
+	<graph gid='39' title='EXECUTION-DESIGN'>
+	</graph>
+	<graph gid='40' title='VIVA--VOCE'>
+	</graph>
+	<graph gid='41' title='PROJECT- REPORT'>
+	</graph>
+	<graph gid='42' title='Assignment'>
+	</graph>
+	<graph gid='43' title='Continous Evaluation'>
+	</graph>
+	<graph gid='44' title='Student Presentation'>
+	</graph>
+	<graph gid='45' title='ProjectReport'>
+	</graph>
+	<graph gid='46' title='VivaVoce'>
+	</graph>
+	<graph gid='47' title='Project_presentation'>
+	</graph>
+	<graph gid='48' title='LAB-CONT_EVALUATION'>
+	</graph>
+	<graph gid='49' title='LAB-NOTE-BOOK'>
+	</graph>
+	<graph gid='50' title='LAB-PROJECT'>
+	</graph>
+	<graph gid='51' title='LAB-FST'>
+	</graph>
+	<graph gid='52' title='LAB-VIVA-VOCE'>
+	</graph>
+	<graph gid='53' title='IndustrialAssessment'>
 	</graph>
 </graphs>
 </chart>

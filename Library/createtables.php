@@ -42,13 +42,13 @@
                           );
   
   
-  $conn=@mysql_connect($server,$userName,$userPassword);
+  $conn=mysqli_connect($server,$userName,$userPassword);
   if(!$conn){
       echo 'Could not connect to '.$server;
       die;
   }
   
-  $selDb=@mysql_select_db($db,$conn);
+  $selDb=mysqli_select_db($conn,$db);
   if(!$selDb){
       echo 'Could not connect to '.$db.' database';
       die;
@@ -58,14 +58,14 @@
   function createTable($sourceTable,$destinationTable) {
         global $conn;
         $s="CREATE TABLE IF NOT EXISTS ".$destinationTable." LIKE ".$sourceTable;
-        return mysql_query($s,$conn);
+        return mysqli_query($conn,$s);
   }
     
   
   $str1='select instituteId from institute';
-  $res1=mysql_query($str1,$conn);
+  $res1=mysqli_query($conn,$str1);
   $instituteIdArray=array();
-  while($info1=@mysql_fetch_array($res1)){
+  while($info1=mysqli_fetch_array($res1)){
      $instituteIdArray[]=$info1['instituteId']; 
   }
   $count=count($instituteIdArray);
@@ -77,9 +77,9 @@
   
   $fl=0;
   $str1='show tables';
-  $res1=mysql_query($str1,$conn);
+  $res1=mysqli_query($conn,$str1);
   $tablesArray=array();
-  while($info2=mysql_fetch_array($res1)){
+  while($info2=mysqli_fetch_array($res1)){
      $tablesArray[]=$info2['Tables_in_'.$db]; 
   }
   
@@ -118,7 +118,7 @@ for($i=0;$i<$count;$i++){
      $cnt=count($createdTablesArray);
      for($i=0;$i<$cnt;$i++){
          $s="DROP TABLE ".$createdTablesArray[$i];
-         mysql_query($s,$conn);
+         mysqli_query($conn,$s);
      }
      die;
  } 
@@ -128,23 +128,23 @@ for($i=0;$i<$count;$i++){
 
 
 //coping of "config" table
-mysql_query('START TRANSACTION');
+mysqli_query($conn,'START TRANSACTION');
 $s='SELECT DISTINCT instituteId FROM institute WHERE instituteId NOT IN (SELECT instituteId FROM config)';
-$res2=mysql_query($s);
+$res2=mysqli_query($conn,$s);
 $insArray=array();
-while($info3=mysql_fetch_array($res2)){
+while($info3=mysqli_fetch_array($res2)){
    $insArray[]=$info3['instituteId']; 
 }
 $insCnt=count($insArray);
 for($i=0;$i<$insCnt;$i++){
     $q="INSERT INTO `config`(`param`, `labelName`, `value`, `tabGroup`, `instituteId`) SELECT DISTINCT `param`, `labelName`, `value`,`tabGroup`,$insArray[$i] FROM config ";
-    if(!mysql_query($q)){
-        echo 'Error in coping Config table entries';
+    if(!mysqli_query($conn,$q)){
+        echo 'Error in copying Config table entries';
         die;
     }
 }
 echo "Config table entries copied for $insCnt institutes";
-mysql_query('COMMIT');
+mysqli_query($conn,'COMMIT');
 ?>
 </body>
 </html>

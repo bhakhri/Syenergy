@@ -7,8 +7,8 @@ DATE: 27-DEC-2010
 set_time_limit(0);
 require_once("dbConfig.inc.php");
 
-$con = mysql_connect(DB_HOST,DB_USER,DB_PASS) or die('Could not connect');
-mysql_select_db(DB_NAME, $con) or die("database not selected");
+$con = mysqli_connect(DB_HOST,DB_USER,DB_PASS) or die('Could not connect');
+mysqli_select_db($con,DB_NAME) or die("database not selected");
 
 
 
@@ -34,9 +34,9 @@ $allowedAsciiArray[] = 92;// \
 $allowedAsciiArray[] = 95;// _
 
 $query = "select studentId, rollNo from student";
-$result = mysql_query($query,$con) or die('error while executing query '.$query);
+$result = mysqli_query($con,$query) or die('error while executing query '.$query);
 
-while ($row = mysql_fetch_object($result)) {
+while ($row = mysqli_fetch_object($result)) {
 	$studentId = $row->studentId;
 	$rollNo = $row->rollNo;
 	$start = 0;
@@ -51,16 +51,16 @@ while ($row = mysql_fetch_object($result)) {
 		$start++;
 	}
 	$query2 = "update student set rollNo = '$newRollNo' where studentId = $studentId";
-	mysql_query($query2,$con) or die('error while executing query '.$query2.'<br>'.mysql_error($con));
+	mysqli_query($con,$query2) or die('error while executing query '.$query2.'<br>'.mysqli_error($con));
 }
 
 
 
 
 $query = "select userId, userName from user";
-$result = mysql_query($query,$con) or die('error while executing query '.$query);
+$result = mysqli_query($con,$query) or die('error while executing query '.$query);
 
-while ($row = mysql_fetch_object($result)) {
+while ($row = mysqli_fetch_object($result)) {
 	$userId = $row->userId;
 	$userName = $row->userName;
 	$start = 0;
@@ -75,7 +75,7 @@ while ($row = mysql_fetch_object($result)) {
 		$start++;
 	}
 	$query2 = "update user set userName = '$newUserName' where userId = $userId";
-	mysql_query($query2,$con) or die('error while executing query '.$query2.'<br>'.mysql_error($con));
+	mysqli_query($con,$query2) or die('error while executing query '.$query2.'<br>'.mysqli_error($con));
 }
 
 

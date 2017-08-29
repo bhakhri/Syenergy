@@ -8,8 +8,8 @@
     $url = $FE.'/Library/common.inc.php';
     require_once("$url");    
     
-    $conn =mysql_connect(DB_HOST,DB_USER,DB_PASS) or die('Could not connect:' . mysql_error());
-    mysql_select_db(DB_NAME,$conn) or die(mysql_error());
+    $conn =mysqli_connect(DB_HOST,DB_USER,DB_PASS) or die('Could not connect:' . mysqli_error($conn));
+    mysqli_select_db($conn,DB_NAME) or die(mysqli_error($conn));
     
   
     //Sole purpose of this variable is testing .On local its value will be '0' and on live its value will be'1'. 
@@ -19,19 +19,19 @@
     $flagCheck=0;
      
     $query = "SELECT COUNT(*) AS cnt FROM `periodic_attendance_alerts` ";
-    $queryForCheckDate=mysql_query($query);
-    if($rowDateCheck=mysql_fetch_array($queryForCheckDate)) {
+    $queryForCheckDate=mysqli_query($conn,$query);
+    if($rowDateCheck=mysqli_fetch_array($queryForCheckDate)) {
       if($rowDateCheck['cnt']==0) {
 	     $current=date('Y-m-d');
          $sendLastAlertDate= "INSERT INTO `periodic_attendance_alerts` (alertDate) VALUES ('$current') ";
-	     mysql_query($sendLastAlertDate);
+	     mysqli_query($conn,$sendLastAlertDate);
       } 
     }
     
     
     $queryForLastAlert="SELECT alertDate from `periodic_attendance_alerts` ORDER BY alertId DESC LIMIT 0,1"; 
-    $queryForLastAlertResult=mysql_query($queryForLastAlert);
-    if($rowAlertDate=mysql_fetch_array($queryForLastAlertResult)){
+    $queryForLastAlertResult=mysqli_query($conn,$queryForLastAlert);
+    if($rowAlertDate=mysqli_fetch_array($queryForLastAlertResult)){
       $lastDate=$rowAlertDate['alertDate'];
     }
     
@@ -42,11 +42,11 @@
 		            config 
 		      WHERE 
 		 	        param='SMS_CLASSES' AND IFNULL(`value`,'') != '' ";
-    $queryForSmsClasses=mysql_query($query);
+    $queryForSmsClasses=mysqli_query($conn,$query);
     
     
         
-    while($row=mysql_fetch_array($queryForSmsClasses)) { 
+    while($row=mysqli_fetch_array($queryForSmsClasses)) { 
 	         //Fetching selected student 
 	        $gettinId="SELECT 
 			          s.studentId,s.classId,IFNULL(s.fatherMobileNo,'') AS fatherMobileNo, rollNo,
@@ -56,11 +56,11 @@
 			    WHERE 
 			          c.classId = s.classId AND	
 			          s.classId IN (".$row['value'].") AND IFNULL(s.fatherMobileNo,'') <> '' ";
-	       $resulId=mysql_query($gettinId);
+	       $resulId=mysqli_query($conn,$gettinId);
         
            
 	       //Fetching students Details For Selected classes
-	       while($rowId=mysql_fetch_array($resulId)) {
+	       while($rowId=mysqli_fetch_array($resulId)) {
 		       
                // Fetch Student Detail
                $studentId=$rowId['studentId'];
@@ -76,19 +76,19 @@
                $forInterval=1;
                $message1='';
 		       $queryForInterval="SELECT `value` FROM config WHERE  param='MESSAGE_SENDING_INTERVAL' AND instituteId = '".$instituteId."'";
-		       $queryForIntervalResult=mysql_query($queryForInterval);
-		       if($rowInterval=mysql_fetch_array($queryForIntervalResult)) {
+		       $queryForIntervalResult=mysqli_query($conn,$queryForInterval);
+		       if($rowInterval=mysqli_fetch_array($queryForIntervalResult)) {
 		         $forInterval=$rowInterval['value'];
 		       }
 		       $message1="Dear, ".$fatherName." Your ward's Attendance as on ".date("Y-m-d ")." is \n\r";
               
 		       // Fetch Student Attendance
 	           $queryGettingAttendance = getAttendanceSendSMS($studentId,$classId,$tableName,$instituteId);
-  	           $gettingAttendanceResult=mysql_query($queryGettingAttendance );
+  	           $gettingAttendanceResult=mysqli_query($conn,$queryGettingAttendance );
              
 	           $flag=0;
 	           if($gettingAttendanceResult) {
-		          while($row1=mysql_fetch_array($gettingAttendanceResult)) {
+		          while($row1=mysqli_fetch_array($gettingAttendanceResult)) {
 		             $flag=1;
 		             $message1.=$row1['subjectCode']." ".$row1['attended']."/".$row1['delivered']."\n\r";						
 	  	          }
@@ -134,7 +134,7 @@
    if($flagCheck==1){                                      
       $current=date('Y-m-d');
       $sendLastAlertDate= "UPDATE `periodic_attendance_alerts` SET alertDate='$current'";
-      mysql_query($sendLastAlertDate);
+      mysqli_query($conn,$sendLastAlertDate);
    }
 
 

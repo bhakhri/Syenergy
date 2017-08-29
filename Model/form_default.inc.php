@@ -29,7 +29,7 @@
 		
 		public function update($data, $path, $table='form_default'){
 			$sql = "update ".$table." set data='".$data."' where url_name='".$path."'";
-			if(mysql_query($sql)){
+			if(mysqli_query($connection,$sql)){
 				return($data);
 			}else{
 				return "false";
@@ -40,7 +40,7 @@
 		
 		public function insert($data, $path, $table='form_default'){
 			$sql = "insert ".$table." (data, url_name) values ('".$data."','".$path."')";
-			if(mysql_query($sql)){
+			if(mysqli_query($connection,$sql)){
 				return($data);
 			}else{
 				return "false";
@@ -51,9 +51,9 @@
 		
 		public function disp_rec($path, $table='form_default'){
 			$sql = "select data from ".$table." where url_name='".$path."'";
-			$retval	= mysql_query($sql);
-			if(mysql_num_rows($retval) != ""){		
-				while($row = mysql_fetch_array($retval))
+			$retval	= mysqli_query($connection,$sql);
+			if(mysqli_num_rows($retval) != ""){		
+				while($row = mysqli_fetch_array($retval))
 				{
 					$data = $row['data'];
 				}
@@ -67,7 +67,7 @@
 		
 		public function num_of_rows($path, $table='form_default'){
 			$sql = "select count(id) from ".$table." where url_name='".$path."'";
-			$num_rows = mysql_fetch_array(mysql_query($sql));
+			$num_rows = mysqli_fetch_array(mysqli_query($connection,$sql));
 			return $num_rows;
 		}
 	}

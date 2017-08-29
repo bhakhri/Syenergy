@@ -10,8 +10,8 @@ $url = $siteAddress.'/Library/common.inc.php';
 require_once("$url"); //includes and evaluates the specified file during the execution of the script
 
 //connection to database
-$conn =mysql_connect(DB_HOST,DB_USER,DB_PASS) or die('Could not connect:' . mysql_error());
-mysql_select_db(DB_NAME,$conn) or die(mysql_error());
+$conn =mysqli_connect(DB_HOST,DB_USER,DB_PASS) or die('Could not connect:' . mysqli_error($conn));
+mysqli_select_db($conn,DB_NAME) or die(mysqli_error($conn));
 
 if(isset($_REQUEST)){
 		
@@ -28,8 +28,8 @@ if(isset($_REQUEST)){
 							(responseUrl,responseData)
 					VALUES 
 					('".$url."','".$post."')";
-		mysql_query($query);
-		mysql_close($conn);
+		mysqli_query($conn,$query);
+		mysqli_close($conn);
 }
 
 if(isset($_REQUEST['sSender'])&&$_REQUEST['sSender']!=""&&isset($_REQUEST['sMobileNo'])&&$_REQUEST['sMobileNo']!=""&&isset($_REQUEST['sStatus'])&&$_REQUEST['sStatus']!=""&&isset($_REQUEST['sMessageId'])&&$_REQUEST['sMessageId']!=""&&isset($_REQUEST['dtDone'])&&$_REQUEST['dtDone']!=""&&isset($_REQUEST['dtSubmit'])&&$_REQUEST['dtSubmit']!=""){
@@ -56,8 +56,8 @@ if(isset($_REQUEST['sSender'])&&$_REQUEST['sSender']!=""&&isset($_REQUEST['sMobi
 	else{
 		$query = "update sms_messages set smsStatus='".$smsStatus."',updateBit=1 where msgId='".$msgId."'";
 	}
-	mysql_query($query);
-	mysql_close($conn);
+	mysqli_query($conn,$query);
+	mysqli_close($conn);
 	echo "Status:200"
 
 
