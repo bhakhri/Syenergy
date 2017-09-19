@@ -1,16 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <pie>
-<slice title='Masters of Business Administration ' description='3~degree'>278</slice>
-<slice title='Bachelor of Computer Applications' description='5~degree'>272</slice>
-<slice title='Bachelor Of Business Administration' description='7~degree'>264</slice>
-<slice title='CAD-CAM' description='8~degree'>242</slice>
-<slice title='Professional Diploma in Multimedia' description='10~degree'>19</slice>
-<slice title='MSC' description='13~degree'>107</slice>
-<slice title='BAMT' description='14~degree'>220</slice>
-<slice title='BSC' description='15~degree'>248</slice>
-<slice title='Frameboxx' description='16~degree'>1</slice>
-<slice title='Bechelor of Commerce' description='21~degree'>181</slice>
-<slice title='HMCT-DIPLOMA' description='24~degree'>27</slice>
-<slice title='PHOTOGRAPHY' description='25~degree'>1</slice>
-<slice title='CIVIL-CAD' description='26~degree'>73</slice>
+<slice title='Bachelor Of Technology' description='1~degree'>250</slice>
+<slice title='Master of Computer Applications' description='2~degree'>25</slice>
+<slice title='Master of Technology' description='4~degree'>8</slice>
+<slice title='Bachelor of Computer Applications' description='5~degree'>27</slice>
+<slice title='Bachelor Of Science' description='6~degree'>20</slice>
+<slice title='MASTER OF SCIENCE.' description='16~degree'>1</slice>
+<slice title='MASTER OF SCIENCE IN PHYSICS.' description='18~degree'>7</slice>
+<slice title='MASTER OF SCIENCE' description='19~degree'>18</slice>
 </pie>

@@ -1,27 +1,35 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <chart>
 <series>
-<value xid='0'>BA</value>
-<value xid='1'>CA</value>
-<value xid='2'>CAD-CAM</value>
-<value xid='3'>FBX</value>
-<value xid='4'>PDMM</value>
+<value xid='0'>CSE</value>
+<value xid='1'>ECE</value>
+<value xid='2'>ME</value>
+<value xid='3'>CA</value>
+<value xid='4'>CE</value>
 <value xid='5'>IT</value>
-<value xid='6'>MULTIMEDIA</value>
-<value xid='7'>HMCT</value>
-<value xid='8'>COM</value>
+<value xid='6'>MATHS</value>
+<value xid='7'>Chem</value>
+<value xid='8'>MCA</value>
+<value xid='9'>B.Tech</value>
+<value xid='10'>BCA.</value>
+<value xid='11'>M.Sc(MATH)</value>
+<value xid='12'>M.Sc-Phy</value>
 </series>
 <graphs>
 <graph gid='1'>
-<value xid='0' url='javascript:showData(1)'>542</value>
-<value xid='1' url='javascript:showData(2)'>272</value>
-<value xid='2' url='javascript:showData(3)'>315</value>
-<value xid='3' url='javascript:showData(5)'>1</value>
-<value xid='4' url='javascript:showData(6)'>19</value>
-<value xid='5' url='javascript:showData(8)'>107</value>
-<value xid='6' url='javascript:showData(9)'>221</value>
-<value xid='7' url='javascript:showData(10)'>275</value>
-<value xid='8' url='javascript:showData(23)'>181</value>
+<value xid='0' url='javascript:showData(1)'>35</value>
+<value xid='1' url='javascript:showData(2)'>22</value>
+<value xid='2' url='javascript:showData(3)'>123</value>
+<value xid='3' url='javascript:showData(6)'>21</value>
+<value xid='4' url='javascript:showData(9)'>51</value>
+<value xid='5' url='javascript:showData(10)'>9</value>
+<value xid='6' url='javascript:showData(12)'>6</value>
+<value xid='7' url='javascript:showData(13)'>23</value>
+<value xid='8' url='javascript:showData(19)'>16</value>
+<value xid='9' url='javascript:showData(22)'>27</value>
+<value xid='10' url='javascript:showData(25)'>15</value>
+<value xid='11' url='javascript:showData(31)'>1</value>
+<value xid='12' url='javascript:showData(33)'>7</value>
 </graph>
 </graphs>
 </chart>
