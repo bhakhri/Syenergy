@@ -37,6 +37,7 @@ define('MULTI_INSTITUTE',1);        // 0 = No, 1 = Yes
 // SMS variables & max length detail
 define('SMS_MAX_LENGTH','160');  // maximum length per sms
 define('SMS_GATEWAY_USER_VARIABLE','usr');
+define('SMS_TEMPLATE_DISPLAY',0);
 define('SMS_GATEWAY_PASS_VARIABLE','pwd');
 define('SMS_GATEWAY_NUMBER_VARIABLE','ph'); // ph takes input as mobile no
 define('SMS_GATEWAY_MESSAGE_VARIABLE','text'); // text is the message

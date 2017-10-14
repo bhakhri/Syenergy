@@ -45,12 +45,11 @@
 			
 			final_arr["checked"] = c_arr;
 			final_arr = escape(JSON.stringify(final_arr,true));
-			// alert(final_arr);
+			// alert(final_arr); //CHANGE BELOW MADE BACAUSE base_url STARTED THE PATH FROM root/Interface rather than root
 			$.ajax({
 				type: "POST",
-				url: base_url+"Library/save_formdefault.php",
-				data : "data="+final_arr+"&type=update&path="+path_p
-				
+				url: window.location.origin+"/Library/save_formdefault.php",
+				data : "data="+final_arr+"&type=update&path="+path_p				
 				}).done(function( msg )
 					{		
 						
@@ -100,11 +99,12 @@
 	  select_form_default();
 	});
 	function select_form_default(){
-		
+		//CHANGE BELOW MADE BACAUSE base_url STARTED THE PATH FROM root/Interface rather than root
 		$.ajax({
 				type: "POST",
-				url: base_url+"Library/save_formdefault.php",
+				url: window.location.origin+"/Library/save_formdefault.php",
 				data : "type=select&path="+path_p
+		
 				}).done(function( msg )
 					{	
 						
